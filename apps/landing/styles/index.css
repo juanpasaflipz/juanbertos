@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: #C4D74C;
+    color: #1A1614;
+  }
+}
+
+@layer components {
+  .hero-bg {
+    background:
+      radial-gradient(ellipse at 50% 20%, rgba(196, 215, 76, 0.35) 0%, transparent 55%),
+      radial-gradient(ellipse at 85% 80%, rgba(156, 46, 31, 0.10) 0%, transparent 50%),
+      radial-gradient(ellipse at 15% 90%, rgba(45, 90, 45, 0.08) 0%, transparent 45%),
+      linear-gradient(180deg, #FAF6EC 0%, #F5EFE3 100%);
+  }
+
+  .open-pill-glow {
+    box-shadow:
+      0 0 0 1px rgba(45, 90, 45, 0.2),
+      0 8px 24px -8px rgba(196, 215, 76, 0.6);
+  }
+
+  .grain-overlay {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 50;
+    opacity: 0.06;
+    mix-blend-mode: multiply;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+}

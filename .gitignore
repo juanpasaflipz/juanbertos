@@ -1,0 +1,23 @@
+# Vercel
+.vercel
+
+# npm workspaces
+node_modules/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+
+# TypeScript
+tsconfig.tsbuildinfo
+*.timestamp-*.mjs
+
+# Next.js apps
+apps/landing/.next/
+apps/landing/out/
+apps/es-landing/.next/
+apps/es-landing/out/
