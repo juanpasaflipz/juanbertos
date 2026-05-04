@@ -52,11 +52,11 @@ const MENU: MenuItem[] = [
     },
   },
   {
-    id: "gringa-pastor",
-    name: { es: "Gringa Burrito · Pastor", en: "Gringa Burrito · Pastor" },
+    id: "porkbelly",
+    name: { es: "Porkbelly Burrito", en: "Pork Belly Burrito" },
     desc: {
-      es: "Pastor del trompo, piña, queso fundido, cebolla y cilantro. Estilo gringa.",
-      en: "Pastor off the trompo, pineapple, melted cheese, onion, cilantro. Gringa style.",
+      es: "Panza de cerdo glaseada al carbón, arroz, frijol, pico de gallo y crema de chipotle.",
+      en: "Charcoal-glazed pork belly, rice, beans, pico de gallo, chipotle crema.",
     },
   },
   {
@@ -378,6 +378,19 @@ const Home: NextPage = () => {
         ref={heroRef}
         className="relative flex min-h-screen items-center justify-center overflow-hidden hero-bg pt-20 pb-16"
       >
+        {/* Ambient hero video */}
+        <video
+          className="pointer-events-none absolute inset-0 w-full h-full object-cover opacity-30 mix-blend-multiply"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          aria-hidden="true"
+        >
+          <source src="/hero.mp4" type="video/mp4" />
+        </video>
+
         <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true">
           <div className="absolute -top-40 -left-40 w-[28rem] h-[28rem] rounded-full border-[1.5px] border-dashed border-forest/15" />
           <div className="absolute -bottom-32 -right-32 w-[24rem] h-[24rem] rounded-full border-[1.5px] border-dashed border-brick/15" />
