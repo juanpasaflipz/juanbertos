@@ -21,6 +21,32 @@
     "kicker": "¿Qué es un California burrito?",
     "body": "Es el burrito del que no te hablan en clase de español. Nació en San Diego. Carne asada, papas a la francesa adentro, guacamole, queso, pico. Esa es la regla. Y no la rompemos."
   },
+  "pillars": {
+    "kicker": "Sellos de aprobación",
+    "title": "Cuatro reglas. Cero excepciones.",
+    "items": {
+      "papas": {
+        "note": "siempre",
+        "title": "Papas adentro",
+        "body": "Papas a la francesa dentro del burrito. Esa es la regla. Esa es toda la regla."
+      },
+      "asada": {
+        "note": "de verdad",
+        "title": "Carne asada",
+        "body": "A la plancha, no al microondas. El humo es el sazón."
+      },
+      "manos": {
+        "note": "una por una",
+        "title": "Hecho a mano",
+        "body": "Cada burrito lo enrolla una persona. Sin máquinas. Sin atajos."
+      },
+      "sandiego": {
+        "note": "directo de SD",
+        "title": "Receta de San Diego",
+        "body": "Aprendimos en la fuente. Sin reinterpretaciones, sin fusión, sin pretextos."
+      }
+    }
+  },
   "footer": {
     "rights": "Todos los derechos reservados.",
     "lang_label": "Idioma"

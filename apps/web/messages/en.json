@@ -21,6 +21,32 @@
     "kicker": "What's a California burrito?",
     "body": "It's the burrito they don't tell you about in your Spanish class. Born in San Diego. Carne asada, french fries inside, guacamole, cheese, pico. That's the rule. We don't break the rule."
   },
+  "pillars": {
+    "kicker": "Stamps of approval",
+    "title": "Four rules. Zero exceptions.",
+    "items": {
+      "papas": {
+        "note": "always",
+        "title": "Papas adentro",
+        "body": "French fries inside the burrito. That's the rule. That's the whole rule."
+      },
+      "asada": {
+        "note": "de verdad",
+        "title": "Carne asada",
+        "body": "Grilled on the plancha, not microwaved. The smoke is the seasoning."
+      },
+      "manos": {
+        "note": "una por una",
+        "title": "Hand-rolled",
+        "body": "Every burrito wrapped by a human. No machines. No shortcuts."
+      },
+      "sandiego": {
+        "note": "from SD with love",
+        "title": "San Diego recipe",
+        "body": "We learned from the source. No reinterpretations, no fusion, no nonsense."
+      }
+    }
+  },
   "footer": {
     "rights": "All rights reserved.",
     "lang_label": "Language"
