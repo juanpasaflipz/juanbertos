@@ -74,6 +74,68 @@
       { "quote": "La salsa verde es ilegal.",                             "name": "Jake P.",    "where": "Condesa" }
     ]
   },
+  "locationsPage": {
+    "kicker": "Encuentra un Juanberto's",
+    "title": "Dónde encontrarnos.",
+    "subtitle": "Una sucursal por ahora. Vienen más.",
+    "moreSoon": {
+      "kicker": "Próximamente",
+      "title": "Estamos buscando la siguiente esquina.",
+      "body": "¿Quieres un Juanberto's en tu colonia? Dinos. Las colonias más ruidosas ganan."
+    },
+    "shop": {
+      "name": "Condesa",
+      "address": "Av. Tamaulipas 123, Hipódromo Condesa, 06140 CDMX",
+      "directionsUrl": "https://maps.google.com/?q=Av+Tamaulipas+123+Condesa+CDMX",
+      "phone": "+52 55 1234 5678",
+      "phoneTel": "+525512345678",
+      "hoursTitle": "Horario",
+      "hours": [
+        { "days": "Lun",          "time": "Cerrado" },
+        { "days": "Mar – Jue",    "time": "12:00 – 22:00" },
+        { "days": "Vie – Sáb",    "time": "12:00 – 00:00" },
+        { "days": "Dom",          "time": "12:00 – 21:00" }
+      ],
+      "cta": "Cómo llegar"
+    }
+  },
+  "orderPage": {
+    "kicker": "¿Ya tienes hambre?",
+    "title": "Ordena un Juanberto's.",
+    "subtitle": "Tres formas de tener un California burrito en tus manos.",
+    "channels": {
+      "inperson": {
+        "title": "Pasa a la sucursal",
+        "body": "La forma más rápida. Recién salido de la plancha. Encuentra tu Juanberto's más cercano.",
+        "cta": "Ver sucursales",
+        "href": "/locations"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "body": "Mándanos un mensaje. Te lo tenemos enrollado y listo.",
+        "cta": "Abrir WhatsApp",
+        "href": "https://wa.me/525512345678?text=Hola%20Juanberto%27s%2C%20quiero%20ordenar"
+      },
+      "rappi": {
+        "title": "Rappi",
+        "body": "Entregamos por todo CDMX en 30 minutos o menos.",
+        "cta": "Ordenar en Rappi",
+        "href": "https://www.rappi.com.mx/restaurantes/juanbertos"
+      },
+      "ubereats": {
+        "title": "Uber Eats",
+        "body": "Sigue al burro desde la plancha hasta tu puerta.",
+        "cta": "Ordenar en Uber Eats",
+        "href": "https://www.ubereats.com/mx/store/juanbertos"
+      },
+      "didi": {
+        "title": "DiDi Food",
+        "body": "El mismo burrito. Otra app. Tú escoges tu favorita.",
+        "cta": "Ordenar en DiDi",
+        "href": "https://didifood.com.mx/juanbertos"
+      }
+    }
+  },
   "footer": {
     "rights": "Todos los derechos reservados.",
     "lang_label": "Idioma"
