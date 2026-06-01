@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Juanberto's — California Burritos",
+    "description": "Burritos California hechos a mano. Carne asada, papas adentro, sin pretextos."
+  },
+  "nav": {
+    "menu": "Menú",
+    "story": "Nuestra Historia",
+    "locations": "Sucursales",
+    "catering": "Catering",
+    "order": "Ordenar"
+  },
+  "hero": {
+    "stamp": "World Famoso Desde 2026",
+    "headline": "Burritos con sabor a road trip por San Diego.",
+    "sub": "Carne asada, papas adentro, cada capa cuenta. Hechos a mano en CDMX.",
+    "cta_primary": "Ordenar ahora",
+    "cta_secondary": "Ver el menú"
+  },
+  "story": {
+    "kicker": "¿Qué es un California burrito?",
+    "body": "Es el burrito del que no te hablan en clase de español. Nació en San Diego. Carne asada, papas a la francesa adentro, guacamole, queso, pico. Esa es la regla. Y no la rompemos."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "lang_label": "Idioma"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Juanberto's — California Burritos",
+    "description": "Hand-rolled California burritos. Carne asada, fries inside, no nonsense."
+  },
+  "nav": {
+    "menu": "Menu",
+    "story": "Our Story",
+    "locations": "Locations",
+    "catering": "Catering",
+    "order": "Order"
+  },
+  "hero": {
+    "stamp": "World Famoso Since 2026",
+    "headline": "Burritos that taste like a road trip to San Diego.",
+    "sub": "Carne asada, fries inside, every layer counts. Hand-rolled in Mexico City.",
+    "cta_primary": "Order now",
+    "cta_secondary": "See the menu"
+  },
+  "story": {
+    "kicker": "What's a California burrito?",
+    "body": "It's the burrito they don't tell you about in your Spanish class. Born in San Diego. Carne asada, french fries inside, guacamole, cheese, pico. That's the rule. We don't break the rule."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "lang_label": "Language"
+  }
+}

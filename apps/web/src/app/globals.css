@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@theme {
+  /* ---------- Brand palette (from the sticker logo) ---------- */
+  --color-tangerine-50:  #FFF4EB;
+  --color-tangerine-100: #FFE3CC;
+  --color-tangerine-200: #FFC796;
+  --color-tangerine-300: #FFA85F;
+  --color-tangerine-400: #F88B33;
+  --color-tangerine-500: #F47B20;  /* primary — the sticker orange */
+  --color-tangerine-600: #D86512;
+  --color-tangerine-700: #A94C0B;
+  --color-tangerine-800: #7B370A;
+  --color-tangerine-900: #4D2207;
+
+  --color-ink-50:  #F4F4F2;
+  --color-ink-100: #E2E2DE;
+  --color-ink-300: #8C8C87;
+  --color-ink-500: #4A4A47;
+  --color-ink-700: #2A2A28;
+  --color-ink-900: #1A1A1A;        /* primary text — marker black */
+
+  --color-paper-50:  #FDFBF6;
+  --color-paper-100: #FAF6EE;       /* primary background — newsprint cream */
+  --color-paper-200: #F2EAD7;
+  --color-paper-300: #E6D9B8;
+
+  --color-cilantro-400: #6FA84C;
+  --color-cilantro-500: #4A7C2E;    /* accent — fresh herb */
+  --color-cilantro-700: #2F5219;
+
+  --color-masa-400: #F8D26B;
+  --color-masa-500: #F5C249;        /* accent — warm tortilla/masa */
+  --color-masa-700: #B88C1F;
+
+  --color-salsa-500: #C0392B;       /* accent — rare, for spicy callouts only */
+
+  /* ---------- Fonts (wired via next/font in layout) ---------- */
+  --font-display: var(--font-display), "Permanent Marker", system-ui, sans-serif;
+  --font-hand:    var(--font-hand),    "Caveat", cursive;
+  --font-sans:    var(--font-sans),    "DM Sans", system-ui, sans-serif;
+
+  /* ---------- Easings ---------- */
+  --ease-sticker: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-soft:    cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Paper texture on body — subtle grain */
+@layer base {
+  html {
+    background-color: var(--color-paper-100);
+    color: var(--color-ink-900);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(26, 26, 26, 0.04) 1px, transparent 0);
+    background-size: 24px 24px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Selection in brand orange */
+  ::selection {
+    background-color: var(--color-tangerine-500);
+    color: var(--color-paper-100);
+  }
+}
+
+@utility stamp {
+  /* Sticker / stamp aesthetic — rotates slightly, drops a soft shadow */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: var(--color-tangerine-500);
+  color: var(--color-ink-900);
+  font-family: var(--font-display);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 6px 0 -2px rgba(26, 26, 26, 0.18);
+  transform: rotate(-3deg);
+}
+
+@utility headline-display {
+  font-family: var(--font-display);
+  line-height: 0.95;
+  letter-spacing: -0.01em;
+}
+
+@utility hand-note {
+  font-family: var(--font-hand);
+  line-height: 1.1;
+}
