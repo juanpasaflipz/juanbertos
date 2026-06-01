@@ -61,6 +61,19 @@
       "papas":     { "label": "Papas a la francesa", "note": "la regla" }
     }
   },
+  "love": {
+    "kicker": "Pegados al muro",
+    "title": "Lo que dicen los burros.",
+    "subtitle": "Testimonios reales. Sin editar.",
+    "quotes": [
+      { "quote": "El California burrito de mi vida. Lo prometo.",         "name": "Sofía R.",   "where": "Roma Norte" },
+      { "quote": "Papas adentro. Como debe ser. Fin.",                    "name": "Eduardo M.", "where": "Polanco" },
+      { "quote": "Era escéptico. Ahora soy cliente de por vida.",         "name": "Mike T.",    "where": "de visita desde SD" },
+      { "quote": "Mejor que en San Diego. Y yo soy de San Diego.",        "name": "Carlos L.",  "where": "chilango de hueso colorado" },
+      { "quote": "Mis hijos piden que vayamos cada viernes.",             "name": "Mariana F.", "where": "Coyoacán" },
+      { "quote": "La salsa verde es ilegal.",                             "name": "Jake P.",    "where": "Condesa" }
+    ]
+  },
   "footer": {
     "rights": "Todos los derechos reservados.",
     "lang_label": "Idioma"

@@ -61,6 +61,19 @@
       "papas":     { "label": "Papas a la francesa", "note": "the rule" }
     }
   },
+  "love": {
+    "kicker": "Pinned to the wall",
+    "title": "What the burros say.",
+    "subtitle": "Real receipts. Unedited.",
+    "quotes": [
+      { "quote": "The California burrito of my life. I promise.",          "name": "Sofía R.",  "where": "Roma Norte" },
+      { "quote": "Fries inside. As it should be. The end.",                "name": "Eduardo M.","where": "Polanco" },
+      { "quote": "I was skeptical. Now I'm a customer for life.",          "name": "Mike T.",   "where": "visiting from SD" },
+      { "quote": "Better than San Diego. And I'm from San Diego.",          "name": "Carlos L.", "where": "born chilango" },
+      { "quote": "My kids ask to come every Friday.",                       "name": "Mariana F.","where": "Coyoacán" },
+      { "quote": "The salsa verde is illegal.",                             "name": "Jake P.",   "where": "Condesa" }
+    ]
+  },
   "footer": {
     "rights": "All rights reserved.",
     "lang_label": "Language"
