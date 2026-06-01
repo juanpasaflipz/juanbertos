@@ -47,6 +47,20 @@
       }
     }
   },
+  "anatomy": {
+    "kicker": "Cut one in half",
+    "title": "Anatomy of a Juanberto's",
+    "subtitle": "Six layers. One unbreakable rule.",
+    "layers": {
+      "tortilla":  { "label": "Flour tortilla",     "note": "warmed, never soggy" },
+      "crema":     { "label": "Crema",              "note": "a generous swoop" },
+      "pico":      { "label": "Pico de gallo",      "note": "diced this morning" },
+      "guacamole": { "label": "Guacamole",          "note": "smashed, not blended" },
+      "queso":     { "label": "Cheddar + jack",     "note": "melted on the plancha" },
+      "asada":     { "label": "Carne asada",        "note": "marinated, charred edges" },
+      "papas":     { "label": "Papas a la francesa", "note": "the rule" }
+    }
+  },
   "footer": {
     "rights": "All rights reserved.",
     "lang_label": "Language"

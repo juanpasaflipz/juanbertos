@@ -47,6 +47,20 @@
       }
     }
   },
+  "anatomy": {
+    "kicker": "Pártelo a la mitad",
+    "title": "Anatomía de un Juanberto's",
+    "subtitle": "Seis capas. Una regla que no se rompe.",
+    "layers": {
+      "tortilla":  { "label": "Tortilla de harina", "note": "calientita, nunca aguada" },
+      "crema":     { "label": "Crema",              "note": "una buena cucharada" },
+      "pico":      { "label": "Pico de gallo",      "note": "picado esta mañana" },
+      "guacamole": { "label": "Guacamole",          "note": "machacado, no licuado" },
+      "queso":     { "label": "Queso amarillo",     "note": "derretido en la plancha" },
+      "asada":     { "label": "Carne asada",        "note": "marinada, con bordes tatemados" },
+      "papas":     { "label": "Papas a la francesa", "note": "la regla" }
+    }
+  },
   "footer": {
     "rights": "Todos los derechos reservados.",
     "lang_label": "Idioma"
