@@ -20,6 +20,13 @@ const SIGNATURE_IMAGES: Record<string, string> = {
   Ensenada: "/menu/ensenada.jpg",
 };
 
+const TIER1_IMAGES: Record<string, string> = {
+  Cochinita: "/menu/cochinita.jpg",
+};
+
+const MASTERPIECE_IMAGE = "/menu/chimichanga.jpg";
+const SPECIAL_IMAGE = "/menu/carne-asada-fries.jpg";
+
 export function MenuContent() {
   const t = useTranslations("menuPage");
   const tier1 = t.raw("tier1.items") as Tier1Item[];
@@ -51,19 +58,39 @@ export function MenuContent() {
             </span>
           </div>
           <ul className="grid gap-6 sm:gap-8 sm:grid-cols-3">
-            {tier1.map((item, i) => (
-              <motion.li
-                key={item.name}
-                initial={{ opacity: 0, y: 16 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, amount: 0.4 }}
-                transition={{ duration: 0.5, delay: i * 0.06 }}
-                className="border-t border-paper-100/15 pt-5"
-              >
-                <h3 className="headline-display text-2xl sm:text-3xl">{item.name}</h3>
-                <p className="text-sm text-paper-100/70 mt-1">{item.desc}</p>
-              </motion.li>
-            ))}
+            {tier1.map((item, i) => {
+              const img = TIER1_IMAGES[item.name];
+              return (
+                <motion.li
+                  key={item.name}
+                  initial={{ opacity: 0, y: 16 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, amount: 0.4 }}
+                  transition={{ duration: 0.5, delay: i * 0.06 }}
+                  className="flex flex-col"
+                >
+                  <div className="relative aspect-square overflow-hidden rounded-md bg-ink-700">
+                    {img ? (
+                      <Image
+                        src={img}
+                        alt={`${item.name} — ${item.desc}`}
+                        fill
+                        sizes="(min-width: 640px) 33vw, 100vw"
+                        className="object-cover"
+                      />
+                    ) : (
+                      <div className="absolute inset-0 grid place-items-center">
+                        <div className="opacity-90" style={{ transform: "rotate(-4deg)" }}>
+                          <Logo size={120} />
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                  <h3 className="headline-display text-2xl sm:text-3xl mt-4">{item.name}</h3>
+                  <p className="text-sm text-paper-100/70 mt-1">{item.desc}</p>
+                </motion.li>
+              );
+            })}
           </ul>
         </div>
       </section>
@@ -140,27 +167,33 @@ export function MenuContent() {
             backgroundSize: "18px 18px",
           }}
         />
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 py-20 sm:py-28 relative">
-          <div className="grid lg:grid-cols-[auto_1fr] gap-10 lg:gap-14 items-center">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 py-20 sm:py-28 relative">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-14 items-center">
             <motion.div
-              initial={{ rotate: -8, scale: 0.9, opacity: 0 }}
-              whileInView={{ rotate: -5, scale: 1, opacity: 1 }}
-              viewport={{ once: true, amount: 0.4 }}
+              initial={{ rotate: -3, scale: 0.94, opacity: 0 }}
+              whileInView={{ rotate: -2, scale: 1, opacity: 1 }}
+              viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.8, ease: [0.34, 1.56, 0.64, 1] }}
-              whileHover={{ rotate: 0, scale: 1.04 }}
-              className="justify-self-center lg:justify-self-start shrink-0"
-              style={{ filter: "drop-shadow(0 14px 28px rgba(26,26,26,0.28))" }}
+              className="relative aspect-[4/3] overflow-hidden border-4 border-ink-900 shadow-[14px_14px_0_0_var(--color-ink-900)]"
+              style={{ filter: "drop-shadow(0 18px 32px rgba(26,26,26,0.18))" }}
             >
-              <Logo size={220} />
+              <Image
+                src={MASTERPIECE_IMAGE}
+                alt={t("masterpiece.name")}
+                fill
+                sizes="(min-width: 1024px) 50vw, 100vw"
+                className="object-cover"
+                priority
+              />
             </motion.div>
             <div>
               <p className="hand-note text-ink-900 text-3xl sm:text-4xl -rotate-2">
                 {t("masterpiece.label")}
               </p>
-              <h2 className="headline-display text-5xl sm:text-6xl lg:text-7xl mt-2">
+              <h2 className="headline-display text-5xl sm:text-6xl lg:text-7xl mt-2 leading-[0.95]">
                 {t("masterpiece.name")}
               </h2>
-              <p className="mt-4 text-lg sm:text-xl text-ink-900/80 leading-relaxed max-w-2xl">
+              <p className="mt-4 text-lg sm:text-xl text-ink-900/85 leading-relaxed max-w-2xl">
                 {t("masterpiece.desc")}
               </p>
               <div className="mt-6 flex items-baseline gap-3">
@@ -180,25 +213,34 @@ export function MenuContent() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.4 }}
+            viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.6 }}
-            className="border-2 border-ink-900 bg-paper-50 p-8 sm:p-10 shadow-[10px_10px_0_0_var(--color-ink-900)] grid sm:grid-cols-[1fr_auto] gap-6 items-baseline"
+            className="border-2 border-ink-900 bg-paper-50 shadow-[10px_10px_0_0_var(--color-ink-900)] grid md:grid-cols-2 overflow-hidden"
           >
-            <div>
+            <div className="relative aspect-[4/3] md:aspect-auto md:min-h-[320px]">
+              <Image
+                src={SPECIAL_IMAGE}
+                alt={t("special.name")}
+                fill
+                sizes="(min-width: 768px) 50vw, 100vw"
+                className="object-cover"
+              />
+            </div>
+            <div className="p-8 sm:p-10 flex flex-col justify-center">
               <p className="hand-note text-tangerine-600 text-2xl sm:text-3xl -rotate-2">
                 ★ {t("special.label")} ★
               </p>
               <h2 className="headline-display text-4xl sm:text-5xl text-ink-900 mt-2">
                 {t("special.name")}
               </h2>
-              <p className="mt-3 text-lg text-ink-700 leading-relaxed max-w-md">
+              <p className="mt-3 text-lg text-ink-700 leading-relaxed">
                 {t("special.desc")}
               </p>
-            </div>
-            <div className="text-right">
-              <span className="headline-display text-5xl sm:text-6xl text-ink-900">
-                ${t("special.price")}
-              </span>
+              <div className="mt-5">
+                <span className="headline-display text-5xl sm:text-6xl text-ink-900">
+                  ${t("special.price")}
+                </span>
+              </div>
             </div>
           </motion.div>
 
