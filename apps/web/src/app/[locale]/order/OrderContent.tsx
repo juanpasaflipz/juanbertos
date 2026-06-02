@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { PageHero } from "@/components/PageHero";
 import { Link as LocaleLink } from "@/i18n/navigation";
 
-type ChannelKey = "inperson" | "whatsapp" | "rappi" | "ubereats" | "didi";
+type ChannelKey = "inperson" | "whatsapp" | "rappi" | "ubereats";
 
 const CHANNELS: Array<{
   key: ChannelKey;
@@ -17,7 +17,6 @@ const CHANNELS: Array<{
   { key: "whatsapp",  external: true,  accent: "bg-cilantro-500",   icon: <WhatsAppIcon /> },
   { key: "rappi",     external: true,  accent: "bg-salsa-500",      icon: <BoltIcon /> },
   { key: "ubereats",  external: true,  accent: "bg-ink-900",        icon: <BagIcon /> },
-  { key: "didi",      external: true,  accent: "bg-masa-500",       icon: <ScooterIcon /> },
 ];
 
 export function OrderContent() {
@@ -127,14 +126,3 @@ function BagIcon() {
   );
 }
 
-function ScooterIcon() {
-  return (
-    <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-      <circle cx="6" cy="18" r="2.5" />
-      <circle cx="18" cy="18" r="2.5" />
-      <path d="M8.5 18h7" />
-      <path d="M14 6h3l2 9" />
-      <path d="M14 6l-3 9" />
-    </svg>
-  );
-}
