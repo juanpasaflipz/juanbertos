@@ -89,18 +89,18 @@
     "signature": {
       "label": "Our claim to fame",
       "items": [
-        { "name": "California",  "desc": "Carne asada, cheese, fries, guacamole, pico de gallo",        "price": "250", "badge": "" },
-        { "name": "Portobello",  "desc": "Portobello mushroom, cheese, fries, guacamole, pico de gallo","price": "210", "badge": "" },
-        { "name": "Pollo Loco",  "desc": "Grilled chicken, fries, cheese, guacamole, pico de gallo",   "price": "219", "badge": "" },
-        { "name": "Breakfast",   "desc": "Egg, cheese, chorizo, fries, papas",                          "price": "210", "badge": "Served all day" },
-        { "name": "Porkbelly",   "desc": "Pancetta, cheese, fries, pico de gallo",                      "price": "240", "badge": "" },
-        { "name": "Ensenada",    "desc": "Ensenada-style beer-battered fish",                           "price": "270", "badge": "" }
+        { "name": "California",  "desc": "1/4 kilo of choice picaña, cheddar, fries, guacamole, pico de gallo, crema",       "price": "250", "badge": "" },
+        { "name": "Portobello",  "desc": "Portobello mushroom, cheese, fries, guacamole, pico de gallo",                     "price": "210", "badge": "" },
+        { "name": "Pollo Loco",  "desc": "1/4 kilo of juicy grilled chicken breast, rice, beans, guacamole",                 "price": "219", "badge": "" },
+        { "name": "Breakfast",   "desc": "Three scrambled eggs, cheddar, fries, pico de gallo",                              "price": "210", "badge": "Served all day" },
+        { "name": "Porkbelly",   "desc": "1/4 kilo of crispy pork belly, cheese, fries, pico de gallo",                      "price": "240", "badge": "" },
+        { "name": "Ensenada",    "desc": "300g of Pacific grouper, marinated, breaded and beer-battered Ensenada-style.",    "price": "270", "badge": "" }
       ]
     },
     "masterpiece": {
       "label": "Our masterpiece",
       "name": "La Gran Chimichanga",
-      "desc": "Carne asada with portobello wrapped in pure decadence.",
+      "desc": "Deep-fried burrito with crispy pork belly, smothered in cheese and fries.",
       "price": "320"
     },
     "special": {

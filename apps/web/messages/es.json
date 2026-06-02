@@ -89,18 +89,18 @@
     "signature": {
       "label": "Nuestro llamado a la fama",
       "items": [
-        { "name": "California",  "desc": "Asada, queso, fries, guacamole, pico de gallo",            "price": "250", "badge": "" },
-        { "name": "Portobello",  "desc": "Hongo portobello, queso, fries, guacamole, pico de gallo", "price": "210", "badge": "" },
-        { "name": "Pollo Loco",  "desc": "Pollo asado, fries, queso, guacamole, pico de gallo",       "price": "219", "badge": "" },
-        { "name": "Breakfast",   "desc": "Huevo, queso, chorizo, fries, papas",                       "price": "210", "badge": "Servido todo el día" },
-        { "name": "Porkbelly",   "desc": "Pancetta, queso, fries, pico de gallo",                      "price": "240", "badge": "" },
-        { "name": "Ensenada",    "desc": "Pescado capeado estilo Ensenada",                            "price": "270", "badge": "" }
+        { "name": "California",  "desc": "1/4 de kilo de picaña choice, queso cheddar, papas a la francesa, guacamole, pico de gallo, crema", "price": "250", "badge": "" },
+        { "name": "Portobello",  "desc": "Hongo portobello, queso, papas a la francesa, guacamole, pico de gallo",                            "price": "210", "badge": "" },
+        { "name": "Pollo Loco",  "desc": "1/4 de kilo de jugosa pechuga asada, arroz, frijoles, guacamole",                                    "price": "219", "badge": "" },
+        { "name": "Breakfast",   "desc": "Tres huevos revueltos, queso cheddar, papas a la francesa, pico de gallo",                           "price": "210", "badge": "Servido todo el día" },
+        { "name": "Porkbelly",   "desc": "1/4 de kilo de pancetta de puerco crujiente, queso, papas a la francesa, pico de gallo",             "price": "240", "badge": "" },
+        { "name": "Ensenada",    "desc": "300 gramos de pescado mero del Pacífico marinado, rebozado y capeado servido estilo Ensenada.",      "price": "270", "badge": "" }
       ]
     },
     "masterpiece": {
       "label": "Nuestra gran obra maestra",
       "name": "La Gran Chimichanga",
-      "desc": "Carne asada con portobello envuelta en deliciosa decadencia.",
+      "desc": "Burrito frito de porkbelly crujiente, bañado en queso y papas a la francesa.",
       "price": "320"
     },
     "special": {
