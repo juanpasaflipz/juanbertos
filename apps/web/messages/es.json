@@ -74,6 +74,44 @@
       { "quote": "La salsa verde es ilegal.",                             "name": "Jake P.",    "where": "Condesa" }
     ]
   },
+  "menuPage": {
+    "kicker": "Menú · 2026",
+    "title": "El menú.",
+    "subtitle": "Escoge tu favorito. La regla no se rompe: papas adentro.",
+    "currency": "MXN",
+    "tier1": {
+      "label": "Desde $99",
+      "items": [
+        { "name": "El Tijuana",     "desc": "Birria brisket" },
+        { "name": "Bean & Cheese",  "desc": "Frijol con queso derretido, el clásico" },
+        { "name": "Cochinita",      "desc": "Cochinita pibil en bolillo" }
+      ]
+    },
+    "signature": {
+      "label": "Nuestro llamado a la fama",
+      "items": [
+        { "name": "California",  "desc": "Asada, queso, fries, guacamole, pico de gallo",            "price": "250", "badge": "" },
+        { "name": "Portobello",  "desc": "Hongo portobello, queso, fries, guacamole, pico de gallo", "price": "210", "badge": "" },
+        { "name": "Pollo Loco",  "desc": "Pollo asado, fries, queso, guacamole, pico de gallo",       "price": "219", "badge": "" },
+        { "name": "Breakfast",   "desc": "Huevo, queso, chorizo, fries, papas",                       "price": "210", "badge": "Servido todo el día" },
+        { "name": "Porkbelly",   "desc": "Pancetta, queso, fries, pico de gallo",                      "price": "240", "badge": "" },
+        { "name": "Ensenada",    "desc": "Pescado capeado estilo Ensenada",                            "price": "270", "badge": "" }
+      ]
+    },
+    "masterpiece": {
+      "label": "Nuestra gran obra maestra",
+      "name": "La Gran Chimichanga",
+      "desc": "Carne asada con portobello envuelta en deliciosa decadencia.",
+      "price": "320"
+    },
+    "special": {
+      "label": "Especial",
+      "name": "Carne Asada Fries",
+      "desc": "Picada y servida sobre papas. (Aquí no hay nachos.)",
+      "price": "290"
+    },
+    "cta": "Ordena el tuyo"
+  },
   "locationsPage": {
     "kicker": "Encuentra un Juanberto's",
     "title": "Dónde encontrarnos.",
@@ -84,9 +122,9 @@
       "body": "¿Quieres un Juanberto's en tu colonia? Dinos. Las colonias más ruidosas ganan."
     },
     "shop": {
-      "name": "Condesa",
-      "address": "Av. Tamaulipas 123, Hipódromo Condesa, 06140 CDMX",
-      "directionsUrl": "https://maps.google.com/?q=Av+Tamaulipas+123+Condesa+CDMX",
+      "name": "Roma Sur",
+      "address": "Coahuila 192, Roma Sur, CDMX",
+      "directionsUrl": "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX",
       "phone": "+52 55 1234 5678",
       "phoneTel": "+525512345678",
       "hoursTitle": "Horario",

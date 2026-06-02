@@ -74,6 +74,44 @@
       { "quote": "The salsa verde is illegal.",                             "name": "Jake P.",   "where": "Condesa" }
     ]
   },
+  "menuPage": {
+    "kicker": "Menú · 2026",
+    "title": "The menu.",
+    "subtitle": "Pick your favorite. The rule still applies: papas adentro.",
+    "currency": "MXN",
+    "tier1": {
+      "label": "From $99",
+      "items": [
+        { "name": "El Tijuana",     "desc": "Birria brisket" },
+        { "name": "Bean & Cheese",  "desc": "Beans and melted cheese, the classic" },
+        { "name": "Cochinita",      "desc": "Slow-cooked cochinita pibil on bolillo" }
+      ]
+    },
+    "signature": {
+      "label": "Our claim to fame",
+      "items": [
+        { "name": "California",  "desc": "Carne asada, cheese, fries, guacamole, pico de gallo",        "price": "250", "badge": "" },
+        { "name": "Portobello",  "desc": "Portobello mushroom, cheese, fries, guacamole, pico de gallo","price": "210", "badge": "" },
+        { "name": "Pollo Loco",  "desc": "Grilled chicken, fries, cheese, guacamole, pico de gallo",   "price": "219", "badge": "" },
+        { "name": "Breakfast",   "desc": "Egg, cheese, chorizo, fries, papas",                          "price": "210", "badge": "Served all day" },
+        { "name": "Porkbelly",   "desc": "Pancetta, cheese, fries, pico de gallo",                      "price": "240", "badge": "" },
+        { "name": "Ensenada",    "desc": "Ensenada-style beer-battered fish",                           "price": "270", "badge": "" }
+      ]
+    },
+    "masterpiece": {
+      "label": "Our masterpiece",
+      "name": "La Gran Chimichanga",
+      "desc": "Carne asada with portobello wrapped in pure decadence.",
+      "price": "320"
+    },
+    "special": {
+      "label": "Special",
+      "name": "Carne Asada Fries",
+      "desc": "Chopped and served over fries. (No nachos here.)",
+      "price": "290"
+    },
+    "cta": "Order yours"
+  },
   "locationsPage": {
     "kicker": "Find a Juanberto's",
     "title": "Where to find us.",
@@ -84,9 +122,9 @@
       "body": "If you want a Juanberto's in your neighborhood, tell us. The loudest neighborhoods win."
     },
     "shop": {
-      "name": "Condesa",
-      "address": "Av. Tamaulipas 123, Hipódromo Condesa, 06140 CDMX",
-      "directionsUrl": "https://maps.google.com/?q=Av+Tamaulipas+123+Condesa+CDMX",
+      "name": "Roma Sur",
+      "address": "Coahuila 192, Roma Sur, CDMX",
+      "directionsUrl": "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX",
       "phone": "+52 55 1234 5678",
       "phoneTel": "+525512345678",
       "hoursTitle": "Hours",

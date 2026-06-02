@@ -94,8 +94,8 @@ export function LocationsContent() {
             {/* Embedded map */}
             <div className="mt-10 rounded-md overflow-hidden border border-ink-900/15">
               <iframe
-                title="Juanberto's Condesa"
-                src="https://www.google.com/maps?q=Av+Tamaulipas+123+Condesa+CDMX&output=embed"
+                title="Juanberto's Roma Sur"
+                src="https://www.google.com/maps?q=Coahuila+192+Roma+Sur+CDMX&output=embed"
                 width="100%"
                 height="320"
                 loading="lazy"
