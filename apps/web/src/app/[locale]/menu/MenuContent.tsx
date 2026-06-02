@@ -21,6 +21,7 @@ const SIGNATURE_IMAGES: Record<string, string> = {
 };
 
 const TIER1_IMAGES: Record<string, string> = {
+  "El Tijuana": "/menu/el-tijuana.jpg",
   Cochinita: "/menu/cochinita.jpg",
 };
 
