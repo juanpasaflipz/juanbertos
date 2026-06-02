@@ -138,14 +138,13 @@
       "name": "Roma Sur",
       "address": "Coahuila 192, Roma Sur, CDMX",
       "directionsUrl": "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX",
-      "phone": "+52 55 1234 5678",
-      "phoneTel": "+525512345678",
+      "phone": "+52 56 2124 3007",
+      "phoneTel": "+525621243007",
       "hoursTitle": "Horario",
       "hours": [
         { "days": "Lun",          "time": "Cerrado" },
-        { "days": "Mar – Jue",    "time": "12:00 – 22:00" },
-        { "days": "Vie – Sáb",    "time": "12:00 – 00:00" },
-        { "days": "Dom",          "time": "12:00 – 21:00" }
+        { "days": "Mar – Sáb",    "time": "10:30 – 21:30" },
+        { "days": "Dom",          "time": "10:30 – 19:30" }
       ],
       "cta": "Cómo llegar"
     }
@@ -165,7 +164,7 @@
         "title": "WhatsApp",
         "body": "Mándanos un mensaje. Te lo tenemos enrollado y listo.",
         "cta": "Abrir WhatsApp",
-        "href": "https://wa.me/525512345678?text=Hola%20Juanberto%27s%2C%20quiero%20ordenar"
+        "href": "https://wa.me/525621243007?text=Hola%20Juanberto%27s%2C%20quiero%20ordenar"
       },
       "rappi": {
         "title": "Rappi",
