@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "title": "Juanberto's — California Burritos",
+    "description": "Burritos California hechos a mano. Carne asada, papas adentro, sin pretextos."
+  },
+  "nav": {
+    "menu": "Menú",
+    "story": "Nuestra Historia",
+    "locations": "Coahuila 192 · Roma Sur",
+    "order": "Ordenar"
+  },
+  "hero": {
+    "stamp": "World Famoso Desde 2026",
+    "headline": "Burritos con sabor a road trip por San Diego.",
+    "sub": "Carne asada, papas adentro, cada capa cuenta. Hechos a mano en CDMX.",
+    "cta_primary": "Ordenar ahora",
+    "cta_secondary": "Ver el menú"
+  },
+  "story": {
+    "kicker": "¿Qué es un California burrito?",
+    "body": "Es el burrito del que no te hablan en clase de español. Nació en San Diego. Carne asada, papas a la francesa adentro, guacamole, queso, pico. Esa es la regla. Y no la rompemos."
+  },
+  "pillars": {
+    "kicker": "Sellos de aprobación",
+    "title": "Cuatro reglas. Cero excepciones.",
+    "items": {
+      "papas": {
+        "note": "siempre",
+        "title": "Papas adentro",
+        "body": "Papas a la francesa dentro del burrito. Esa es la regla. Esa es toda la regla."
+      },
+      "asada": {
+        "note": "de verdad",
+        "title": "Carne asada",
+        "body": "A la plancha, no al microondas. El humo es el sazón."
+      },
+      "manos": {
+        "note": "una por una",
+        "title": "Hecho a mano",
+        "body": "Cada burrito lo enrolla una persona. Sin máquinas. Sin atajos."
+      },
+      "sandiego": {
+        "note": "directo de SD",
+        "title": "Receta de San Diego",
+        "body": "Aprendimos en la fuente. Sin reinterpretaciones, sin fusión, sin pretextos."
+      }
+    }
+  },
+  "anatomy": {
+    "kicker": "Pártelo a la mitad",
+    "title": "Anatomía de un Juanberto's",
+    "subtitle": "Seis capas. Una regla que no se rompe.",
+    "layers": {
+      "tortilla":  { "label": "Tortilla de harina", "note": "calientita, nunca aguada" },
+      "crema":     { "label": "Crema",              "note": "una buena cucharada" },
+      "pico":      { "label": "Pico de gallo",      "note": "picado esta mañana" },
+      "guacamole": { "label": "Guacamole",          "note": "machacado, no licuado" },
+      "queso":     { "label": "Queso amarillo",     "note": "derretido en la plancha" },
+      "asada":     { "label": "Carne asada",        "note": "marinada, con bordes tatemados" },
+      "papas":     { "label": "Papas a la francesa", "note": "la regla" }
+    }
+  },
+  "love": {
+    "kicker": "Pegados al muro",
+    "title": "Lo que dicen los burros.",
+    "subtitle": "Testimonios reales. Sin editar.",
+    "quotes": [
+      { "quote": "El California burrito de mi vida. Lo prometo.",         "name": "Sofía R.",   "where": "Roma Norte" },
+      { "quote": "Papas adentro. Como debe ser. Fin.",                    "name": "Eduardo M.", "where": "Polanco" },
+      { "quote": "Era escéptico. Ahora soy cliente de por vida.",         "name": "Mike T.",    "where": "de visita desde SD" },
+      { "quote": "Mejor que en San Diego. Y yo soy de San Diego.",        "name": "Carlos L.",  "where": "chilango de hueso colorado" },
+      { "quote": "Mis hijos piden que vayamos cada viernes.",             "name": "Mariana F.", "where": "Coyoacán" },
+      { "quote": "La salsa verde es ilegal.",                             "name": "Jake P.",    "where": "Condesa" }
+    ]
+  },
+  "menuPage": {
+    "kicker": "Menú · 2026",
+    "title": "El menú.",
+    "subtitle": "Escoge tu favorito. La regla no se rompe: papas adentro.",
+    "currency": "MXN",
+    "tier1": {
+      "label": "Desde $99",
+      "items": [
+        { "name": "El Tijuana",     "desc": "Birria brisket" },
+        { "name": "Bean & Cheese",  "desc": "Frijol con queso derretido, el clásico" },
+        { "name": "Cochinita",      "desc": "Burrito de cochinita" }
+      ]
+    },
+    "signature": {
+      "label": "Nuestro llamado a la fama",
+      "items": [
+        { "name": "California",  "desc": "1/4 de kilo de picaña choice, queso cheddar, papas a la francesa, guacamole, pico de gallo, crema", "price": "250", "badge": "" },
+        { "name": "Portobello",  "desc": "Hongo portobello, queso, papas a la francesa, guacamole, pico de gallo",                            "price": "210", "badge": "" },
+        { "name": "Pollo Loco",  "desc": "1/4 de kilo de jugosa pechuga asada, arroz, frijoles, guacamole",                                    "price": "219", "badge": "" },
+        { "name": "Breakfast",   "desc": "Tres huevos revueltos, queso cheddar, papas a la francesa, pico de gallo",                           "price": "210", "badge": "Servido todo el día" },
+        { "name": "Porkbelly",   "desc": "1/4 de kilo de pancetta de puerco crujiente, queso, papas a la francesa, pico de gallo",             "price": "240", "badge": "" },
+        { "name": "Ensenada",    "desc": "300 gramos de pescado mero del Pacífico marinado, rebozado y capeado servido estilo Ensenada.",      "price": "270", "badge": "" }
+      ]
+    },
+    "masterpiece": {
+      "label": "Nuestra gran obra maestra",
+      "name": "La Gran Chimichanga",
+      "desc": "Burrito frito de porkbelly crujiente, bañado en queso y papas a la francesa.",
+      "price": "320"
+    },
+    "special": {
+      "label": "Especial",
+      "name": "Carne Asada Fries",
+      "desc": "Picada y servida sobre papas. (Aquí no hay nachos.)",
+      "price": "290"
+    },
+    "cta": "Ordena el tuyo"
+  },
+  "locationsPage": {
+    "kicker": "Encuentra un Juanberto's",
+    "title": "Dónde encontrarnos.",
+    "subtitle": "Una sucursal por ahora. Vienen más.",
+    "moreSoon": {
+      "kicker": "Próximamente",
+      "title": "Estamos buscando la siguiente esquina.",
+      "body": "¿Quieres un Juanberto's en tu colonia? Dinos. Las colonias más ruidosas ganan."
+    },
+    "shop": {
+      "name": "Roma Sur",
+      "address": "Coahuila 192, Roma Sur, CDMX",
+      "directionsUrl": "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX",
+      "phone": "+52 55 1234 5678",
+      "phoneTel": "+525512345678",
+      "hoursTitle": "Horario",
+      "hours": [
+        { "days": "Lun",          "time": "Cerrado" },
+        { "days": "Mar – Jue",    "time": "12:00 – 22:00" },
+        { "days": "Vie – Sáb",    "time": "12:00 – 00:00" },
+        { "days": "Dom",          "time": "12:00 – 21:00" }
+      ],
+      "cta": "Cómo llegar"
+    }
+  },
+  "orderPage": {
+    "kicker": "¿Ya tienes hambre?",
+    "title": "Ordena un Juanberto's.",
+    "subtitle": "Tres formas de tener un California burrito en tus manos.",
+    "channels": {
+      "inperson": {
+        "title": "Pasa a la sucursal",
+        "body": "La forma más rápida. Recién salido de la plancha. Encuentra tu Juanberto's más cercano.",
+        "cta": "Ver sucursales",
+        "href": "/locations"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "body": "Mándanos un mensaje. Te lo tenemos enrollado y listo.",
+        "cta": "Abrir WhatsApp",
+        "href": "https://wa.me/525512345678?text=Hola%20Juanberto%27s%2C%20quiero%20ordenar"
+      },
+      "rappi": {
+        "title": "Rappi",
+        "body": "Entregamos por todo CDMX en 30 minutos o menos.",
+        "cta": "Ordenar en Rappi",
+        "href": "https://www.rappi.com.mx/restaurantes/juanbertos"
+      },
+      "ubereats": {
+        "title": "Uber Eats",
+        "body": "Sigue al burro desde la plancha hasta tu puerta.",
+        "cta": "Ordenar en Uber Eats",
+        "href": "https://www.ubereats.com/mx/store/juanbertos"
+      },
+      "didi": {
+        "title": "DiDi Food",
+        "body": "El mismo burrito. Otra app. Tú escoges tu favorita.",
+        "cta": "Ordenar en DiDi",
+        "href": "https://didifood.com.mx/juanbertos"
+      }
+    }
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "lang_label": "Idioma"
+  }
+}
