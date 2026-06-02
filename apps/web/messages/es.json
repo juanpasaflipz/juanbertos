@@ -89,8 +89,8 @@
     "signature": {
       "label": "Nuestro llamado a la fama",
       "items": [
-        { "name": "California",  "desc": "1/4 de kilo de picaña choice, queso cheddar, papas a la francesa, guacamole, pico de gallo, crema", "price": "250", "badge": "" },
-        { "name": "Portobello",  "desc": "Hongo portobello, queso, papas a la francesa, guacamole, pico de gallo",                            "price": "210", "badge": "" },
+        { "name": "California",  "desc": "1/4 de kilo de picaña choice, queso cheddar, papas a la francesa, guacamole, pico de gallo, crema", "price": "250", "badge": "el original" },
+        { "name": "Portobello",  "desc": "Hongo portobello, queso, papas a la francesa, guacamole, pico de gallo",                            "price": "210", "badge": "sin carne" },
         { "name": "Pollo Loco",  "desc": "1/4 de kilo de jugosa pechuga asada, arroz, frijoles, guacamole",                                    "price": "219", "badge": "" },
         { "name": "Breakfast",   "desc": "Tres huevos revueltos, queso cheddar, papas a la francesa, pico de gallo",                           "price": "210", "badge": "Servido todo el día" },
         { "name": "Porkbelly",   "desc": "1/4 de kilo de pancetta de puerco crujiente, queso, papas a la francesa, pico de gallo",             "price": "240", "badge": "" },
