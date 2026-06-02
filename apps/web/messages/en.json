@@ -111,6 +111,20 @@
     },
     "cta": "Order yours"
   },
+  "storyPage": {
+    "kicker": "How we got here",
+    "title": "From a beach trip to Coahuila 192.",
+    "subtitle": "The California burrito — born in San Diego, hand-rolled in Roma Sur.",
+    "pullquote": "It started with a 2 AM order in a hole-in-the-wall taquería off the I-5.",
+    "paragraphs": [
+      "Carne asada, french fries inside, guacamole, pico, melted cheese — all wrapped in a flour tortilla so wide it took two hands to hold. One bite and we knew this thing needed to exist in Mexico City.",
+      "We came back and started rolling. Real carne asada, marinated, hit hard on the plancha. Papas inside — non-negotiable. The same flour tortillas they use in Tijuana, the same beer batter they use in Ensenada. We didn't reinterpret it. We brought it home.",
+      "In 2026 we opened on Coahuila 192. One shop. One rule: papas adentro. The line went out the door on day one. It still does.",
+      "Why a donkey? Because the burro is the original Californian — humble, stubborn, and the reason the word \"burrito\" exists in the first place. Wrap something in a tortilla, sling it on a burro, and you've just invented lunch."
+    ],
+    "closing": "We're not trying to reinvent anything. We're just bringing something we love — born in San Diego — to a city we love. Held together by a tortilla. Sealed by a rule.",
+    "cta": "Try the rule"
+  },
   "locationsPage": {
     "kicker": "Find a Juanberto's",
     "title": "Where to find us.",

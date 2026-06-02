@@ -111,6 +111,20 @@
     },
     "cta": "Ordena el tuyo"
   },
+  "storyPage": {
+    "kicker": "Cómo llegamos aquí",
+    "title": "De una carretera a Coahuila 192.",
+    "subtitle": "El California burrito — nació en San Diego, se enrolla a mano en Roma Sur.",
+    "pullquote": "Todo empezó con un pedido a las dos de la mañana en una taquería de hoyo, junto a la I-5.",
+    "paragraphs": [
+      "Carne asada, papas a la francesa adentro, guacamole, pico, queso derretido — todo envuelto en una tortilla de harina tan ancha que se sostenía con las dos manos. Una mordida y lo supimos: esto tiene que existir en CDMX.",
+      "Volvimos y empezamos a enrollar. Carne asada de verdad, marinada, a la plancha bien caliente. Papas adentro — no se discute. La misma tortilla de harina que usan en Tijuana, el mismo capeado que usan en Ensenada. Nada de reinterpretaciones. Lo trajimos tal cual.",
+      "En 2026 abrimos en Coahuila 192. Una sucursal. Una regla: papas adentro. La fila salió por la puerta el primer día. Sigue saliendo.",
+      "¿Por qué un burro? Porque el burro es el californiano original — humilde, terco, y la razón de que la palabra \"burrito\" exista en primer lugar. Envuelve algo en una tortilla, ponlo sobre un burro, y acabas de inventar la comida."
+    ],
+    "closing": "No tratamos de reinventar nada. Solo queremos traer algo que amamos — algo que nació en San Diego — a una ciudad que amamos. Unidos por una tortilla. Sellados por una regla.",
+    "cta": "Pruébala"
+  },
   "locationsPage": {
     "kicker": "Encuentra un Juanberto's",
     "title": "Dónde encontrarnos.",
