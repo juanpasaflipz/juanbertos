@@ -2,12 +2,23 @@
 
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 import { Link as LocaleLink } from "@/i18n/navigation";
 import { PageHero } from "@/components/PageHero";
 import { Logo } from "@/components/Logo";
 
 type Tier1Item = { name: string; desc: string };
 type SignatureItem = { name: string; desc: string; price: string; badge?: string };
+
+// Photo paths are keyed by burrito name; image filenames don't translate.
+const SIGNATURE_IMAGES: Record<string, string> = {
+  California: "/menu/california-burrito.jpg",
+  Portobello: "/menu/portobello.jpg",
+  "Pollo Loco": "/menu/pollo-loco.jpg",
+  Breakfast: "/menu/breakfast.jpg",
+  Porkbelly: "/menu/porkbelly.jpg",
+  Ensenada: "/menu/ensenada.jpg",
+};
 
 export function MenuContent() {
   const t = useTranslations("menuPage");
@@ -70,36 +81,50 @@ export function MenuContent() {
             </div>
           </div>
 
-          <ul className="divide-y-2 divide-ink-900/15">
-            {signature.map((item, i) => (
-              <motion.li
-                key={item.name}
-                initial={{ opacity: 0, y: 16 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, amount: 0.3 }}
-                transition={{ duration: 0.5, delay: i * 0.05 }}
-                className="py-6 sm:py-7 grid grid-cols-[1fr_auto] gap-4 sm:gap-8 items-baseline"
-              >
-                <div className="min-w-0">
-                  <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                    <h3 className="headline-display text-2xl sm:text-3xl text-ink-900">
-                      {item.name}
-                    </h3>
-                    {item.badge && (
-                      <span className="hand-note text-tangerine-600 text-xl -rotate-2">
-                        {item.badge}
+          <ul className="grid gap-8 sm:gap-10 sm:grid-cols-2">
+            {signature.map((item, i) => {
+              const img = SIGNATURE_IMAGES[item.name];
+              return (
+                <motion.li
+                  key={item.name}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, amount: 0.25 }}
+                  transition={{ duration: 0.55, delay: (i % 2) * 0.06, ease: [0.22, 1, 0.36, 1] }}
+                  className="group bg-paper-50 border-2 border-ink-900 shadow-[6px_6px_0_0_var(--color-ink-900)] hover:shadow-[10px_10px_0_0_var(--color-ink-900)] hover:-translate-y-1 transition-all overflow-hidden flex flex-col"
+                >
+                  {img && (
+                    <div className="relative aspect-[3/2] overflow-hidden bg-ink-100">
+                      <Image
+                        src={img}
+                        alt={`${item.name} — ${item.desc}`}
+                        fill
+                        sizes="(min-width: 640px) 50vw, 100vw"
+                        className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                      {item.badge && (
+                        <span className="absolute top-3 left-3 hand-note text-paper-50 bg-tangerine-500 text-base px-3 py-1 -rotate-2 shadow-sm">
+                          {item.badge}
+                        </span>
+                      )}
+                    </div>
+                  )}
+                  <div className="p-5 sm:p-6 flex flex-col flex-1">
+                    <div className="flex items-baseline justify-between gap-3">
+                      <h3 className="headline-display text-3xl sm:text-4xl text-ink-900">
+                        {item.name}
+                      </h3>
+                      <span className="headline-display text-3xl text-ink-900 shrink-0">
+                        ${item.price}
                       </span>
-                    )}
+                    </div>
+                    <p className="mt-3 text-base sm:text-lg text-ink-700 leading-relaxed">
+                      {item.desc}
+                    </p>
                   </div>
-                  <p className="mt-1.5 text-base sm:text-lg text-ink-700 leading-relaxed">
-                    {item.desc}
-                  </p>
-                </div>
-                <div className="flex items-baseline gap-1 text-ink-900">
-                  <span className="headline-display text-3xl sm:text-4xl">${item.price}</span>
-                </div>
-              </motion.li>
-            ))}
+                </motion.li>
+              );
+            })}
           </ul>
         </div>
       </section>
