@@ -62,6 +62,13 @@ export function LocationsContent() {
                 >
                   {t("shop.phone")}
                 </a>
+                <br />
+                <a
+                  href="mailto:hello@juanbertos.com"
+                  className="mt-1 inline-block text-lg text-ink-900 hover:text-tangerine-600 transition-colors underline-offset-4 hover:underline"
+                >
+                  hello@juanbertos.com
+                </a>
 
                 {/* Hours */}
                 <div className="mt-8">
