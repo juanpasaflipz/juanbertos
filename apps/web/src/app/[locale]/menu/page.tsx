@@ -1,16 +1,99 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { MenuContent } from "./MenuContent";
 
+const SITE_URL = "https://juanbertos.com";
+
 type Props = { params: Promise<{ locale: string }> };
 
 export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "menuPage" });
-  return { title: `${t("title")} | Juanberto's` };
+  const description =
+    locale === "es"
+      ? "Menú completo de Juanberto's en Roma Sur, CDMX. California burrito, Porkbelly, Ensenada, Breakfast, Chimichanga y más. Precios en MXN."
+      : "Full Juanberto's menu in Roma Sur, Mexico City. California burrito, Porkbelly, Ensenada, Breakfast, Chimichanga and more. Prices in MXN.";
+  return {
+    title: `${t("title")} | Juanberto's`,
+    description,
+    alternates: {
+      canonical: `${SITE_URL}/${locale}/menu`,
+      languages: {
+        es: `${SITE_URL}/es/menu`,
+        en: `${SITE_URL}/en/menu`,
+      },
+    },
+    openGraph: {
+      title: `${t("title")} | Juanberto's`,
+      description,
+      url: `${SITE_URL}/${locale}/menu`,
+      type: "website",
+    },
+  };
 }
+
+type SignatureItem = { name: string; desc: string; price: string; badge: string };
+type Tier1Item = { name: string; desc: string };
 
 export default async function MenuPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <MenuContent />;
+
+  const t = await getTranslations({ locale, namespace: "menuPage" });
+  const signatureItems = t.raw("signature.items") as SignatureItem[];
+  const tier1Items = t.raw("tier1.items") as Tier1Item[];
+  const masterpiece = t.raw("masterpiece") as { name: string; desc: string; price: string };
+  const special = t.raw("special") as { name: string; desc: string; price: string };
+
+  const toMenuItem = (item: { name: string; desc: string; price?: string }) => ({
+    "@type": "MenuItem",
+    name: item.name,
+    description: item.desc,
+    ...(item.price && {
+      offers: {
+        "@type": "Offer",
+        price: item.price,
+        priceCurrency: "MXN",
+      },
+    }),
+  });
+
+  const menuSchema = {
+    "@context": "https://schema.org",
+    "@type": "Menu",
+    "@id": `${SITE_URL}/${locale}/menu#menu`,
+    name: "Juanberto's Menu",
+    inLanguage: locale === "es" ? "es-MX" : "en-US",
+    hasMenuSection: [
+      {
+        "@type": "MenuSection",
+        name: t("signature.label"),
+        hasMenuItem: signatureItems.map(toMenuItem),
+      },
+      {
+        "@type": "MenuSection",
+        name: t("tier1.label"),
+        hasMenuItem: tier1Items.map(toMenuItem),
+      },
+      {
+        "@type": "MenuSection",
+        name: t("masterpiece.label"),
+        hasMenuItem: [toMenuItem(masterpiece)],
+      },
+      {
+        "@type": "MenuSection",
+        name: t("special.label"),
+        hasMenuItem: [toMenuItem(special)],
+      },
+    ],
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(menuSchema) }}
+      />
+      <MenuContent />
+    </>
+  );
 }
