@@ -182,6 +182,155 @@
   },
   "footer": {
     "rights": "Todos los derechos reservados.",
-    "lang_label": "Idioma"
+    "lang_label": "Idioma",
+    "guides": "Guías"
+  },
+  "cornerstone": {
+    "meta": {
+      "title": "Burrito California en CDMX — La Guía Definitiva | Juanberto's",
+      "description": "Todo sobre el California burrito en CDMX: qué es, dónde nació, las 6 capas, dónde comerlo en Roma Sur y cómo ordenarlo por WhatsApp, Rappi o Uber Eats."
+    },
+    "kicker": "La guía del burrito California en CDMX",
+    "title": "El California Burrito en CDMX.",
+    "subtitle": "Carne asada, papas adentro, queso derretido. Nació en San Diego. Se enrolla a mano en Roma Sur. Esta es la guía completa.",
+    "intro": {
+      "title": "¿Qué es un California burrito?",
+      "lede": "Es el burrito que cambió todo. Nació en San Diego a finales de los 80, en una taquería de hoyo cerca de la frontera con Tijuana. La regla es simple y no se negocia: carne asada y papas a la francesa adentro del burrito. Todo lo demás (queso, guacamole, pico, crema) entra para construir alrededor de esas dos cosas.",
+      "body": "No es un \"burrito gigante\" cualquiera. No es un Mission burrito (esos llevan arroz y frijoles). No es un Tex-Mex. El California burrito tiene una identidad propia, una receta heredada y una textura que solo funciona cuando las papas están crujientes y la asada conserva los bordes tatemados de la plancha. En CDMX nadie lo servía como debe servirse — hasta ahora.",
+      "callout": "La regla: papas adentro. Sin papas, no es California burrito. Punto."
+    },
+    "anatomy": {
+      "kicker": "Anatomía",
+      "title": "Las 6 capas del California burrito.",
+      "subtitle": "Cada capa cuenta. Cada capa tiene una razón.",
+      "layers": [
+        {
+          "label": "Tortilla de harina",
+          "body": "Grande, suave, calientita en la plancha. No de maíz. La tortilla de harina aguanta el peso y mantiene la temperatura."
+        },
+        {
+          "label": "Carne asada",
+          "body": "1/4 de kilo de picaña marinada, a la plancha bien caliente. Bordes tatemados. El humo es el sazón. No microondas. No vapor."
+        },
+        {
+          "label": "Papas a la francesa",
+          "body": "La regla. Crujientes por fuera, suaves por dentro. Absorben el jugo de la asada sin perder textura."
+        },
+        {
+          "label": "Queso cheddar derretido",
+          "body": "Se derrite sobre la plancha junto con la asada. Une todo. El cheddar funciona porque resiste el calor sin volverse aceite."
+        },
+        {
+          "label": "Guacamole",
+          "body": "Machacado, no licuado. Aguacate, sal, limón. Sin cebolla. Sin jitomate adentro. El guacamole limpio es el contraste."
+        },
+        {
+          "label": "Pico de gallo + crema",
+          "body": "Pico picado esa mañana — jitomate, cebolla morada, cilantro, chile serrano. La crema entra al final para suavizar."
+        }
+      ]
+    },
+    "origin": {
+      "kicker": "El origen",
+      "title": "Por qué tardó tanto en llegar a CDMX.",
+      "paragraphs": [
+        "El California burrito existe desde los años 80 en San Diego, donde lo inventaron cocineros mexicanos que cruzaban la frontera todos los días. La receta nunca cruzó al sur — se quedó del lado de la I-5, entre Chula Vista, Imperial Beach y Tijuana. En CDMX se conocía solo de oídas, o de viajes.",
+        "El problema es que el California burrito no es fácil de hacer bien. Las papas tienen que estar recién hechas (no se pueden tener listas). La asada tiene que ser de corte específico y marinada por horas. La tortilla tiene que ser la correcta — no cualquier tortilla de harina sirve. Y todo tiene que ensamblarse en menos de 90 segundos para que las papas no se ablanden.",
+        "Juanberto's nació para resolver ese problema. Aprendimos la receta en San Diego, importamos la técnica, y abrimos en Coahuila 192, Roma Sur, en 2026. Una sucursal. Una regla: papas adentro. La fila salió por la puerta el primer día. Sigue saliendo."
+      ]
+    },
+    "menu": {
+      "kicker": "El menú",
+      "title": "Seis California burritos. Una regla.",
+      "subtitle": "Todos llevan papas adentro. Eliges la proteína.",
+      "items": [
+        { "name": "California", "desc": "El original. 1/4 de kilo de picaña, cheddar, papas, guacamole, pico, crema.", "price": "250", "badge": "el original" },
+        { "name": "Porkbelly", "desc": "1/4 de kilo de pancetta de puerco crujiente, queso, papas, pico.", "price": "240", "badge": "" },
+        { "name": "Ensenada", "desc": "300 gramos de pescado mero del Pacífico capeado estilo Ensenada.", "price": "270", "badge": "" },
+        { "name": "Pollo Loco", "desc": "1/4 de kilo de pechuga asada, arroz, frijoles, guacamole.", "price": "219", "badge": "" },
+        { "name": "Breakfast", "desc": "Tres huevos revueltos, cheddar, papas, pico. Servido todo el día.", "price": "210", "badge": "todo el día" },
+        { "name": "Portobello", "desc": "Hongo portobello, queso, papas, guacamole, pico. Sin carne.", "price": "210", "badge": "sin carne" }
+      ],
+      "cta": "Ver el menú completo"
+    },
+    "where": {
+      "kicker": "Dónde comerlo",
+      "title": "Una sucursal. Coahuila 192.",
+      "subtitle": "Roma Sur, a tres cuadras del metro Centro Médico.",
+      "address": "Coahuila 192, Roma Sur, CDMX, 06760",
+      "hoursTitle": "Horario",
+      "hours": [
+        { "days": "Lunes", "time": "Cerrado" },
+        { "days": "Martes a Sábado", "time": "10:30 – 21:30" },
+        { "days": "Domingo", "time": "10:30 – 19:30" }
+      ],
+      "directionsCta": "Cómo llegar",
+      "directionsUrl": "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX"
+    },
+    "delivery": {
+      "kicker": "Cómo ordenarlo",
+      "title": "Cuatro formas de tener un California burrito en tus manos.",
+      "channels": [
+        { "title": "Pasa a la sucursal", "body": "La forma más rápida. Recién salido de la plancha.", "cta": "Cómo llegar", "href": "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX" },
+        { "title": "WhatsApp", "body": "Mándanos un mensaje. Te lo tenemos enrollado.", "cta": "Abrir WhatsApp", "href": "https://wa.me/525621243007?text=Hola%20Juanberto%27s%2C%20quiero%20un%20California%20burrito" },
+        { "title": "Rappi", "body": "Entregamos por todo CDMX en 30 minutos o menos.", "cta": "Ordenar en Rappi", "href": "https://www.rappi.com.mx/restaurantes/juanbertos" },
+        { "title": "Uber Eats", "body": "Sigue al burro desde la plancha hasta tu puerta.", "cta": "Ordenar en Uber Eats", "href": "https://www.ubereats.com/mx/store/juanbertos" }
+      ]
+    },
+    "social": {
+      "kicker": "Lo que dicen",
+      "title": "33 reseñas. Todas 5 estrellas.",
+      "subtitle": "Reseñas reales de Google. Sin editar.",
+      "quotes": [
+        { "quote": "El California burrito de mi vida. Lo prometo.", "name": "Sofía R.", "where": "Roma Norte" },
+        { "quote": "Papas adentro. Como debe ser. Fin.", "name": "Eduardo M.", "where": "Polanco" },
+        { "quote": "Mejor que en San Diego. Y yo soy de San Diego.", "name": "Carlos L.", "where": "chilango de hueso colorado" },
+        { "quote": "Era escéptico. Ahora soy cliente de por vida.", "name": "Mike T.", "where": "de visita desde SD" }
+      ]
+    },
+    "faq": {
+      "kicker": "Preguntas frecuentes",
+      "title": "Lo que nos preguntan.",
+      "items": [
+        {
+          "q": "¿Qué es un California burrito?",
+          "a": "Es un burrito originario de San Diego que lleva carne asada y papas a la francesa adentro, además de queso, guacamole, pico de gallo y crema. La regla principal es: papas adentro. Sin papas, no es California burrito."
+        },
+        {
+          "q": "¿Dónde comprar California burritos en CDMX?",
+          "a": "Juanberto's es la única taquería en CDMX especializada en California burritos hechos con la receta original de San Diego. Estamos en Coahuila 192, Roma Sur. Abrimos de martes a domingo."
+        },
+        {
+          "q": "¿Cuánto cuesta un California burrito en CDMX?",
+          "a": "El California original en Juanberto's cuesta $250 MXN. El menú completo va desde $99 MXN (Bean & Cheese) hasta $320 MXN (La Gran Chimichanga). Todos los precios incluyen IVA."
+        },
+        {
+          "q": "¿Dónde nació el California burrito?",
+          "a": "El California burrito nació en San Diego, California, a finales de los años 80. Lo inventaron cocineros mexicanos que trabajaban en taquerías cerca de la frontera con Tijuana. La receta nunca se popularizó al sur de la frontera hasta hace poco."
+        },
+        {
+          "q": "¿Tienen opción vegetariana?",
+          "a": "Sí. El Portobello burrito sustituye la carne asada por hongo portobello a la plancha. Lleva queso, papas, guacamole y pico. Cuesta $210 MXN."
+        },
+        {
+          "q": "¿Hacen entrega a domicilio en CDMX?",
+          "a": "Sí. Entregamos por Rappi y Uber Eats en toda CDMX, normalmente en 30 minutos o menos. También puedes ordenar por WhatsApp al +52 56 2124 3007 para pasar a recoger."
+        },
+        {
+          "q": "¿Cuál es la diferencia entre un California burrito y un Mission burrito?",
+          "a": "El Mission burrito (de San Francisco) lleva arroz y frijoles adentro. El California burrito (de San Diego) lleva papas a la francesa en lugar de arroz y frijoles. Son dos tradiciones distintas, ambas nacidas en California, pero con identidades muy diferentes."
+        },
+        {
+          "q": "¿Aceptan tarjeta o solo efectivo?",
+          "a": "Aceptamos efectivo, tarjeta de débito, tarjeta de crédito (Visa, Mastercard, AMEX) y pagos por terminal CoDi. También aceptamos transferencias por SPEI."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Pruébalo hoy.",
+      "subtitle": "Carne asada. Papas adentro. Hecho a mano. Coahuila 192.",
+      "primary": "Ordenar ahora",
+      "secondary": "Ver el menú"
+    }
   }
 }

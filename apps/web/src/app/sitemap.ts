@@ -3,7 +3,14 @@ import { routing } from "@/i18n/routing";
 
 const SITE_URL = "https://www.juanbertos.com";
 
-const ROUTES = ["", "/menu", "/story", "/locations", "/order"] as const;
+const ROUTES = [
+  "",
+  "/menu",
+  "/story",
+  "/locations",
+  "/order",
+  "/burrito-california-cdmx",
+] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
@@ -13,11 +20,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       const languages = Object.fromEntries(
         routing.locales.map((l) => [l, `${SITE_URL}/${l}${route}`])
       );
+      const priority =
+        route === ""
+          ? 1.0
+          : route === "/burrito-california-cdmx"
+            ? 0.9
+            : 0.8;
       return {
         url,
         lastModified: now,
         changeFrequency: "weekly" as const,
-        priority: route === "" ? 1.0 : 0.8,
+        priority,
         alternates: { languages },
       };
     })

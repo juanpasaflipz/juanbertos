@@ -182,6 +182,155 @@
   },
   "footer": {
     "rights": "All rights reserved.",
-    "lang_label": "Language"
+    "lang_label": "Language",
+    "guides": "Guides"
+  },
+  "cornerstone": {
+    "meta": {
+      "title": "California Burrito in Mexico City — The Definitive Guide | Juanberto's",
+      "description": "Everything about the California burrito in CDMX: what it is, where it was born, the 6 layers, where to eat it in Roma Sur, and how to order via WhatsApp, Rappi or Uber Eats."
+    },
+    "kicker": "The California burrito guide for CDMX",
+    "title": "The California Burrito in Mexico City.",
+    "subtitle": "Carne asada, fries inside, melted cheese. Born in San Diego. Hand-rolled in Roma Sur. This is the complete guide.",
+    "intro": {
+      "title": "What is a California burrito?",
+      "lede": "It's the burrito that changed everything. Born in San Diego in the late '80s, in a hole-in-the-wall taquería near the Tijuana border. The rule is simple and non-negotiable: carne asada and french fries inside the burrito. Everything else (cheese, guacamole, pico, crema) builds around those two things.",
+      "body": "It's not just a \"big burrito.\" It's not a Mission burrito (those carry rice and beans). It's not Tex-Mex. The California burrito has its own identity, an inherited recipe, and a texture that only works when the fries stay crispy and the asada keeps its charred edges from the plancha. Nobody served it the way it should be served in Mexico City — until now.",
+      "callout": "The rule: papas adentro. No fries, no California burrito. Period."
+    },
+    "anatomy": {
+      "kicker": "Anatomy",
+      "title": "The 6 layers of a California burrito.",
+      "subtitle": "Every layer counts. Every layer has a reason.",
+      "layers": [
+        {
+          "label": "Flour tortilla",
+          "body": "Large, soft, warmed on the plancha. Not corn. The flour tortilla holds the weight and keeps the heat in."
+        },
+        {
+          "label": "Carne asada",
+          "body": "1/4 kilo of marinated picaña, slammed onto a hot plancha. Charred edges. The smoke is the seasoning. No microwave. No steam."
+        },
+        {
+          "label": "Papas a la francesa",
+          "body": "The rule. Crispy outside, soft inside. They absorb the asada juices without losing texture."
+        },
+        {
+          "label": "Melted cheddar",
+          "body": "Melted right on the plancha next to the asada. Binds everything. Cheddar works because it holds up to heat without turning to oil."
+        },
+        {
+          "label": "Guacamole",
+          "body": "Smashed, not blended. Avocado, salt, lime. No onion. No tomato inside. Clean guacamole is the contrast."
+        },
+        {
+          "label": "Pico de gallo + crema",
+          "body": "Pico diced that morning — tomato, red onion, cilantro, serrano. Crema goes in last to soften everything."
+        }
+      ]
+    },
+    "origin": {
+      "kicker": "The origin",
+      "title": "Why it took so long to reach Mexico City.",
+      "paragraphs": [
+        "The California burrito has existed since the '80s in San Diego, invented by Mexican cooks who crossed the border every day. The recipe never crossed south — it stayed on the I-5 side, between Chula Vista, Imperial Beach and Tijuana. In Mexico City it was known only by reputation, or by road trip.",
+        "The problem is that the California burrito isn't easy to do well. The fries have to be freshly cooked (you can't pre-batch them). The asada has to be a specific cut and marinated for hours. The tortilla has to be the right one — not just any flour tortilla works. And everything has to be assembled in under 90 seconds so the fries don't soften.",
+        "Juanberto's was built to solve that problem. We learned the recipe in San Diego, imported the technique, and opened on Coahuila 192, Roma Sur, in 2026. One shop. One rule: papas adentro. The line went out the door on day one. It still does."
+      ]
+    },
+    "menu": {
+      "kicker": "The menu",
+      "title": "Six California burritos. One rule.",
+      "subtitle": "Every one of them has fries inside. You pick the protein.",
+      "items": [
+        { "name": "California", "desc": "The original. 1/4 kilo of picaña, cheddar, fries, guacamole, pico, crema.", "price": "250", "badge": "the original" },
+        { "name": "Porkbelly", "desc": "1/4 kilo of crispy pork belly, cheese, fries, pico.", "price": "240", "badge": "" },
+        { "name": "Ensenada", "desc": "300g of Pacific grouper, beer-battered Ensenada style.", "price": "270", "badge": "" },
+        { "name": "Pollo Loco", "desc": "1/4 kilo of grilled chicken breast, rice, beans, guacamole.", "price": "219", "badge": "" },
+        { "name": "Breakfast", "desc": "Three scrambled eggs, cheddar, fries, pico. Served all day.", "price": "210", "badge": "all day" },
+        { "name": "Portobello", "desc": "Portobello mushroom, cheese, fries, guacamole, pico. Meatless.", "price": "210", "badge": "veggie" }
+      ],
+      "cta": "See the full menu"
+    },
+    "where": {
+      "kicker": "Where to eat it",
+      "title": "One shop. Coahuila 192.",
+      "subtitle": "Roma Sur, three blocks from Centro Médico metro.",
+      "address": "Coahuila 192, Roma Sur, CDMX, 06760",
+      "hoursTitle": "Hours",
+      "hours": [
+        { "days": "Monday", "time": "Closed" },
+        { "days": "Tuesday – Saturday", "time": "10:30 – 21:30" },
+        { "days": "Sunday", "time": "10:30 – 19:30" }
+      ],
+      "directionsCta": "Get directions",
+      "directionsUrl": "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX"
+    },
+    "delivery": {
+      "kicker": "How to order",
+      "title": "Four ways to put a California burrito in your hands.",
+      "channels": [
+        { "title": "Walk in", "body": "Fastest way. Fresh off the plancha.", "cta": "Get directions", "href": "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX" },
+        { "title": "WhatsApp", "body": "Send us a message. We'll have it rolled and ready.", "cta": "Open WhatsApp", "href": "https://wa.me/525621243007?text=Hi%20Juanberto%27s%2C%20I%27d%20like%20a%20California%20burrito" },
+        { "title": "Rappi", "body": "Delivery across CDMX in 30 minutes or less.", "cta": "Order on Rappi", "href": "https://www.rappi.com.mx/restaurantes/juanbertos" },
+        { "title": "Uber Eats", "body": "Track the burro from the plancha to your door.", "cta": "Order on Uber Eats", "href": "https://www.ubereats.com/mx/store/juanbertos" }
+      ]
+    },
+    "social": {
+      "kicker": "What people say",
+      "title": "33 reviews. All 5 stars.",
+      "subtitle": "Real Google reviews. Unedited.",
+      "quotes": [
+        { "quote": "The California burrito of my life. I promise.", "name": "Sofía R.", "where": "Roma Norte" },
+        { "quote": "Fries inside. As it should be. The end.", "name": "Eduardo M.", "where": "Polanco" },
+        { "quote": "Better than San Diego. And I'm from San Diego.", "name": "Carlos L.", "where": "born chilango" },
+        { "quote": "I was skeptical. Now I'm a customer for life.", "name": "Mike T.", "where": "visiting from SD" }
+      ]
+    },
+    "faq": {
+      "kicker": "Frequently asked",
+      "title": "What people ask us.",
+      "items": [
+        {
+          "q": "What is a California burrito?",
+          "a": "It's a burrito originally from San Diego that carries carne asada and french fries inside, plus cheese, guacamole, pico de gallo and crema. The main rule is: fries inside. No fries, no California burrito."
+        },
+        {
+          "q": "Where can I buy a California burrito in Mexico City?",
+          "a": "Juanberto's is the only taquería in Mexico City specialized in California burritos made with the original San Diego recipe. We're at Coahuila 192, Roma Sur. Open Tuesday through Sunday."
+        },
+        {
+          "q": "How much does a California burrito cost in Mexico City?",
+          "a": "The original California at Juanberto's costs $250 MXN. The full menu starts at $99 MXN (Bean & Cheese) and goes up to $320 MXN (La Gran Chimichanga). All prices include VAT."
+        },
+        {
+          "q": "Where was the California burrito invented?",
+          "a": "The California burrito was born in San Diego, California, in the late 1980s. It was invented by Mexican cooks working in taquerías near the Tijuana border. The recipe didn't reach Mexico City until very recently."
+        },
+        {
+          "q": "Do you have a vegetarian option?",
+          "a": "Yes. The Portobello burrito swaps carne asada for grilled portobello mushroom. It carries cheese, fries, guacamole and pico. It costs $210 MXN."
+        },
+        {
+          "q": "Do you deliver in Mexico City?",
+          "a": "Yes. We deliver via Rappi and Uber Eats across all of CDMX, usually in 30 minutes or less. You can also order by WhatsApp at +52 56 2124 3007 for pickup."
+        },
+        {
+          "q": "What's the difference between a California burrito and a Mission burrito?",
+          "a": "The Mission burrito (from San Francisco) carries rice and beans inside. The California burrito (from San Diego) carries french fries instead of rice and beans. They're two distinct traditions, both born in California, but with very different identities."
+        },
+        {
+          "q": "Do you accept card or only cash?",
+          "a": "We accept cash, debit card, credit card (Visa, Mastercard, AMEX) and CoDi terminal payments. We also accept SPEI bank transfers."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Try it today.",
+      "subtitle": "Carne asada. Fries inside. Hand-rolled. Coahuila 192.",
+      "primary": "Order now",
+      "secondary": "See the menu"
+    }
   }
 }
