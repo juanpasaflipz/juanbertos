@@ -68,8 +68,8 @@ export default async function CornerstonePage({ params }: Props) {
       name: "Juanberto's",
       logo: { "@type": "ImageObject", url: `${SITE_URL}/icon.png` },
     },
-    datePublished: "2026-06-02",
-    dateModified: "2026-06-02",
+    datePublished: "2026-06-02T00:00:00-06:00",
+    dateModified: "2026-06-02T00:00:00-06:00",
     inLanguage: locale === "es" ? "es-MX" : "en-US",
     about: [
       { "@type": "Thing", name: "California burrito" },
