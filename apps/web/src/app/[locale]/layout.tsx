@@ -6,7 +6,7 @@ import { routing } from "@/i18n/routing";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 
-const SITE_URL = "https://juanbertos.com";
+const SITE_URL = "https://www.juanbertos.com";
 
 type Props = {
   children: React.ReactNode;

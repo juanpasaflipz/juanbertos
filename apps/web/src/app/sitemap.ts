@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
 
-const SITE_URL = "https://juanbertos.com";
+const SITE_URL = "https://www.juanbertos.com";
 
 const ROUTES = ["", "/menu", "/story", "/locations", "/order"] as const;
 

@@ -1,7 +1,7 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { MenuContent } from "./MenuContent";
 
-const SITE_URL = "https://juanbertos.com";
+const SITE_URL = "https://www.juanbertos.com";
 
 type Props = { params: Promise<{ locale: string }> };
 
