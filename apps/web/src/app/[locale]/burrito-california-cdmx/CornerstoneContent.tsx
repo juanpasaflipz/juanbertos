@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Link as LocaleLink } from "@/i18n/navigation";
 import { PageHero } from "@/components/PageHero";
+import { trackConversion, type ConversionType } from "@/lib/analytics";
 
 type Layer = { label: string; body: string };
 type MenuItem = { name: string; desc: string; price: string; badge: string };
@@ -12,6 +13,14 @@ type HourRow = { days: string; time: string };
 type Channel = { title: string; body: string; cta: string; href: string };
 type Quote = { quote: string; name: string; where: string };
 type FaqItem = { q: string; a: string };
+
+// Channels appear in this order in the translations: walk-in, WhatsApp, Rappi, Uber Eats.
+const CHANNEL_CONVERSIONS: Array<ConversionType | undefined> = [
+  "directions",
+  "order_whatsapp",
+  "order_rappi",
+  "order_ubereats",
+];
 
 const MENU_IMAGES: Record<string, string> = {
   California: "/menu/california-burrito.jpg",
@@ -264,6 +273,7 @@ export function CornerstoneContent() {
                   href={t("where.directionsUrl")}
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => trackConversion("directions")}
                   className="mt-8 inline-flex items-center gap-2 rounded-full bg-tangerine-500 text-ink-900 px-6 py-3 text-base font-semibold hover:translate-y-0.5 transition-transform"
                 >
                   {t("where.directionsCta")}
@@ -298,32 +308,36 @@ export function CornerstoneContent() {
           </div>
 
           <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {channels.map((ch, i) => (
-              <motion.li
-                key={ch.title}
-                initial={{ opacity: 0, y: 16 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, amount: 0.3 }}
-                transition={{ duration: 0.5, delay: i * 0.06 }}
-                className="bg-paper-50 border-2 border-ink-900 p-6 flex flex-col"
-              >
-                <h3 className="headline-display text-2xl text-ink-900">
-                  {ch.title}
-                </h3>
-                <p className="mt-2 text-ink-700 leading-relaxed flex-1">
-                  {ch.body}
-                </p>
-                <a
-                  href={ch.href}
-                  target={ch.href.startsWith("http") ? "_blank" : undefined}
-                  rel={ch.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                  className="mt-5 inline-flex items-center gap-2 text-ink-900 font-semibold hover:text-tangerine-600 transition-colors"
+            {channels.map((ch, i) => {
+              const conversion = CHANNEL_CONVERSIONS[i];
+              return (
+                <motion.li
+                  key={ch.title}
+                  initial={{ opacity: 0, y: 16 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, amount: 0.3 }}
+                  transition={{ duration: 0.5, delay: i * 0.06 }}
+                  className="bg-paper-50 border-2 border-ink-900 p-6 flex flex-col"
                 >
-                  {ch.cta}
-                  <span aria-hidden>→</span>
-                </a>
-              </motion.li>
-            ))}
+                  <h3 className="headline-display text-2xl text-ink-900">
+                    {ch.title}
+                  </h3>
+                  <p className="mt-2 text-ink-700 leading-relaxed flex-1">
+                    {ch.body}
+                  </p>
+                  <a
+                    href={ch.href}
+                    target={ch.href.startsWith("http") ? "_blank" : undefined}
+                    rel={ch.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                    onClick={conversion ? () => trackConversion(conversion) : undefined}
+                    className="mt-5 inline-flex items-center gap-2 text-ink-900 font-semibold hover:text-tangerine-600 transition-colors"
+                  >
+                    {ch.cta}
+                    <span aria-hidden>→</span>
+                  </a>
+                </motion.li>
+              );
+            })}
           </ul>
         </div>
       </section>

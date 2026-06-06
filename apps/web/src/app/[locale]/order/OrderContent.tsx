@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { PageHero } from "@/components/PageHero";
 import { Link as LocaleLink } from "@/i18n/navigation";
+import { trackConversion, type ConversionType } from "@/lib/analytics";
 
 type ChannelKey = "inperson" | "whatsapp" | "rappi" | "ubereats";
 
@@ -12,11 +13,12 @@ const CHANNELS: Array<{
   icon: React.ReactNode;
   external: boolean;
   accent: string;
+  conversion?: ConversionType;
 }> = [
   { key: "inperson",  external: false, accent: "bg-tangerine-500", icon: <StorefrontIcon /> },
-  { key: "whatsapp",  external: true,  accent: "bg-cilantro-500",   icon: <WhatsAppIcon /> },
-  { key: "rappi",     external: true,  accent: "bg-salsa-500",      icon: <BoltIcon /> },
-  { key: "ubereats",  external: true,  accent: "bg-ink-900",        icon: <BagIcon /> },
+  { key: "whatsapp",  external: true,  accent: "bg-cilantro-500",   icon: <WhatsAppIcon />, conversion: "order_whatsapp" },
+  { key: "rappi",     external: true,  accent: "bg-salsa-500",      icon: <BoltIcon />,     conversion: "order_rappi" },
+  { key: "ubereats",  external: true,  accent: "bg-ink-900",        icon: <BagIcon />,      conversion: "order_ubereats" },
 ];
 
 export function OrderContent() {
@@ -70,6 +72,7 @@ export function OrderContent() {
                       href={href}
                       target="_blank"
                       rel="noopener noreferrer"
+                      onClick={c.conversion ? () => trackConversion(c.conversion!) : undefined}
                       className="block h-full"
                     >
                       {cardBody}

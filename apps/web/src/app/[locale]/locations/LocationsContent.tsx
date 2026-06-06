@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { PageHero } from "@/components/PageHero";
 import { Logo } from "@/components/Logo";
+import { trackConversion } from "@/lib/analytics";
 
 type HourRow = { days: string; time: string };
 
@@ -58,6 +59,7 @@ export function LocationsContent() {
 
                 <a
                   href={`tel:${t("shop.phoneTel")}`}
+                  onClick={() => trackConversion("phone_call")}
                   className="mt-3 inline-block text-lg text-ink-900 hover:text-tangerine-600 transition-colors underline-offset-4 hover:underline"
                 >
                   {t("shop.phone")}
@@ -90,6 +92,7 @@ export function LocationsContent() {
                   href={t("shop.directionsUrl")}
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => trackConversion("directions")}
                   className="mt-10 inline-flex items-center gap-2 rounded-full bg-tangerine-500 text-ink-900 px-7 py-4 text-base font-semibold shadow-[0_6px_0_-2px_rgba(26,26,26,0.4)] hover:translate-y-0.5 hover:shadow-[0_4px_0_-2px_rgba(26,26,26,0.4)] transition-all"
                 >
                   {t("shop.cta")}
