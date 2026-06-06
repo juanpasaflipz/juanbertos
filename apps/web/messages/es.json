@@ -153,6 +153,7 @@
     "kicker": "¿Ya tienes hambre?",
     "title": "Ordena un Juanberto's.",
     "subtitle": "Tres formas de tener un California burrito en tus manos.",
+    "comingSoon": "Próximamente",
     "channels": {
       "inperson": {
         "title": "Pasa a la sucursal",
@@ -270,6 +271,7 @@
     "delivery": {
       "kicker": "Cómo ordenarlo",
       "title": "Cuatro formas de tener un California burrito en tus manos.",
+      "comingSoon": "Próximamente",
       "channels": [
         { "title": "Pasa a la sucursal", "body": "La forma más rápida. Recién salido de la plancha.", "cta": "Cómo llegar", "href": "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX" },
         { "title": "WhatsApp", "body": "Mándanos un mensaje. Te lo tenemos enrollado.", "cta": "Abrir WhatsApp", "href": "https://wa.me/525621243007?text=Hola%20Juanberto%27s%2C%20quiero%20un%20California%20burrito" },

@@ -153,6 +153,7 @@
     "kicker": "Hungry already?",
     "title": "Order a Juanberto's.",
     "subtitle": "Three ways to put a California burrito in your hands.",
+    "comingSoon": "Coming soon",
     "channels": {
       "inperson": {
         "title": "Walk in",
@@ -270,6 +271,7 @@
     "delivery": {
       "kicker": "How to order",
       "title": "Four ways to put a California burrito in your hands.",
+      "comingSoon": "Coming soon",
       "channels": [
         { "title": "Walk in", "body": "Fastest way. Fresh off the plancha.", "cta": "Get directions", "href": "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX" },
         { "title": "WhatsApp", "body": "Send us a message. We'll have it rolled and ready.", "cta": "Open WhatsApp", "href": "https://wa.me/525621243007?text=Hi%20Juanberto%27s%2C%20I%27d%20like%20a%20California%20burrito" },

@@ -14,11 +14,12 @@ const CHANNELS: Array<{
   external: boolean;
   accent: string;
   conversion?: ConversionType;
+  comingSoon?: boolean;
 }> = [
   { key: "inperson",  external: false, accent: "bg-tangerine-500", icon: <StorefrontIcon /> },
   { key: "whatsapp",  external: true,  accent: "bg-cilantro-500",   icon: <WhatsAppIcon />, conversion: "order_whatsapp" },
-  { key: "rappi",     external: true,  accent: "bg-salsa-500",      icon: <BoltIcon />,     conversion: "order_rappi" },
-  { key: "ubereats",  external: true,  accent: "bg-ink-900",        icon: <BagIcon />,      conversion: "order_ubereats" },
+  { key: "rappi",     external: true,  accent: "bg-salsa-500",      icon: <BoltIcon />,     conversion: "order_rappi",     comingSoon: true },
+  { key: "ubereats",  external: true,  accent: "bg-ink-900",        icon: <BagIcon />,      conversion: "order_ubereats",  comingSoon: true },
 ];
 
 export function OrderContent() {
@@ -41,33 +42,49 @@ export function OrderContent() {
               const body = t(`channels.${c.key}.body`);
               const cta = t(`channels.${c.key}.cta`);
 
+              const isSoon = !!c.comingSoon;
               const cardBody = (
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, amount: 0.3 }}
                   transition={{ duration: 0.55, delay: i * 0.06, ease: [0.22, 1, 0.36, 1] }}
-                  whileHover={{ y: -4 }}
-                  className="group h-full bg-paper-50 border-2 border-ink-900 shadow-[6px_6px_0_0_var(--color-ink-900)] hover:shadow-[10px_10px_0_0_var(--color-ink-900)] transition-all p-7 flex flex-col"
+                  whileHover={isSoon ? undefined : { y: -4 }}
+                  className={`group relative h-full bg-paper-50 border-2 border-ink-900 shadow-[6px_6px_0_0_var(--color-ink-900)] transition-all p-7 flex flex-col ${
+                    isSoon ? "opacity-70" : "hover:shadow-[10px_10px_0_0_var(--color-ink-900)]"
+                  }`}
                 >
+                  {isSoon && (
+                    <span className="absolute -top-3 right-4 hand-note text-paper-50 bg-tangerine-500 text-base px-3 py-1 -rotate-2 shadow-sm">
+                      {t("comingSoon")}
+                    </span>
+                  )}
                   <span
-                    className={`${c.accent} text-paper-100 w-14 h-14 rounded-full flex items-center justify-center mb-5 shrink-0`}
+                    className={`${c.accent} text-paper-100 w-14 h-14 rounded-full flex items-center justify-center mb-5 shrink-0 ${
+                      isSoon ? "grayscale" : ""
+                    }`}
                     aria-hidden
                   >
                     {c.icon}
                   </span>
                   <h2 className="headline-display text-3xl text-ink-900">{title}</h2>
                   <p className="mt-3 text-base text-ink-700 leading-relaxed flex-1">{body}</p>
-                  <span className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-ink-900 group-hover:text-tangerine-600 transition-colors">
-                    {cta}
-                    <span aria-hidden className="transition-transform group-hover:translate-x-1">→</span>
-                  </span>
+                  {!isSoon && (
+                    <span className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-ink-900 group-hover:text-tangerine-600 transition-colors">
+                      {cta}
+                      <span aria-hidden className="transition-transform group-hover:translate-x-1">→</span>
+                    </span>
+                  )}
                 </motion.div>
               );
 
               return (
                 <li key={c.key}>
-                  {c.external ? (
+                  {isSoon ? (
+                    <div aria-disabled className="block h-full cursor-default select-none">
+                      {cardBody}
+                    </div>
+                  ) : c.external ? (
                     <a
                       href={href}
                       target="_blank"

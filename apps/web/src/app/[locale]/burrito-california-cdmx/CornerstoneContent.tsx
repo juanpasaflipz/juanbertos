@@ -15,11 +15,11 @@ type Quote = { quote: string; name: string; where: string };
 type FaqItem = { q: string; a: string };
 
 // Channels appear in this order in the translations: walk-in, WhatsApp, Rappi, Uber Eats.
-const CHANNEL_CONVERSIONS: Array<ConversionType | undefined> = [
-  "directions",
-  "order_whatsapp",
-  "order_rappi",
-  "order_ubereats",
+const CHANNEL_META: Array<{ conversion?: ConversionType; comingSoon?: boolean }> = [
+  { conversion: "directions" },
+  { conversion: "order_whatsapp" },
+  { conversion: "order_rappi", comingSoon: true },
+  { conversion: "order_ubereats", comingSoon: true },
 ];
 
 const MENU_IMAGES: Record<string, string> = {
@@ -309,7 +309,8 @@ export function CornerstoneContent() {
 
           <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {channels.map((ch, i) => {
-              const conversion = CHANNEL_CONVERSIONS[i];
+              const meta = CHANNEL_META[i] ?? {};
+              const isSoon = !!meta.comingSoon;
               return (
                 <motion.li
                   key={ch.title}
@@ -317,24 +318,40 @@ export function CornerstoneContent() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, amount: 0.3 }}
                   transition={{ duration: 0.5, delay: i * 0.06 }}
-                  className="bg-paper-50 border-2 border-ink-900 p-6 flex flex-col"
+                  className={`relative bg-paper-50 border-2 border-ink-900 p-6 flex flex-col ${
+                    isSoon ? "opacity-70" : ""
+                  }`}
                 >
+                  {isSoon && (
+                    <span className="absolute -top-3 right-4 hand-note text-paper-50 bg-tangerine-500 text-base px-3 py-1 -rotate-2 shadow-sm">
+                      {t("delivery.comingSoon")}
+                    </span>
+                  )}
                   <h3 className="headline-display text-2xl text-ink-900">
                     {ch.title}
                   </h3>
                   <p className="mt-2 text-ink-700 leading-relaxed flex-1">
                     {ch.body}
                   </p>
-                  <a
-                    href={ch.href}
-                    target={ch.href.startsWith("http") ? "_blank" : undefined}
-                    rel={ch.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                    onClick={conversion ? () => trackConversion(conversion) : undefined}
-                    className="mt-5 inline-flex items-center gap-2 text-ink-900 font-semibold hover:text-tangerine-600 transition-colors"
-                  >
-                    {ch.cta}
-                    <span aria-hidden>→</span>
-                  </a>
+                  {isSoon ? (
+                    <span
+                      aria-disabled
+                      className="mt-5 inline-flex items-center gap-2 text-ink-500 font-semibold select-none"
+                    >
+                      {t("delivery.comingSoon")}
+                    </span>
+                  ) : (
+                    <a
+                      href={ch.href}
+                      target={ch.href.startsWith("http") ? "_blank" : undefined}
+                      rel={ch.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                      onClick={meta.conversion ? () => trackConversion(meta.conversion!) : undefined}
+                      className="mt-5 inline-flex items-center gap-2 text-ink-900 font-semibold hover:text-tangerine-600 transition-colors"
+                    >
+                      {ch.cta}
+                      <span aria-hidden>→</span>
+                    </a>
+                  )}
                 </motion.li>
               );
             })}
