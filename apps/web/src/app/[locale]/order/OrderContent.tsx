@@ -18,7 +18,7 @@ const CHANNELS: Array<{
 }> = [
   { key: "inperson",  external: false, accent: "bg-tangerine-500", icon: <StorefrontIcon /> },
   { key: "whatsapp",  external: true,  accent: "bg-cilantro-500",   icon: <WhatsAppIcon />, conversion: "order_whatsapp" },
-  { key: "rappi",     external: true,  accent: "bg-salsa-500",      icon: <BoltIcon />,     conversion: "order_rappi",     comingSoon: true },
+  { key: "rappi",     external: true,  accent: "bg-salsa-500",      icon: <BoltIcon />,     conversion: "order_rappi" },
   { key: "ubereats",  external: true,  accent: "bg-ink-900",        icon: <BagIcon />,      conversion: "order_ubereats",  comingSoon: true },
 ];
 

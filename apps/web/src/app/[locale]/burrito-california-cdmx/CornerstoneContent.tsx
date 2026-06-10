@@ -18,7 +18,7 @@ type FaqItem = { q: string; a: string };
 const CHANNEL_META: Array<{ conversion?: ConversionType; comingSoon?: boolean }> = [
   { conversion: "directions" },
   { conversion: "order_whatsapp" },
-  { conversion: "order_rappi", comingSoon: true },
+  { conversion: "order_rappi" },
   { conversion: "order_ubereats", comingSoon: true },
 ];
 

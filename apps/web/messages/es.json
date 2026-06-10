@@ -171,7 +171,7 @@
         "title": "Rappi",
         "body": "Entregamos por todo CDMX en 30 minutos o menos.",
         "cta": "Ordenar en Rappi",
-        "href": "https://www.rappi.com.mx/restaurantes/juanbertos"
+        "href": "https://www.rappi.com.mx/restaurantes/delivery/687998-juanberto-s?utm_source=app&utm_medium=deeplink&utm_campaign=share"
       },
       "ubereats": {
         "title": "Uber Eats",
@@ -275,7 +275,7 @@
       "channels": [
         { "title": "Pasa a la sucursal", "body": "La forma más rápida. Recién salido de la plancha.", "cta": "Cómo llegar", "href": "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX" },
         { "title": "WhatsApp", "body": "Mándanos un mensaje. Te lo tenemos enrollado.", "cta": "Abrir WhatsApp", "href": "https://wa.me/525621243007?text=Hola%20Juanberto%27s%2C%20quiero%20un%20California%20burrito" },
-        { "title": "Rappi", "body": "Entregamos por todo CDMX en 30 minutos o menos.", "cta": "Ordenar en Rappi", "href": "https://www.rappi.com.mx/restaurantes/juanbertos" },
+        { "title": "Rappi", "body": "Entregamos por todo CDMX en 30 minutos o menos.", "cta": "Ordenar en Rappi", "href": "https://www.rappi.com.mx/restaurantes/delivery/687998-juanberto-s?utm_source=app&utm_medium=deeplink&utm_campaign=share" },
         { "title": "Uber Eats", "body": "Sigue al burro desde la plancha hasta tu puerta.", "cta": "Ordenar en Uber Eats", "href": "https://www.ubereats.com/mx/store/juanbertos" }
       ]
     },

@@ -171,7 +171,7 @@
         "title": "Rappi",
         "body": "Delivery across CDMX in 30 minutes or less.",
         "cta": "Order on Rappi",
-        "href": "https://www.rappi.com.mx/restaurantes/juanbertos"
+        "href": "https://www.rappi.com.mx/restaurantes/delivery/687998-juanberto-s?utm_source=app&utm_medium=deeplink&utm_campaign=share"
       },
       "ubereats": {
         "title": "Uber Eats",
@@ -275,7 +275,7 @@
       "channels": [
         { "title": "Walk in", "body": "Fastest way. Fresh off the plancha.", "cta": "Get directions", "href": "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX" },
         { "title": "WhatsApp", "body": "Send us a message. We'll have it rolled and ready.", "cta": "Open WhatsApp", "href": "https://wa.me/525621243007?text=Hi%20Juanberto%27s%2C%20I%27d%20like%20a%20California%20burrito" },
-        { "title": "Rappi", "body": "Delivery across CDMX in 30 minutes or less.", "cta": "Order on Rappi", "href": "https://www.rappi.com.mx/restaurantes/juanbertos" },
+        { "title": "Rappi", "body": "Delivery across CDMX in 30 minutes or less.", "cta": "Order on Rappi", "href": "https://www.rappi.com.mx/restaurantes/delivery/687998-juanberto-s?utm_source=app&utm_medium=deeplink&utm_campaign=share" },
         { "title": "Uber Eats", "body": "Track the burro from the plancha to your door.", "cta": "Order on Uber Eats", "href": "https://www.ubereats.com/mx/store/juanbertos" }
       ]
     },

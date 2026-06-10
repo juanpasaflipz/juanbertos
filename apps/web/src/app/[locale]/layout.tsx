@@ -103,7 +103,7 @@ export default async function LocaleLayout({ children, params }: Props) {
     menu: `${SITE_URL}/${locale}/menu`,
     acceptsReservations: false,
     sameAs: [
-      "https://www.rappi.com.mx/restaurantes/juanbertos",
+      "https://www.rappi.com.mx/restaurantes/delivery/687998-juanberto-s",
       "https://www.ubereats.com/mx/store/juanbertos",
     ],
     areaServed: [
