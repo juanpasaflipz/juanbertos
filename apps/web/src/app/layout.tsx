@@ -4,6 +4,7 @@ import Script from "next/script";
 import "./globals.css";
 
 const GOOGLE_ADS_ID = "AW-11120993342";
+const GA4_MEASUREMENT_ID = "G-Y9WNFDTVB7";
 
 const display = Permanent_Marker({
   weight: "400",
@@ -39,12 +40,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ADS_ID}`}
         strategy="afterInteractive"
       />
-      <Script id="google-ads-config" strategy="afterInteractive">
+      <Script id="gtag-config" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', '${GOOGLE_ADS_ID}');
+          gtag('config', '${GA4_MEASUREMENT_ID}');
         `}
       </Script>
     </html>
