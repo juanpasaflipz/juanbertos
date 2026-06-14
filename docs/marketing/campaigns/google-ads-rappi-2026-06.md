@@ -11,7 +11,7 @@
 ## 1. TL;DR
 
 - **Objective:** Drive `order_rappi` conversions on `juanbertos.com/es/order` (NOT direct to Rappi). Click on Rappi card on the order page = primary conversion (270 MXN value).
-- **Value prop:** 30% OFF on **California Burrito (250 MXN)** and **Breakfast Burrito (210 MXN)** only — restaurant-funded, treated as CAC (foregone margin ~48 MXN/order). Water-fresca combos as secondary upsell. NOT a menu-wide discount.
+- **Value prop:** 30% OFF menu-wide on Rappi via the **"MD - 0 Commission x off in store"** program (Rappi-funded commission-swap — margin-neutral for Juanberto's). Currently active through 2026-07-06; Rappi typically auto-renews for performing restaurants. **Do NOT layer restaurant-funded promos on top** — would stack into ~51% off or void the commission waiver.
 - **Budget:** Start at $4,000 MXN/mo (~$133 MXN/day). Scale to $6,000 MXN/mo after we hit 30+ conversions and switch to tCPA.
 - **Geo:** Roma Sur + delivery radius. Roma Norte, Condesa, Doctores, Narvarte, Hipódromo, Del Valle Norte, Juárez, Cuauhtémoc, Escandón, Centro Médico area. Presence-only targeting.
 - **Primary KPI:** Cost per `order_rappi` conversion. Target ceiling: 90 MXN per conversion (3:1 value/cost ratio at 270 MXN per).
@@ -151,7 +151,7 @@ Total: ~55 keywords. Inside the recommended 50–80 range.
 
 Each ad group gets **2 RSAs** (Google's recommended minimum for Smart Bidding to A/B). Char limits are enforced — every headline ≤30, every description ≤90.
 
-**Offer scope (HARD RULE for all copy):** The 30% OFF applies ONLY to California Burrito and Breakfast Burrito on Rappi — never the full menu. Any headline or description that says "30% OFF" without context must be paired with at least one nearby line specifying the SKUs, OR be in an ad group where the SKU is contextually obvious (AG2 California-only ads). Failing this risks Google Ads policy + Rappi customer trust hit. Water-fresca combos can be mentioned as a secondary message.
+**Offer scope:** The 30% OFF on Rappi is the **Rappi-funded MD program** ("MD - 0 Commission x off in store") — applies menu-wide. Juanberto's does NOT layer a restaurant-funded promo on top. Ad copy can claim "30% OFF en Rappi" honestly (menu-wide), but operator must verify the MD program is still active before launch and at day 25 of the campaign (see §11 launch checklist).
 
 Display path for all ads: `juanbertos.com/Rappi/30-Off`
 
@@ -164,13 +164,13 @@ Display path for all ads: `juanbertos.com/Rappi/30-Off`
 
 **Headlines (15):**
 1. `Juanberto's — Pide en Rappi` *(PIN to position 1)*
-2. `30% OFF California & Breakfast` *(PIN to position 2)*
+2. `30% OFF en Rappi Hoy` *(PIN to position 2)*
 3. `California Burrito Original`
 4. `Carne Asada · Papas Adentro`
 5. `Pide Juanberto's en Rappi`
 6. `El Burrito de Roma Sur`
 7. `Hecho a Mano en CDMX`
-8. `Combos con Agua Fresca`
+8. `Ordena Ahora con 30% OFF`
 9. `Receta Original de San Diego`
 10. `Burritos Juanberto's CDMX`
 11. `Coahuila 192, Roma Sur`
@@ -180,10 +180,10 @@ Display path for all ads: `juanbertos.com/Rappi/30-Off`
 15. `Una Sola Sucursal, Un Burrito`
 
 **Descriptions (4):**
-1. `California y Breakfast Burrito con 30% OFF en Rappi. El original de CDMX, hecho a mano.`
+1. `El California burrito original de Juanberto's, ahora con 30% OFF en Rappi. Pide en un toque.`
 2. `Carne asada, papas a la francesa adentro, queso cheddar, guac y pico. Hecho a mano en Roma Sur.`
 3. `Coahuila 192, Roma Sur. Entrega rápida a Condesa, Narvarte, Del Valle y más. Pide por Rappi.`
-4. `Combos con agua fresca de horchata, jamaica o limón. California y Breakfast con 30% OFF.`
+4. `Receta original de San Diego, enrollada a mano en CDMX. 30% OFF esta semana en Rappi.`
 
 #### RSA 1.2 — "Brand + menu"
 
@@ -192,7 +192,7 @@ Display path for all ads: `juanbertos.com/Rappi/30-Off`
 
 **Headlines (15):**
 1. `Juanberto's Burritos CDMX` *(PIN to position 1)*
-2. `30% OFF California & Breakfast`
+2. `30% OFF en Rappi`
 3. `California, Porkbelly, Ensenada`
 4. `Burritos desde $210`
 5. `Pide en Rappi en 1 Toque`
@@ -202,16 +202,16 @@ Display path for all ads: `juanbertos.com/Rappi/30-Off`
 9. `Hecho a Mano, Recién Hecho`
 10. `Pollo Loco · Porkbelly · Pescado`
 11. `Breakfast Burrito Todo el Día`
-12. `Combo con Agua Fresca`
+12. `Picaña Choice, ¼ de Kilo`
 13. `Pide por Rappi o WhatsApp`
 14. `Entrega en Roma, Condesa, Narvarte`
 15. `El Burrito que Sale por la Puerta`
 
 **Descriptions (4):**
 1. `Picaña choice, papas, cheddar, guacamole, pico y crema. El California burrito original en CDMX.`
-2. `6 burritos en el menú. California y Breakfast con 30% OFF en Rappi — los otros a precio normal.`
+2. `6 burritos en el menú. Pide el que quieras por Rappi con 30% OFF esta semana.`
 3. `Una sola sucursal, una sola regla: papas adentro. Pide por Rappi desde Roma, Condesa o Narvarte.`
-4. `Burrito Breakfast servido todo el día — 30% OFF en Rappi. Combina con agua fresca de horchata.`
+4. `Burrito Breakfast servido todo el día. Pide por Rappi y aprovecha el 30% OFF.`
 
 ### AG2 — California burrito intent
 
@@ -222,7 +222,7 @@ Display path for all ads: `juanbertos.com/Rappi/30-Off`
 
 **Headlines (15):**
 1. `California Burrito en CDMX` *(PIN to position 1)*
-2. `30% OFF California en Rappi`
+2. `30% OFF en Rappi Hoy`
 3. `Papas a la Francesa Adentro`
 4. `Carne Asada · Cheddar · Guac`
 5. `Receta Original San Diego`
@@ -239,8 +239,8 @@ Display path for all ads: `juanbertos.com/Rappi/30-Off`
 
 **Descriptions (4):**
 1. `El California burrito original: carne asada, papas a la francesa adentro, cheddar, guac, pico, crema.`
-2. `Nació en San Diego. Se enrolla a mano en Roma Sur. California Burrito con 30% OFF en Rappi.`
-3. `Picaña choice de ¼ de kilo, queso cheddar derretido, papas a la francesa adentro. $250 — 30% OFF.`
+2. `Nació en San Diego. Se enrolla a mano en Roma Sur. Pide en Rappi con 30% OFF.`
+3. `Picaña choice de ¼ de kilo, queso cheddar derretido, papas a la francesa adentro. $250.`
 4. `Juanberto's es la única taquería en CDMX especializada en California burritos. Pide ya.`
 
 #### RSA 2.2 — "Where to find it"
@@ -250,14 +250,14 @@ Display path for all ads: `juanbertos.com/Rappi/30-Off`
 
 **Headlines (15):**
 1. `Dónde Comer California Burrito` *(PIN to position 1)*
-2. `California 30% OFF en Rappi`
+2. `Juanberto's — 30% OFF Rappi`
 3. `Roma Sur, CDMX — Coahuila 192`
 4. `Papas Adentro, Como Debe Ser`
 5. `Burrito California en CDMX`
 6. `Carne Asada de Picaña Choice`
 7. `Pide por Rappi o Ven`
 8. `A 3 Cuadras de Centro Médico`
-9. `El California con 30% OFF`
+9. `El Original con 30% OFF`
 10. `Burrito San Diego en Roma`
 11. `Hecho a Mano Todos los Días`
 12. `Cheddar Derretido y Guac`
@@ -268,7 +268,7 @@ Display path for all ads: `juanbertos.com/Rappi/30-Off`
 **Descriptions (4):**
 1. `Coahuila 192, Roma Sur. La única taquería en CDMX que hace California burritos con la receta original.`
 2. `Papas adentro, carne asada, cheddar, guacamole. El que comiste en San Diego, ahora en CDMX.`
-3. `Abierto martes a domingo. California Burrito con 30% OFF en Rappi o pásate por Coahuila 192.`
+3. `Abierto martes a domingo. Pide por Rappi con 30% OFF o pásate por Coahuila 192.`
 4. `¼ de kilo de picaña, papas a la francesa, cheddar, guac, pico, crema. $250 en menú.`
 
 ### AG3 — Delivery near me intent
@@ -280,7 +280,7 @@ Display path for all ads: `juanbertos.com/Rappi/30-Off`
 
 **Headlines (15):**
 1. `Burritos a Domicilio CDMX` *(PIN to position 1)*
-2. `30% OFF California & Breakfast`
+2. `30% OFF Esta Semana en Rappi`
 3. `Pide en Rappi en 1 Toque`
 4. `Burritos Juanberto's por Rappi`
 5. `Entrega en Roma, Condesa, Narvarte`
@@ -289,16 +289,16 @@ Display path for all ads: `juanbertos.com/Rappi/30-Off`
 8. `Carne Asada · Cheddar · Guac`
 9. `Hecho a Mano en Roma Sur`
 10. `Burritos Grandes, ¼ de Kilo`
-11. `Combos con Agua Fresca`
+11. `Pide Por Rappi — 30% OFF`
 12. `Receta Original San Diego`
 13. `El California Burrito Real`
 14. `Coahuila 192, Roma Sur`
 15. `También Pide por WhatsApp`
 
 **Descriptions (4):**
-1. `California y Breakfast con 30% OFF en Rappi. Carne asada, papas adentro, cheddar, guac. Llega caliente.`
+1. `Pide Juanberto's por Rappi con 30% OFF. Carne asada, papas adentro, cheddar, guac. Llega caliente.`
 2. `Entrega rápida en Roma, Condesa, Narvarte, Del Valle, Doctores, Juárez. Pide ya por Rappi.`
-3. `El California burrito original a domicilio en CDMX. California y Breakfast con 30% OFF en Rappi.`
+3. `El California burrito original, ahora a domicilio en CDMX. 30% OFF en Rappi esta semana.`
 4. `¿No tienes Rappi? Pide por WhatsApp al +52 56 2124 3007. Mismo burrito, recién hecho.`
 
 #### RSA 3.2 — "Comparison hook"
@@ -308,7 +308,7 @@ Display path for all ads: `juanbertos.com/Rappi/30-Off`
 
 **Headlines (15):**
 1. `El Mejor Burrito en CDMX` *(PIN to position 1)*
-2. `30% OFF California & Breakfast`
+2. `30% OFF en Rappi Hoy`
 3. `Burritos a Domicilio Roma Sur`
 4. `Burritos a Domicilio Condesa`
 5. `Burritos a Domicilio Narvarte`
@@ -324,10 +324,10 @@ Display path for all ads: `juanbertos.com/Rappi/30-Off`
 15. `Coahuila 192, Roma Sur`
 
 **Descriptions (4):**
-1. `Burritos Juanberto's a domicilio en Roma, Condesa, Narvarte. California y Breakfast con 30% OFF.`
+1. `Burritos Juanberto's a domicilio en Roma, Condesa, Narvarte, Del Valle. 30% OFF en Rappi.`
 2. `California, Porkbelly, Ensenada, Pollo Loco, Breakfast, Portobello. Hay para todos. Pide ya.`
 3. `Picaña choice, ¼ de kilo, papas a la francesa adentro. El burrito grande que estabas buscando.`
-4. `California y Breakfast con 30% OFF en Rappi. Combina con agua fresca. Llega en 30–40 min.`
+4. `Pide en Rappi y aprovecha el 30% OFF. Llega caliente, hecho a mano, en menos de 40 min.`
 
 ---
 
@@ -337,7 +337,7 @@ Display path for all ads: `juanbertos.com/Rappi/30-Off`
 
 | Title (25 char max) | Description Line 1 (35 char) | Description Line 2 (35 char) | Final URL |
 |---|---|---|---|
-| `Pedir por Rappi` | `30% OFF California & Breakfast` | `Combos con agua fresca` | `https://www.juanbertos.com/es/order` |
+| `Pedir por Rappi` | `30% OFF esta semana en Rappi` | `California, Porkbelly, Ensenada` | `https://www.juanbertos.com/es/order` |
 | `Menú Completo` | `6 burritos desde $210 MXN` | `Hecho a mano en Roma Sur` | `https://www.juanbertos.com/es/menu` |
 | `Burrito California` | `Carne asada, papas adentro` | `La receta original de San Diego` | `https://www.juanbertos.com/es/burrito-california-cdmx` |
 | `Cómo Llegar` | `Coahuila 192, Roma Sur` | `A 3 cuadras de Centro Médico` | `https://www.juanbertos.com/es/locations` |
@@ -347,14 +347,14 @@ Display path for all ads: `juanbertos.com/Rappi/30-Off`
 ### Callouts (8 — 25 char each)
 
 ```
-30% OFF California Burrito
-30% OFF Breakfast Burrito
-Combos con agua fresca
+30% OFF en Rappi
 Hecho a mano
 Receta original San Diego
 Papas adentro siempre
+Picaña choice ¼ de kilo
 Entrega en 30–40 min
 Coahuila 192, Roma Sur
+Mar a Dom desde 10:30
 ```
 
 ### Structured snippets (4)
@@ -362,7 +362,7 @@ Coahuila 192, Roma Sur
 | Header | Values |
 |---|---|
 | `Modelos` (Burritos disponibles) | `California`, `Porkbelly`, `Ensenada`, `Pollo Loco`, `Breakfast`, `Portobello` |
-| `Servicios` | `Pedido por Rappi`, `Pedido por WhatsApp`, `Recoge en tienda`, `30% OFF California & Breakfast`, `Combos con agua fresca` |
+| `Servicios` | `Pedido por Rappi`, `Pedido por WhatsApp`, `Recoge en tienda`, `30% OFF en Rappi` |
 | `Tipos` | `California burrito`, `Burrito de pescado`, `Breakfast burrito`, `Vegetariano` |
 | `Características` | `Hecho a mano`, `Papas adentro`, `Picaña choice`, `Servido caliente` |
 
@@ -383,13 +383,13 @@ Coahuila 192, Roma Sur
 - **Occasion:** None
 - **Promotion type:** Percent discount
 - **Discount:** 30%
-- **Item:** `California Burrito & Breakfast Burrito` (NOT "Burritos Juanberto's" — must be SKU-specific to match Rappi promo)
-- **Promotion code:** None required (Rappi applies on platform automatically when configured in Rappi Aliados portal)
-- **Promotion details:** `30% OFF California y Breakfast en Rappi`
+- **Item:** `Burritos Juanberto's` (menu-wide — matches Rappi MD program scope)
+- **Promotion code:** None required (Rappi MD program applies automatically on platform)
+- **Promotion details:** `30% OFF al pedir por Rappi`
 - **Final URL:** `https://www.juanbertos.com/es/order`
 - **Start date:** Launch day
-- **End date:** Launch day + 30 (operator-set calendar reminder for day 25 to verify Rappi promo still live and either extend or swap)
-- **Prerequisite:** Rappi Aliados promo for these 2 SKUs is configured AND visible in the consumer Rappi listing (see §11 launch checklist).
+- **End date:** **2026-07-06** (matches Rappi MD program's current end). Operator sets a calendar reminder for **2026-07-01** to verify Rappi extended MD — they usually do for performing restaurants. If MD ends, update the promotion extension end date and revisit the value-prop hook.
+- **Prerequisite:** Rappi MD program "MD - 0 Commission x off in store" is active on Juanberto's listing AND verified visible in consumer Rappi (see §11 launch checklist).
 
 ---
 
@@ -592,12 +592,11 @@ Attach these to the campaign as signals only. They sharpen Smart Bidding but do 
 - [ ] 35. Rappi target URL working — Juanberto's listing 687998 accepting orders
 
 ### Rappi promo (GATE — campaign cannot launch without these)
-- [ ] 36. **Rappi Aliados portal:** 30% OFF promo created for **California Burrito** SKU, status = Active, duration = 30 days, funding = Aliado (restaurant-funded)
-- [ ] 37. **Rappi Aliados portal:** 30% OFF promo created for **Breakfast Burrito** SKU, same parameters
-- [ ] 38. **Audience scope:** First-order/new-user only if Rappi UI offers it; otherwise "Todos" with a min ticket of 200 MXN
-- [ ] 39. **Verification in consumer app:** Open `https://www.rappi.com.mx/restaurantes/delivery/687998-juanberto-s` in incognito as new user — both burritos show a visible discount badge / strikethrough price
-- [ ] 40. **Water-fresca combos** created in Rappi menu (California + agua, Breakfast + agua) — at least 1 combo live before launch
-- [ ] 41. **CAC budget tracking:** Operator confirms foregone-margin cap for the 30-day window (estimate: ~48 MXN × expected orders). Treat as marketing spend in P&L.
+- [ ] 36. **Rappi Aliados portal:** "MD - 0 Commission x off in store" program is active on Juanberto's (Promociones → Activas). Note the campaign ID and end date.
+- [ ] 37. **No restaurant-funded promos stacking:** All restaurant-funded promos on California/Breakfast/etc. are **paused or set to "Inactivas"**. Confirmed in Aliados → Promociones. (If a restaurant-funded promo overlaps with MD, the customer-paid effective discount can hit ~51% or void the MD commission waiver.)
+- [ ] 38. **Verification in consumer app:** Open `https://www.rappi.com.mx/restaurantes/delivery/687998-juanberto-s` in incognito — menu-wide -30% / strikethrough pricing visible on at least 3 items (California, Breakfast, one other).
+- [ ] 39. **MD program end date** noted on calendar reminder set for ~5 days before (currently 2026-07-01 if MD ends 2026-07-06). At that date: log into Aliados, verify MD extended; if not, pause Google Ads or update promotion extension copy.
+- [ ] 40. **CAC tracking:** Confirm with Juan that MD is margin-neutral commission-swap (Rappi waives commission in exchange for the 30% discount). If MD's funding structure changes (e.g., shifts to "Compartido"), recompute unit economics.
 
 ---
 
@@ -605,13 +604,13 @@ Attach these to the campaign as signals only. They sharpen Smart Bidding but do 
 
 All open questions were resolved with Juan on 2026-06-14. Locked answers below.
 
-1. **Promo structure — LOCKED: SKU-level 30% OFF on California & Breakfast burritos only, restaurant-funded, treated as CAC.**
-   - **Why this and not menu-wide:** A menu-wide 30% off layered on top of Rappi's ~30% commission would push net contribution per order negative on lower-margin items. Restricting the discount to the 2 hero SKUs (California 250 MXN, Breakfast 210 MXN) caps the foregone margin at ~48 MXN/order on average — defensible as customer-acquisition cost when blended with the Google Ads ~90 MXN tCPA (~138 MXN blended CAC vs. expected LTV 400+ MXN at 2 repeat orders).
-   - **Why these two SKUs:** California is the signature trial product (the brand promise — "the original"). Breakfast covers the AM daypart and converts a different customer segment. Together they cover the high-intent search day.
-   - **Secondary upsell:** Water-fresca combos (California + agua, Breakfast + agua) — built as new combo SKUs in Rappi, not as discounts. AOV lift offsets some of the discount cost.
-   - **Promo window:** 30 days from launch. Promotion extension end-date set accordingly.
-   - **Operator action day 25:** verify Rappi promo is still live and performing; either extend another 30 days or sunset based on actual CAC/LTV ratio observed.
-   - **HARD RULE for ad copy:** Every "30% OFF" claim must specify "California & Breakfast" OR appear in an ad group where the SKU is contextually obvious (AG2 California-only). Generic "30% OFF en Rappi" is now banned across all assets — violates Google Ads policy and Rappi customer trust if the promo doesn't apply to the SKU the user lands on.
+1. **Promo structure — LOCKED: Use Rappi's "MD - 0 Commission x off in store" program. No restaurant-funded promos.**
+   - **What MD is:** Rappi-managed program where customer sees 30% off menu-wide; Rappi waives their ~30% commission in exchange. Net to Juanberto's per order: margin-neutral. Active on Juanberto's listing as of 2026-06-14 (discovered 2026-06-14 mid-build; rows 1693604 / 1696050 / 1699103 in Aliados → Promociones → Activas; row 1696050 had $429 in sales overnight).
+   - **Why not restaurant-funded:** Two restaurant-funded promos (1699211 Pro, 1699210 non-Pro) were set up on California + Breakfast at 30% before we discovered MD. They were paused on 2026-06-14 because stacking with MD would either (a) push effective discount to ~51% or (b) void the MD commission waiver — either way, big margin hit. Never re-enable while MD is active.
+   - **Effect on CAC:** Old plan (restaurant-funded) projected blended CAC of ~138 MXN (90 ad cost + 48 foregone margin). New plan (MD-funded) → blended CAC = **90 MXN** (just Google Ads). 35% improvement in CAC, same LTV.
+   - **MD end date:** 2026-07-06 per current Aliados entry. Rappi typically auto-renews MD for performing restaurants. Calendar reminder for 2026-07-01 to verify. If MD ends and isn't renewed: pause campaign OR pivot to a different value-prop hook (e.g., free guac, combo bundles).
+   - **Ad copy rule:** "30% OFF en Rappi" can be claimed menu-wide because MD applies menu-wide. If MD ends or its scope changes, the playbook must be re-verified before continuing ads.
+   - **Future combo upsell:** Water-fresca combos (California + agua, Breakfast + agua) are still a good AOV-lift idea — build them as new combo SKUs in Rappi → Menú when convenient, but not blocking this launch.
 
 2. **Vercel `NEXT_PUBLIC_GADS_CONV_RAPPI` env var — LOCKED: SKIP, do not set.**
    Conversion attribution flows via the GA4-import path (Ads conversion action `juanbertos (web) order_rappi` has source = `Sitio web (Google Analytics (GA4))`). Adding native `send_to` would double-count every Rappi click. Native `send_to` and GA4 import are mutually exclusive attribution paths — we picked GA4 import. Tech-debt cleanup item: delete the `send_to: SEND_TO[type]` line at `apps/web/src/lib/analytics.ts:66` to make the code's intent unambiguous (non-blocking, can do anytime).
