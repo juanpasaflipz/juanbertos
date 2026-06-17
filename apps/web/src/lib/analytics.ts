@@ -32,7 +32,13 @@ type GtagFn = (
   params?: Record<string, unknown>,
 ) => void;
 
-type Win = Window & { gtag?: GtagFn };
+type FbqFn = (
+  command: string,
+  eventName: string,
+  params?: Record<string, unknown>,
+) => void;
+
+type Win = Window & { gtag?: GtagFn; fbq?: FbqFn };
 
 const SEND_TO: Record<ConversionType, string | undefined> = {
   order_whatsapp: process.env.NEXT_PUBLIC_GADS_CONV_WHATSAPP,
@@ -52,18 +58,35 @@ const DEFAULT_VALUE: Record<ConversionType, number> = {
   phone_call: 350,
 };
 
+const META_EVENT: Record<ConversionType, string> = {
+  order_whatsapp: "Lead",
+  order_rappi: "Lead",
+  order_ubereats: "Lead",
+  directions: "FindLocation",
+  phone_call: "Contact",
+};
+
 export function trackConversion(type: ConversionType, value?: number): void {
   if (typeof window === "undefined") return;
   const w = window as Win;
-  if (!w.gtag) return;
+  const resolvedValue = value ?? DEFAULT_VALUE[type];
 
-  const params: Record<string, unknown> = {
-    value: value ?? DEFAULT_VALUE[type],
-    currency: "MXN",
-    event_label: type,
-  };
-  const sendTo = SEND_TO[type];
-  if (sendTo) params.send_to = sendTo;
+  if (w.gtag) {
+    const params: Record<string, unknown> = {
+      value: resolvedValue,
+      currency: "MXN",
+      event_label: type,
+    };
+    const sendTo = SEND_TO[type];
+    if (sendTo) params.send_to = sendTo;
+    w.gtag("event", type, params);
+  }
 
-  w.gtag("event", type, params);
+  if (w.fbq) {
+    w.fbq("track", META_EVENT[type], {
+      value: resolvedValue,
+      currency: "MXN",
+      content_name: type,
+    });
+  }
 }
