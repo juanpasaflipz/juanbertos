@@ -216,11 +216,13 @@
       "layers": [
         {
           "label": "Tortilla de harina",
-          "body": "Grande, suave, calientita en la plancha. No de maíz. La tortilla de harina aguanta el peso y mantiene la temperatura."
+          "body": "Grande, suave, calientita en la plancha. No de maíz. La tortilla de harina aguanta el peso y mantiene la temperatura.",
+          "slug": "tortilla-de-harina"
         },
         {
           "label": "Carne asada",
-          "body": "1/4 de kilo de picaña marinada, a la plancha bien caliente. Bordes tatemados. El humo es el sazón. No microondas. No vapor."
+          "body": "1/4 de kilo de picaña marinada, a la plancha bien caliente. Bordes tatemados. El humo es el sazón. No microondas. No vapor.",
+          "slug": "carne-asada"
         },
         {
           "label": "Papas a la francesa",
@@ -228,15 +230,18 @@
         },
         {
           "label": "Queso cheddar derretido",
-          "body": "Se derrite sobre la plancha junto con la asada. Une todo. El cheddar funciona porque resiste el calor sin volverse aceite."
+          "body": "Se derrite sobre la plancha junto con la asada. Une todo. El cheddar funciona porque resiste el calor sin volverse aceite.",
+          "slug": "queso-cheddar"
         },
         {
           "label": "Guacamole",
-          "body": "Machacado, no licuado. Aguacate, sal, limón. Sin cebolla. Sin jitomate adentro. El guacamole limpio es el contraste."
+          "body": "Machacado, no licuado. Aguacate, sal, limón. Sin cebolla. Sin jitomate adentro. El guacamole limpio es el contraste.",
+          "slug": "guacamole"
         },
         {
           "label": "Pico de gallo + crema",
-          "body": "Pico picado esa mañana — jitomate, cebolla morada, cilantro, chile serrano. La crema entra al final para suavizar."
+          "body": "Pico picado esa mañana — jitomate, cebolla morada, cilantro, chile serrano. La crema entra al final para suavizar.",
+          "slug": "pico-de-gallo"
         }
       ]
     },
@@ -439,6 +444,550 @@
       "cta": {
         "title": "Pruébala en un California.",
         "subtitle": "Recién salida de la plancha. Picada fina. Adentro del burrito.",
+        "primary": "Ordenar ahora",
+        "secondary": "Ver el menú completo"
+      }
+    },
+    "queso-cheddar": {
+      "meta": {
+        "title": "Queso cheddar en CDMX — De productores lácteos mexicanos | Juanberto's",
+        "description": "El queso cheddar de Juanberto's viene de productores lácteos locales mexicanos. Derretido sobre la plancha, dentro de cada California burrito. Roma Sur, CDMX."
+      },
+      "kicker": "Ingrediente · Queso cheddar",
+      "title": "Cheddar. De productores lácteos mexicanos.",
+      "subtitle": "Se derrite sobre la plancha junto con la asada. Une todo. Sin cheddar, el California burrito no funciona.",
+      "intro": {
+        "title": "¿Por qué cheddar en una taquería?",
+        "lede": "El California burrito es de San Diego, no de CDMX. Allá no se usa Oaxaca ni Manchego — se usa cheddar. Es lo que pide la receta original y lo que da la textura que esperas: un cheddar amarillo, derretido sobre la plancha, que une la carne con las papas y las salsas.",
+        "body": "El problema en CDMX es que casi todo el cheddar es industrial e importado — bloques rojos que llegan en caja y saben a empaque. En Juanberto's elegimos cheddar de productores lácteos mexicanos: leche fresca, menos kilómetros, mejor sabor. Es la versión correcta del cheddar para la receta correcta del California.",
+        "callout": "Cheddar de verdad. Local. Derretido a la plancha."
+      },
+      "sourcing": {
+        "kicker": "De dónde viene",
+        "title": "Cheddar de productores mexicanos.",
+        "subtitle": "Por qué local importa más que importado.",
+        "items": [
+          {
+            "label": "Productores lácteos locales",
+            "body": "Trabajamos con productores mexicanos en lugar de bloques industriales importados. Leche fresca, queso recién madurado, cadena corta. La diferencia se nota desde la primera mordida."
+          },
+          {
+            "label": "Por qué cheddar y no Oaxaca",
+            "body": "Oaxaca y Manchego se hilan o se deshacen — geniales para quesadillas y tlayudas, no para un burrito de 1/4 de kilo de carne. El cheddar aguanta el calor de la plancha sin volverse aceite, y su acidez corta la grasa de la asada."
+          },
+          {
+            "label": "Cómo lo derretimos",
+            "body": "Va sobre la asada en la plancha bien caliente — no aparte, no después. El queso se derrite directo sobre la carne, atrapa el humo de la plancha y absorbe los jugos. Cuando ensamblamos el burrito, ya está fundido al relleno."
+          }
+        ]
+      },
+      "technique": {
+        "kicker": "Cómo lo usamos",
+        "title": "Sobre la carne, sobre la plancha.",
+        "paragraphs": [
+          "El cheddar no entra al final del ensamblaje. Entra al inicio — directo sobre la carne mientras se cocina. Esto cambia todo: el queso no es un topping, es parte de la carne.",
+          "La capa de cheddar derretido sella los jugos de la asada y mantiene la temperatura del relleno por más tiempo. Cuando muerdes el burrito 15 minutos después, sigue caliente adentro.",
+          "Cantidad importa: usamos lo suficiente para que se sienta en cada mordida, no tanto que tape el sabor de la carne. La proporción la calibramos durante meses."
+        ]
+      },
+      "usedIn": {
+        "kicker": "Dónde lo encuentras",
+        "title": "En qué pedirlo.",
+        "subtitle": "Casi todo lo que pasa por la plancha lleva cheddar.",
+        "items": [
+          {
+            "name": "California Burrito",
+            "desc": "El original. Cheddar derretido sobre la asada.",
+            "href": "/burrito-california-cdmx",
+            "cta": "Ver la guía"
+          },
+          {
+            "name": "Carne Asada Fries",
+            "desc": "Cheddar fundido sobre carne y papas.",
+            "href": "/menu",
+            "cta": "Ver en el menú"
+          },
+          {
+            "name": "Breakfast Burrito",
+            "desc": "Huevo, papas, pico — y cheddar. Todo el día.",
+            "href": "/menu",
+            "cta": "Ver en el menú"
+          },
+          {
+            "name": "Bean & Cheese",
+            "desc": "Frijoles refritos y cheddar. La versión simple. La versión correcta.",
+            "href": "/menu",
+            "cta": "Ver en el menú"
+          }
+        ]
+      },
+      "faq": {
+        "kicker": "Preguntas frecuentes",
+        "title": "Sobre el queso cheddar.",
+        "items": [
+          {
+            "q": "¿Por qué usan cheddar en lugar de Oaxaca?",
+            "a": "La receta del California burrito es de San Diego, donde el cheddar es el queso estándar. El cheddar aguanta el calor de la plancha y su acidez corta la grasa de la asada — Oaxaca o Manchego se comportan distinto."
+          },
+          {
+            "q": "¿De dónde es el queso?",
+            "a": "De productores lácteos mexicanos. Cadena corta, leche fresca, menos kilómetros que un bloque industrial importado. Por política preferimos local cuando el local es bueno."
+          },
+          {
+            "q": "¿El cheddar es vegetariano?",
+            "a": "Sí. Nuestro cheddar se produce con cuajo microbiano, no animal. Apto para vegetarianos."
+          },
+          {
+            "q": "¿Es pasteurizado?",
+            "a": "Sí. Toda la leche y el queso que usamos cumple con la pasteurización estándar y normas sanitarias mexicanas."
+          },
+          {
+            "q": "¿Puedo pedir un burrito sin queso?",
+            "a": "Sí. Pídelo \"sin queso\" al ordenar — por sucursal, WhatsApp, Rappi o Uber. No cobramos extra y no cambia el precio."
+          },
+          {
+            "q": "¿Tienen burrito con doble queso?",
+            "a": "Si quieres extra cheddar, pídelo al ordenar. Lo cobramos como add-on (consulta el precio en tienda)."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Pruébalo derretido.",
+        "subtitle": "Sobre la asada. Sobre la plancha. Dentro del California.",
+        "primary": "Ordenar ahora",
+        "secondary": "Ver el menú completo"
+      }
+    },
+    "guacamole": {
+      "meta": {
+        "title": "Guacamole en CDMX — Aguacate orgánico, hecho diario | Juanberto's",
+        "description": "Guacamole hecho a diario con aguacate orgánico. Machacado a mano, no licuado. Dentro de cada California burrito. Roma Sur, CDMX."
+      },
+      "kicker": "Ingrediente · Guacamole",
+      "title": "Guacamole. Aguacate orgánico. Hecho diario.",
+      "subtitle": "Machacado, no licuado. Tres ingredientes. El contraste fresco del burrito.",
+      "intro": {
+        "title": "¿Qué es un buen guacamole?",
+        "lede": "Un guacamole bueno es simple: aguacate maduro, sal, jugo de limón. Punto. Cuando le metes demasiados ingredientes — cebolla, jitomate, ajo, especias — dejas de saborear el aguacate y empiezas a saborear la mezcla. En Juanberto's hacemos la versión limpia, la versión que respeta el aguacate.",
+        "body": "El otro detalle es la textura. Machacamos el guacamole a mano, no lo licuamos. Licuar te da una pasta verde sin carácter. Machacar deja trozos pequeños que se sienten en el paladar — esa textura es lo que diferencia un guacamole de un dip de aguacate. Y hacemos un nuevo lote cada mañana, porque el aguacate machacado se oxida en horas.",
+        "callout": "Tres ingredientes. Cero atajos. Cada mañana."
+      },
+      "sourcing": {
+        "kicker": "De dónde viene",
+        "title": "Aguacate orgánico. Hecho diario.",
+        "subtitle": "Por qué importa la fruta y la frecuencia.",
+        "items": [
+          {
+            "label": "Aguacate orgánico",
+            "body": "Usamos aguacate orgánico — sin pesticidas, mejor sabor, fruta más cuidada. El aguacate industrial muchas veces se cosecha verde y madura artificialmente; el orgánico llega cuando debe llegar, y se nota en el dulzor."
+          },
+          {
+            "label": "Hecho cada mañana",
+            "body": "Hacemos un nuevo lote de guacamole cada mañana. El aguacate machacado se oxida en horas — un guacamole de la noche anterior es un guacamole gris. El nuestro es verde porque tiene horas, no días."
+          },
+          {
+            "label": "La receta limpia",
+            "body": "Aguacate, sal, jugo de limón. Nada más. Sin cebolla (esa va en el pico). Sin jitomate (también en el pico). Sin ajo, sin cilantro, sin especias. El guacamole es el contrapeso fresco — entre menos lo ensucies, mejor cumple su trabajo."
+          }
+        ]
+      },
+      "technique": {
+        "kicker": "Cómo lo hacemos",
+        "title": "Machacado a mano. Servido fresco.",
+        "paragraphs": [
+          "Aguacate maduro pero no blando — el punto exacto en el que cede a la presión pero no se aplasta. Lo abrimos, lo deshuesamos, lo sacamos con cuchara.",
+          "Lo machacamos con tenedor en un tazón hondo, no en licuadora. Buscamos trozos pequeños, no pasta uniforme. La textura es la mitad del guacamole.",
+          "Añadimos sal y jugo de limón fresco al final — el limón frena la oxidación y realza el dulzor del aguacate. Probamos, ajustamos, servimos."
+        ]
+      },
+      "usedIn": {
+        "kicker": "Dónde lo encuentras",
+        "title": "En qué pedirlo.",
+        "subtitle": "Casi todos nuestros burritos llevan guacamole.",
+        "items": [
+          {
+            "name": "California Burrito",
+            "desc": "El original. Guacamole adentro junto con la asada y las papas.",
+            "href": "/burrito-california-cdmx",
+            "cta": "Ver la guía"
+          },
+          {
+            "name": "Carne Asada Fries",
+            "desc": "Guacamole sobre las papas y la carne.",
+            "href": "/menu",
+            "cta": "Ver en el menú"
+          },
+          {
+            "name": "Pollo Loco",
+            "desc": "Pollo asado y guacamole, sin queso.",
+            "href": "/menu",
+            "cta": "Ver en el menú"
+          },
+          {
+            "name": "Portobello",
+            "desc": "El vegetariano. Guacamole + portobello = relleno completo.",
+            "href": "/menu",
+            "cta": "Ver en el menú"
+          }
+        ]
+      },
+      "faq": {
+        "kicker": "Preguntas frecuentes",
+        "title": "Sobre el guacamole.",
+        "items": [
+          {
+            "q": "¿Qué lleva su guacamole?",
+            "a": "Solo tres cosas: aguacate orgánico, sal y jugo de limón fresco. Sin cebolla, sin jitomate, sin especias. La cebolla y el jitomate los pones por separado con el pico."
+          },
+          {
+            "q": "¿Cuándo lo hacen?",
+            "a": "Cada mañana, antes de abrir. El aguacate machacado se oxida en horas — un guacamole del día anterior ya no sirve. Por eso solo hacemos lo que vamos a usar ese día."
+          },
+          {
+            "q": "¿Cobran extra por el guacamole?",
+            "a": "No. Va incluido en todos los burritos que lo llevan en la receta (California, Pollo Loco, Portobello, Carne Asada Fries). Si quieres extra guacamole, sí lo cobramos como add-on."
+          },
+          {
+            "q": "¿Es vegano?",
+            "a": "Sí. Aguacate, sal, limón. Cero ingredientes de origen animal."
+          },
+          {
+            "q": "¿Por qué no le ponen cebolla al guacamole?",
+            "a": "Porque la cebolla ya está en el pico de gallo. Si la metiéramos también en el guacamole, sería redundante y taparía el sabor del aguacate. Cada elemento tiene su lugar."
+          },
+          {
+            "q": "¿De dónde viene el aguacate?",
+            "a": "Aguacate orgánico de productor mexicano. Recibimos pedidos frescos varias veces por semana."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Pruébalo recién hecho.",
+        "subtitle": "Machacado esta mañana. Adentro del California.",
+        "primary": "Ordenar ahora",
+        "secondary": "Ver el menú completo"
+      }
+    },
+    "pico-de-gallo": {
+      "meta": {
+        "title": "Pico de gallo en CDMX — Jitomate del mercado, hecho diario | Juanberto's",
+        "description": "Pico de gallo hecho cada mañana con jitomate y cebolla del mercado local. Picado a mano. Dentro de cada California burrito. Roma Sur, CDMX."
+      },
+      "kicker": "Ingrediente · Pico de gallo",
+      "title": "Pico de gallo. Del mercado al burrito en horas.",
+      "subtitle": "Jitomate y cebolla del mercado local. Picado esa misma mañana. Es la frescura del California.",
+      "intro": {
+        "title": "¿Qué es el pico de gallo?",
+        "lede": "El pico de gallo es la salsa fresca por excelencia — picado fino, sin cocer, sin licuar. Cinco ingredientes: jitomate, cebolla, cilantro, chile, jugo de limón, sal. Es lo que diferencia a una taquería que se preocupa por la frescura de una que abre tarros.",
+        "body": "En Juanberto's el pico es donde realmente se nota la procuración. Compramos jitomate y cebolla en el mercado local cada mañana — fruta cosechada ese día o el día anterior, no traída en cajas de un centro de distribución. Llega a la cocina, lo picamos a mano, y antes del primer cliente ya está listo. La diferencia entre un jitomate maduro de mercado y uno de supermercado es enorme — y se siente en la mordida.",
+        "callout": "Del mercado a la tabla. Picado a mano. Cada día."
+      },
+      "sourcing": {
+        "kicker": "De dónde viene",
+        "title": "Mercado local. Picado cada mañana.",
+        "subtitle": "La frescura es la diferencia.",
+        "items": [
+          {
+            "label": "Jitomate del mercado",
+            "body": "Compramos jitomate en un mercado local cada día — fruta madura cosechada esa semana, no jitomate de supermercado madurado con etileno. El sabor es completamente distinto: dulzor real, acidez balanceada, jugo de verdad."
+          },
+          {
+            "label": "Cebolla morada del mismo viaje",
+            "body": "La cebolla morada (no blanca) es la indicada para pico — más dulce, menos agresiva, color más bonito en el burrito. La compramos junto con el jitomate, del mismo proveedor, el mismo día."
+          },
+          {
+            "label": "Picado a mano cada mañana",
+            "body": "El pico se pica a cuchillo cada mañana, antes de abrir. Picadora industrial = pico aguado. Pico picado a mano = trozos definidos, jugos contenidos, textura que se siente. El cilantro y el chile entran al final para que mantengan su fragancia."
+          }
+        ]
+      },
+      "technique": {
+        "kicker": "Cómo lo hacemos",
+        "title": "Cinco ingredientes. Cuchillo afilado.",
+        "paragraphs": [
+          "Jitomate sin las semillas que sueltan agua — solo la pulpa firme, en dados de 5 milímetros. Cebolla morada en brunoise (corte aún más fino). Cilantro fresco, hojas separadas y picadas grueso.",
+          "Chile serrano picado fino, con o sin semillas dependiendo del nivel de picante. Jugo de limón fresco y sal — al final, no al principio, para que no se desjugue el jitomate.",
+          "Probamos, ajustamos, servimos en frascos de vidrio refrigerados. Cada burrito que sale lleva pico recién sacado del frasco — nunca pico que llevaba horas sobre la barra."
+        ]
+      },
+      "usedIn": {
+        "kicker": "Dónde lo encuentras",
+        "title": "En qué pedirlo.",
+        "subtitle": "El pico va en casi todo lo que armamos.",
+        "items": [
+          {
+            "name": "California Burrito",
+            "desc": "El original. Pico fresco encima de la asada.",
+            "href": "/burrito-california-cdmx",
+            "cta": "Ver la guía"
+          },
+          {
+            "name": "Carne Asada Fries",
+            "desc": "Pico sobre carne, papas y queso.",
+            "href": "/menu",
+            "cta": "Ver en el menú"
+          },
+          {
+            "name": "Breakfast Burrito",
+            "desc": "Huevos, papas, cheddar y pico fresco.",
+            "href": "/menu",
+            "cta": "Ver en el menú"
+          },
+          {
+            "name": "Portobello",
+            "desc": "El vegetariano. El pico realza el portobello.",
+            "href": "/menu",
+            "cta": "Ver en el menú"
+          }
+        ]
+      },
+      "faq": {
+        "kicker": "Preguntas frecuentes",
+        "title": "Sobre el pico de gallo.",
+        "items": [
+          {
+            "q": "¿Qué lleva su pico de gallo?",
+            "a": "Jitomate, cebolla morada, cilantro, chile serrano, jugo de limón fresco y sal. Cinco ingredientes, picados a mano. Sin ajo, sin orégano, sin cebolla blanca."
+          },
+          {
+            "q": "¿De dónde compran el jitomate?",
+            "a": "Del mercado local. Cada mañana. Fruta cosechada esa semana, no jitomate de supermercado madurado artificialmente. Es la diferencia entre un pico que sabe a algo y uno que no."
+          },
+          {
+            "q": "¿Pica?",
+            "a": "Lleva chile serrano picado fino. El nivel base es picante moderado — si lo quieres más suave o sin chile, pídelo al ordenar."
+          },
+          {
+            "q": "¿Es vegano?",
+            "a": "Sí. Verduras, hierbas, chile, limón, sal. Cero ingredientes animales."
+          },
+          {
+            "q": "¿Por qué cebolla morada y no blanca?",
+            "a": "La morada es más dulce y menos agresiva en crudo. La blanca pica más y opaca el jitomate. Para pico de gallo, la morada es la opción correcta."
+          },
+          {
+            "q": "¿Puedo pedir más pico?",
+            "a": "Sí. Pide extra pico al ordenar — lo damos sin costo en cantidad razonable, o como add-on si quieres porción adicional."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Pruébalo recién picado.",
+        "subtitle": "Del mercado a tu burrito en horas. Esa es la frescura.",
+        "primary": "Ordenar ahora",
+        "secondary": "Ver el menú completo"
+      }
+    },
+    "crema": {
+      "meta": {
+        "title": "Crema ácida en CDMX — Grass-fed, no industrial | Juanberto's",
+        "description": "La crema de Juanberto's es grass-fed, no industrial. La capa final del California burrito que suaviza la asada, el queso y el pico. Roma Sur, CDMX."
+      },
+      "kicker": "Ingrediente · Crema ácida",
+      "title": "Crema. Grass-fed. La capa final.",
+      "subtitle": "Entra al último para suavizar todo lo demás. Sin crema, el California burrito es demasiado intenso.",
+      "intro": {
+        "title": "¿Por qué crema, y por qué grass-fed?",
+        "lede": "La crema (en EE.UU. sour cream, en México crema ácida) es lo que une las texturas del California burrito. La carne tiene fuerza, el cheddar tiene grasa, el pico tiene acidez, las papas tienen almidón. La crema baja el volumen — suaviza, refresca, balancea. Sin ella, el burrito es plano. Con ella, las capas se sienten.",
+        "body": "El problema es que la crema industrial es casi todo aire y aditivos. Espesantes, gomas, conservadores. Sabe a relleno, no a leche. Nosotros usamos crema grass-fed — de vacas alimentadas con pasto, no grano — que tiene más cuerpo, más sabor láctico, y menos ingredientes en la etiqueta. La diferencia se nota cuando es la última capa antes de cerrar el burrito.",
+        "callout": "Grass-fed. La capa que cierra el California."
+      },
+      "sourcing": {
+        "kicker": "De dónde viene",
+        "title": "Crema de vacas grass-fed.",
+        "subtitle": "Por qué la dieta de la vaca cambia el sabor de la crema.",
+        "items": [
+          {
+            "label": "Vacas alimentadas con pasto",
+            "body": "Grass-fed significa que la vaca comió pasto, no granos ni alimento procesado. Esto cambia el perfil de la grasa de la leche — más omega-3, más sabor láctico, menos sabor neutro."
+          },
+          {
+            "label": "Sin gomas ni espesantes",
+            "body": "La crema industrial mexicana muchas veces lleva gomas (xantana, guar) para estandarizar la textura. La nuestra no — el espesor viene del contenido natural de grasa de la leche, no de aditivos. Etiqueta corta, sabor real."
+          },
+          {
+            "label": "Por qué la dejamos para el final",
+            "body": "La crema es el contrapeso. Entra al último para que su frescura no se mezcle con el calor de la plancha. Cuando muerdes el burrito, la primera cosa que sientes es la temperatura — y la crema es lo que te baja la intensidad."
+          }
+        ]
+      },
+      "technique": {
+        "kicker": "Cómo la usamos",
+        "title": "La última capa antes del rollo.",
+        "paragraphs": [
+          "Ensamblamos el burrito en orden: carne con queso derretido, papas, pico, guacamole — y al final, la línea de crema. Nunca al principio (se mezclaría con el calor). Siempre al final.",
+          "Cantidad medida. No es un dip — es un balance. Demasiada crema y todo sabe a sour cream; muy poca y se pierde. La línea correcta es un cordón que recorre el largo del burrito.",
+          "Sale del refrigerador directo al burrito — fría, no a temperatura ambiente. El contraste de temperatura entre la carne caliente y la crema fría es parte de la experiencia."
+        ]
+      },
+      "usedIn": {
+        "kicker": "Dónde la encuentras",
+        "title": "En qué pedirla.",
+        "subtitle": "La crema aparece en los burritos donde balancear la intensidad importa.",
+        "items": [
+          {
+            "name": "California Burrito",
+            "desc": "El original. Línea de crema antes del rollo final.",
+            "href": "/burrito-california-cdmx",
+            "cta": "Ver la guía"
+          },
+          {
+            "name": "Carne Asada Fries",
+            "desc": "Crema en cordón sobre las papas y la carne.",
+            "href": "/menu",
+            "cta": "Ver en el menú"
+          },
+          {
+            "name": "Breakfast Burrito",
+            "desc": "Suaviza el huevo y el cheddar. Servido todo el día.",
+            "href": "/menu",
+            "cta": "Ver en el menú"
+          }
+        ]
+      },
+      "faq": {
+        "kicker": "Preguntas frecuentes",
+        "title": "Sobre la crema.",
+        "items": [
+          {
+            "q": "¿Qué es la crema ácida?",
+            "a": "Es lo que en EE.UU. llaman sour cream y en México crema ácida — crema fresca acidificada con cultivos lácticos. Más densa que la crema natural, ligeramente ácida, y la versión correcta para el California burrito."
+          },
+          {
+            "q": "¿Qué significa grass-fed?",
+            "a": "Que la vaca de la que viene la leche se alimentó con pasto en lugar de granos. Esto da una leche con mejor perfil nutricional (más omega-3) y un sabor más pronunciado, especialmente en productos cremosos."
+          },
+          {
+            "q": "¿La crema es vegetariana?",
+            "a": "Sí. Crema y cultivos lácticos. Sin ingredientes animales más allá de la leche."
+          },
+          {
+            "q": "¿Tienen opción sin crema?",
+            "a": "Sí. Pídelo \"sin crema\" al ordenar. Sin costo extra y sin cambio en el precio."
+          },
+          {
+            "q": "¿Por qué no usan crema natural en vez de ácida?",
+            "a": "La crema natural es más dulce y menos densa — no aguanta el calor del burrito y se separa. La crema ácida tiene la consistencia y el balance correctos para esta receta."
+          },
+          {
+            "q": "¿De dónde es la crema?",
+            "a": "De productor que trabaja con vacas grass-fed. Recibimos pedidos frescos varias veces por semana."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Pruébala como capa final.",
+        "subtitle": "Fría, en cordón, justo antes del rollo. Adentro del California.",
+        "primary": "Ordenar ahora",
+        "secondary": "Ver el menú completo"
+      }
+    },
+    "tortilla-de-harina": {
+      "meta": {
+        "title": "Tortilla de harina en CDMX — Hecha fresca cada día | Juanberto's",
+        "description": "Las tortillas de harina de Juanberto's se preparan frescas cada día. Grandes, suaves, calientes en la plancha. Sin ellas no hay California burrito. Roma Sur, CDMX."
+      },
+      "kicker": "Ingrediente · Tortilla de harina",
+      "title": "Tortilla de harina. Fresca, no de bolsa.",
+      "subtitle": "Grande, suave, calientita en la plancha. Aguanta el peso, mantiene el calor, no se rompe al doblar.",
+      "intro": {
+        "title": "¿Por qué harina y no maíz?",
+        "lede": "El California burrito requiere tortilla de harina. No es preferencia — es estructura. Una tortilla de maíz de tamaño normal mide 12 cm y se rompe en cuanto le metes 1/4 de kilo de carne, papas y todo el relleno. Una tortilla de harina de burrito mide 30 cm y aguanta el peso sin abrirse. Cambia la tortilla y deja de ser California burrito.",
+        "body": "Pero no cualquier tortilla de harina sirve. Las tortillas de harina empaquetadas — esas que venden en bolsa de supermercado — se quiebran al doblar, se ponen correosas al calentarse, y saben a conservador. En Juanberto's preparamos las tortillas frescas cada día, las calentamos en la plancha justo antes de rellenar, y se sienten flexibles, no rígidas. Ese es el detalle que distingue un buen burrito de uno aceptable.",
+        "callout": "Fresca cada día. Caliente en la plancha. Flexible al doblar."
+      },
+      "sourcing": {
+        "kicker": "De dónde viene",
+        "title": "Tortilla preparada cada día.",
+        "subtitle": "Por qué la frescura cambia toda la experiencia.",
+        "items": [
+          {
+            "label": "Preparada en fresco",
+            "body": "Trabajamos con tortillas de harina recién hechas, no las empaquetadas de supermercado. Las empaquetadas llevan conservadores y emulsionantes para sobrevivir semanas en estante; las nuestras no — duran lo que tienen que durar: un día."
+          },
+          {
+            "label": "Tamaño correcto: burrito-size",
+            "body": "30 centímetros de diámetro, el tamaño correcto para un burrito. Las tortillas de harina chicas (15-20 cm) son para tacos de harina norteños, no para California. Si la tortilla no aguanta 1/4 de kilo de relleno sin abrirse, está mal."
+          },
+          {
+            "label": "Calentada en la plancha antes de rellenar",
+            "body": "Antes de armar cada burrito, la tortilla pasa por la plancha — pocos segundos por lado. Esto la pone flexible y la calienta para que aguante el doblez sin agrietarse. Una tortilla fría se rompe; una calentada se dobla."
+          }
+        ]
+      },
+      "technique": {
+        "kicker": "Cómo la trabajamos",
+        "title": "Plancha rápida. Doblez firme.",
+        "paragraphs": [
+          "La tortilla se calienta en la plancha bien caliente — pocos segundos por lado, lo suficiente para que se torne flexible y tome temperatura. Demasiado tiempo y se pone correosa; muy poco y se rompe al doblar.",
+          "Se rellena con orden: carne y queso derretido al centro, papas, pico, guacamole, crema. Todo distribuido a lo largo, no amontonado en un extremo, para que el doblez quede balanceado.",
+          "El cierre se hace con manos limpias y firmes. Doblamos los lados primero, luego enrollamos hacia adelante. Una vez cerrado, el burrito regresa a la plancha unos segundos para sellar la unión y dejar la tortilla con un poco de tatemado."
+        ]
+      },
+      "usedIn": {
+        "kicker": "Dónde la encuentras",
+        "title": "En qué burrito.",
+        "subtitle": "Todos nuestros burritos llevan tortilla de harina fresca.",
+        "items": [
+          {
+            "name": "California Burrito",
+            "desc": "El original. La razón por la que existe la tortilla de harina grande.",
+            "href": "/burrito-california-cdmx",
+            "cta": "Ver la guía"
+          },
+          {
+            "name": "Bean & Cheese",
+            "desc": "Frijoles refritos y cheddar. La versión más sencilla. La tortilla sigue siendo la misma.",
+            "href": "/menu",
+            "cta": "Ver en el menú"
+          },
+          {
+            "name": "Breakfast Burrito",
+            "desc": "Huevos, papas, cheddar, pico — todo dentro de la misma tortilla. Servido todo el día.",
+            "href": "/menu",
+            "cta": "Ver en el menú"
+          },
+          {
+            "name": "Cochinita",
+            "desc": "Cochinita pibil estilo Yucatán, dentro de tortilla de harina.",
+            "href": "/menu",
+            "cta": "Ver en el menú"
+          }
+        ]
+      },
+      "faq": {
+        "kicker": "Preguntas frecuentes",
+        "title": "Sobre la tortilla.",
+        "items": [
+          {
+            "q": "¿Por qué tortilla de harina y no de maíz?",
+            "a": "Porque el California burrito requiere una tortilla grande (30 cm) que aguante 1/4 de kilo de relleno sin abrirse. Las tortillas de maíz son más chicas y se rompen al doblar con tanto contenido — son perfectas para tacos, no para burritos."
+          },
+          {
+            "q": "¿Las tortillas son frescas o empaquetadas?",
+            "a": "Frescas. Preparadas cada día, sin conservadores. Las empaquetadas llevan emulsionantes y aditivos para durar semanas — la diferencia se siente en la textura y el sabor."
+          },
+          {
+            "q": "¿Tienen tortilla integral o sin gluten?",
+            "a": "Por ahora solo tortilla de harina blanca tradicional. Estamos evaluando agregar opción sin gluten — escríbenos por WhatsApp si te interesa."
+          },
+          {
+            "q": "¿Son veganas?",
+            "a": "Casi siempre las tortillas de harina llevan manteca (vegetal o de origen animal). Las nuestras se preparan con grasa vegetal — pero te confirmamos al ordenar si tienes restricción estricta."
+          },
+          {
+            "q": "¿Por qué calientan la tortilla antes de rellenarla?",
+            "a": "Para que se ponga flexible y no se rompa al doblar. Una tortilla fría se agrieta; una calentada en la plancha aguanta el peso y la forma."
+          },
+          {
+            "q": "¿Hacen quesadillas con esta tortilla?",
+            "a": "El menú actual se enfoca en burritos y chimichangas. Si quieres quesadilla, pregúntanos en la sucursal — depende de disponibilidad."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Pruébala recién calentada.",
+        "subtitle": "Fresca cada día. Sellada en la plancha. Adentro del California.",
         "primary": "Ordenar ahora",
         "secondary": "Ver el menú completo"
       }

@@ -7,7 +7,7 @@ import { Link as LocaleLink } from "@/i18n/navigation";
 import { PageHero } from "@/components/PageHero";
 import { trackConversion, type ConversionType } from "@/lib/analytics";
 
-type Layer = { label: string; body: string };
+type Layer = { label: string; body: string; slug?: string };
 type MenuItem = { name: string; desc: string; price: string; badge: string };
 type HourRow = { days: string; time: string };
 type Channel = { title: string; body: string; cta: string; href: string };
@@ -101,25 +101,53 @@ export function CornerstoneContent() {
           </div>
 
           <ol className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 counter-reset-layers">
-            {layers.map((layer, i) => (
-              <motion.li
-                key={layer.label}
-                initial={{ opacity: 0, y: 16 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, amount: 0.3 }}
-                transition={{ duration: 0.5, delay: i * 0.05 }}
-                className="relative border-2 border-paper-100/15 bg-ink-900/30 p-6 backdrop-blur-sm"
-              >
-                <span
-                  className="headline-display text-tangerine-500 text-5xl absolute -top-4 left-4 bg-ink-900 px-2"
-                  aria-hidden
+            {layers.map((layer, i) => {
+              const inner = (
+                <>
+                  <span
+                    className="headline-display text-tangerine-500 text-5xl absolute -top-4 left-4 bg-ink-900 px-2"
+                    aria-hidden
+                  >
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <h3 className="headline-display text-2xl mt-4">
+                    {layer.label}
+                    {layer.slug && (
+                      <span
+                        aria-hidden
+                        className="ml-2 text-tangerine-500 transition-transform inline-block group-hover:translate-x-1"
+                      >
+                        →
+                      </span>
+                    )}
+                  </h3>
+                  <p className="mt-2 text-paper-100/75 leading-relaxed">{layer.body}</p>
+                </>
+              );
+              return (
+                <motion.li
+                  key={layer.label}
+                  initial={{ opacity: 0, y: 16 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, amount: 0.3 }}
+                  transition={{ duration: 0.5, delay: i * 0.05 }}
+                  className={`group relative border-2 border-paper-100/15 bg-ink-900/30 p-6 backdrop-blur-sm transition-colors ${
+                    layer.slug ? "hover:border-tangerine-500/60" : ""
+                  }`}
                 >
-                  {String(i + 1).padStart(2, "0")}
-                </span>
-                <h3 className="headline-display text-2xl mt-4">{layer.label}</h3>
-                <p className="mt-2 text-paper-100/75 leading-relaxed">{layer.body}</p>
-              </motion.li>
-            ))}
+                  {layer.slug ? (
+                    <LocaleLink
+                      href={`/ingredients/${layer.slug}`}
+                      className="block focus:outline-none focus-visible:ring-2 focus-visible:ring-tangerine-500"
+                    >
+                      {inner}
+                    </LocaleLink>
+                  ) : (
+                    inner
+                  )}
+                </motion.li>
+              );
+            })}
           </ol>
         </div>
       </section>

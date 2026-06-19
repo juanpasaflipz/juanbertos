@@ -216,11 +216,13 @@
       "layers": [
         {
           "label": "Flour tortilla",
-          "body": "Large, soft, warmed on the plancha. Not corn. The flour tortilla holds the weight and keeps the heat in."
+          "body": "Large, soft, warmed on the plancha. Not corn. The flour tortilla holds the weight and keeps the heat in.",
+          "slug": "tortilla-de-harina"
         },
         {
           "label": "Carne asada",
-          "body": "1/4 kilo of marinated picaña, slammed onto a hot plancha. Charred edges. The smoke is the seasoning. No microwave. No steam."
+          "body": "1/4 kilo of marinated picaña, slammed onto a hot plancha. Charred edges. The smoke is the seasoning. No microwave. No steam.",
+          "slug": "carne-asada"
         },
         {
           "label": "Papas a la francesa",
@@ -228,15 +230,18 @@
         },
         {
           "label": "Melted cheddar",
-          "body": "Melted right on the plancha next to the asada. Binds everything. Cheddar works because it holds up to heat without turning to oil."
+          "body": "Melted right on the plancha next to the asada. Binds everything. Cheddar works because it holds up to heat without turning to oil.",
+          "slug": "queso-cheddar"
         },
         {
           "label": "Guacamole",
-          "body": "Smashed, not blended. Avocado, salt, lime. No onion. No tomato inside. Clean guacamole is the contrast."
+          "body": "Smashed, not blended. Avocado, salt, lime. No onion. No tomato inside. Clean guacamole is the contrast.",
+          "slug": "guacamole"
         },
         {
           "label": "Pico de gallo + crema",
-          "body": "Pico diced that morning — tomato, red onion, cilantro, serrano. Crema goes in last to soften everything."
+          "body": "Pico diced that morning — tomato, red onion, cilantro, serrano. Crema goes in last to soften everything.",
+          "slug": "pico-de-gallo"
         }
       ]
     },
@@ -439,6 +444,550 @@
       "cta": {
         "title": "Taste it in a California.",
         "subtitle": "Fresh off the plancha. Chopped fine. Folded into the burrito.",
+        "primary": "Order now",
+        "secondary": "See the full menu"
+      }
+    },
+    "queso-cheddar": {
+      "meta": {
+        "title": "Cheddar Cheese in Mexico City — From Local Mexican Dairy Producers | Juanberto's",
+        "description": "Juanberto's cheddar comes from local Mexican dairy producers. Melted on the plancha, folded inside every California burrito. Roma Sur, CDMX."
+      },
+      "kicker": "Ingredient · Cheddar Cheese",
+      "title": "Cheddar. From local Mexican dairy producers.",
+      "subtitle": "Melted on the plancha alongside the beef. Binds everything. No cheddar, no California burrito.",
+      "intro": {
+        "title": "Why cheddar in a taquería?",
+        "lede": "The California burrito is from San Diego, not Mexico City. You don't use Oaxaca cheese there, you don't use Manchego. You use cheddar. It's what the original recipe calls for and it's what gives you the texture you expect: yellow cheddar, melted on the plancha, binding the meat to the fries to the salsas.",
+        "body": "The problem in Mexico City is that almost all cheddar is industrial and imported — red blocks that arrive in cardboard and taste like packaging. At Juanberto's we chose cheddar from local Mexican dairy producers: fresh milk, fewer kilometers, better flavor. It's the correct cheddar for the correct California recipe.",
+        "callout": "Real cheddar. Local. Melted on the plancha."
+      },
+      "sourcing": {
+        "kicker": "Where it comes from",
+        "title": "Cheddar from Mexican producers.",
+        "subtitle": "Why local beats imported.",
+        "items": [
+          {
+            "label": "Local Dairy Producers",
+            "body": "We work with Mexican dairies instead of imported industrial blocks. Fresh milk, freshly aged cheese, short supply chain. You taste the difference from the first bite."
+          },
+          {
+            "label": "Why Cheddar, Not Oaxaca",
+            "body": "Oaxaca and Manchego pull into strings or crumble — great for quesadillas and tlayudas, wrong for a 1/4 kilo burrito. Cheddar holds up to plancha heat without breaking into oil, and its acidity cuts through the richness of the carne asada."
+          },
+          {
+            "label": "How We Melt It",
+            "body": "It goes on the meat on the hot plancha — not separately, not after. The cheese melts directly onto the beef, catches the smoke off the plancha, and absorbs the juices. By the time we roll the burrito, it's fused into the filling."
+          }
+        ]
+      },
+      "technique": {
+        "kicker": "How we use it",
+        "title": "On the meat. On the plancha.",
+        "paragraphs": [
+          "Cheddar doesn't go on at the end of assembly. It goes on at the start — straight onto the meat while it's cooking. This changes everything: the cheese isn't a topping, it's part of the beef.",
+          "The layer of melted cheddar seals in the juices and keeps the filling hot longer. When you bite into the burrito 15 minutes later, it's still warm inside.",
+          "Amount matters: enough that you feel it in every bite, not so much that it covers the beef flavor. We calibrated the ratio over months."
+        ]
+      },
+      "usedIn": {
+        "kicker": "Where to find it",
+        "title": "What to order it in.",
+        "subtitle": "Almost anything that hits the plancha has cheddar.",
+        "items": [
+          {
+            "name": "California Burrito",
+            "desc": "The original. Melted cheddar on the asada.",
+            "href": "/burrito-california-cdmx",
+            "cta": "Read the guide"
+          },
+          {
+            "name": "Carne Asada Fries",
+            "desc": "Cheddar fused into beef and fries.",
+            "href": "/menu",
+            "cta": "See on the menu"
+          },
+          {
+            "name": "Breakfast Burrito",
+            "desc": "Eggs, fries, pico — and cheddar. All day.",
+            "href": "/menu",
+            "cta": "See on the menu"
+          },
+          {
+            "name": "Bean & Cheese",
+            "desc": "Refried beans and cheddar. The simple version. The correct one.",
+            "href": "/menu",
+            "cta": "See on the menu"
+          }
+        ]
+      },
+      "faq": {
+        "kicker": "FAQ",
+        "title": "About our cheddar.",
+        "items": [
+          {
+            "q": "Why cheddar instead of Oaxaca?",
+            "a": "The California burrito recipe is from San Diego, where cheddar is the standard cheese. Cheddar holds up on the plancha and its acidity cuts the richness of the carne asada — Oaxaca or Manchego behave differently."
+          },
+          {
+            "q": "Where does the cheese come from?",
+            "a": "From Mexican dairy producers. Short supply chain, fresh milk, fewer kilometers than an imported industrial block. As a policy we prefer local when the local is good."
+          },
+          {
+            "q": "Is the cheddar vegetarian?",
+            "a": "Yes. Our cheddar is made with microbial rennet, not animal-derived. Vegetarian-friendly."
+          },
+          {
+            "q": "Is it pasteurized?",
+            "a": "Yes. All the milk and cheese we use meets standard pasteurization and Mexican health regulations."
+          },
+          {
+            "q": "Can I order a burrito without cheese?",
+            "a": "Yes. Order it 'sin queso' — at the shop, via WhatsApp, Rappi, or Uber. No extra charge, no price change."
+          },
+          {
+            "q": "Do you have a double-cheese option?",
+            "a": "If you want extra cheddar, ask when you order. We charge it as an add-on (ask for the price at the shop)."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Taste it melted.",
+        "subtitle": "On the asada. On the plancha. Inside the California.",
+        "primary": "Order now",
+        "secondary": "See the full menu"
+      }
+    },
+    "guacamole": {
+      "meta": {
+        "title": "Guacamole in Mexico City — Organic Avocados, Made Daily | Juanberto's",
+        "description": "Guacamole made daily with organic avocados. Hand-mashed, never blended. Inside every California burrito. Roma Sur, CDMX."
+      },
+      "kicker": "Ingredient · Guacamole",
+      "title": "Guacamole. Organic avocados. Made daily.",
+      "subtitle": "Mashed, never blended. Three ingredients. The fresh counterpoint of the burrito.",
+      "intro": {
+        "title": "What makes good guacamole?",
+        "lede": "Good guacamole is simple: ripe avocado, salt, lime juice. Period. When you start adding too many ingredients — onion, tomato, garlic, spices — you stop tasting the avocado and start tasting the mix. At Juanberto's we make the clean version, the one that respects the avocado.",
+        "body": "The other detail is texture. We mash our guacamole by hand, we don't blend it. Blending gives you a smooth green paste with no character. Mashing leaves small chunks that you feel on your palate — that texture is what separates guacamole from avocado dip. And we make a fresh batch every morning, because mashed avocado oxidizes in hours.",
+        "callout": "Three ingredients. No shortcuts. Every morning."
+      },
+      "sourcing": {
+        "kicker": "Where it comes from",
+        "title": "Organic avocados. Made daily.",
+        "subtitle": "Why the fruit and the frequency matter.",
+        "items": [
+          {
+            "label": "Organic Avocados",
+            "body": "We use organic avocados — no pesticides, better flavor, better-cared-for fruit. Industrial avocados are often harvested green and ripened artificially; organic ones arrive when they should, and you taste the difference in the sweetness."
+          },
+          {
+            "label": "Made Every Morning",
+            "body": "We make a new batch of guacamole every morning. Mashed avocado oxidizes in hours — last night's guacamole is gray guacamole. Ours is green because it's hours old, not days."
+          },
+          {
+            "label": "The Clean Recipe",
+            "body": "Avocado, salt, lime juice. Nothing else. No onion (onion goes in the pico). No tomato (also in the pico). No garlic, no cilantro, no spices. Guacamole is the fresh counterweight — the less you mess with it, the better it does its job."
+          }
+        ]
+      },
+      "technique": {
+        "kicker": "How we make it",
+        "title": "Hand-mashed. Served fresh.",
+        "paragraphs": [
+          "Ripe but not soft avocado — the exact point where it yields to pressure but doesn't collapse. We split it, pit it, scoop it out with a spoon.",
+          "We mash it with a fork in a deep bowl, not in a blender. We want small chunks, not uniform paste. Texture is half of guacamole.",
+          "We add salt and fresh lime juice at the end — lime slows oxidation and brings out the sweetness of the avocado. Taste, adjust, serve."
+        ]
+      },
+      "usedIn": {
+        "kicker": "Where to find it",
+        "title": "What to order it in.",
+        "subtitle": "Almost all our burritos come with guacamole.",
+        "items": [
+          {
+            "name": "California Burrito",
+            "desc": "The original. Guacamole inside with the beef and fries.",
+            "href": "/burrito-california-cdmx",
+            "cta": "Read the guide"
+          },
+          {
+            "name": "Carne Asada Fries",
+            "desc": "Guacamole on top of the fries and meat.",
+            "href": "/menu",
+            "cta": "See on the menu"
+          },
+          {
+            "name": "Pollo Loco",
+            "desc": "Grilled chicken and guacamole, no cheese.",
+            "href": "/menu",
+            "cta": "See on the menu"
+          },
+          {
+            "name": "Portobello",
+            "desc": "The vegetarian. Guacamole + portobello = complete filling.",
+            "href": "/menu",
+            "cta": "See on the menu"
+          }
+        ]
+      },
+      "faq": {
+        "kicker": "FAQ",
+        "title": "About our guacamole.",
+        "items": [
+          {
+            "q": "What's in your guacamole?",
+            "a": "Just three things: organic avocado, salt, and fresh lime juice. No onion, no tomato, no spices. Onion and tomato go separately in the pico."
+          },
+          {
+            "q": "When do you make it?",
+            "a": "Every morning, before opening. Mashed avocado oxidizes in hours — yesterday's guacamole is no longer useful. So we only make what we'll use that day."
+          },
+          {
+            "q": "Do you charge extra for guacamole?",
+            "a": "No. It's included in every burrito that has it in the recipe (California, Pollo Loco, Portobello, Carne Asada Fries). If you want extra guac, we charge it as an add-on."
+          },
+          {
+            "q": "Is it vegan?",
+            "a": "Yes. Avocado, salt, lime. Zero animal-derived ingredients."
+          },
+          {
+            "q": "Why no onion in the guacamole?",
+            "a": "Because onion is already in the pico de gallo. If we also put it in the guac, it would be redundant and cover the avocado flavor. Each element has its place."
+          },
+          {
+            "q": "Where does the avocado come from?",
+            "a": "Organic avocados from a Mexican grower. We receive fresh deliveries several times a week."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Taste it fresh.",
+        "subtitle": "Mashed this morning. Inside the California.",
+        "primary": "Order now",
+        "secondary": "See the full menu"
+      }
+    },
+    "pico-de-gallo": {
+      "meta": {
+        "title": "Pico de Gallo in Mexico City — Farmers Market Tomatoes, Made Daily | Juanberto's",
+        "description": "Pico de gallo made every morning with tomatoes and onions from the local farmers market. Hand-chopped. Inside every California burrito. Roma Sur, CDMX."
+      },
+      "kicker": "Ingredient · Pico de Gallo",
+      "title": "Pico de gallo. Market to burrito in hours.",
+      "subtitle": "Tomatoes and onions from the local farmers market. Hand-chopped that morning. It's the freshness inside the California.",
+      "intro": {
+        "title": "What is pico de gallo?",
+        "lede": "Pico de gallo is the fresh salsa, by definition — hand-chopped, never cooked, never blended. Five ingredients: tomato, onion, cilantro, chile, lime juice, salt. It's what separates a taquería that cares about freshness from one that opens jars.",
+        "body": "At Juanberto's, the pico is where the sourcing actually shows. We buy tomatoes and red onions from a local farmers market every morning — fruit picked that day or the day before, not delivered in boxes from a distribution center. It arrives in the kitchen, we chop it by hand, and before the first customer it's ready. The difference between a market-ripe tomato and a supermarket tomato is huge — and you feel it in the bite.",
+        "callout": "Market to cutting board. Hand-chopped. Every day."
+      },
+      "sourcing": {
+        "kicker": "Where it comes from",
+        "title": "Local farmers market. Chopped every morning.",
+        "subtitle": "Freshness is the difference.",
+        "items": [
+          {
+            "label": "Tomatoes from the market",
+            "body": "We buy tomatoes from a local farmers market every day — ripe fruit picked that week, not supermarket tomatoes ripened with ethylene gas. The flavor is completely different: real sweetness, balanced acidity, actual juice."
+          },
+          {
+            "label": "Red onions from the same trip",
+            "body": "Red onion (not white) is the right pick for pico — sweeter, less aggressive raw, prettier color in the burrito. We buy it alongside the tomatoes, from the same supplier, the same day."
+          },
+          {
+            "label": "Hand-chopped every morning",
+            "body": "We chop the pico by knife every morning, before opening. Industrial choppers = watery pico. Hand-chopped = defined cubes, contained juices, texture you can feel. Cilantro and chile go in at the end so they keep their aroma."
+          }
+        ]
+      },
+      "technique": {
+        "kicker": "How we make it",
+        "title": "Five ingredients. Sharp knife.",
+        "paragraphs": [
+          "Tomato without the seeds that release water — just the firm flesh, in 5-millimeter dice. Red onion in brunoise (an even finer cut). Fresh cilantro, leaves separated and chopped coarse.",
+          "Serrano chile chopped fine, seeds in or out depending on heat level. Fresh lime juice and salt — at the end, not the start, so the tomato doesn't bleed out.",
+          "We taste, adjust, serve in chilled glass jars. Every burrito leaving the kitchen gets pico straight from the jar — never pico that sat on the counter for hours."
+        ]
+      },
+      "usedIn": {
+        "kicker": "Where to find it",
+        "title": "What to order it in.",
+        "subtitle": "Pico goes in almost everything we build.",
+        "items": [
+          {
+            "name": "California Burrito",
+            "desc": "The original. Fresh pico on top of the asada.",
+            "href": "/burrito-california-cdmx",
+            "cta": "Read the guide"
+          },
+          {
+            "name": "Carne Asada Fries",
+            "desc": "Pico over beef, fries, and cheese.",
+            "href": "/menu",
+            "cta": "See on the menu"
+          },
+          {
+            "name": "Breakfast Burrito",
+            "desc": "Eggs, fries, cheddar, and fresh pico.",
+            "href": "/menu",
+            "cta": "See on the menu"
+          },
+          {
+            "name": "Portobello",
+            "desc": "The vegetarian. Pico brings out the portobello.",
+            "href": "/menu",
+            "cta": "See on the menu"
+          }
+        ]
+      },
+      "faq": {
+        "kicker": "FAQ",
+        "title": "About our pico de gallo.",
+        "items": [
+          {
+            "q": "What's in your pico de gallo?",
+            "a": "Tomato, red onion, cilantro, serrano chile, fresh lime juice, and salt. Five ingredients, hand-chopped. No garlic, no oregano, no white onion."
+          },
+          {
+            "q": "Where do you get the tomatoes?",
+            "a": "From the local farmers market. Every morning. Fruit picked that week, not supermarket tomatoes ripened artificially. It's the difference between pico that tastes like something and pico that doesn't."
+          },
+          {
+            "q": "Is it spicy?",
+            "a": "It has fresh serrano chile chopped fine. The base level is moderately spicy — if you want it milder or chile-free, ask when you order."
+          },
+          {
+            "q": "Is it vegan?",
+            "a": "Yes. Vegetables, herbs, chile, lime, salt. Zero animal ingredients."
+          },
+          {
+            "q": "Why red onion and not white?",
+            "a": "Red is sweeter and less aggressive raw. White is sharper and overpowers the tomato. For pico de gallo, red is the right call."
+          },
+          {
+            "q": "Can I get extra pico?",
+            "a": "Yes. Ask for extra pico when you order — we'll give a reasonable amount at no charge, or as an add-on if you want a larger side."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Taste it freshly chopped.",
+        "subtitle": "Market to your burrito in hours. That's the freshness.",
+        "primary": "Order now",
+        "secondary": "See the full menu"
+      }
+    },
+    "crema": {
+      "meta": {
+        "title": "Mexican Sour Cream (Crema) in Mexico City — Grass-fed, No Industrial | Juanberto's",
+        "description": "Juanberto's crema is grass-fed, not industrial. The final layer of the California burrito that softens the carne asada, cheese, and pico. Roma Sur, CDMX."
+      },
+      "kicker": "Ingredient · Crema (Sour Cream)",
+      "title": "Crema. Grass-fed. The final layer.",
+      "subtitle": "Goes in last to soften everything else. Without crema, the California burrito is too intense.",
+      "intro": {
+        "title": "Why crema, and why grass-fed?",
+        "lede": "Crema (sour cream in the US, crema ácida in Mexico) is what binds the textures of the California burrito. The meat has force, the cheddar has fat, the pico has acid, the fries have starch. The crema lowers the volume — it softens, refreshes, balances. Without it, the burrito is flat. With it, the layers come through.",
+        "body": "The problem is that industrial sour cream is mostly air and additives. Thickeners, gums, preservatives. It tastes like filler, not dairy. We use grass-fed crema — from cattle raised on pasture, not grain — which has more body, more dairy flavor, and fewer ingredients on the label. You feel the difference when it's the last layer before the wrap closes.",
+        "callout": "Grass-fed. The layer that closes the California."
+      },
+      "sourcing": {
+        "kicker": "Where it comes from",
+        "title": "Crema from grass-fed cattle.",
+        "subtitle": "Why the cow's diet changes the taste of the crema.",
+        "items": [
+          {
+            "label": "Pasture-Raised Cattle",
+            "body": "Grass-fed means the cow ate pasture, not grains or processed feed. This changes the fat profile of the milk — more omega-3, more dairy flavor, less neutral filler taste."
+          },
+          {
+            "label": "No Gums or Thickeners",
+            "body": "Industrial Mexican crema often uses gums (xanthan, guar) to standardize the texture. Ours doesn't — the thickness comes from the natural fat content of the milk, not additives. Short label, real flavor."
+          },
+          {
+            "label": "Why It Goes In Last",
+            "body": "Crema is the counterweight. It goes in last so its freshness doesn't mix with the heat of the plancha. When you bite the burrito, the first thing you feel is temperature — and the crema is what lowers the intensity."
+          }
+        ]
+      },
+      "technique": {
+        "kicker": "How we use it",
+        "title": "The last layer before the roll.",
+        "paragraphs": [
+          "We assemble the burrito in order: meat with melted cheese, fries, pico, guacamole — and at the end, the line of crema. Never first (it would mix with the heat). Always last.",
+          "Measured amount. It's not a dip — it's a balance. Too much crema and everything tastes like sour cream; too little and it disappears. The right line is a thin cord running the length of the burrito.",
+          "Straight from the fridge to the burrito — cold, not room temperature. The temperature contrast between the hot meat and the cold crema is part of the experience."
+        ]
+      },
+      "usedIn": {
+        "kicker": "Where to find it",
+        "title": "What to order it in.",
+        "subtitle": "Crema shows up in the burritos where balance matters.",
+        "items": [
+          {
+            "name": "California Burrito",
+            "desc": "The original. A line of crema before the final roll.",
+            "href": "/burrito-california-cdmx",
+            "cta": "Read the guide"
+          },
+          {
+            "name": "Carne Asada Fries",
+            "desc": "Crema cord on top of the fries and meat.",
+            "href": "/menu",
+            "cta": "See on the menu"
+          },
+          {
+            "name": "Breakfast Burrito",
+            "desc": "Softens the eggs and cheddar. All day.",
+            "href": "/menu",
+            "cta": "See on the menu"
+          }
+        ]
+      },
+      "faq": {
+        "kicker": "FAQ",
+        "title": "About our crema.",
+        "items": [
+          {
+            "q": "What is crema ácida?",
+            "a": "It's what the US calls sour cream and Mexico calls crema ácida — fresh cream cultured with lactic bacteria. Denser than natural cream, slightly tangy, and the right pick for a California burrito."
+          },
+          {
+            "q": "What does grass-fed mean?",
+            "a": "That the cow whose milk we use was raised on pasture instead of grains. This produces milk with a better nutritional profile (more omega-3) and a more pronounced flavor, especially in cream-based products."
+          },
+          {
+            "q": "Is the crema vegetarian?",
+            "a": "Yes. Cream and lactic cultures. No animal ingredients beyond the milk itself."
+          },
+          {
+            "q": "Is there a no-crema option?",
+            "a": "Yes. Order it 'sin crema' when you order. No extra charge and no price change."
+          },
+          {
+            "q": "Why not use natural cream instead of crema ácida?",
+            "a": "Natural cream is sweeter and less dense — it doesn't hold up to the heat of the burrito and separates. Crema ácida has the right consistency and balance for this recipe."
+          },
+          {
+            "q": "Where does the crema come from?",
+            "a": "From a producer working with grass-fed cattle. We receive fresh deliveries several times a week."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Taste it as the final layer.",
+        "subtitle": "Cold, in a line, right before the wrap. Inside the California.",
+        "primary": "Order now",
+        "secondary": "See the full menu"
+      }
+    },
+    "tortilla-de-harina": {
+      "meta": {
+        "title": "Flour Tortillas in Mexico City — Made Fresh Daily | Juanberto's",
+        "description": "Juanberto's flour tortillas are made fresh every day. Large, soft, warmed on the plancha. No California burrito without them. Roma Sur, CDMX."
+      },
+      "kicker": "Ingredient · Flour Tortilla",
+      "title": "Flour tortilla. Fresh, not from a bag.",
+      "subtitle": "Large, soft, warmed on the plancha. Holds the weight, keeps the heat, doesn't crack at the fold.",
+      "intro": {
+        "title": "Why flour and not corn?",
+        "lede": "The California burrito requires a flour tortilla. It's not preference — it's structure. A normal-size corn tortilla is 12 cm across and cracks the moment you load it with 1/4 kilo of meat, fries, and the rest of the filling. A burrito-size flour tortilla is 30 cm across and holds the weight without splitting. Change the tortilla and it stops being a California burrito.",
+        "body": "But not any flour tortilla works. Packaged flour tortillas — the ones in supermarket bags — crack at the fold, turn rubbery when heated, and taste like preservatives. At Juanberto's we work with fresh tortillas every day, warm them on the plancha right before filling, and they come out flexible, not stiff. That's the detail that separates a good burrito from an acceptable one.",
+        "callout": "Fresh every day. Hot off the plancha. Flexible at the fold."
+      },
+      "sourcing": {
+        "kicker": "Where it comes from",
+        "title": "Tortilla prepared every day.",
+        "subtitle": "Why freshness changes the whole experience.",
+        "items": [
+          {
+            "label": "Made Fresh",
+            "body": "We work with freshly made flour tortillas, not supermarket-packaged ones. The packaged kind have preservatives and emulsifiers to survive weeks on a shelf; ours don't — they last as long as they need to: one day."
+          },
+          {
+            "label": "Burrito-Size, Not Taco-Size",
+            "body": "30 centimeters across, the right size for a burrito. Small flour tortillas (15-20 cm) are for norteño-style flour tacos, not for a California. If the tortilla can't hold 1/4 kilo of filling without splitting, it's the wrong tortilla."
+          },
+          {
+            "label": "Warmed on the Plancha Before Filling",
+            "body": "Before we build each burrito, the tortilla goes on the plancha — a few seconds per side. This makes it flexible and brings it up to temperature so it can take the fold without cracking. A cold tortilla breaks; a warmed one folds."
+          }
+        ]
+      },
+      "technique": {
+        "kicker": "How we work it",
+        "title": "Fast plancha. Firm fold.",
+        "paragraphs": [
+          "The tortilla goes on a hot plancha — a few seconds per side, enough to turn flexible and pick up heat. Too long and it gets rubbery; too short and it cracks at the fold.",
+          "We fill it in order: meat and melted cheese in the center, then fries, pico, guacamole, crema. Spread along the length, not piled at one end, so the fold stays balanced.",
+          "We close it with clean, firm hands. Sides in first, then roll forward. Once closed, the burrito goes back on the plancha for a few seconds to seal the seam and give the tortilla a touch of char."
+        ]
+      },
+      "usedIn": {
+        "kicker": "Where to find it",
+        "title": "In which burrito.",
+        "subtitle": "All our burritos use the fresh flour tortilla.",
+        "items": [
+          {
+            "name": "California Burrito",
+            "desc": "The original. The reason the large flour tortilla exists.",
+            "href": "/burrito-california-cdmx",
+            "cta": "Read the guide"
+          },
+          {
+            "name": "Bean & Cheese",
+            "desc": "Refried beans and cheddar. The simplest version. Same tortilla.",
+            "href": "/menu",
+            "cta": "See on the menu"
+          },
+          {
+            "name": "Breakfast Burrito",
+            "desc": "Eggs, fries, cheddar, pico — all inside the same tortilla. All day.",
+            "href": "/menu",
+            "cta": "See on the menu"
+          },
+          {
+            "name": "Cochinita",
+            "desc": "Yucatán-style cochinita pibil, wrapped in a flour tortilla.",
+            "href": "/menu",
+            "cta": "See on the menu"
+          }
+        ]
+      },
+      "faq": {
+        "kicker": "FAQ",
+        "title": "About our tortillas.",
+        "items": [
+          {
+            "q": "Why flour tortilla instead of corn?",
+            "a": "Because the California burrito requires a large (30 cm) tortilla that can hold 1/4 kilo of filling without splitting. Corn tortillas are smaller and crack at the fold with that much content — perfect for tacos, wrong for burritos."
+          },
+          {
+            "q": "Are the tortillas fresh or packaged?",
+            "a": "Fresh. Made every day, no preservatives. Packaged tortillas carry emulsifiers and additives to last weeks — you feel the difference in texture and flavor."
+          },
+          {
+            "q": "Do you have whole wheat or gluten-free tortillas?",
+            "a": "For now, only traditional white flour. We're evaluating a gluten-free option — message us on WhatsApp if you're interested."
+          },
+          {
+            "q": "Are they vegan?",
+            "a": "Flour tortillas almost always carry shortening (vegetable or animal-derived). Ours are made with vegetable fat — but we'll confirm at order time if you have a strict restriction."
+          },
+          {
+            "q": "Why do you warm the tortilla before filling it?",
+            "a": "So it becomes flexible and doesn't crack at the fold. A cold tortilla splits; a warmed one holds the weight and the shape."
+          },
+          {
+            "q": "Do you make quesadillas with this tortilla?",
+            "a": "The current menu focuses on burritos and chimichangas. If you want a quesadilla, ask at the shop — depending on availability."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Taste it freshly warmed.",
+        "subtitle": "Fresh every day. Sealed on the plancha. Inside the California.",
         "primary": "Order now",
         "secondary": "See the full menu"
       }
