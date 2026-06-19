@@ -116,7 +116,7 @@
       "name": "Aguas Frescas",
       "desc": "Hechas en casa, embotelladas frías. Seis sabores que rotan.",
       "flavors": ["Tamarindo", "Jamaica", "Fresa-Limón", "Guayaba", "Coco", "Maracuyá"],
-      "price": "44"
+      "price": "60"
     },
     "cta": "Ordena el tuyo"
   },
@@ -342,6 +342,106 @@
       "subtitle": "Carne asada. Papas adentro. Hecho a mano. Coahuila 192.",
       "primary": "Ordenar ahora",
       "secondary": "Ver el menú"
+    }
+  },
+  "ingredients": {
+    "carne-asada": {
+      "meta": {
+        "title": "Carne asada en CDMX — Picaña USDA Choice + arrachera grass-fed | Juanberto's",
+        "description": "La carne asada de Juanberto's es una mezcla de picaña USDA Choice y arrachera grass-fed, a la plancha bien caliente. Roma Sur, CDMX."
+      },
+      "kicker": "Ingrediente · Carne asada",
+      "title": "Carne asada. Picaña USDA Choice + arrachera grass-fed.",
+      "subtitle": "El corazón del California burrito. Dos cortes, dos texturas, una sola plancha bien caliente.",
+      "intro": {
+        "title": "¿Qué es la carne asada?",
+        "lede": "Carne asada literalmente significa \"carne a la parrilla\" — pero en California y el norte de México se refiere a un corte de res marinado y cocido a la plancha hasta que los bordes quedan tatemados. Es el alma del taco norteño y la base del California burrito.",
+        "body": "La diferencia entre una carne asada cualquiera y una memorable está en tres cosas: el corte, la calidad de la carne y el calor de la plancha. En Juanberto's no usamos un solo corte. Mezclamos picaña USDA Choice con arrachera grass-fed — dos cortes con propósitos opuestos que juntos hacen una cosa: textura y sabor en cada mordida.",
+        "callout": "Dos cortes. Una mezcla. Sin atajos."
+      },
+      "sourcing": {
+        "kicker": "De dónde viene",
+        "title": "La mezcla: picaña + arrachera.",
+        "subtitle": "Por qué dos cortes en lugar de uno.",
+        "items": [
+          {
+            "label": "Picaña USDA Choice",
+            "body": "La picaña es el corte de la tapa del sirloin — el favorito de los churrascos brasileños. La elegimos en grado USDA Choice por el marmoleo: la grasa entre las fibras se derrite en la plancha y baña la carne en sabor. Es lo que le da la jugosidad que esperas del California."
+          },
+          {
+            "label": "Arrachera grass-fed",
+            "body": "La arrachera (skirt steak) es el corte clásico de la carne asada norteña. La nuestra es grass-fed — res alimentada solo con pasto, lo que le da un sabor más profundo y menos graso. Aporta la masticabilidad y los bordes carbonizados que la picaña sola no daría."
+          },
+          {
+            "label": "La razón de la mezcla",
+            "body": "Picaña sola sería demasiado tierna. Arrachera sola sería demasiado magra. Juntas, cada mordida te da las dos texturas — la untuosidad del marmoleo y el carácter del corte clásico. Es la diferencia entre comer carne y comer carne asada."
+          }
+        ]
+      },
+      "technique": {
+        "kicker": "Cómo la cocinamos",
+        "title": "Plancha bien caliente. Bordes tatemados.",
+        "paragraphs": [
+          "La carne se marina por horas en una mezcla de cítricos, ajo y especias — la receta exacta es de la casa, pero el principio es simple: realzar la carne, no taparla.",
+          "Cuando llega tu orden, va directo a la plancha — bien caliente, no tibia. Buscamos que los bordes se carbonicen mientras el centro queda jugoso. El humo de la plancha es el sazón. Sin microondas, sin vapor, sin atajos.",
+          "Se pica fina al servir, para que entre en el burrito sin desbalancear el resto de las capas. Ese pase final es lo que la convierte en relleno de California."
+        ]
+      },
+      "usedIn": {
+        "kicker": "Dónde la encuentras",
+        "title": "En qué pedirla.",
+        "subtitle": "Dos formas de probar la misma carne.",
+        "items": [
+          {
+            "name": "California Burrito",
+            "desc": "El original. Carne asada, papas adentro, cheddar, guacamole, pico, crema.",
+            "href": "/burrito-california-cdmx",
+            "cta": "Ver la guía"
+          },
+          {
+            "name": "Carne Asada Fries",
+            "desc": "Papas, carne, queso derretido, guacamole, pico. Sin burrito.",
+            "href": "/menu",
+            "cta": "Ver en el menú"
+          }
+        ]
+      },
+      "faq": {
+        "kicker": "Preguntas frecuentes",
+        "title": "Sobre la carne asada.",
+        "items": [
+          {
+            "q": "¿Qué es la carne asada?",
+            "a": "Carne asada significa \"carne a la parrilla\" — un corte de res marinado y cocido a fuego alto, típico del norte de México y del sur de California. Se sirve picada en tacos, burritos o como plato principal."
+          },
+          {
+            "q": "¿Qué corte de carne usan en Juanberto's?",
+            "a": "Mezclamos picaña USDA Choice con arrachera grass-fed. La picaña aporta marmoleo y jugosidad; la arrachera aporta masticabilidad y los bordes tatemados que dan carácter."
+          },
+          {
+            "q": "¿Qué es la picaña?",
+            "a": "La picaña (top sirloin cap, coulotte) es un corte de la parte superior del sirloin, con una capa de grasa que se derrite al cocinarse. Es el corte estrella del churrasco brasileño y uno de los más sabrosos de la res."
+          },
+          {
+            "q": "¿Qué es la arrachera grass-fed?",
+            "a": "La arrachera (skirt steak) es un corte largo y delgado del diafragma. Grass-fed significa que la res se alimentó solo con pasto, no con granos — esto da un sabor más profundo y un perfil de grasa más saludable."
+          },
+          {
+            "q": "¿De dónde viene la carne?",
+            "a": "La picaña es USDA Choice (certificación de calidad del Departamento de Agricultura de EE.UU., grado superior por marmoleo). La arrachera es grass-fed de proveedor certificado. Recibimos pedidos frescos varias veces por semana."
+          },
+          {
+            "q": "¿Cómo se prepara la carne asada?",
+            "a": "Marinamos la mezcla por horas con cítricos, ajo y especias de la casa. Se cocina a la plancha bien caliente — buscamos que los bordes queden carbonizados y el centro jugoso. Se pica fina antes de servir."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Pruébala en un California.",
+        "subtitle": "Recién salida de la plancha. Picada fina. Adentro del burrito.",
+        "primary": "Ordenar ahora",
+        "secondary": "Ver el menú completo"
+      }
     }
   }
 }

@@ -116,7 +116,7 @@
       "name": "Aguas Frescas",
       "desc": "House-made, bottled cold. Six rotating flavors.",
       "flavors": ["Tamarindo", "Jamaica", "Fresa-Limón", "Guayaba", "Coco", "Maracuyá"],
-      "price": "44"
+      "price": "60"
     },
     "cta": "Order yours"
   },
@@ -342,6 +342,106 @@
       "subtitle": "Carne asada. Fries inside. Hand-rolled. Coahuila 192.",
       "primary": "Order now",
       "secondary": "See the menu"
+    }
+  },
+  "ingredients": {
+    "carne-asada": {
+      "meta": {
+        "title": "Carne Asada in Mexico City — USDA Choice Picaña + Grass-fed Skirt Steak | Juanberto's",
+        "description": "Juanberto's carne asada is a blend of USDA Choice picaña and grass-fed skirt steak, seared on a screaming-hot plancha. Roma Sur, CDMX."
+      },
+      "kicker": "Ingredient · Carne Asada",
+      "title": "Carne asada. USDA Choice picaña + grass-fed skirt steak.",
+      "subtitle": "The heart of the California burrito. Two cuts, two textures, one screaming-hot plancha.",
+      "intro": {
+        "title": "What is carne asada?",
+        "lede": "Carne asada literally means \"grilled meat\" — but in California and northern Mexico it specifically refers to a marinated cut of beef seared on a hot plancha until the edges char. It's the soul of the northern taco and the foundation of the California burrito.",
+        "body": "The difference between forgettable carne asada and the real thing comes down to three things: the cut, the quality of the beef, and the heat of the plancha. At Juanberto's we don't use just one cut. We blend USDA Choice picaña with grass-fed skirt steak — two cuts with opposite purposes that together do one job: deliver flavor and texture in every bite.",
+        "callout": "Two cuts. One blend. No shortcuts."
+      },
+      "sourcing": {
+        "kicker": "Where it comes from",
+        "title": "The blend: picaña + skirt steak.",
+        "subtitle": "Why two cuts instead of one.",
+        "items": [
+          {
+            "label": "USDA Choice Picaña",
+            "body": "Picaña is the cap of the top sirloin — the favorite cut of Brazilian churrasco. We source it USDA Choice grade for the marbling: the fat threaded through the muscle melts on the plancha and bastes the meat in flavor. That's where the juiciness in a California comes from."
+          },
+          {
+            "label": "Grass-fed Skirt Steak (Arrachera)",
+            "body": "Skirt steak (arrachera) is the classic northern carne asada cut. Ours is grass-fed — cattle raised on pasture, not grain — which gives a deeper, leaner flavor. It brings the chew and the charred edges that picaña alone wouldn't deliver."
+          },
+          {
+            "label": "Why we blend them",
+            "body": "Picaña alone would be too tender. Skirt steak alone would be too lean. Together, every bite gives you both textures — the richness of the marbling and the character of the classic cut. It's the difference between eating beef and eating carne asada."
+          }
+        ]
+      },
+      "technique": {
+        "kicker": "How we cook it",
+        "title": "Screaming-hot plancha. Charred edges.",
+        "paragraphs": [
+          "The meat marinates for hours in a blend of citrus, garlic, and house spices — the exact recipe stays in-house, but the principle is simple: enhance the beef, don't cover it.",
+          "When your order comes in, the meat goes straight to the plancha — screaming hot, never warm. We want the edges to char while the center stays juicy. The smoke off the plancha is the seasoning. No microwave, no steam table, no shortcuts.",
+          "It's chopped fine to order, so it folds into the burrito without overpowering the other layers. That last pass on the board is what turns it into California burrito filling."
+        ]
+      },
+      "usedIn": {
+        "kicker": "Where to find it",
+        "title": "What to order it in.",
+        "subtitle": "Two ways to taste the same beef.",
+        "items": [
+          {
+            "name": "California Burrito",
+            "desc": "The original. Carne asada, fries inside, cheddar, guacamole, pico, sour cream.",
+            "href": "/burrito-california-cdmx",
+            "cta": "Read the guide"
+          },
+          {
+            "name": "Carne Asada Fries",
+            "desc": "Fries, beef, melted cheese, guacamole, pico. No burrito.",
+            "href": "/menu",
+            "cta": "See on the menu"
+          }
+        ]
+      },
+      "faq": {
+        "kicker": "FAQ",
+        "title": "About our carne asada.",
+        "items": [
+          {
+            "q": "What is carne asada?",
+            "a": "Carne asada means \"grilled meat\" — a marinated cut of beef seared over high heat, traditional in northern Mexico and southern California. It's served chopped in tacos, burritos, or as a main plate."
+          },
+          {
+            "q": "What cut of beef do you use?",
+            "a": "We blend USDA Choice picaña with grass-fed skirt steak. Picaña brings marbling and juiciness; skirt steak brings chew and the charred edges that give it character."
+          },
+          {
+            "q": "What is picaña?",
+            "a": "Picaña (top sirloin cap, also called coulotte) is a cut from the top of the sirloin with a fat cap that renders during cooking. It's the star cut of Brazilian churrasco and one of the most flavorful cuts on the cow."
+          },
+          {
+            "q": "What is grass-fed skirt steak?",
+            "a": "Skirt steak (arrachera in Spanish) is a long, thin cut from the diaphragm. Grass-fed means the cattle was raised entirely on pasture, not finished on grain — which gives a deeper flavor and a healthier fat profile."
+          },
+          {
+            "q": "Where does the beef come from?",
+            "a": "The picaña is USDA Choice (a USDA grade certification for superior marbling). The skirt steak is grass-fed from a certified supplier. We receive fresh deliveries multiple times a week."
+          },
+          {
+            "q": "How is the carne asada prepared?",
+            "a": "We marinate the blend for hours with citrus, garlic, and house spices. It's cooked on a screaming-hot plancha — we want charred edges and a juicy center. It's chopped fine right before serving."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Taste it in a California.",
+        "subtitle": "Fresh off the plancha. Chopped fine. Folded into the burrito.",
+        "primary": "Order now",
+        "secondary": "See the full menu"
+      }
     }
   }
 }
