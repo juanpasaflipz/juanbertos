@@ -103,11 +103,13 @@
       "desc": "Burrito frito de porkbelly crujiente, bañado en queso y papas a la francesa.",
       "price": "320"
     },
-    "special": {
-      "label": "Especial",
-      "name": "Carne Asada Fries",
-      "desc": "Picada y servida sobre papas. (Aquí no hay nachos.)",
-      "price": "290"
+    "fries": {
+      "label": "Las papas",
+      "items": [
+        { "name": "Carne Asada Fries", "desc": "Picada y servida sobre papas. (Aquí no hay nachos.)",                       "price": "320" },
+        { "name": "Chorizo Fries",     "desc": "Chorizo mexicano, queso derretido, crema y pico de gallo sobre papas.",     "price": "270" },
+        { "name": "Porkbelly Fries",   "desc": "Pancetta de puerco crujiente, queso derretido, crema y pico sobre papas.",  "price": "290" }
+      ]
     },
     "cta": "Ordena el tuyo"
   },

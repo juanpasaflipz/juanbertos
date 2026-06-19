@@ -33,6 +33,7 @@ export async function generateMetadata({ params }: Props) {
 
 type SignatureItem = { name: string; desc: string; price: string; badge: string };
 type Tier1Item = { name: string; desc: string };
+type FriesItem = { name: string; desc: string; price: string };
 
 export default async function MenuPage({ params }: Props) {
   const { locale } = await params;
@@ -42,7 +43,7 @@ export default async function MenuPage({ params }: Props) {
   const signatureItems = t.raw("signature.items") as SignatureItem[];
   const tier1Items = t.raw("tier1.items") as Tier1Item[];
   const masterpiece = t.raw("masterpiece") as { name: string; desc: string; price: string };
-  const special = t.raw("special") as { name: string; desc: string; price: string };
+  const friesItems = t.raw("fries.items") as FriesItem[];
 
   const toMenuItem = (item: { name: string; desc: string; price?: string }) => ({
     "@type": "MenuItem",
@@ -81,8 +82,8 @@ export default async function MenuPage({ params }: Props) {
       },
       {
         "@type": "MenuSection",
-        name: t("special.label"),
-        hasMenuItem: [toMenuItem(special)],
+        name: t("fries.label"),
+        hasMenuItem: friesItems.map(toMenuItem),
       },
     ],
   };

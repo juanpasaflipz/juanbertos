@@ -103,11 +103,13 @@
       "desc": "Deep-fried burrito with crispy pork belly, smothered in cheese and fries.",
       "price": "320"
     },
-    "special": {
-      "label": "Special",
-      "name": "Carne Asada Fries",
-      "desc": "Chopped and served over fries. (No nachos here.)",
-      "price": "290"
+    "fries": {
+      "label": "The fries",
+      "items": [
+        { "name": "Carne Asada Fries", "desc": "Chopped and served over fries. (No nachos here.)",                       "price": "320" },
+        { "name": "Chorizo Fries",     "desc": "Mexican chorizo, melted cheese, crema and pico de gallo over fries.",    "price": "270" },
+        { "name": "Porkbelly Fries",   "desc": "Crispy pork belly, melted cheese, crema and pico de gallo over fries.",  "price": "290" }
+      ]
     },
     "cta": "Order yours"
   },

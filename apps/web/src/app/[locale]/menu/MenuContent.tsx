@@ -9,6 +9,7 @@ import { Logo } from "@/components/Logo";
 
 type Tier1Item = { name: string; desc: string };
 type SignatureItem = { name: string; desc: string; price: string; badge?: string };
+type FriesItem = { name: string; desc: string; price: string };
 
 // Photo paths are keyed by burrito name; image filenames don't translate.
 const SIGNATURE_IMAGES: Record<string, string> = {
@@ -27,12 +28,18 @@ const TIER1_IMAGES: Record<string, string> = {
 };
 
 const MASTERPIECE_IMAGE = "/menu/chimichanga.jpg";
-const SPECIAL_IMAGE = "/menu/carne-asada-fries.jpg";
+
+const FRIES_IMAGES: Record<string, string> = {
+  "Carne Asada Fries": "/menu/carne-asada-fries.png",
+  "Chorizo Fries": "/menu/chorizo-fries.png",
+  "Porkbelly Fries": "/menu/pork-belly-fries.png",
+};
 
 export function MenuContent() {
   const t = useTranslations("menuPage");
   const tier1 = t.raw("tier1.items") as Tier1Item[];
   const signature = t.raw("signature.items") as SignatureItem[];
+  const fries = t.raw("fries.items") as FriesItem[];
 
   return (
     <>
@@ -209,42 +216,59 @@ export function MenuContent() {
         </div>
       </section>
 
-      {/* === Special — Carne Asada Fries === */}
+      {/* === Loaded Fries === */}
       <section className="bg-paper-100">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 py-20 sm:py-24">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6 }}
-            className="border-2 border-ink-900 bg-paper-50 shadow-[10px_10px_0_0_var(--color-ink-900)] grid md:grid-cols-2 overflow-hidden"
-          >
-            <div className="relative aspect-[4/3] md:aspect-auto md:min-h-[320px]">
-              <Image
-                src={SPECIAL_IMAGE}
-                alt={t("special.name")}
-                fill
-                sizes="(min-width: 768px) 50vw, 100vw"
-                className="object-cover"
-              />
-            </div>
-            <div className="p-8 sm:p-10 flex flex-col justify-center">
-              <p className="hand-note text-tangerine-600 text-2xl sm:text-3xl -rotate-2">
-                ★ {t("special.label")} ★
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 py-20 sm:py-24">
+          <div className="text-center mb-12">
+            <div className="flex items-center justify-center gap-4">
+              <span className="hidden sm:block h-px w-12 bg-ink-900/30" aria-hidden />
+              <p className="hand-note text-tangerine-600 text-3xl sm:text-4xl -rotate-1">
+                ★ {t("fries.label")} ★
               </p>
-              <h2 className="headline-display text-4xl sm:text-5xl text-ink-900 mt-2">
-                {t("special.name")}
-              </h2>
-              <p className="mt-3 text-lg text-ink-700 leading-relaxed">
-                {t("special.desc")}
-              </p>
-              <div className="mt-5">
-                <span className="headline-display text-5xl sm:text-6xl text-ink-900">
-                  ${t("special.price")}
-                </span>
-              </div>
+              <span className="hidden sm:block h-px w-12 bg-ink-900/30" aria-hidden />
             </div>
-          </motion.div>
+          </div>
+
+          <ul className="grid gap-8 sm:gap-10 sm:grid-cols-2 lg:grid-cols-3">
+            {fries.map((item, i) => {
+              const img = FRIES_IMAGES[item.name];
+              return (
+                <motion.li
+                  key={item.name}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, amount: 0.25 }}
+                  transition={{ duration: 0.55, delay: (i % 3) * 0.06, ease: [0.22, 1, 0.36, 1] }}
+                  className="group bg-paper-50 border-2 border-ink-900 shadow-[6px_6px_0_0_var(--color-ink-900)] hover:shadow-[10px_10px_0_0_var(--color-ink-900)] hover:-translate-y-1 transition-all overflow-hidden flex flex-col"
+                >
+                  {img && (
+                    <div className="relative aspect-[3/2] overflow-hidden bg-ink-100">
+                      <Image
+                        src={img}
+                        alt={`${item.name} — ${item.desc}`}
+                        fill
+                        sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                        className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                    </div>
+                  )}
+                  <div className="p-5 sm:p-6 flex flex-col flex-1">
+                    <div className="flex items-baseline justify-between gap-3">
+                      <h3 className="headline-display text-2xl sm:text-3xl text-ink-900">
+                        {item.name}
+                      </h3>
+                      <span className="headline-display text-3xl text-ink-900 shrink-0">
+                        ${item.price}
+                      </span>
+                    </div>
+                    <p className="mt-3 text-base text-ink-700 leading-relaxed">
+                      {item.desc}
+                    </p>
+                  </div>
+                </motion.li>
+              );
+            })}
+          </ul>
 
           {/* CTA */}
           <div className="text-center mt-16">
