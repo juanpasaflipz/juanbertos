@@ -111,6 +111,13 @@
         { "name": "Porkbelly Fries",   "desc": "Crispy pork belly, melted cheese, crema and pico de gallo over fries.",  "price": "290" }
       ]
     },
+    "aguas": {
+      "label": "Aguas Frescas",
+      "name": "Aguas Frescas",
+      "desc": "House-made, bottled cold. Six rotating flavors.",
+      "flavors": ["Tamarindo", "Jamaica", "Fresa-Limón", "Guayaba", "Coco", "Maracuyá"],
+      "price": "44"
+    },
     "cta": "Order yours"
   },
   "storyPage": {

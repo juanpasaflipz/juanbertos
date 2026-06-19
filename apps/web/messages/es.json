@@ -111,6 +111,13 @@
         { "name": "Porkbelly Fries",   "desc": "Pancetta de puerco crujiente, queso derretido, crema y pico sobre papas.",  "price": "290" }
       ]
     },
+    "aguas": {
+      "label": "Aguas Frescas",
+      "name": "Aguas Frescas",
+      "desc": "Hechas en casa, embotelladas frías. Seis sabores que rotan.",
+      "flavors": ["Tamarindo", "Jamaica", "Fresa-Limón", "Guayaba", "Coco", "Maracuyá"],
+      "price": "44"
+    },
     "cta": "Ordena el tuyo"
   },
   "storyPage": {

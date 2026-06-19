@@ -44,6 +44,7 @@ export default async function MenuPage({ params }: Props) {
   const tier1Items = t.raw("tier1.items") as Tier1Item[];
   const masterpiece = t.raw("masterpiece") as { name: string; desc: string; price: string };
   const friesItems = t.raw("fries.items") as FriesItem[];
+  const aguas = t.raw("aguas") as { name: string; desc: string; price: string; flavors: string[] };
 
   const toMenuItem = (item: { name: string; desc: string; price?: string }) => ({
     "@type": "MenuItem",
@@ -84,6 +85,19 @@ export default async function MenuPage({ params }: Props) {
         "@type": "MenuSection",
         name: t("fries.label"),
         hasMenuItem: friesItems.map(toMenuItem),
+      },
+      {
+        "@type": "MenuSection",
+        name: t("aguas.label"),
+        hasMenuItem: [
+          {
+            ...toMenuItem(aguas),
+            menuAddOn: aguas.flavors.map((flavor) => ({
+              "@type": "MenuItem",
+              name: flavor,
+            })),
+          },
+        ],
       },
     ],
   };

@@ -28,6 +28,7 @@ const TIER1_IMAGES: Record<string, string> = {
 };
 
 const MASTERPIECE_IMAGE = "/menu/chimichanga.jpg";
+const AGUAS_IMAGE = "/menu/aguas_frescas.png";
 
 const FRIES_IMAGES: Record<string, string> = {
   "Carne Asada Fries": "/menu/carne-asada-fries.png",
@@ -40,6 +41,7 @@ export function MenuContent() {
   const tier1 = t.raw("tier1.items") as Tier1Item[];
   const signature = t.raw("signature.items") as SignatureItem[];
   const fries = t.raw("fries.items") as FriesItem[];
+  const aguasFlavors = t.raw("aguas.flavors") as string[];
 
   return (
     <>
@@ -269,17 +271,71 @@ export function MenuContent() {
               );
             })}
           </ul>
+        </div>
+      </section>
 
-          {/* CTA */}
-          <div className="text-center mt-16">
-            <LocaleLink
-              href="/order"
-              className="inline-flex items-center gap-2 rounded-full bg-ink-900 text-paper-100 px-8 py-4 text-base font-semibold hover:bg-tangerine-500 hover:text-ink-900 transition-colors"
-            >
-              {t("cta")}
-              <span aria-hidden>→</span>
-            </LocaleLink>
-          </div>
+      {/* === Aguas Frescas === */}
+      <section className="bg-paper-50">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 py-20 sm:py-24">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.6 }}
+            className="border-2 border-ink-900 bg-paper-100 shadow-[10px_10px_0_0_var(--color-ink-900)] grid md:grid-cols-2 overflow-hidden"
+          >
+            <div className="relative aspect-[4/3] md:aspect-auto md:min-h-[360px] bg-paper-100">
+              <Image
+                src={AGUAS_IMAGE}
+                alt={t("aguas.name")}
+                fill
+                sizes="(min-width: 768px) 50vw, 100vw"
+                className="object-contain p-6 sm:p-8"
+              />
+            </div>
+            <div className="p-8 sm:p-10 flex flex-col justify-center">
+              <p className="hand-note text-tangerine-600 text-2xl sm:text-3xl -rotate-2">
+                ★ {t("aguas.label")} ★
+              </p>
+              <h2 className="headline-display text-4xl sm:text-5xl text-ink-900 mt-2">
+                {t("aguas.name")}
+              </h2>
+              <p className="mt-3 text-lg text-ink-700 leading-relaxed">
+                {t("aguas.desc")}
+              </p>
+              <ul className="mt-5 flex flex-wrap gap-2">
+                {aguasFlavors.map((flavor) => (
+                  <li
+                    key={flavor}
+                    className="inline-flex items-center px-3 py-1 text-sm font-semibold border-2 border-ink-900 bg-paper-50 text-ink-900"
+                  >
+                    {flavor}
+                  </li>
+                ))}
+              </ul>
+              <div className="mt-6 flex items-baseline gap-3">
+                <span className="headline-display text-4xl sm:text-5xl text-ink-900">
+                  ${t("aguas.price")}
+                </span>
+                <span className="text-sm uppercase tracking-[0.18em] text-ink-900/70 font-semibold">
+                  {t("currency")}
+                </span>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* === CTA === */}
+      <section className="bg-paper-100">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 pb-20 sm:pb-24 text-center">
+          <LocaleLink
+            href="/order"
+            className="inline-flex items-center gap-2 rounded-full bg-ink-900 text-paper-100 px-8 py-4 text-base font-semibold hover:bg-tangerine-500 hover:text-ink-900 transition-colors"
+          >
+            {t("cta")}
+            <span aria-hidden>→</span>
+          </LocaleLink>
         </div>
       </section>
     </>
