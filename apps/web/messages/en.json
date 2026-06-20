@@ -227,7 +227,8 @@
         },
         {
           "label": "Papas a la francesa",
-          "body": "The rule. Crispy outside, soft inside. They absorb the asada juices without losing texture."
+          "body": "The rule. Crispy outside, soft inside. They absorb the asada juices without losing texture.",
+          "slug": "papas-a-la-francesa"
         },
         {
           "label": "Melted cheddar",
@@ -387,6 +388,10 @@
       "tortilla-de-harina": {
         "label": "Flour Tortilla",
         "tagline": "Made fresh every day. Warmed on the plancha. Flexible at the fold."
+      },
+      "papas-a-la-francesa": {
+        "label": "French Fries",
+        "tagline": "Crispy outside, soft inside. Inside the burrito. The California rule."
       }
     },
     "hub": {
@@ -1036,6 +1041,116 @@
       "cta": {
         "title": "Taste it freshly warmed.",
         "subtitle": "Fresh every day. Sealed on the plancha. Inside the California.",
+        "primary": "Order now",
+        "secondary": "See the full menu"
+      }
+    },
+    "papas-a-la-francesa": {
+      "meta": {
+        "title": "French Fries Inside the California Burrito | Juanberto's, Mexico City",
+        "description": "The fries inside Juanberto's California burrito. Crispy outside, soft inside, fried right before assembly. Roma Sur, CDMX."
+      },
+      "kicker": "Ingredient · French Fries",
+      "title": "Fries. Inside the burrito.",
+      "subtitle": "The California rule. Crispy outside, soft inside. If there are no fries inside, it's not a California burrito.",
+      "intro": {
+        "title": "Why fries inside a burrito?",
+        "lede": "Because without fries it's not a California burrito. That's the rule. It was born in San Diego in the late 80s when Mexican cooks at border taquerías started putting french fries inside carne asada burritos. It wasn't an experiment — it was an invention. And the invention doesn't work without the fries.",
+        "body": "Fries inside do three things: they soak up the asada juices without disappearing, they add crunch on the first bite, and they bring the starch that balances the richness of the meat and the cheese. Take the fries out of a California burrito and you've got a regular carne asada burrito. Good, but not California.",
+        "callout": "Fries inside. No exceptions. No excuses."
+      },
+      "sourcing": {
+        "kicker": "How we work them",
+        "title": "Crispy outside. Soft inside.",
+        "subtitle": "Three details that separate good fries from memorable ones.",
+        "items": [
+          {
+            "label": "The right cut",
+            "body": "Not too thick (they don't cook through and they break the burrito's balance) and not too thin (they turn rubbery in seconds). We pick a thickness that survives the heat of the filling without losing texture — the classic french fry cut."
+          },
+          {
+            "label": "Double-fry",
+            "body": "The fries go through the oil twice — once at a low temperature to cook the interior, once at a high temperature to seal the exterior. No double-fry, no real crunch. With double-fry, they hold up inside the burrito without going soggy."
+          },
+          {
+            "label": "Salted out of the oil",
+            "body": "Salt goes on while the fries are still hot and slightly damp — that's how it sticks. Salting later is decoration. Fine salt, even distribution, flavor on every fry."
+          }
+        ]
+      },
+      "technique": {
+        "kicker": "Timing is everything",
+        "title": "Just fried. Just rolled.",
+        "paragraphs": [
+          "The fries don't get prepped in advance. They go in the oil the moment burrito assembly starts — as the meat is cooking, the fries are frying. They come out of the oil, drain for a second, and go straight into the tortilla. No heat lamp, no waiting in a holding tray.",
+          "If the fries cool before they hit the burrito, the whole system falls apart — they lose the crunch, release water, soften the tortilla. That's why the order of operations is strict: meat → melted cheese → freshly fried fries → rest of the filling → roll. Under 90 seconds.",
+          "The result is what you expect from a California: when you bite, you feel the meat, the melted cheese, and the crunch of the fry in the same bite. That's what makes the rule worth keeping."
+        ]
+      },
+      "usedIn": {
+        "kicker": "Where to find them",
+        "title": "What to order them in.",
+        "subtitle": "Fries are the base of several dishes — not just the California.",
+        "items": [
+          {
+            "name": "California Burrito",
+            "desc": "The original. Fries are the rule. Inside with the asada.",
+            "href": "/burrito-california-cdmx",
+            "cta": "Read the guide"
+          },
+          {
+            "name": "Carne Asada Fries",
+            "desc": "Fries as the main event — with beef, cheese, guacamole, and pico on top. No burrito.",
+            "href": "/menu",
+            "cta": "See on the menu"
+          },
+          {
+            "name": "Porkbelly Burrito",
+            "desc": "Crispy pork belly, cheese, fries inside, pico.",
+            "href": "/menu",
+            "cta": "See on the menu"
+          },
+          {
+            "name": "Breakfast Burrito",
+            "desc": "Eggs, cheddar, fries, pico. All day.",
+            "href": "/menu",
+            "cta": "See on the menu"
+          }
+        ]
+      },
+      "faq": {
+        "kicker": "FAQ",
+        "title": "About the fries.",
+        "items": [
+          {
+            "q": "Why do you put fries inside the burrito?",
+            "a": "Because the California burrito was born that way in San Diego — french fries inside, alongside the carne asada. It's not an add-on; it's the rule. No fries inside, no California burrito."
+          },
+          {
+            "q": "Why don't they go soggy?",
+            "a": "Because we fry them fresh at the moment of assembly and use a double-fry technique to seal the outside. A just-fried, crispy fry holds up to the heat of the filling for a good while without losing texture."
+          },
+          {
+            "q": "What kind of potato do you use?",
+            "a": "We work with frying-grade potato — high starch, low sugar — which is the right pick for a crispy french fry. We fry them in vegetable oil."
+          },
+          {
+            "q": "Are the fries vegan?",
+            "a": "Yes. Fried in vegetable oil, not animal fat. Vegan-friendly as long as the rest of the burrito is too."
+          },
+          {
+            "q": "Can I order a California burrito without fries?",
+            "a": "Technically you can ask for a burrito without fries, but it stops being a California burrito — it becomes a regular carne asada burrito. If you have a reason (allergy, diet), tell us at order time and we'll build you something that actually works."
+          },
+          {
+            "q": "What oil do you fry in?",
+            "a": "We use food-grade vegetable fat, changed often enough to keep the flavor neutral and the texture crispy. We don't reuse burnt oil."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Taste them inside the California.",
+        "subtitle": "Just-fried. Inside the tortilla. The rule that doesn't bend.",
         "primary": "Order now",
         "secondary": "See the full menu"
       }

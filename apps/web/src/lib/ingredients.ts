@@ -4,7 +4,8 @@ export type IngredientSlug =
   | "guacamole"
   | "pico-de-gallo"
   | "crema"
-  | "tortilla-de-harina";
+  | "tortilla-de-harina"
+  | "papas-a-la-francesa";
 
 export type Ingredient = {
   slug: IngredientSlug;
@@ -65,6 +66,15 @@ export const INGREDIENTS: Record<IngredientSlug, Ingredient> = {
     imageAlt: {
       es: "Tortillas de harina Juanberto's — hechas frescas cada día, calientes y flexibles, listas para enrollar el California burrito",
       en: "Juanberto's flour tortillas — made fresh every day, hot and flexible, ready to wrap the California burrito",
+    },
+    publishedDate: "2026-06-19T00:00:00-06:00",
+  },
+  "papas-a-la-francesa": {
+    slug: "papas-a-la-francesa",
+    image: "/menu/french-fries-image.png",
+    imageAlt: {
+      es: "Papas a la francesa Juanberto's — crujientes por fuera, suaves por dentro, fritas justo antes de ensamblar el burrito",
+      en: "Juanberto's french fries — crispy outside, soft inside, fried right before assembling the burrito",
     },
     publishedDate: "2026-06-19T00:00:00-06:00",
   },

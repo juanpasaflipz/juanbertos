@@ -227,7 +227,8 @@
         },
         {
           "label": "Papas a la francesa",
-          "body": "La regla. Crujientes por fuera, suaves por dentro. Absorben el jugo de la asada sin perder textura."
+          "body": "La regla. Crujientes por fuera, suaves por dentro. Absorben el jugo de la asada sin perder textura.",
+          "slug": "papas-a-la-francesa"
         },
         {
           "label": "Queso cheddar derretido",
@@ -387,6 +388,10 @@
       "tortilla-de-harina": {
         "label": "Tortilla de harina",
         "tagline": "Hecha fresca cada día. Calentada en la plancha. Flexible al doblar."
+      },
+      "papas-a-la-francesa": {
+        "label": "Papas a la francesa",
+        "tagline": "Crujientes por fuera, suaves por dentro. Adentro del burrito. La regla del California."
       }
     },
     "hub": {
@@ -1036,6 +1041,116 @@
       "cta": {
         "title": "Pruébala recién calentada.",
         "subtitle": "Fresca cada día. Sellada en la plancha. Adentro del California.",
+        "primary": "Ordenar ahora",
+        "secondary": "Ver el menú completo"
+      }
+    },
+    "papas-a-la-francesa": {
+      "meta": {
+        "title": "Papas a la francesa en CDMX — Adentro del California burrito | Juanberto's",
+        "description": "Las papas adentro del California burrito en Juanberto's. Crujientes por fuera, suaves por dentro, fritas justo antes de ensamblar. Roma Sur, CDMX."
+      },
+      "kicker": "Ingrediente · Papas a la francesa",
+      "title": "Papas a la francesa. Adentro del burrito.",
+      "subtitle": "La regla del California. Crujientes por fuera, suaves por dentro. Si no llevan papas adentro, no es California burrito.",
+      "intro": {
+        "title": "¿Por qué papas dentro de un burrito?",
+        "lede": "Porque sin papas no es California burrito. Esa es la regla. Nació en San Diego a finales de los 80, cuando cocineros mexicanos de la frontera empezaron a meter papas a la francesa dentro de los burritos de carne asada. No fue un experimento — fue una invención. Y la invención no funciona sin las papas.",
+        "body": "Las papas adentro hacen tres cosas: absorben el jugo de la asada sin perderse, suman crujido al primer mordisco, y agregan el almidón que balancea la grasa de la carne y el queso. Quítales las papas a un California burrito y te queda un burrito de carne asada cualquiera. Bueno, pero no California.",
+        "callout": "Papas adentro. Sin excepciones. Sin excusas."
+      },
+      "sourcing": {
+        "kicker": "Cómo las trabajamos",
+        "title": "Crujientes por fuera. Suaves por dentro.",
+        "subtitle": "Tres detalles que separan papas buenas de papas memorables.",
+        "items": [
+          {
+            "label": "Corte del tamaño correcto",
+            "body": "Ni muy gruesas (no se cocinan parejo y rompen el equilibrio del burrito) ni muy delgadas (se vuelven correosas en segundos). Buscamos el grosor que aguante el calor del relleno sin perder textura — el clásico corte de french fry."
+          },
+          {
+            "label": "Doble fritura",
+            "body": "Las papas pasan dos veces por el aceite — una a temperatura baja para cocinar el interior, otra a temperatura alta para sellar el exterior. Sin doble fritura no hay crujido real. Con doble fritura, aguantan dentro del burrito sin volverse aguadas."
+          },
+          {
+            "label": "Saladas saliendo del aceite",
+            "body": "La sal se pone cuando las papas todavía están húmedas y calientes — así se adhiere. Salar después es salar de adorno. Sal fina, distribución pareja, sabor en cada papa."
+          }
+        ]
+      },
+      "technique": {
+        "kicker": "El timing es todo",
+        "title": "Recién fritas. Recién enrolladas.",
+        "paragraphs": [
+          "Las papas no se preparan con anticipación. Se fríen cuando empieza a ensamblarse el burrito — en cuanto la carne se está cocinando, las papas van al aceite. Salen del aceite, se escurren un segundo, y van directo dentro de la tortilla. Sin pasar por una lámpara, sin esperar pedido.",
+          "Si las papas se enfrían antes de entrar al burrito, todo el sistema falla — pierden el crujido, sueltan agua, ablandan la tortilla. Por eso el orden de operaciones es estricto: carne → queso derretido → papas recién fritas → resto del relleno → rollo. En menos de 90 segundos.",
+          "El resultado es lo que esperas del California: cuando muerdes, sientes la carne, el queso fundido, y el crujido de la papa en la misma mordida. Eso es lo que vale la regla."
+        ]
+      },
+      "usedIn": {
+        "kicker": "Dónde las encuentras",
+        "title": "En qué pedirlas.",
+        "subtitle": "Las papas son la base de varios platos — no solo del California.",
+        "items": [
+          {
+            "name": "California Burrito",
+            "desc": "El original. Las papas son la regla. Adentro junto con la asada.",
+            "href": "/burrito-california-cdmx",
+            "cta": "Ver la guía"
+          },
+          {
+            "name": "Carne Asada Fries",
+            "desc": "Las papas como protagonistas — con carne, queso, guacamole y pico encima. Sin burrito.",
+            "href": "/menu",
+            "cta": "Ver en el menú"
+          },
+          {
+            "name": "Porkbelly Burrito",
+            "desc": "Pancetta de puerco crujiente, queso, papas adentro, pico.",
+            "href": "/menu",
+            "cta": "Ver en el menú"
+          },
+          {
+            "name": "Breakfast Burrito",
+            "desc": "Huevos, cheddar, papas, pico. Servido todo el día.",
+            "href": "/menu",
+            "cta": "Ver en el menú"
+          }
+        ]
+      },
+      "faq": {
+        "kicker": "Preguntas frecuentes",
+        "title": "Sobre las papas.",
+        "items": [
+          {
+            "q": "¿Por qué meten papas dentro del burrito?",
+            "a": "Porque el California burrito nació así en San Diego — papas a la francesa adentro, junto con la carne asada. No es un agregado; es la regla. Sin papas adentro, no es California burrito."
+          },
+          {
+            "q": "¿Por qué no se vuelven aguadas?",
+            "a": "Porque las freímos recién al momento de armar el burrito y usamos doble fritura para sellar el exterior. Una papa recién frita y crujiente aguanta el calor del relleno por bastante tiempo sin perder textura."
+          },
+          {
+            "q": "¿Qué tipo de papa usan?",
+            "a": "Trabajamos con papa de variedad apta para freír — alto contenido de almidón, bajo contenido de azúcar — que es la indicada para una french fry crujiente. La cocinamos en grasa vegetal."
+          },
+          {
+            "q": "¿Las papas son veganas?",
+            "a": "Sí. Se fríen en aceite vegetal, no en grasa animal. Aptas para dieta vegana siempre que el resto del burrito también lo sea."
+          },
+          {
+            "q": "¿Puedo pedir un California burrito sin papas?",
+            "a": "Técnicamente puedes pedir un burrito sin papas, pero deja de ser un California burrito — sería un burrito de carne asada normal. Si tienes una razón (alergia, dieta), avísanos al ordenar y armamos algo que sí funcione para ti."
+          },
+          {
+            "q": "¿De dónde es el aceite que usan?",
+            "a": "Usamos grasa vegetal de calidad alimentaria, cambiada con la frecuencia necesaria para mantener el sabor neutro y la textura crujiente de las papas. No reutilizamos aceite quemado."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Pruébalas adentro del California.",
+        "subtitle": "Recién fritas. Adentro de la tortilla. La regla que no se rompe.",
         "primary": "Ordenar ahora",
         "secondary": "Ver el menú completo"
       }
