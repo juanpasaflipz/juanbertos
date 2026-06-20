@@ -43,28 +43,28 @@ export const INGREDIENTS: Record<IngredientSlug, Ingredient> = {
   },
   "pico-de-gallo": {
     slug: "pico-de-gallo",
-    image: "/menu/california-burrito.jpg",
+    image: "/menu/pico-image.png",
     imageAlt: {
-      es: "Pico de gallo Juanberto's — jitomate y cebolla del mercado, picado cada mañana",
-      en: "Juanberto's pico de gallo — farmers market tomato and onion, hand-chopped daily",
+      es: "Pico de gallo Juanberto's — jitomate y cebolla morada del mercado, picados a mano cada mañana, con cilantro fresco",
+      en: "Juanberto's pico de gallo — farmers market tomato and red onion, hand-chopped every morning with fresh cilantro",
     },
     publishedDate: "2026-06-19T00:00:00-06:00",
   },
   crema: {
     slug: "crema",
-    image: "/menu/breakfast.jpg",
+    image: "/menu/crema-image.png",
     imageAlt: {
-      es: "Crema ácida Juanberto's — grass-fed, la capa final del California burrito",
-      en: "Juanberto's crema (sour cream) — grass-fed, the final layer of the California burrito",
+      es: "Crema ácida Juanberto's — grass-fed, espesa, sin gomas ni espesantes, la capa final del California burrito",
+      en: "Juanberto's crema (sour cream) — grass-fed, thick, no gums or thickeners, the final layer of the California burrito",
     },
     publishedDate: "2026-06-19T00:00:00-06:00",
   },
   "tortilla-de-harina": {
     slug: "tortilla-de-harina",
-    image: "/menu/california-burrito.jpg",
+    image: "/menu/tortilla-image.png",
     imageAlt: {
-      es: "Tortilla de harina Juanberto's — preparada fresca cada día, calentada en la plancha",
-      en: "Juanberto's flour tortilla — made fresh daily, warmed on the plancha",
+      es: "Tortillas de harina Juanberto's — hechas frescas cada día, calientes y flexibles, listas para enrollar el California burrito",
+      en: "Juanberto's flour tortillas — made fresh every day, hot and flexible, ready to wrap the California burrito",
     },
     publishedDate: "2026-06-19T00:00:00-06:00",
   },
