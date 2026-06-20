@@ -11,6 +11,7 @@ const ROUTES = [
   "/locations",
   "/order",
   "/burrito-california-cdmx",
+  "/ingredients",
   ...INGREDIENT_SLUGS.map((slug) => `/ingredients/${slug}` as const),
 ] as const;
 

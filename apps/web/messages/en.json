@@ -5,6 +5,7 @@
   },
   "nav": {
     "menu": "Menu",
+    "ingredients": "Ingredients",
     "story": "Our Story",
     "locations": "Coahuila 192 · Roma Sur",
     "order": "Order"
@@ -346,6 +347,53 @@
       "title": "Try it today.",
       "subtitle": "Carne asada. Fries inside. Hand-rolled. Coahuila 192.",
       "primary": "Order now",
+      "secondary": "See the menu"
+    }
+  },
+  "ingredientsIndex": {
+    "meta": {
+      "title": "California Burrito Ingredients — Juanberto's (Roma Sur, CDMX)",
+      "description": "Meet the ingredients behind every California burrito: USDA Choice picaña, grass-fed skirt steak, Mexican cheddar, organic guacamole, farmers market pico, grass-fed crema, fresh flour tortilla."
+    },
+    "kicker": "Ingredients",
+    "title": "The ingredients of the California burrito.",
+    "subtitle": "Every layer with its story. Where it comes from, why we chose it, how we work it.",
+    "intro": {
+      "lede": "A California burrito has six layers. Each with a reason. Each with a source. The difference between an acceptable burrito and a memorable one lives in these details — which is why we wrote a page on each.",
+      "body": "If you've got 30 seconds, go look at the full California burrito. If you've got 5 minutes, read one ingredient's story. If you've got the day, read all six. Any option works — the burrito tastes the same."
+    },
+    "readMore": "Read the story",
+    "items": {
+      "carne-asada": {
+        "label": "Carne Asada",
+        "tagline": "USDA Choice picaña + grass-fed skirt steak. Two cuts, one screaming-hot plancha."
+      },
+      "queso-cheddar": {
+        "label": "Cheddar Cheese",
+        "tagline": "From local Mexican dairy producers. Melted onto the asada on the plancha."
+      },
+      "guacamole": {
+        "label": "Guacamole",
+        "tagline": "Organic avocado. Hand-mashed every morning. Three ingredients, nothing else."
+      },
+      "pico-de-gallo": {
+        "label": "Pico de Gallo",
+        "tagline": "Tomato and onion from the local farmers market. Hand-chopped before opening."
+      },
+      "crema": {
+        "label": "Crema (Sour Cream)",
+        "tagline": "Grass-fed, no gums. The final layer that closes the burrito."
+      },
+      "tortilla-de-harina": {
+        "label": "Flour Tortilla",
+        "tagline": "Made fresh every day. Warmed on the plancha. Flexible at the fold."
+      }
+    },
+    "hub": {
+      "kicker": "Want to see them together?",
+      "title": "Six layers, one California.",
+      "body": "All six come together in one burrito. If you made it this far, you know more about the California than 99% of the people who eat it.",
+      "cta": "See the California burrito",
       "secondary": "See the menu"
     }
   },

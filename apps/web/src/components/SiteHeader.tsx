@@ -18,6 +18,7 @@ export function SiteHeader() {
 
         <nav className="hidden md:flex items-center gap-7 text-sm font-medium text-ink-700">
           <Link href="/menu" className="hover:text-tangerine-600 transition-colors">{t("menu")}</Link>
+          <Link href="/ingredients" className="hover:text-tangerine-600 transition-colors">{t("ingredients")}</Link>
           <Link href="/story" className="hover:text-tangerine-600 transition-colors">{t("story")}</Link>
           <Link href="/locations" className="hover:text-tangerine-600 transition-colors">{t("locations")}</Link>
         </nav>

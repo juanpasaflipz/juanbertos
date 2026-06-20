@@ -5,6 +5,7 @@
   },
   "nav": {
     "menu": "Menú",
+    "ingredients": "Ingredientes",
     "story": "Nuestra Historia",
     "locations": "Coahuila 192 · Roma Sur",
     "order": "Ordenar"
@@ -346,6 +347,53 @@
       "title": "Pruébalo hoy.",
       "subtitle": "Carne asada. Papas adentro. Hecho a mano. Coahuila 192.",
       "primary": "Ordenar ahora",
+      "secondary": "Ver el menú"
+    }
+  },
+  "ingredientsIndex": {
+    "meta": {
+      "title": "Ingredientes del California Burrito — Juanberto's (Roma Sur, CDMX)",
+      "description": "Conoce los ingredientes detrás de cada California burrito: picaña USDA Choice, arrachera grass-fed, cheddar mexicano, guacamole orgánico, pico del mercado, crema grass-fed, tortilla fresca."
+    },
+    "kicker": "Ingredientes",
+    "title": "Los ingredientes del California burrito.",
+    "subtitle": "Cada capa con su historia. De dónde viene, por qué la elegimos, cómo la trabajamos.",
+    "intro": {
+      "lede": "Un California burrito tiene seis capas. Cada una con su razón. Cada una con su procedencia. La diferencia entre uno aceptable y uno memorable está en estos detalles — y por eso les dedicamos una página a cada uno.",
+      "body": "Si tienes 30 segundos, pasa a ver el California burrito completo. Si tienes 5 minutos, lee la historia de un ingrediente. Si tienes el día, lee los seis. Cualquier opción es válida — el burrito sabe igual."
+    },
+    "readMore": "Leer la historia",
+    "items": {
+      "carne-asada": {
+        "label": "Carne asada",
+        "tagline": "Picaña USDA Choice + arrachera grass-fed. Dos cortes, una plancha bien caliente."
+      },
+      "queso-cheddar": {
+        "label": "Queso cheddar",
+        "tagline": "De productores lácteos mexicanos. Derretido sobre la asada en la plancha."
+      },
+      "guacamole": {
+        "label": "Guacamole",
+        "tagline": "Aguacate orgánico. Machacado a mano cada mañana. Tres ingredientes."
+      },
+      "pico-de-gallo": {
+        "label": "Pico de gallo",
+        "tagline": "Jitomate y cebolla del mercado local. Picado a mano antes de abrir."
+      },
+      "crema": {
+        "label": "Crema ácida",
+        "tagline": "Grass-fed, sin gomas. La capa final que cierra el burrito."
+      },
+      "tortilla-de-harina": {
+        "label": "Tortilla de harina",
+        "tagline": "Hecha fresca cada día. Calentada en la plancha. Flexible al doblar."
+      }
+    },
+    "hub": {
+      "kicker": "¿Quieres verlas juntas?",
+      "title": "Todas las capas, un solo California.",
+      "body": "Las seis se unen en un solo burrito. Si llegaste hasta acá, ya conoces más del California que el 99% de la gente que lo come.",
+      "cta": "Ver el California burrito",
       "secondary": "Ver el menú"
     }
   },
