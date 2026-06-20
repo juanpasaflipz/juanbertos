@@ -25,10 +25,10 @@ export const INGREDIENTS: Record<IngredientSlug, Ingredient> = {
   },
   "queso-cheddar": {
     slug: "queso-cheddar",
-    image: "/menu/bean-cheese.png",
+    image: "/menu/cheddar-cheese-image.png",
     imageAlt: {
-      es: "Queso cheddar derretido Juanberto's — de productores lácteos locales mexicanos",
-      en: "Juanberto's melted cheddar cheese — from local Mexican dairy producers",
+      es: "Queso cheddar rallado Juanberto's — de productores lácteos locales mexicanos, listo para derretir en la plancha",
+      en: "Juanberto's shredded cheddar — from local Mexican dairy producers, ready to melt on the plancha",
     },
     publishedDate: "2026-06-19T00:00:00-06:00",
   },
