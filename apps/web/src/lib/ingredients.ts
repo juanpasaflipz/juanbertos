@@ -16,10 +16,10 @@ export type Ingredient = {
 export const INGREDIENTS: Record<IngredientSlug, Ingredient> = {
   "carne-asada": {
     slug: "carne-asada",
-    image: "/menu/carne-asada-fries.png",
+    image: "/menu/carne-asada-image.png",
     imageAlt: {
-      es: "Carne asada Juanberto's — picaña USDA Choice y arrachera grass-fed",
-      en: "Juanberto's carne asada — USDA Choice picaña and grass-fed skirt steak",
+      es: "Carne asada Juanberto's — arrachera grass-fed recién salida de la plancha, fileteada, con limón y salsa roja",
+      en: "Juanberto's carne asada — grass-fed skirt steak fresh off the plancha, sliced, with lime and red salsa",
     },
     publishedDate: "2026-06-19T00:00:00-06:00",
   },
