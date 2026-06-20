@@ -35,10 +35,10 @@ export const INGREDIENTS: Record<IngredientSlug, Ingredient> = {
   },
   guacamole: {
     slug: "guacamole",
-    image: "/menu/carne-asada-fries.png",
+    image: "/menu/guacamole-image.png",
     imageAlt: {
-      es: "Guacamole Juanberto's — aguacate orgánico, machacado a mano, hecho diario",
-      en: "Juanberto's guacamole — organic avocado, hand-mashed, made daily",
+      es: "Guacamole Juanberto's — aguacate orgánico machacado a mano, limpio, con limón fresco al lado",
+      en: "Juanberto's guacamole — clean hand-mashed organic avocado, with fresh lime on the side",
     },
     publishedDate: "2026-06-19T00:00:00-06:00",
   },
