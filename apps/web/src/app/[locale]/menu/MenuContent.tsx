@@ -6,6 +6,7 @@ import Image from "next/image";
 import { Link as LocaleLink } from "@/i18n/navigation";
 import { PageHero } from "@/components/PageHero";
 import { Logo } from "@/components/Logo";
+import type { IngredientSlug } from "@/lib/ingredients";
 
 type Tier1Item = { name: string; desc: string };
 type SignatureItem = { name: string; desc: string; price: string; badge?: string };
@@ -35,6 +36,57 @@ const FRIES_IMAGES: Record<string, string> = {
   "Chorizo Fries": "/menu/chorizo-fries.png",
   "Porkbelly Fries": "/menu/pork-belly-fries.png",
 };
+
+// Menu item name → ingredient page slugs. Order matters: most distinctive first.
+// Items not listed render no chips. Names match the i18n strings in messages/{es,en}.json.
+const INGREDIENT_SLUGS_BY_ITEM: Record<string, IngredientSlug[]> = {
+  // Signature
+  California: ["carne-asada", "queso-cheddar", "papas-a-la-francesa"],
+  Porkbelly: ["queso-cheddar", "papas-a-la-francesa", "pico-de-gallo"],
+  Ensenada: ["tortilla-de-harina"],
+  "Pollo Loco": ["guacamole", "tortilla-de-harina"],
+  Breakfast: ["queso-cheddar", "papas-a-la-francesa", "pico-de-gallo"],
+  Portobello: ["queso-cheddar", "papas-a-la-francesa", "guacamole"],
+  // Tier 1
+  "El Tijuana": ["tortilla-de-harina"],
+  "Bean & Cheese": ["queso-cheddar", "tortilla-de-harina"],
+  Cochinita: ["tortilla-de-harina"],
+  // Loaded Fries
+  "Carne Asada Fries": ["carne-asada", "papas-a-la-francesa", "queso-cheddar", "guacamole"],
+  "Chorizo Fries": ["papas-a-la-francesa", "queso-cheddar"],
+  "Porkbelly Fries": ["papas-a-la-francesa", "queso-cheddar"],
+};
+
+const MASTERPIECE_SLUGS: IngredientSlug[] = ["carne-asada", "queso-cheddar", "tortilla-de-harina"];
+
+function IngredientChips({
+  slugs,
+  variant,
+}: {
+  slugs: IngredientSlug[] | undefined;
+  variant: "light" | "dark" | "warm";
+}) {
+  const t = useTranslations("ingredientsIndex.items");
+  if (!slugs || slugs.length === 0) return null;
+  const baseClass = "inline-flex items-center px-2.5 py-1 text-xs font-semibold border transition-colors";
+  const variantClass =
+    variant === "dark"
+      ? "border-paper-100/25 text-paper-100/80 hover:border-tangerine-500 hover:text-tangerine-500"
+      : variant === "warm"
+        ? "border-ink-900/40 text-ink-900/80 hover:border-ink-900 hover:bg-ink-900 hover:text-tangerine-500"
+        : "border-ink-900/25 text-ink-700 hover:border-tangerine-500 hover:text-tangerine-600";
+  return (
+    <ul className="mt-4 flex flex-wrap gap-2">
+      {slugs.map((slug) => (
+        <li key={slug}>
+          <LocaleLink href={`/ingredients/${slug}`} className={`${baseClass} ${variantClass}`}>
+            {t(`${slug}.label`)}
+          </LocaleLink>
+        </li>
+      ))}
+    </ul>
+  );
+}
 
 export function MenuContent() {
   const t = useTranslations("menuPage");
@@ -99,6 +151,7 @@ export function MenuContent() {
                   </div>
                   <h3 className="headline-display text-2xl sm:text-3xl mt-4">{item.name}</h3>
                   <p className="text-sm text-paper-100/70 mt-1">{item.desc}</p>
+                  <IngredientChips slugs={INGREDIENT_SLUGS_BY_ITEM[item.name]} variant="dark" />
                 </motion.li>
               );
             })}
@@ -159,6 +212,7 @@ export function MenuContent() {
                     <p className="mt-3 text-base sm:text-lg text-ink-700 leading-relaxed">
                       {item.desc}
                     </p>
+                    <IngredientChips slugs={INGREDIENT_SLUGS_BY_ITEM[item.name]} variant="light" />
                   </div>
                 </motion.li>
               );
@@ -213,6 +267,7 @@ export function MenuContent() {
                   {t("currency")}
                 </span>
               </div>
+              <IngredientChips slugs={MASTERPIECE_SLUGS} variant="warm" />
             </div>
           </div>
         </div>
@@ -266,6 +321,7 @@ export function MenuContent() {
                     <p className="mt-3 text-base text-ink-700 leading-relaxed">
                       {item.desc}
                     </p>
+                    <IngredientChips slugs={INGREDIENT_SLUGS_BY_ITEM[item.name]} variant="light" />
                   </div>
                 </motion.li>
               );
