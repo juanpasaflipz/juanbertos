@@ -31,6 +31,11 @@ const nextConfig: NextConfig = {
         destination: `${CANONICAL_ORIGIN}/es/:path*`,
         permanent: true,
       },
+      {
+        source: "/burrito-california-cdmx",
+        destination: "/es/burrito-california-cdmx",
+        permanent: true,
+      },
     ];
   },
 };
