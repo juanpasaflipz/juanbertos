@@ -5,6 +5,11 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Link as LocaleLink } from "@/i18n/navigation";
 import { PageHero } from "@/components/PageHero";
+import {
+  INGREDIENT_NEIGHBORHOOD,
+  type IngredientSlug,
+} from "@/lib/ingredients";
+import { NEIGHBORHOODS } from "@/lib/neighborhoods";
 
 type SourcingItem = { label: string; body: string };
 type UsedInItem = { name: string; desc: string; href: string; cta: string };
@@ -18,10 +23,16 @@ export function IngredientContent({
   image: string;
 }) {
   const t = useTranslations(`ingredients.${slug}`);
+  const tNbhd = useTranslations("ingredientNeighborhoodCta");
   const sourcingItems = t.raw("sourcing.items") as SourcingItem[];
   const techniqueParagraphs = t.raw("technique.paragraphs") as string[];
   const usedInItems = t.raw("usedIn.items") as UsedInItem[];
   const faqItems = t.raw("faq.items") as FaqItem[];
+
+  const neighborhoodSlug = INGREDIENT_NEIGHBORHOOD[slug as IngredientSlug];
+  const neighborhoodName = neighborhoodSlug
+    ? NEIGHBORHOODS[neighborhoodSlug].name
+    : null;
 
   return (
     <>
@@ -199,6 +210,40 @@ export function IngredientContent({
           </ul>
         </div>
       </section>
+
+      {/* === Order in your neighborhood === */}
+      {neighborhoodSlug && neighborhoodName && (
+        <section className="bg-paper-50">
+          <div className="mx-auto max-w-4xl px-4 sm:px-6 py-16 sm:py-20">
+            <motion.div
+              initial={{ opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.5 }}
+              className="bg-paper-100 border-2 border-ink-900 shadow-[8px_8px_0_0_var(--color-ink-900)] p-8 sm:p-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6"
+            >
+              <div>
+                <p className="hand-note text-tangerine-600 text-2xl sm:text-3xl -rotate-2">
+                  {tNbhd("kicker")}
+                </p>
+                <h3 className="headline-display text-3xl sm:text-4xl text-ink-900 mt-2">
+                  {tNbhd("title", { neighborhood: neighborhoodName })}
+                </h3>
+                <p className="mt-3 text-base sm:text-lg text-ink-700 leading-relaxed max-w-xl">
+                  {tNbhd("body", { neighborhood: neighborhoodName })}
+                </p>
+              </div>
+              <LocaleLink
+                href={`/${neighborhoodSlug}`}
+                className="shrink-0 inline-flex items-center justify-center gap-2 rounded-full bg-tangerine-500 text-ink-900 px-6 py-3 text-base font-semibold hover:translate-y-0.5 transition-transform whitespace-nowrap"
+              >
+                {tNbhd("cta", { neighborhood: neighborhoodName })}
+                <span aria-hidden>→</span>
+              </LocaleLink>
+            </motion.div>
+          </div>
+        </section>
+      )}
 
       {/* === FAQ === */}
       <section className="bg-paper-100">

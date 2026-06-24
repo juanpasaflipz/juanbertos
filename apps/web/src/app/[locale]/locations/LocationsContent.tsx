@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { PageHero } from "@/components/PageHero";
 import { Logo } from "@/components/Logo";
+import { NeighborhoodsGrid } from "@/components/NeighborhoodsGrid";
 import { trackConversion } from "@/lib/analytics";
 
 type HourRow = { days: string; time: string };
@@ -135,6 +136,8 @@ export function LocationsContent() {
           </motion.div>
         </div>
       </section>
+
+      <NeighborhoodsGrid namespace="locationsNeighborhoods" />
     </>
   );
 }

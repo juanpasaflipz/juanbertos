@@ -135,6 +135,78 @@
     "closing": "No tratamos de reinventar nada. Solo queremos traer algo que amamos — algo que nació en San Diego — a una ciudad que amamos. Unidos por una tortilla. Sellados por una regla.",
     "cta": "Pruébala"
   },
+  "homeNeighborhoods": {
+    "kicker": "Encuéntranos en tu barrio",
+    "title": "Burritos cerca de ti en CDMX.",
+    "subtitle": "Una sucursal en Roma Sur. Clientes de Rappi y de la calle desde siete colonias alrededor.",
+    "cta": "Ver burritos aquí",
+    "items": {
+      "burritos-roma-sur": {
+        "name": "Roma Sur",
+        "tagline": "Nuestra casa. Coahuila 192, a una cuadra del Mercado Medellín."
+      },
+      "burritos-roma-norte": {
+        "name": "Roma Norte",
+        "tagline": "10 minutos caminando. Cruzas Cuauhtémoc y ya estás."
+      },
+      "burritos-condesa": {
+        "name": "Condesa",
+        "tagline": "15 minutos en bici. El burrito post-Parque México."
+      },
+      "burritos-juarez": {
+        "name": "Juárez",
+        "tagline": "8 minutos en Uber. El burrito de la comida desde Reforma."
+      },
+      "burritos-narvarte": {
+        "name": "Narvarte",
+        "tagline": "10 minutos al sur. El burrito del domingo en la tarde."
+      },
+      "burritos-del-valle": {
+        "name": "Del Valle",
+        "tagline": "15 minutos al sur. Rappi llega en 20."
+      },
+      "burritos-escandon": {
+        "name": "Escandón",
+        "tagline": "12 minutos al poniente. El secreto del vecino."
+      }
+    }
+  },
+  "locationsNeighborhoods": {
+    "kicker": "Colonias a las que servimos",
+    "title": "Burritos por colonia.",
+    "subtitle": "Estamos en Roma Sur — y a distancia de caminata, bici o Rappi de estas siete colonias de la CDMX.",
+    "cta": "Ver burritos aquí",
+    "items": {
+      "burritos-roma-sur": {
+        "name": "Roma Sur",
+        "tagline": "Coahuila 192. Ya estás aquí."
+      },
+      "burritos-roma-norte": {
+        "name": "Roma Norte",
+        "tagline": "10 minutos caminando por Cuauhtémoc o Mérida."
+      },
+      "burritos-condesa": {
+        "name": "Condesa",
+        "tagline": "15 minutos en bici desde Parque México."
+      },
+      "burritos-juarez": {
+        "name": "Juárez",
+        "tagline": "8 minutos en Uber desde Reforma."
+      },
+      "burritos-narvarte": {
+        "name": "Narvarte",
+        "tagline": "10 minutos al sur. La comida en la oficina, la cena en casa."
+      },
+      "burritos-del-valle": {
+        "name": "Del Valle",
+        "tagline": "15 minutos al sur. Rappi llega en 20."
+      },
+      "burritos-escandon": {
+        "name": "Escandón",
+        "tagline": "12 minutos al poniente. El barrio tranquilo."
+      }
+    }
+  },
   "locationsPage": {
     "kicker": "Encuentra un Juanberto's",
     "title": "Dónde encontrarnos.",
@@ -1155,6 +1227,12 @@
         "secondary": "Ver el menú completo"
       }
     }
+  },
+  "ingredientNeighborhoodCta": {
+    "kicker": "O pídelo en tu colonia",
+    "title": "Pídelo en {neighborhood}.",
+    "body": "Mismo ingrediente, misma receta, mismo burrito enrollado a mano — llega a {neighborhood} por Rappi o se recoge en mostrador en Roma Sur.",
+    "cta": "Ver burritos en {neighborhood}"
   },
   "neighborhoods": {
     "burritos-roma-sur": {

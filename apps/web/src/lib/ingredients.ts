@@ -1,3 +1,5 @@
+import type { NeighborhoodSlug } from "./neighborhoods";
+
 export type IngredientSlug =
   | "carne-asada"
   | "queso-cheddar"
@@ -81,3 +83,13 @@ export const INGREDIENTS: Record<IngredientSlug, Ingredient> = {
 };
 
 export const INGREDIENT_SLUGS = Object.keys(INGREDIENTS) as IngredientSlug[];
+
+export const INGREDIENT_NEIGHBORHOOD: Record<IngredientSlug, NeighborhoodSlug> = {
+  "carne-asada": "burritos-roma-sur",
+  "queso-cheddar": "burritos-condesa",
+  guacamole: "burritos-roma-norte",
+  "pico-de-gallo": "burritos-juarez",
+  crema: "burritos-narvarte",
+  "tortilla-de-harina": "burritos-del-valle",
+  "papas-a-la-francesa": "burritos-escandon",
+};

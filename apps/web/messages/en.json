@@ -135,6 +135,78 @@
     "closing": "We're not trying to reinvent anything. We're just bringing something we love — born in San Diego — to a city we love. Held together by a tortilla. Sealed by a rule.",
     "cta": "Try the rule"
   },
+  "homeNeighborhoods": {
+    "kicker": "Find us in your barrio",
+    "title": "Burritos near you in CDMX.",
+    "subtitle": "One shop in Roma Sur. Rappi and walk-in customers from seven neighborhoods around it.",
+    "cta": "See burritos here",
+    "items": {
+      "burritos-roma-sur": {
+        "name": "Roma Sur",
+        "tagline": "Our home. Coahuila 192, a block from Mercado Medellín."
+      },
+      "burritos-roma-norte": {
+        "name": "Roma Norte",
+        "tagline": "10 minutes walking. Cross Cuauhtémoc and you're here."
+      },
+      "burritos-condesa": {
+        "name": "Condesa",
+        "tagline": "15 minutes by bike. The post-Parque México burrito."
+      },
+      "burritos-juarez": {
+        "name": "Juárez",
+        "tagline": "8 minutes by Uber. The lunch-break burrito from Reforma."
+      },
+      "burritos-narvarte": {
+        "name": "Narvarte",
+        "tagline": "10 minutes south. The Sunday-afternoon burrito."
+      },
+      "burritos-del-valle": {
+        "name": "Del Valle",
+        "tagline": "15 minutes south. Rappi shows up in 20."
+      },
+      "burritos-escandon": {
+        "name": "Escandón",
+        "tagline": "12 minutes west. The neighbor's secret."
+      }
+    }
+  },
+  "locationsNeighborhoods": {
+    "kicker": "Neighborhoods we serve",
+    "title": "Burritos by neighborhood.",
+    "subtitle": "We're in Roma Sur — and within walking, biking, or Rappi distance of these seven CDMX neighborhoods.",
+    "cta": "See burritos here",
+    "items": {
+      "burritos-roma-sur": {
+        "name": "Roma Sur",
+        "tagline": "Coahuila 192. You're already here."
+      },
+      "burritos-roma-norte": {
+        "name": "Roma Norte",
+        "tagline": "10 minutes walking down Cuauhtémoc or Mérida."
+      },
+      "burritos-condesa": {
+        "name": "Condesa",
+        "tagline": "15 minutes by bike from Parque México."
+      },
+      "burritos-juarez": {
+        "name": "Juárez",
+        "tagline": "8 minutes by Uber from Reforma."
+      },
+      "burritos-narvarte": {
+        "name": "Narvarte",
+        "tagline": "10 minutes south. Lunch in the office, dinner at home."
+      },
+      "burritos-del-valle": {
+        "name": "Del Valle",
+        "tagline": "15 minutes south. Rappi gets there in 20."
+      },
+      "burritos-escandon": {
+        "name": "Escandón",
+        "tagline": "12 minutes west. The quiet-neighbor pick."
+      }
+    }
+  },
   "locationsPage": {
     "kicker": "Find a Juanberto's",
     "title": "Where to find us.",
@@ -1155,6 +1227,12 @@
         "secondary": "See the full menu"
       }
     }
+  },
+  "ingredientNeighborhoodCta": {
+    "kicker": "Or order it locally",
+    "title": "Get it in {neighborhood}.",
+    "body": "Same ingredient, same recipe, same hand-rolled burrito — delivered to {neighborhood} via Rappi or picked up at the counter in Roma Sur.",
+    "cta": "See burritos in {neighborhood}"
   },
   "neighborhoods": {
     "burritos-roma-sur": {
