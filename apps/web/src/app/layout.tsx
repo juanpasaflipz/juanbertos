@@ -27,7 +27,7 @@ const sans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://juanbertos.com"),
+  metadataBase: new URL("https://www.juanbertos.com"),
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
