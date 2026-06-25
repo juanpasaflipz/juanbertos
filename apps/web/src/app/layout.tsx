@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { Permanent_Marker, Caveat, DM_Sans } from "next/font/google";
 import Script from "next/script";
+import { AnalyticsRouteTracker } from "@/components/AnalyticsRouteTracker";
 import "./globals.css";
 
 const GOOGLE_ADS_ID = "AW-11120993342";
@@ -46,8 +48,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', '${GOOGLE_ADS_ID}');
-          gtag('config', '${GA4_MEASUREMENT_ID}');
+          gtag('config', '${GOOGLE_ADS_ID}', { send_page_view: false });
+          gtag('config', '${GA4_MEASUREMENT_ID}', { send_page_view: false });
         `}
       </Script>
       <Script id="meta-pixel" strategy="afterInteractive">
@@ -61,9 +63,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           s.parentNode.insertBefore(t,s)}(window, document,'script',
           'https://connect.facebook.net/en_US/fbevents.js');
           fbq('init', '${META_PIXEL_ID}');
-          fbq('track', 'PageView');
         `}
       </Script>
+      <Suspense fallback={null}>
+        <AnalyticsRouteTracker />
+      </Suspense>
     </html>
   );
 }
