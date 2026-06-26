@@ -255,11 +255,11 @@
         "cta": "Order on Rappi",
         "href": "https://www.rappi.com.mx/restaurantes/delivery/687998-juanberto-s?utm_source=app&utm_medium=deeplink&utm_campaign=share"
       },
-      "ubereats": {
-        "title": "Uber Eats",
+      "didi": {
+        "title": "Didi Food",
         "body": "Track the burro from the plancha to your door.",
-        "cta": "Order on Uber Eats",
-        "href": "https://www.ubereats.com/mx/store/juanbertos"
+        "cta": "Order on Didi Food",
+        "href": "https://www.didifood.com.mx/"
       }
     }
   },
@@ -364,7 +364,7 @@
         { "title": "Walk in", "body": "Fastest way. Fresh off the plancha.", "cta": "Get directions", "href": "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX" },
         { "title": "WhatsApp", "body": "Send us a message. We'll have it rolled and ready.", "cta": "Open WhatsApp", "href": "https://wa.me/525621243007?text=Hi%20Juanberto%27s%2C%20I%27d%20like%20a%20California%20burrito" },
         { "title": "Rappi", "body": "Delivery across CDMX in 30 minutes or less.", "cta": "Order on Rappi", "href": "https://www.rappi.com.mx/restaurantes/delivery/687998-juanberto-s?utm_source=app&utm_medium=deeplink&utm_campaign=share" },
-        { "title": "Uber Eats", "body": "Track the burro from the plancha to your door.", "cta": "Order on Uber Eats", "href": "https://www.ubereats.com/mx/store/juanbertos" }
+        { "title": "Didi Food", "body": "Track the burro from the plancha to your door.", "cta": "Order on Didi Food", "href": "https://www.didifood.com.mx/" }
       ]
     },
     "social": {
@@ -404,7 +404,7 @@
         },
         {
           "q": "Do you deliver in Mexico City?",
-          "a": "Yes. We deliver via Rappi and Uber Eats across all of CDMX, usually in 30 minutes or less. You can also order by WhatsApp at +52 56 2124 3007 for pickup."
+          "a": "Yes. We deliver via Rappi and Didi Food across all of CDMX, usually in 30 minutes or less. You can also order by WhatsApp at +52 56 2124 3007 for pickup."
         },
         {
           "q": "What's the difference between a California burrito and a Mission burrito?",
@@ -668,7 +668,7 @@
           },
           {
             "q": "Can I order a burrito without cheese?",
-            "a": "Yes. Order it 'sin queso' — at the shop, via WhatsApp, Rappi, or Uber. No extra charge, no price change."
+            "a": "Yes. Order it 'sin queso' — at the shop, via WhatsApp, Rappi, or Didi Food. No extra charge, no price change."
           },
           {
             "q": "Do you have a double-cheese option?",
@@ -1434,7 +1434,7 @@
         "kicker": "FAQ",
         "title": "From Condesa — common questions.",
         "items": [
-          { "q": "Do you deliver to Condesa?", "a": "Yes. Via Rappi in 15-25 minutes typical. We cover all of Condesa and Hipódromo Condesa. Uber Eats coming soon." },
+          { "q": "Do you deliver to Condesa?", "a": "Yes. Via Rappi in 15-25 minutes typical. We cover all of Condesa and Hipódromo Condesa. Didi Food coming soon." },
           { "q": "How much is delivery?", "a": "Rappi sets the fee based on hour, distance, and demand. Usually between $25 and $45 from Condesa. Not a tip — it's the platform's delivery fee." },
           { "q": "Vegetarian options?", "a": "Yes: the Portobello burrito (portobello, cheese, fries, guacamole, pico) and Bean & Cheese. Both on the Rappi menu." },
           { "q": "Does it arrive hot?", "a": "Yes — we pack to hold temperature. Protein stays hot, the fries inside hold crunch, tortilla stays flexible. If it ever arrives cold, message us on WhatsApp." },
@@ -1647,7 +1647,7 @@
         "kicker": "FAQ",
         "title": "From Del Valle — common questions.",
         "items": [
-          { "q": "Do you deliver to Del Valle?", "a": "Yes — Rappi covers all of Del Valle (Centro, Norte, Sur). Typical delivery time: 25-40 minutes. Uber Eats coming soon." },
+          { "q": "Do you deliver to Del Valle?", "a": "Yes — Rappi covers all of Del Valle (Centro, Norte, Sur). Typical delivery time: 25-40 minutes. Didi Food coming soon." },
           { "q": "How much is delivery?", "a": "Rappi sets the fee by app. Usually between $35 and $55 from Roma Sur to Del Valle. The distance justifies the fee, but the cost is always visible in the app before you confirm." },
           { "q": "Is the delivery fee worth it?", "a": "Depends what you want. If you want corner-taquería convenience, no. If you want the only authentic California burrito in CDMX and want to eat a San Diego recipe without crossing the border — yes." },
           { "q": "Does it arrive hot after 30-40 minutes?", "a": "Yes — we pack for the trip. The meat, fries, and cheese survive the route without losing texture or temperature." },

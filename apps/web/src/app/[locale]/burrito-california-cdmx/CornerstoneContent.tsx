@@ -14,12 +14,12 @@ type Channel = { title: string; body: string; cta: string; href: string };
 type Quote = { quote: string; name: string; where: string };
 type FaqItem = { q: string; a: string };
 
-// Channels appear in this order in the translations: walk-in, WhatsApp, Rappi, Uber Eats.
+// Channels appear in this order in the translations: walk-in, WhatsApp, Rappi, Didi Food.
 const CHANNEL_META: Array<{ conversion?: ConversionType; comingSoon?: boolean }> = [
   { conversion: "directions" },
   { conversion: "order_whatsapp" },
   { conversion: "order_rappi" },
-  { conversion: "order_ubereats", comingSoon: true },
+  { conversion: "order_didi", comingSoon: true },
 ];
 
 const MENU_IMAGES: Record<string, string> = {

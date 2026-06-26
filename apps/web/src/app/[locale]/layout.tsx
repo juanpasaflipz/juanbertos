@@ -104,7 +104,6 @@ export default async function LocaleLayout({ children, params }: Props) {
     acceptsReservations: false,
     sameAs: [
       "https://www.rappi.com.mx/restaurantes/delivery/687998-juanberto-s",
-      "https://www.ubereats.com/mx/store/juanbertos",
     ],
     areaServed: [
       { "@type": "City", name: "Ciudad de México" },
