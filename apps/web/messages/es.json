@@ -95,7 +95,9 @@
         { "name": "Pollo Loco",  "desc": "1/4 de kilo de jugosa pechuga asada, arroz, frijoles, guacamole",                                    "price": "219", "badge": "" },
         { "name": "Breakfast",   "desc": "Tres huevos revueltos, queso cheddar, papas a la francesa, pico de gallo",                           "price": "210", "badge": "Servido todo el día" },
         { "name": "Porkbelly",   "desc": "1/4 de kilo de pancetta de puerco crujiente, queso, papas a la francesa, pico de gallo",             "price": "240", "badge": "" },
-        { "name": "Ensenada",    "desc": "300 gramos de pescado mero del Pacífico marinado, rebozado y capeado servido estilo Ensenada.",      "price": "270", "badge": "" }
+        { "name": "Ensenada",    "desc": "300 gramos de pescado mero del Pacífico marinado, rebozado y capeado servido estilo Ensenada.",      "price": "270", "badge": "" },
+        { "name": "Shrimp",      "desc": "Camarones salteados con ajo y mantequilla, frijoles refritos, arroz mexicano, pico de gallo, guacamole, queso y crema.", "price": "240", "badge": "" },
+        { "name": "Surf-N-Turf", "desc": "Camarones salteados y carne asada de picaña, frijoles refritos, arroz mexicano, pico de gallo, guacamole, queso y crema.", "price": "340", "badge": "mar y tierra" }
       ]
     },
     "masterpiece": {

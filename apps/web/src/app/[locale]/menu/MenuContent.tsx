@@ -20,6 +20,8 @@ const SIGNATURE_IMAGES: Record<string, string> = {
   Breakfast: "/menu/breakfast.jpg",
   Porkbelly: "/menu/porkbelly.jpg",
   Ensenada: "/menu/ensenada.jpg",
+  Shrimp: "/menu/shrimp-burrito.png",
+  "Surf-N-Turf": "/menu/surf-n-turf-burrito.png",
 };
 
 const TIER1_IMAGES: Record<string, string> = {
@@ -47,6 +49,8 @@ const INGREDIENT_SLUGS_BY_ITEM: Record<string, IngredientSlug[]> = {
   "Pollo Loco": ["guacamole", "tortilla-de-harina"],
   Breakfast: ["queso-cheddar", "papas-a-la-francesa", "pico-de-gallo"],
   Portobello: ["queso-cheddar", "papas-a-la-francesa", "guacamole"],
+  Shrimp: ["guacamole", "pico-de-gallo", "tortilla-de-harina"],
+  "Surf-N-Turf": ["carne-asada", "guacamole", "tortilla-de-harina"],
   // Tier 1
   "El Tijuana": ["tortilla-de-harina"],
   "Bean & Cheese": ["queso-cheddar", "tortilla-de-harina"],
