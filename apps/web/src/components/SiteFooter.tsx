@@ -5,6 +5,7 @@ import { Logo } from "./Logo";
 export function SiteFooter() {
   const t = useTranslations("footer");
   const tCorner = useTranslations("cornerstone");
+  const tCompare = useTranslations("burritoVsBurger");
   const year = new Date().getFullYear();
 
   return (
@@ -19,12 +20,24 @@ export function SiteFooter() {
           <h3 className="text-xs uppercase tracking-[0.18em] text-ink-500 font-semibold mb-3">
             {t("guides")}
           </h3>
-          <Link
-            href="/burrito-california-cdmx"
-            className="text-ink-700 hover:text-tangerine-600 transition-colors"
-          >
-            {tCorner("kicker")}
-          </Link>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/burrito-california-cdmx"
+                className="text-ink-700 hover:text-tangerine-600 transition-colors"
+              >
+                {tCorner("kicker")}
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/burrito-vs-burger"
+                className="text-ink-700 hover:text-tangerine-600 transition-colors"
+              >
+                {tCompare("kicker")}
+              </Link>
+            </li>
+          </ul>
         </div>
 
         <div className="flex flex-col md:items-end gap-1 text-sm text-ink-500">

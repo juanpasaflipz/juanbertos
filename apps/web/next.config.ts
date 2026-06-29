@@ -36,6 +36,21 @@ const nextConfig: NextConfig = {
         destination: "/es/burrito-california-cdmx",
         permanent: true,
       },
+      {
+        source: "/burrito-vs-hamburguesa",
+        destination: "/es/burrito-vs-burger",
+        permanent: true,
+      },
+      {
+        source: "/es/burrito-vs-hamburguesa",
+        destination: "/es/burrito-vs-burger",
+        permanent: true,
+      },
+      {
+        source: "/en/burrito-vs-hamburguesa",
+        destination: "/en/burrito-vs-burger",
+        permanent: true,
+      },
     ];
   },
 };

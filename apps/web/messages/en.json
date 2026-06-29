@@ -121,7 +121,12 @@
       "flavors": ["Tamarindo", "Jamaica", "Fresa-Limón", "Guayaba", "Coco", "Maracuyá"],
       "price": "60"
     },
-    "cta": "Order yours"
+    "cta": "Order yours",
+    "compareCta": {
+      "kicker": "Burrito or burger?",
+      "title": "We'll show you why a burrito wins — with data.",
+      "link": "See the comparison →"
+    }
   },
   "storyPage": {
     "kicker": "How we got here",
@@ -423,6 +428,137 @@
       "subtitle": "Carne asada. Fries inside. Hand-rolled. Coahuila 192.",
       "primary": "Order now",
       "secondary": "See the menu"
+    }
+  },
+  "burritoVsBurger": {
+    "meta": {
+      "title": "Burrito vs Burger: Which One Is Better for You? | Juanberto's",
+      "description": "Burrito vs burger, compared on nutrition, fiber, calories, value and sustainability. USDA and FAO data. Why a well-built burrito wins, five out of five."
+    },
+    "kicker": "Burrito vs Burger",
+    "title": "Burrito vs Burger: the honest comparison.",
+    "subtitle": "Both are delicious. But when you compare nutrition, fiber, flexibility, value and carbon footprint, the burrito wins five out of five. Here's why — with data.",
+    "intro": {
+      "lead": "It looks like a simple question — burrito or burger? — and most people answer by craving. But put the two side by side and grade them seriously (calories per gram, grams of fiber, food-group variety, cost per nutrient, kilos of CO₂ per serving) and a clear pattern emerges: the burrito almost always delivers more for less. More nutrients, more fiber, more options, better value, lower footprint.",
+      "body": "That doesn't mean a burger is \"bad.\" It means a well-built burrito is structurally designed to be a more complete plate. A typical fast-food burger is protein (ground beef) between two slices of refined bread, with token vegetables and almost no fiber. A typical burrito carries tortilla, beans, rice, protein, cheese, vegetables and salsa — five or six food groups in a single hand-held piece. That structural difference is what the data reflects.",
+      "verdict": "Winner: the burrito. More nutrients, more fiber, more value, less footprint."
+    },
+    "infographic": {
+      "alt": "Burrito vs Burger infographic comparing nutrition, digestion, flexibility, value and sustainability. The burrito wins in all five categories.",
+      "caption": "The comparison in one image — scroll down for the full breakdown."
+    },
+    "dimensions": {
+      "kicker": "Five dimensions",
+      "title": "Five ways to measure. The burrito wins all five.",
+      "items": [
+        {
+          "label": "Nutrition",
+          "burritoTitle": "More nutritional variety",
+          "burritoBody": "A typical burrito brings together five or six food groups in a single piece: whole grains (tortilla, rice), legumes (beans), lean protein (chicken, steak, fish), dairy (cheese, sour cream), vegetables (pico, guacamole, lettuce). That variety translates into more vitamins, more minerals and a better macronutrient balance per bite.",
+          "burgerTitle": "Less nutritional variety",
+          "burgerBody": "A standard fast-food burger is essentially three components: refined bun, ground beef, cheese, with a token tomato or lettuce slice. USDA data shows it tends to be higher in saturated fat and sodium, and lower in fiber, potassium and essential micronutrients than a burrito of comparable weight."
+        },
+        {
+          "label": "Fiber",
+          "burritoTitle": "Far more fiber",
+          "burritoBody": "One cup of cooked black beans delivers about 15 g of dietary fiber (USDA FoodData Central). Combined with rice, vegetables and a whole-grain tortilla, a well-built burrito can hit 10–18 g of fiber per serving — between 40% and 70% of an adult's daily target. Fiber feeds your gut microbiota, evens out blood sugar, and stretches satiety much longer.",
+          "burgerTitle": "Almost no fiber",
+          "burgerBody": "The average chain burger delivers 2–3 g of fiber, almost all of it from the bun. With no beans and no real vegetables, there's no way to close the gap. The result: you're hungry again sooner, and you end the day having racked up calories that never delivered actual fullness."
+        },
+        {
+          "label": "Flexibility",
+          "burritoTitle": "Far more customizable",
+          "burritoBody": "The burrito format is built to adapt. Vegetarian: swap the protein for portobello or tofu. Low-carb: skip the rice, double the protein, add veggies. Gluten-free: corn tortilla or burrito bowl. Dairy-free: drop the cheese and sour cream. Every combination still feels like a complete dish, not a \"minus something.\"",
+          "burgerTitle": "Less real flexibility",
+          "burgerBody": "A burger allows cosmetic changes — no onions, extra bacon, with or without cheese — but the format is rigid. The vegetarian alternative is usually a processed patty with more sodium than the original beef. No bun means eating meat with a fork. Specific diets almost always force you off the menu entirely."
+        },
+        {
+          "label": "Value",
+          "burritoTitle": "Better value per dollar",
+          "burritoBody": "A standard burrito weighs 400–600 g and costs about the same as a 200–250 g burger. You're paying for roughly double the real food — and because that food includes complex carbs, fiber and vegetables, it keeps you full longer. The cost per gram of useful nutrient is markedly lower.",
+          "burgerTitle": "You pay more for less nutrition",
+          "burgerBody": "In sit-down restaurants, a burger can cost the same as a handmade burrito — but delivers less weight, less variety and more \"empty\" calories per gram. Once you add the fries and soda that almost always come with it, the total cost per meal climbs without the nutritional quality going up."
+        },
+        {
+          "label": "Sustainability",
+          "burritoTitle": "Lower environmental footprint",
+          "burritoBody": "Beef is, by a wide margin, the single highest-impact ingredient in a typical diet for both carbon emissions and water use (Poore & Nemecek, Science 2018). A chicken, fish, bean or veggie burrito carries a meaningfully smaller footprint per serving. Even a beef burrito uses less beef per portion than the average burger, thanks to the beans, rice and vegetables filling out the wrap.",
+          "burgerTitle": "Higher environmental impact",
+          "burgerBody": "A standard 200 g beef burger concentrates the most resource-intensive ingredient into a single serving: producing 1 kg of beef emits roughly 60 kg of CO₂ equivalent and uses more than 15,000 liters of water, per FAO and Our World in Data figures. Eating burgers several times a week is one of the highest-footprint individual choices in modern diets."
+        }
+      ]
+    },
+    "deepDive": {
+      "kicker": "The numbers",
+      "title": "The nutritional comparison, no tricks.",
+      "lede": "Approximate figures for a typical serving of each dish. Numbers vary by recipe — but the pattern holds across nearly every serious comparison.",
+      "rows": [
+        { "metric": "Serving weight", "burrito": "≈ 500 g", "burger": "≈ 220 g" },
+        { "metric": "Calories", "burrito": "650–900 kcal", "burger": "550–800 kcal" },
+        { "metric": "Protein", "burrito": "35–50 g", "burger": "25–35 g" },
+        { "metric": "Fiber", "burrito": "10–18 g", "burger": "2–3 g" },
+        { "metric": "Saturated fat", "burrito": "8–14 g", "burger": "12–18 g" },
+        { "metric": "Sodium", "burrito": "900–1,400 mg", "burger": "1,000–1,500 mg" },
+        { "metric": "Food groups", "burrito": "5–6", "burger": "2–3" },
+        { "metric": "CO₂ footprint (per serving)", "burrito": "1.5–4.5 kg CO₂e", "burger": "4.5–7 kg CO₂e" }
+      ],
+      "footnote": "Sources: USDA FoodData Central, FAO, Our World in Data (Poore & Nemecek, 2018). Ranges cover typical fast-food and sit-down restaurant versions."
+    },
+    "verdict": {
+      "kicker": "The verdict",
+      "title": "The winner: the burrito!",
+      "lede": "More nutrients. More fiber. More value. Lower footprint. Better for you and for the planet — without giving up flavor.",
+      "points": [
+        "Five to six food groups in a single piece, not two or three.",
+        "Three to six times more fiber than a typical burger.",
+        "More real food per dollar, with more satiety per calorie.",
+        "Adapts to vegetarian, gluten-free, dairy-free or low-carb diets without falling apart.",
+        "Up to 70% lower carbon footprint when you pick a non-beef protein."
+      ]
+    },
+    "faq": {
+      "kicker": "Frequently asked",
+      "title": "What people ask.",
+      "items": [
+        {
+          "q": "Is a burrito healthier than a burger?",
+          "a": "On average, yes. A well-built burrito delivers more fiber, more food-group variety and better satiety per calorie than a typical fast-food burger. A burger can absolutely fit into a balanced diet — but as a regular choice, the burrito offers a more complete nutritional profile."
+        },
+        {
+          "q": "How many calories are in a burrito vs a burger?",
+          "a": "A typical restaurant burrito (≈500 g) lands at 650–900 kcal. A chain burger (≈220 g) lands at 550–800 kcal. Calories per gram are similar, but the burrito delivers more nutrients and far more fiber per calorie, which translates into longer satiety."
+        },
+        {
+          "q": "Which has more protein, a burrito or a burger?",
+          "a": "The burrito wins on total protein: 35–50 g per serving versus 25–35 g in a standard burger. The protein comes from a more diverse mix — meat (or chicken, fish, tofu), beans, cheese and the tortilla — which means a broader amino-acid profile."
+        },
+        {
+          "q": "Which is more filling?",
+          "a": "The burrito. The combination of fiber (from beans and vegetables), protein and complex carbs slows gastric emptying and keeps blood sugar steady. A burger, low on fiber and high on refined bread, typically leaves you hungry again sooner."
+        },
+        {
+          "q": "Which is more flexible for different diets?",
+          "a": "The burrito, by a wide margin. It accepts vegetarian (Portobello), gluten-free (corn tortilla or bowl), dairy-free, low-carb or high-protein versions without losing its integrity. The burger format permits far fewer real changes without leaving the menu."
+        },
+        {
+          "q": "Which has the bigger environmental impact?",
+          "a": "The beef burger, by a meaningful margin. Beef is the highest-footprint common ingredient for both carbon emissions and water use. A chicken, fish or vegetable burrito can carry up to 70% lower CO₂-equivalent emissions per serving."
+        },
+        {
+          "q": "Which travels better for takeout or delivery?",
+          "a": "The burrito holds its texture and temperature far better. The wax paper and the tortilla act as a natural insulating wrapper. A burger's bun goes soggy quickly under steam, and the layers separate in transit."
+        },
+        {
+          "q": "Which is cheaper per serving?",
+          "a": "Almost always the burrito, especially weight for weight. A large burrito usually offers double the food for a similar price, with better value per gram of useful nutrient — particularly once you add the fries and soda that typically come with a burger meal."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Try the winner.",
+      "subtitle": "Carne asada, picaña, chicken, fish, portobello — or the classic California with fries inside. Coahuila 192, Roma Sur — or via WhatsApp, Rappi and Didi Food.",
+      "primary": "See the menu",
+      "secondary": "Order now"
     }
   },
   "ingredientsIndex": {

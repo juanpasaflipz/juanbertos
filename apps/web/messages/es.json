@@ -121,7 +121,12 @@
       "flavors": ["Tamarindo", "Jamaica", "Fresa-Limón", "Guayaba", "Coco", "Maracuyá"],
       "price": "60"
     },
-    "cta": "Ordena el tuyo"
+    "cta": "Ordena el tuyo",
+    "compareCta": {
+      "kicker": "¿Burrito o hamburguesa?",
+      "title": "Te decimos por qué un burrito le gana — con datos.",
+      "link": "Ver la comparativa →"
+    }
   },
   "storyPage": {
     "kicker": "Cómo llegamos aquí",
@@ -423,6 +428,137 @@
       "subtitle": "Carne asada. Papas adentro. Hecho a mano. Coahuila 192.",
       "primary": "Ordenar ahora",
       "secondary": "Ver el menú"
+    }
+  },
+  "burritoVsBurger": {
+    "meta": {
+      "title": "Burrito vs Hamburguesa: ¿Cuál es Mejor para Ti? | Juanberto's",
+      "description": "Burrito vs hamburguesa comparado en nutrición, fibra, calorías, valor y sostenibilidad. Datos de USDA y FAO. Por qué un burrito balanceado gana, casi siempre."
+    },
+    "kicker": "Burrito vs Hamburguesa",
+    "title": "Burrito vs Hamburguesa: la comparativa honesta.",
+    "subtitle": "Ambos son deliciosos. Pero cuando comparas nutrición, fibra, flexibilidad, valor y huella ambiental, el burrito gana cinco de cinco. Aquí está el porqué — con datos.",
+    "intro": {
+      "lead": "La pregunta parece simple — ¿burrito o hamburguesa? — y la mayoría de la gente la responde por antojo. Pero si pones los dos sobre la mesa y los comparas en serio (calorías por gramo, gramos de fibra, variedad de grupos alimenticios, costo por nutriente, kilos de CO₂ por porción), aparece un patrón claro: el burrito casi siempre entrega más por menos. Más nutrientes, más fibra, más opciones, mejor precio, menor huella.",
+      "body": "Eso no significa que una hamburguesa sea \"mala\". Significa que un burrito, bien hecho, está estructuralmente diseñado para ser un platillo más completo. Una hamburguesa de fast food típica es una proteína (carne molida) entre dos rebanadas de pan refinado, con poca verdura y casi nada de fibra. Un burrito típico incluye tortilla, frijoles, arroz, proteína, queso, verduras y salsa — cinco o seis grupos alimenticios en una sola pieza. Esa diferencia estructural es la que se traduce en los datos.",
+      "verdict": "Ganador: el burrito. Más nutrientes, más fibra, más valor, menos huella."
+    },
+    "infographic": {
+      "alt": "Infografía Burrito vs Hamburguesa comparando nutrición, digestión, flexibilidad, valor y sostenibilidad. El burrito gana en las cinco categorías.",
+      "caption": "La comparativa en una sola imagen — desliza hacia abajo para el análisis completo."
+    },
+    "dimensions": {
+      "kicker": "Cinco dimensiones",
+      "title": "Cinco formas de medir. Cinco veces gana el burrito.",
+      "items": [
+        {
+          "label": "Nutrición",
+          "burritoTitle": "Más variedad nutricional",
+          "burritoBody": "Un burrito típico junta cinco o seis grupos alimenticios en una sola pieza: granos integrales (tortilla, arroz), legumbres (frijoles), proteína magra (pollo, picaña, pescado), lácteos (queso, crema), verduras (pico, guacamole, lechuga). Esa variedad significa más vitaminas, más minerales y un perfil de macronutrientes mejor balanceado por bocado.",
+          "burgerTitle": "Menos variedad nutricional",
+          "burgerBody": "Una hamburguesa de fast food estándar se reduce esencialmente a tres componentes: pan refinado, carne molida y queso, con una rebanada de jitomate o lechuga como acento. Según datos de USDA, suele ser más alta en grasas saturadas y sodio, y más baja en fibra, potasio y micronutrientes esenciales que un burrito de peso comparable."
+        },
+        {
+          "label": "Fibra",
+          "burritoTitle": "Mucha más fibra",
+          "burritoBody": "Una taza de frijoles negros cocidos aporta unos 15 g de fibra (USDA FoodData Central). Sumado al arroz, las verduras y la tortilla integral, un burrito balanceado puede entregar 10–18 g de fibra por porción — entre 40% y 70% del requerimiento diario para un adulto. La fibra alimenta a tu microbiota, regula el azúcar en sangre y prolonga la saciedad.",
+          "burgerTitle": "Casi sin fibra",
+          "burgerBody": "Una hamburguesa de cadena promedio aporta entre 2 y 3 g de fibra, principalmente del pan. Sin frijoles ni verduras significativas, no hay manera de cerrar la brecha. El resultado: vuelves a tener hambre antes, y a lo largo del día acumulas calorías que no entregaron saciedad real."
+        },
+        {
+          "label": "Flexibilidad",
+          "burritoTitle": "Más personalizable",
+          "burritoBody": "El formato del burrito está hecho para adaptarse. Vegetariano: cambia la proteína por hongos portobello o tofu. Bajo en carbohidratos: pídelo sin arroz, con doble proteína y verduras. Sin gluten: tortilla de maíz o burrito bowl. Sin lácteos: fuera el queso y la crema. Cada combinación sigue siendo un platillo completo, no un \"menos algo\".",
+          "burgerTitle": "Menos flexibilidad real",
+          "burgerBody": "Una hamburguesa permite cambios cosméticos — sin cebolla, doble tocino, con o sin queso — pero el formato es rígido. La opción vegetariana suele ser un patty procesado con más sodio que la carne original. Sin pan significa comer carne con un cuchillo y tenedor. Las dietas específicas casi siempre obligan a salir del menú."
+        },
+        {
+          "label": "Valor",
+          "burritoTitle": "Mejor valor por peso pagado",
+          "burritoBody": "Un burrito grande suele pesar entre 400 y 600 gramos y cuesta lo mismo que una hamburguesa de 200 a 250 gramos. Estás pagando esencialmente el doble de comida real — y porque incluye carbohidratos complejos, fibra y verduras, esa comida también te llena por más tiempo. El costo por gramo de nutriente útil es marcadamente menor.",
+          "burgerTitle": "Pagas más por menos nutrición",
+          "burgerBody": "En restaurantes de mantel largo, una hamburguesa puede costar lo mismo que un burrito artesanal — pero entrega menos peso, menos variedad y más calorías \"vacías\" por peso. Si sumas las papas y el refresco que casi siempre la acompañan, el costo total por comida sube sin que mejore la calidad nutricional."
+        },
+        {
+          "label": "Sostenibilidad",
+          "burritoTitle": "Menor huella ambiental",
+          "burritoBody": "La carne de res es, por mucho, el ingrediente con mayor huella de carbono y consumo de agua de la dieta común (Poore & Nemecek, Science 2018). Un burrito de pollo, pescado, frijoles o vegetales tiene una huella significativamente menor por porción. Incluso un burrito de carne pesa con menos res que una hamburguesa promedio gracias a los frijoles, arroz y verduras.",
+          "burgerTitle": "Mayor impacto ambiental",
+          "burgerBody": "Una hamburguesa de res estándar de 200 g concentra el ingrediente más intensivo en recursos en una sola porción: producir 1 kg de carne de res emite alrededor de 60 kg de CO₂ equivalente y usa más de 15,000 litros de agua, según datos de la FAO y de Our World in Data. Comer hamburguesas varias veces por semana es una de las decisiones individuales con mayor huella climática."
+        }
+      ]
+    },
+    "deepDive": {
+      "kicker": "Los números",
+      "title": "El comparativo nutricional, sin trucos.",
+      "lede": "Cifras aproximadas para una porción típica de cada platillo. Variarán según la receta exacta — pero el patrón se sostiene en prácticamente todas las comparaciones serias.",
+      "rows": [
+        { "metric": "Peso por porción", "burrito": "≈ 500 g", "burger": "≈ 220 g" },
+        { "metric": "Calorías", "burrito": "650–900 kcal", "burger": "550–800 kcal" },
+        { "metric": "Proteína", "burrito": "35–50 g", "burger": "25–35 g" },
+        { "metric": "Fibra", "burrito": "10–18 g", "burger": "2–3 g" },
+        { "metric": "Grasas saturadas", "burrito": "8–14 g", "burger": "12–18 g" },
+        { "metric": "Sodio", "burrito": "900–1,400 mg", "burger": "1,000–1,500 mg" },
+        { "metric": "Grupos alimenticios", "burrito": "5–6", "burger": "2–3" },
+        { "metric": "Huella de CO₂ (porción)", "burrito": "1.5–4.5 kg CO₂e", "burger": "4.5–7 kg CO₂e" }
+      ],
+      "footnote": "Fuentes: USDA FoodData Central, FAO, Our World in Data (Poore & Nemecek 2018). Los rangos cubren versiones típicas de fast food y de restaurante."
+    },
+    "verdict": {
+      "kicker": "El veredicto",
+      "title": "¡El ganador: el burrito!",
+      "lede": "Más nutrientes. Más fibra. Más valor. Menos huella. Mejor para ti y para el planeta — sin renunciar al sabor.",
+      "points": [
+        "Cinco a seis grupos alimenticios en una sola pieza, no dos o tres.",
+        "Tres a seis veces más fibra que una hamburguesa típica.",
+        "Más comida real por peso pagado, con más saciedad por caloría.",
+        "Adaptable a vegetariano, sin gluten, sin lácteos o bajo en carbos sin perder integridad.",
+        "Hasta 70% menos huella de carbono cuando eliges proteínas distintas a la res."
+      ]
+    },
+    "faq": {
+      "kicker": "Preguntas frecuentes",
+      "title": "Lo que se pregunta la gente.",
+      "items": [
+        {
+          "q": "¿Es más sano un burrito que una hamburguesa?",
+          "a": "En promedio sí. Un burrito balanceado entrega más fibra, más variedad de grupos alimenticios y mejor saciedad por caloría que una hamburguesa típica de fast food. Una hamburguesa puede ser perfectamente válida en una dieta equilibrada, pero como elección regular, el burrito ofrece un perfil nutricional más completo."
+        },
+        {
+          "q": "¿Cuántas calorías tiene un burrito vs una hamburguesa?",
+          "a": "Un burrito típico de restaurante (~500 g) trae entre 650 y 900 kcal. Una hamburguesa de cadena (~220 g) trae entre 550 y 800 kcal. Las calorías por gramo son similares, pero el burrito entrega más nutrientes y más fibra por esa misma caloría, lo que se traduce en mayor saciedad."
+        },
+        {
+          "q": "¿Qué tiene más proteína: un burrito o una hamburguesa?",
+          "a": "Un burrito gana en proteína total: 35–50 g por porción versus 25–35 g de una hamburguesa estándar. La proteína viene combinada de la carne (o pollo, pescado, tofu), los frijoles, el queso y la tortilla — una mezcla más diversa de aminoácidos."
+        },
+        {
+          "q": "¿Cuál llena más?",
+          "a": "El burrito. La combinación de fibra (frijoles, verduras), proteína y carbohidratos complejos retrasa el vaciado gástrico y mantiene estables los niveles de azúcar en sangre. La hamburguesa, con poca fibra y pan refinado, suele dejar hambre más rápido."
+        },
+        {
+          "q": "¿Cuál es más versátil para diferentes dietas?",
+          "a": "El burrito, por mucho. Acepta versiones vegetarianas (Portobello), sin gluten (con tortilla de maíz o en bowl), sin lácteos, bajas en carbohidratos o altas en proteína sin perder integridad. La hamburguesa permite cambios mucho más limitados sin salirse del formato."
+        },
+        {
+          "q": "¿Cuál tiene mayor impacto ambiental?",
+          "a": "La hamburguesa de res, por una diferencia importante. La carne de res es el ingrediente común con mayor huella de carbono y consumo de agua. Un burrito de pollo, pescado o vegetales puede tener hasta 70% menos emisiones de CO₂ equivalente por porción."
+        },
+        {
+          "q": "¿Cuál es mejor para llevar o domicilio?",
+          "a": "El burrito conserva mucho mejor su textura y temperatura. El papel encerado y la tortilla actúan como envoltorio aislante natural. La hamburguesa pierde rapidamente la textura del pan al vapor y los ingredientes se separan en el traslado."
+        },
+        {
+          "q": "¿Cuál es más barato por porción?",
+          "a": "Casi siempre el burrito, sobre todo si comparas peso contra peso. Un burrito grande suele ofrecer el doble de comida por un precio similar, con mejor valor por gramo de nutriente útil — especialmente si incluyes acompañamientos típicos de la hamburguesa (papas, refresco)."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Prueba el ganador.",
+      "subtitle": "Carne asada, picaña, pollo, pescado, portobello, o el clásico California con papas adentro. Coahuila 192, Roma Sur — o por WhatsApp, Rappi y Didi Food.",
+      "primary": "Ver el menú",
+      "secondary": "Ordenar ahora"
     }
   },
   "ingredientsIndex": {

@@ -386,9 +386,31 @@ export function MenuContent() {
         </div>
       </section>
 
+      {/* === Burrito vs Burger cross-link === */}
+      <section className="bg-paper-100">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 pt-10 sm:pt-14">
+          <LocaleLink
+            href="/burrito-vs-burger"
+            className="group block border-2 border-ink-900 bg-paper-50 p-6 sm:p-8 shadow-[6px_6px_0_0_var(--color-ink-900)] hover:shadow-[10px_10px_0_0_var(--color-ink-900)] hover:-translate-y-0.5 transition-all"
+          >
+            <p className="hand-note text-tangerine-600 text-2xl sm:text-3xl -rotate-1">
+              {t("compareCta.kicker")}
+            </p>
+            <div className="mt-2 sm:flex sm:items-center sm:justify-between sm:gap-6">
+              <h3 className="headline-display text-2xl sm:text-3xl text-ink-900 leading-snug">
+                {t("compareCta.title")}
+              </h3>
+              <span className="mt-3 sm:mt-0 inline-flex shrink-0 text-ink-900 font-semibold group-hover:text-tangerine-600 transition-colors">
+                {t("compareCta.link")}
+              </span>
+            </div>
+          </LocaleLink>
+        </div>
+      </section>
+
       {/* === CTA === */}
       <section className="bg-paper-100">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 pb-20 sm:pb-24 text-center">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 pt-10 pb-20 sm:pt-12 sm:pb-24 text-center">
           <LocaleLink
             href="/order"
             className="inline-flex items-center gap-2 rounded-full bg-ink-900 text-paper-100 px-8 py-4 text-base font-semibold hover:bg-tangerine-500 hover:text-ink-900 transition-colors"
