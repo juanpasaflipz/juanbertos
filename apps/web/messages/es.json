@@ -111,7 +111,8 @@
       "items": [
         { "name": "Carne Asada Fries", "desc": "Picada y servida sobre papas. (Aquí no hay nachos.)",                       "price": "299" },
         { "name": "Chorizo Fries",     "desc": "Chorizo mexicano, queso derretido, crema y pico de gallo sobre papas.",     "price": "299" },
-        { "name": "Porkbelly Fries",   "desc": "Pancetta de puerco crujiente, queso derretido, crema y pico sobre papas.",  "price": "299" }
+        { "name": "Porkbelly Fries",   "desc": "Pancetta de puerco crujiente, queso derretido, crema y pico sobre papas.",  "price": "299" },
+        { "name": "Birria Fries",      "desc": "Birria de res deshebrada, queso derretido, guacamole, cebolla blanca y cilantro sobre papas.", "price": "269" }
       ]
     },
     "aguas": {

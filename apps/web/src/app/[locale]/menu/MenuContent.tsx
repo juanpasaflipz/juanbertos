@@ -37,6 +37,7 @@ const FRIES_IMAGES: Record<string, string> = {
   "Carne Asada Fries": "/menu/carne-asada-fries.png",
   "Chorizo Fries": "/menu/chorizo-fries.png",
   "Porkbelly Fries": "/menu/pork-belly-fries.png",
+  "Birria Fries": "/menu/birria-fries.png",
 };
 
 // Menu item name → ingredient page slugs. Order matters: most distinctive first.
@@ -59,6 +60,7 @@ const INGREDIENT_SLUGS_BY_ITEM: Record<string, IngredientSlug[]> = {
   "Carne Asada Fries": ["carne-asada", "papas-a-la-francesa", "queso-cheddar", "guacamole"],
   "Chorizo Fries": ["papas-a-la-francesa", "queso-cheddar"],
   "Porkbelly Fries": ["papas-a-la-francesa", "queso-cheddar"],
+  "Birria Fries": ["papas-a-la-francesa", "queso-cheddar", "guacamole"],
 };
 
 const MASTERPIECE_SLUGS: IngredientSlug[] = ["carne-asada", "queso-cheddar", "tortilla-de-harina"];

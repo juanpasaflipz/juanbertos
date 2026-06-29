@@ -111,7 +111,8 @@
       "items": [
         { "name": "Carne Asada Fries", "desc": "Chopped and served over fries. (No nachos here.)",                       "price": "299" },
         { "name": "Chorizo Fries",     "desc": "Mexican chorizo, melted cheese, crema and pico de gallo over fries.",    "price": "299" },
-        { "name": "Porkbelly Fries",   "desc": "Crispy pork belly, melted cheese, crema and pico de gallo over fries.",  "price": "299" }
+        { "name": "Porkbelly Fries",   "desc": "Crispy pork belly, melted cheese, crema and pico de gallo over fries.",  "price": "299" },
+        { "name": "Birria Fries",      "desc": "Shredded beef birria, melted cheese, guacamole, white onion and cilantro over fries.", "price": "269" }
       ]
     },
     "aguas": {
