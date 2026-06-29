@@ -562,6 +562,99 @@
       "secondary": "Ordenar ahora"
     }
   },
+  "burritoNotASnack": {
+    "meta": {
+      "title": "Por qué un burrito California no es un snack | Juanberto's",
+      "description": "En la CDMX, 'burrito' significa una tortilla de harina de 20 cm con un solo guiso. En California significa una comida completa. Aquí está por qué — y de dónde viene la confusión."
+    },
+    "kicker": "El malentendido",
+    "title": "Por qué un burrito California no es un snack.",
+    "subtitle": "El problema no es que en la CDMX no les gusten los burritos. Es que la mayoría nunca ha probado un burrito California de verdad. Aclarémoslo.",
+    "intro": {
+      "lead": "Cuando dices 'burrito' en CDMX, casi todos piensan en una tortilla de harina chica con un solo guiso — tinga, chicharrón, deshebrada — comido de pie por 30 a 60 pesos. Básicamente es un taco en tortilla de harina. Un snack.",
+      "body": "Cuando dices 'burrito' en San Diego, la imagen es completamente otra. Carne asada, queso, papas, frijoles, guacamole, pico, crema — todo envuelto en un solo objeto que pesa entre 600 y 900 gramos. Eso no es un snack. Es la comida y la cena en el mismo paquete.",
+      "verdict": "Misma palabra. Dos comidas completamente distintas."
+    },
+    "misconception": {
+      "kicker": "Cómo la CDMX aprendió 'burrito'",
+      "title": "Una expectativa silenciosamente mal calibrada.",
+      "lede": "Durante décadas, el 'burrito' que la mayoría en el centro de México ha probado realmente se veía así:",
+      "items": [
+        "Tortilla de harina de 20 cm.",
+        "Un solo guiso. Normalmente tinga, chicharrón o deshebrada.",
+        "Delgado. Comido de pie.",
+        "30 a 60 pesos.",
+        "Más cerca de un taco que de una comida."
+      ],
+      "outro": "Entonces alguien escucha 'burrito' y el cerebro automáticamente rellena el blanco: snack pequeño. Hasta que ve un burrito de Juanberto's — y se da cuenta de que es casi del tamaño de un bebé recién nacido."
+    },
+    "origin": {
+      "kicker": "De dónde viene en realidad",
+      "title": "No es Tex-Mex. Es San Diego.",
+      "body": "El burrito California no nació en un restaurante de cadena. Nació en San Diego, hecho por cocineros mexicanos para alimentar a obreros de construcción, militares, surfistas y universitarios que necesitaban una comida completa de una sola mano — no tres tacos y un refresco. Carne asada premium, queso, papas o arroz, frijoles, guacamole, pico de gallo, crema — todo en un solo paquete. Con los años eso se volvió el 'burrito' canónico en todo el sur de California. Misma palabra, comida completamente distinta."
+    },
+    "tacoTest": {
+      "kicker": "La prueba del taco",
+      "title": "Un burrito ≈ cuatro a seis tacos de comida.",
+      "lede": "Un burrito California en Juanberto's contiene aproximadamente esto, por peso:",
+      "rows": [
+        { "ingredient": "Carne asada (carne asada, picaña, pollo o pescado)", "amount": "≈ 250 g" },
+        { "ingredient": "Papas fritas o arroz", "amount": "≈ 120 g" },
+        { "ingredient": "Queso", "amount": "≈ 60 g" },
+        { "ingredient": "Guacamole", "amount": "≈ 50 g" },
+        { "ingredient": "Pico de gallo y crema", "amount": "≈ 60 g" },
+        { "ingredient": "Tortilla de harina (12 pulgadas)", "amount": "≈ 90 g" }
+      ],
+      "footnote": "Son 600 a 700 g de comida en una sola pieza — el equivalente aproximado a cuatro o seis tacos de calle. Nadie llama 'snack' a seis tacos."
+    },
+    "surprise": {
+      "kicker": "Lo que dicen los clientes",
+      "title": "La primera reacción casi siempre es la misma.",
+      "quotes": [
+        "No me lo terminé.",
+        "Lo compartimos entre dos.",
+        "No pensé que estuviera tan grande.",
+        "Está enorme."
+      ],
+      "outro": "Esa sorpresa no es un defecto. Es información. La expectativa estaba puesta con la definición equivocada de burrito."
+    },
+    "faq": {
+      "kicker": "Preguntas frecuentes",
+      "title": "Lo que la gente pregunta.",
+      "items": [
+        {
+          "q": "¿Por qué un burrito California es tan grande?",
+          "a": "Porque fue diseñado como una comida completa, no como un snack. Evolucionó en San Diego para alimentar obreros de construcción, militares, surfistas y universitarios — gente que necesitaba una sola comida de mano en lugar de tres tacos. El tamaño no es un truco; es la especificación original."
+        },
+        {
+          "q": "¿En qué se diferencia de un burrito mexicano normal?",
+          "a": "Un burrito tradicional de CDMX es una tortilla de harina chica con un solo guiso — más cercano a un taco envuelto en harina. Un burrito California es una tortilla grande con siete u ocho componentes: carne asada, queso, papas o arroz, frijoles, guacamole, pico, crema. Misma palabra, comida distinta."
+        },
+        {
+          "q": "¿Un solo burrito alcanza como comida completa?",
+          "a": "Sí — y para muchas personas, alcanza para dos comidas. Un burrito de Juanberto's pesa entre 600 y 900 g, aproximadamente el equivalente a cuatro o seis tacos de comida. Muchos clientes lo comparten entre dos."
+        },
+        {
+          "q": "¿Por qué lleva papas fritas adentro?",
+          "a": "Ese es el detalle que define al California burrito de San Diego: papas crujientes dentro de la tortilla. Aportan textura, absorben los jugos de la carne y reemplazan el arroz que llevarían otros burritos regionales. Quítale las papas y ya no es un burrito California."
+        },
+        {
+          "q": "¿De dónde viene el burrito California?",
+          "a": "De San Diego, California — construido por cocineros mexicanos para una clientela trabajadora, surfista y universitaria que necesitaba una comida completa de una mano. Es un emblema del sur de California desde hace décadas. Juanberto's trae esa tradición exacta a Roma Sur, CDMX."
+        },
+        {
+          "q": "¿Lo puedo compartir?",
+          "a": "Por supuesto. Muchos clientes lo hacen. Pide un plato extra al ordenar — o pártelo a la mitad si lo pides por WhatsApp/Rappi y guarda el resto para después. Aguanta bien."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ven con hambre.",
+      "subtitle": "Carne asada, picaña, pollo, pescado, portobello — o el clásico California con papas adentro. Coahuila 192, Roma Sur — o por WhatsApp, Rappi y Didi Food.",
+      "primary": "Ver el menú",
+      "secondary": "Ordenar ahora"
+    }
+  },
   "ingredientsIndex": {
     "meta": {
       "title": "Ingredientes del California Burrito — Juanberto's (Roma Sur, CDMX)",

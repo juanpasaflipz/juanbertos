@@ -51,6 +51,21 @@ const nextConfig: NextConfig = {
         destination: "/en/burrito-vs-burger",
         permanent: true,
       },
+      {
+        source: "/por-que-un-burrito-california-no-es-un-snack",
+        destination: "/es/why-a-california-burrito-isnt-a-snack",
+        permanent: true,
+      },
+      {
+        source: "/es/por-que-un-burrito-california-no-es-un-snack",
+        destination: "/es/why-a-california-burrito-isnt-a-snack",
+        permanent: true,
+      },
+      {
+        source: "/en/por-que-un-burrito-california-no-es-un-snack",
+        destination: "/en/why-a-california-burrito-isnt-a-snack",
+        permanent: true,
+      },
     ];
   },
 };

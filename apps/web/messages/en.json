@@ -562,6 +562,99 @@
       "secondary": "Order now"
     }
   },
+  "burritoNotASnack": {
+    "meta": {
+      "title": "Why a California Burrito Isn't a Snack | Juanberto's",
+      "description": "In Mexico City, 'burrito' means a 20-cm flour tortilla with one filling. In California, it means a complete meal. Here's why — and where the confusion came from."
+    },
+    "kicker": "The misconception",
+    "title": "Why a California burrito isn't a snack.",
+    "subtitle": "The problem isn't that people in Mexico City don't like burritos. It's that most people have never had an actual California burrito. Let's fix that.",
+    "intro": {
+      "lead": "Say 'burrito' in CDMX and most people picture a small flour tortilla with one filling — tinga, chicharrón, deshebrada — eaten standing up for 30 to 60 pesos. That's basically a taco in a flour wrapper. A snack.",
+      "body": "Say 'burrito' in San Diego and the picture is completely different. Grilled meat, cheese, fries, beans, guacamole, pico, sour cream — wrapped into a single object that weighs between 600 and 900 grams. That's not a snack. That's lunch and dinner in the same package.",
+      "verdict": "Same word. Two completely different foods."
+    },
+    "misconception": {
+      "kicker": "How CDMX learned 'burrito'",
+      "title": "An expectation that's quietly miscalibrated.",
+      "lede": "For decades, the 'burrito' most people in central Mexico have actually eaten looked like this:",
+      "items": [
+        "A 20-cm flour tortilla.",
+        "One filling. Usually tinga, chicharrón or deshebrada.",
+        "Thin. Eaten standing up.",
+        "30 to 60 pesos.",
+        "Closer to a taco than to a meal."
+      ],
+      "outro": "So when someone hears 'burrito,' the brain quietly fills in the blank: small snack. Then they see a Juanberto's burrito — and realize it's almost the size of a newborn baby."
+    },
+    "origin": {
+      "kicker": "Where it actually came from",
+      "title": "Not Tex-Mex. San Diego.",
+      "body": "The California burrito didn't come from a chain restaurant. It came from Mexican cooks in San Diego building one-handed meals for construction workers, military personnel, surfers and college students who needed a complete meal — not three tacos and a drink. Premium grilled meat, cheese, fries or rice, beans, guacamole, pico de gallo, sour cream — all in one package. Over decades, that became the canonical 'burrito' across Southern California. Same word, completely different food."
+    },
+    "tacoTest": {
+      "kicker": "The taco test",
+      "title": "One burrito ≈ four to six tacos of food.",
+      "lede": "A California burrito at Juanberto's typically contains about this much, by weight:",
+      "rows": [
+        { "ingredient": "Grilled meat (carne asada, picaña, chicken or fish)", "amount": "≈ 250 g" },
+        { "ingredient": "French fries or rice", "amount": "≈ 120 g" },
+        { "ingredient": "Cheese", "amount": "≈ 60 g" },
+        { "ingredient": "Guacamole", "amount": "≈ 50 g" },
+        { "ingredient": "Pico de gallo and sour cream", "amount": "≈ 60 g" },
+        { "ingredient": "Flour tortilla (12-inch)", "amount": "≈ 90 g" }
+      ],
+      "footnote": "That's 600–700 g of food in one piece — roughly the equivalent of four to six street tacos. Nobody calls six tacos 'a snack.'"
+    },
+    "surprise": {
+      "kicker": "What customers actually say",
+      "title": "The first reaction is almost always the same.",
+      "quotes": [
+        "No me lo terminé.",
+        "Lo compartimos entre dos.",
+        "No pensé que estuviera tan grande.",
+        "I wasn't expecting it to be this big."
+      ],
+      "outro": "That surprise isn't a flaw. It's information. The expectation was set by the wrong definition of burrito."
+    },
+    "faq": {
+      "kicker": "Frequently asked",
+      "title": "What people ask.",
+      "items": [
+        {
+          "q": "Why is a California burrito so big?",
+          "a": "Because it was designed as a complete meal, not a snack. It evolved in San Diego to feed construction workers, military personnel, surfers and college students — people who needed one hand-held meal instead of three tacos. The size isn't a gimmick; it's the original specification."
+        },
+        {
+          "q": "How is it different from a normal Mexican burrito?",
+          "a": "A traditional CDMX burrito is a small flour tortilla with one filling — closer to a flour-wrapped taco. A California burrito is a large tortilla with seven or eight components: grilled meat, cheese, fries or rice, beans, guacamole, pico, sour cream. Same word, different food."
+        },
+        {
+          "q": "Is one burrito really enough for a full meal?",
+          "a": "Yes — and for many people, it's enough for two meals. A Juanberto's burrito weighs 600–900 g, which is roughly the equivalent of four to six tacos worth of food. A lot of customers split one between two people."
+        },
+        {
+          "q": "Why does it have French fries inside?",
+          "a": "That's the defining move of the San Diego California burrito: crispy fries inside the wrap. They add texture, soak up the meat juices, and replace the rice you'd find in other regional burritos. Take the fries out and it's not a California burrito anymore."
+        },
+        {
+          "q": "Where does the California burrito come from?",
+          "a": "San Diego, California — built by Mexican cooks for a working, surfing, college-age clientele that needed a complete one-handed meal. It's been a Southern California staple for decades. Juanberto's brings that exact tradition to Roma Sur, CDMX."
+        },
+        {
+          "q": "Can I share one?",
+          "a": "Absolutely. Plenty of customers do. Ask for an extra plate when you order — or split half and half via WhatsApp/Rappi delivery and save the rest for later. It travels well."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Come hungry.",
+      "subtitle": "Carne asada, picaña, chicken, fish, portobello — or the classic California with fries inside. Coahuila 192, Roma Sur — or via WhatsApp, Rappi and Didi Food.",
+      "primary": "See the menu",
+      "secondary": "Order now"
+    }
+  },
   "ingredientsIndex": {
     "meta": {
       "title": "California Burrito Ingredients — Juanberto's (Roma Sur, CDMX)",

@@ -13,6 +13,7 @@ const ROUTES = [
   "/order",
   "/burrito-california-cdmx",
   "/burrito-vs-burger",
+  "/why-a-california-burrito-isnt-a-snack",
   "/ingredients",
   ...INGREDIENT_SLUGS.map((slug) => `/ingredients/${slug}` as const),
   ...NEIGHBORHOOD_SLUGS.map((slug) => `/${slug}` as const),
@@ -33,11 +34,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
             ? 0.9
             : route === "/burrito-vs-burger"
               ? 0.9
-              : route.startsWith("/burritos-")
+              : route === "/why-a-california-burrito-isnt-a-snack"
                 ? 0.9
-                : route.startsWith("/ingredients/")
-                  ? 0.85
-                  : 0.8;
+                : route.startsWith("/burritos-")
+                  ? 0.9
+                  : route.startsWith("/ingredients/")
+                    ? 0.85
+                    : 0.8;
       return {
         url,
         lastModified: now,
