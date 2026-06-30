@@ -2,9 +2,9 @@
 
 **Campaign codename:** `JB-SEARCH-RAPPI-2026-06`
 **Owner:** juan@injupe.com
-**Account:** AW-11120993342
-**Status:** Decisions locked — pending build in Ads UI
-**Last updated:** 2026-06-14
+**Account:** AW-11120993342 (Google Ads CID `747-447-7580`, campaign_id `23936395368`)
+**Status:** LIVE — campaign `Rappi-30` active since 2026-06-14; paused + cleaned + re-enabled 2026-06-30
+**Last updated:** 2026-06-30 (see §1b)
 
 ---
 
@@ -16,6 +16,120 @@
 - **Geo:** Roma Sur + delivery radius. Roma Norte, Condesa, Doctores, Narvarte, Hipódromo, Del Valle Norte, Juárez, Cuauhtémoc, Escandón, Centro Médico area. Presence-only targeting.
 - **Primary KPI:** Cost per `order_rappi` conversion. Target ceiling: 90 MXN per conversion (3:1 value/cost ratio at 270 MXN per).
 - **First optimization checkpoint:** Day 14. By then we want ~20–30 conversions to enable Smart Bidding tCPA transition.
+
+---
+
+## 1a. Launch addendum — 2026-06-15
+
+**Status:** LIVE. Campaign `Rappi-30` running at $133 MXN/día since 2026-06-14. All deltas below are the source of truth; the planning sections (§2–§11) remain for reference.
+
+### As-built deltas
+
+| Area | Planned | Shipped | Why |
+|---|---|---|---|
+| Ad groups | AG1 + AG2 + AG3 | AG1 + AG2 only | AG3 (Delivery Near Me) deferred until AG2 has 14d of data. Avoids fragmenting Smart Bidding signal at $133/día. |
+| RSAs per ad group | 2 each (six total) | 1 each (two total) | One strong RSA per group is enough for learning. Second variant per group is a day-21 task. AG2's RSA = 15/15 headlines, 4/4 descriptions, H1 `Auténticos California Burritos` pinned to position 1. |
+| AG2 keyword list | §5 list | §5 list, adjusted (still 20 kw) | Final list emphasizes geo-modifiers (`cdmx` / `roma sur` / `condesa`) and `a domicilio` over generic `[california burrito]`. All 20 verified exact/phrase post-fix. |
+| Campaign conversion goals | Account default (Compras + Vistas de página) | **Campaign-specific override → Compras only** | Default included `Vistas de página`, which would dilute Smart Bidding toward pageviews. Overrode via Configuración de la campaña → Objetivos de conversión → Usar configuración personalizada (2026-06-15). |
+| `order_whatsapp` role | Secondary (observation) | **Primary** (same `Compras` category as `order_rappi`) | Landing `/es/order` has both Rappi + WhatsApp CTAs; both are valid intent signals. Re-evaluate day 14 — demote to Secondary if WhatsApp share <15% of conversions. |
+| Call asset | Attached per §7 | **Not attached** | Operations can't take phone calls during service. `Llamar` still renders on AG1 brand searches because Google Business Profile map-format ads include it — accepted; AG2 commercial queries don't trigger map format and `Sitio` still routes to Rappi. |
+| Ad schedule | Tue–Sat split + Sun + Mon OFF | **Lun–Sáb 11:00–13:00 + 16:30–22:00, Dom 11:00–21:00** | Restaurant now operates 7 days. 1–4pm intentionally dark — slow window, AOV drops, ad spend wasted there. |
+| Negative keyword list | ~80 entries per §8 | 53 attached as `JB-NEG-MASTER` | Trimmed to highest-leverage (recipe / job / competitor / info-only). Day 8 search-terms report will expand based on actual waste. |
+| IA Máx. para Búsqueda | (not in original plan) | **OFF** | New Configuración toggle. Kept off to preserve keyword-level discipline at this budget — IA Max acts like Performance Max for Search and dissolves match-type control. |
+| Match-type integrity | Per §5 brackets/quotes | Re-entered after first paste | First bulk paste stripped brackets/quotes → all keywords saved as broad. Re-added inline via `+ Agregar palabras clave` preserving `[exact]` / `"phrase"`. 9/9 AG1 + 20/20 AG2 verified post-fix. |
+
+### Day +1 sanity check
+
+- Diagnostic warnings in Resumen are normal day-1 noise:
+  - `No hay suficientes palabras clave relevantes` → brand-new keywords with `Volumen de búsquedas bajo`. Auto-reactivates as queries come in. Ignore for 7 days.
+  - `La nueva estrategia de ofertas está en aprendizaje` → Maximize Conversions learning phase. Lasts ~7 days or 30 conv.
+- Resumen date range defaulted to `14 may – 10 jun 2026` (pre-launch). Reset to `Hoy` to see real data.
+
+### Calendar reminder created
+
+Google Calendar event `Verificar renovación Rappi MD program (Juanberto's)` — **2026-07-01 09:00 CDMX** (5 days before MD's 2026-07-06 end). Reminders: popup 1h before, email 24h before. Description embeds the §11 items 36–40 verification checklist plus an explicit instruction to **pause `Rappi-30` if MD does not auto-renew** (ad copy `30% OFF en Rappi` would cease to be true).
+
+### Backlog seeded by this build session
+
+- **Day 8** — search-terms report; expand `JB-NEG-MASTER` from 53 toward planned ~80.
+- **Day 14** — re-evaluate `order_whatsapp` Primary vs. Secondary based on conversion mix.
+- **Day 14** — Smart Bidding tCPA switch decision per §10.
+- **Day 21** — build AG3 (Delivery Near Me) if AG2 is converting under 90 MXN/conv; otherwise restructure AG2.
+- **Day 21** — add second RSA per ad group (RSA 1.2, 2.2 per §6).
+- **Non-blocking** — confirm GBP location extension is wired at campaign level (not just inherited via map format).
+
+---
+
+## 1b. Day +16 audit & cleanup — 2026-06-30
+
+**Status:** RE-ENABLED. Campaign was paused for surgery this morning; re-enabled after cleanup at ~$100 MXN/día. Source-of-truth state below; §1a remains as the launch-day snapshot.
+
+### Why we audited
+
+Day-16 performance gate from §10 was missed: ≥30 conversions in trailing 14d → actual 7 conversions in trailing 10d (Windsor.ai `get_data` on `google_ads` connector, dates `2026-06-14` to `2026-06-30`). Cost/conv was $156 MXN vs $90 target ceiling. Budget pacing was on plan ($1,093 spend across 10 days), so the problem was efficiency, not volume.
+
+### What the data revealed
+
+| Finding | Evidence |
+|---|---|
+| **`JB-NEG-MASTER` was attached to ZERO campaigns.** §1a claimed 53 negatives attached; on 2026-06-30 the list view showed "0 campaigns using this list". Smart Bidding trained for 16 days with no negative discipline. | Screenshot of `Tools → Shared library → Exclusion lists → JB-NEG-MASTER` |
+| **AG2 had collapsed to a single broad keyword.** The 20-keyword AG2 plan from §5 reduced to one row: `california burrito cerca de mi` (Broad), which ate $578 MXN / 56 clicks / 1 conversion in 10 days = $578 cost/conv (vs $90 target). | Likely cause: §1a's "first bulk paste stripped brackets" bug — re-add fix didn't stick for AG2, or the other 19 were marked "Low search volume" by Google. |
+| **Undocumented `Dynamic Ad group` existed.** Not in §4 (§4 only planned AG1 + AG2). This is a Dynamic Search Ads group — Google auto-crawls the site to generate targets, which contradicts §3's "Final URL expansion OFF" and §1a's "IA Máx. para Búsqueda OFF". 0 spend at audit time but would have leaked once it started serving. | Visible in `Ad groups (3)` dropdown at top of campaign view. |
+| **Brand keyword `[juanbertos]` showing $36 MXN avg CPC** — 10× normal brand-defense CPC. | Likely competitor brand-bidding or quality-score suppression caused by neighboring broad keywords. Deferred; not blocking. |
+| **Conversion mix: 6× WhatsApp, 1× Rappi** ($1,500 vs $270 value). Rappi MD 30% OFF is the campaign hook, but users overwhelmingly chose chat-first ordering. | Strategic — see §1b decisions. |
+
+### Search-terms leak pattern (top by cost)
+
+AG2's broad keyword matched to almost no California-burrito intent. The top spend went to:
+
+| Bucket | Examples (cost) |
+|---|---|
+| Competitor restaurants | `porfirios cerca de mi` ($19.71), `restaurante los girasoles` ($13.72), `cantina la 20` ($6.59), `carnitas alfonso` ($6.18), `enfrijoladas jauja` ($5.28), `don frank` ($4.35), `el califa cerca de mi` ($2.67), `el pariente` ($1.98), `mexicanisimo` ($3.50), `casa de toño cerca de mi` ($1.51), `mr burro` ($0.22), `toks cerca de uam i 8va ampliación...` ($1.64) |
+| Generic "comida"/"cerca" | `comida economica y rica` ($36.82, single click), `comida a domicilio cerca de aquí` ($23.04), `comida` ($14.86), `restaurantes cerca de mi` ($7.09), `comida cerca de mi` ($13.56) |
+| Wrong product | `hamburguesas near me` ($6.12), `hamburguesa near me` ($4.82) |
+| Wrong geo | `restaurants near mexico city international airport...` ($3.17) |
+| AG1 mild leak | `burritos cerca de mi` ($38.25, 20 clicks, 0 conv) |
+
+### As-applied deltas (cleanup completed 2026-06-30)
+
+| Area | Pre-cleanup state | Post-cleanup state | Action source |
+|---|---|---|---|
+| Daily budget | $133 MXN/day | **$100 MXN/day** ($3K/mo test, scale path $8K → $15K → $30K+ on proof) | User changed via UI |
+| `JB-NEG-MASTER` | 0 entries, 0 campaigns using it | **36 new negatives added** + applied to Rappi-30. Block includes: phrase variants of "cerca de mi" / "near me" / "comida cerca" / "restaurantes cerca", competitor brand names (`jauja`, `el califa`, `porfirios`, `los girasoles`, `cantina la 20`, `casa de toño`, `don frank`, `mexicanisimo`, `el pariente`, `mr burro`, `toks`, `carnitas alfonso`, `remolkito`, `garnacha`, `enfrijoladas`, `molletes`, `cantina`/`cantinas`), wrong product (`hamburguesa`/`hamburguesas`, `"tacos near"`, `"taqueria cerca"`), wrong geo (`aeropuerto`, `airport`, `benito juarez`) | Manual UI |
+| AG2 keyword list | 1 broad: `california burrito cerca de mi` | Paused the broad. Added 10 strict-match: `[california burrito cdmx]`, `[california burrito roma sur]`, `[burrito california cdmx]`, `[carne asada fries cdmx]`, `"burrito estilo san diego"`, `"burrito san diego cdmx"`, `"burrito de carne asada cdmx"`, `"burrito de carne asada roma"`, `"donde comer california burrito"`, `"mejor california burrito cdmx"`. **Match-type integrity verified post-paste — brackets/quotes stuck this time, no broad-strip recurrence.** | Manual UI |
+| AG1 leaks | `juanberto` (Broad, 1290 imp, 29 clicks, 0 conv), `juan bertos` (Broad, 0 imp), `tu burrito` (Phrase, 484 imp, 11 clicks, 0 conv), `todo burrito` (Broad), `"burritos cerca de mi"` (Phrase, 183 imp, 19 clicks, 0 conv), `"burritos cdmx"` (Phrase, 506 imp, 14 clicks, 0 conv — Rarely shown / low QS) | All 6 paused. Added `[burritos cdmx]` exact to preserve the legitimate intent. | Manual UI |
+| `Dynamic Ad group` | Enabled, undocumented | **Paused** at ad group level (not deleted — preserves history for later audit) | Manual UI |
+| AI Max for Search | Visible "AI Max expanded / AI Max landing" totals rows in AG2 (suggested it might be on) | Confirmed OFF at campaign level. Banner in Ad group settings: "Turn on AI Max in your campaign to use these ad group level settings." | Verified, no change needed |
+| `order_whatsapp` role | Primary (per §1a) | **Confirmed correct** by data — 6× WhatsApp vs 1× Rappi. Stays Primary. | No change |
+| Brand variant coverage | `"juanbertos cdmx"` enabled; `"juanberto's cdmx"` / `"juanbertos roma sur"` / `"juanbertos menu"` / `"juanbertos rappi"` / `[juanberto's] [juanberto]` all paused | Left as-is (paused). Re-enabling for fuller brand defense is a backlog item — they're cheap, high-intent, and currently uncaught. | No change (backlog) |
+
+### Strategic decision — WhatsApp:Rappi 6:1 conversion preference
+
+Data showed users overwhelmingly prefer WhatsApp over Rappi for ordering (6:1) despite Rappi 30% OFF being the headline hook in every RSA. Likely drivers: lower friction (no app install/login), Mexico chat-first ordering culture, ability to confirm before paying. **Implications:**
+
+1. `order_whatsapp` stays Primary (§1a's promote-to-Primary call was right).
+2. Future RSAs should include WhatsApp-first headline variants — currently all RSAs lead with "Pide en Rappi" / "30% OFF en Rappi". This is the next experiment.
+3. `/es/order` UX: WhatsApp card visibility/prominence matters more than Rappi. Re-evaluate card order.
+4. Don't sunset the Rappi MD promo — it's margin-neutral and the 1 Rappi conversion is real signal. Just don't lead with it.
+
+### Sources of truth verified 2026-06-30
+
+- Live campaign data: Windsor.ai `google_ads` MCP, account `747-447-7580`, campaign_id `23936395368`. Use `get_data` before recommending changes — the doc's described state may diverge from reality (see §1b finding #1).
+- Conversion action attribution: GA4-import path (per §12 item 2). Both `order_whatsapp` and `order_rappi` are firing correctly — the "no Rappi conversions" initial hypothesis was wrong.
+- Write actions: Windsor.ai write is disabled at the account level. To enable, see https://onboard.windsor.ai/app/team-management. Until enabled, all execution (pause/enable/budget) goes through the Google Ads UI manually.
+
+### Backlog seeded by this audit
+
+- **Day +1 (2026-07-01 AM)** — Pull search-terms report. Verify the 36 new negatives stopped the competitor + cerca-de-mi waste. If `jauja`, `el califa`, `comida cerca de mi`, etc. reappear, the negative didn't save — re-check `JB-NEG-MASTER`.
+- **Day +1 (overlaps with §1a calendar item)** — Verify Rappi MD program "MD - 0 Commission x off in store" auto-renewed past 2026-07-06. If not, pause campaign or pivot value-prop.
+- **Day +3** — New AG2 keywords still "Low search volume"? Normal up to day +7. If still flagged at day +10, broaden 1 phrase keyword.
+- **Day +7 (2026-07-07)** — Cost/conv trend check. Target ≤$90 MXN. If holding ≤$90 → consider step-up to $8K MXN/mo and re-add AG3 (Delivery Near Me) per §4. If still >$120 → diagnose deeper before scaling.
+- **Day +7** — Draft WhatsApp-first RSA variant per ad group (1 new RSA each, lead headline = `Pide por WhatsApp en 1 minuto` or similar).
+- **Day +14** — Switch bid strategy to tCPA = 90 MXN (per §10 gate), only if ≥30 conv in trailing 30d.
+- **Investigate** — `[juanbertos]` $36 MXN CPC anomaly via Auction Insights. Suspected competitor brand-bidding.
+- **Investigate** — Re-enable brand variant keywords (`"juanberto's cdmx"`, `"juanbertos menu"`, `"juanbertos rappi"`, `"juanbertos roma sur"`) for fuller brand defense. Cheap, high-intent.
+- **Decide** — `Dynamic Ad group`: delete or repurpose with proper page feeds. Currently paused.
+- **Non-blocking** — Enable Windsor.ai write actions so future cleanups can be done from MCP without UI hops.
 
 ---
 
