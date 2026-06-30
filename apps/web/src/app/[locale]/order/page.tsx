@@ -1,12 +1,43 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
+import { routing } from "@/i18n/routing";
 import { OrderContent } from "./OrderContent";
+
+const SITE_URL = "https://www.juanbertos.com";
 
 type Props = { params: Promise<{ locale: string }> };
 
 export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "orderPage" });
-  return { title: `${t("title")} | Juanberto's` };
+  const description =
+    locale === "es"
+      ? "Pide tu California burrito de Juanberto's: pasa por Roma Sur, escríbenos por WhatsApp o ordena en Rappi. Entrega en CDMX en 30 minutos."
+      : "Order a Juanberto's California burrito: walk in to Roma Sur, message us on WhatsApp, or order on Rappi. CDMX delivery in 30 minutes.";
+  const url = `${SITE_URL}/${locale}/order`;
+  const title = `${t("title")} | Juanberto's`;
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: url,
+      languages: Object.fromEntries(
+        routing.locales.map((l) => [l, `${SITE_URL}/${l}/order`])
+      ),
+    },
+    openGraph: {
+      title,
+      description,
+      url,
+      type: "website",
+      siteName: "Juanberto's",
+      locale: locale === "es" ? "es_MX" : "en_US",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
+  };
 }
 
 export default async function OrderPage({ params }: Props) {
