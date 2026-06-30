@@ -33,9 +33,36 @@ export function BurritoVsBurgerContent() {
         subtitle={t("subtitle")}
       />
 
+      {/* === Thinking illustration (visual hook right after hero) === */}
+      <section className="bg-paper-100">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 pt-10 sm:pt-12 pb-4">
+          <motion.figure
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.6 }}
+            className="border-2 border-ink-900 shadow-[10px_10px_0_0_var(--color-ink-900)] bg-paper-100 overflow-hidden"
+          >
+            <div className="relative aspect-[3/2] bg-paper-100">
+              <Image
+                src="/content/burrito-or-burger-thinking.png"
+                alt={t("thinking.alt")}
+                fill
+                priority
+                sizes="(min-width: 1024px) 960px, 100vw"
+                className="object-cover"
+              />
+            </div>
+            <figcaption className="text-center text-sm text-ink-500 px-6 py-4 border-t-2 border-ink-900/10">
+              {t("thinking.caption")}
+            </figcaption>
+          </motion.figure>
+        </div>
+      </section>
+
       {/* === Intro + verdict callout === */}
       <section className="bg-paper-100">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 py-16 sm:py-20">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 py-12 sm:py-16">
           <motion.div
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -58,7 +85,7 @@ export function BurritoVsBurgerContent() {
       </section>
 
       {/* === Infographic === */}
-      <section className="bg-paper-50">
+      <section className="bg-paper-100">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 py-12 sm:py-16">
           <motion.figure
             initial={{ opacity: 0, y: 16 }}
@@ -72,7 +99,6 @@ export function BurritoVsBurgerContent() {
                 src="/content/burrito-vs-burger.png"
                 alt={t("infographic.alt")}
                 fill
-                priority
                 sizes="(min-width: 1024px) 960px, 100vw"
                 className="object-contain"
               />
