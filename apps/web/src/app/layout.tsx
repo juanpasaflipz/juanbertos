@@ -6,7 +6,7 @@ import { AnalyticsRouteTracker } from "@/components/AnalyticsRouteTracker";
 import "./globals.css";
 
 const GOOGLE_ADS_ID = "AW-11120993342";
-const GA4_MEASUREMENT_ID = "G-Y9WNFDTVB7";
+const GA4_MEASUREMENT_ID = "G-2SBPB11P42";
 const META_PIXEL_ID = "993968600004752";
 
 const display = Permanent_Marker({

@@ -137,7 +137,7 @@ Data showed users overwhelmingly prefer WhatsApp over Rappi for ordering (6:1) d
 
 | Item | Status | Notes |
 |---|---|---|
-| GA4 property `juanbertos` (G-Y9WNFDTVB7) | Done | Verified active |
+| GA4 property `juanbertos` (G-2SBPB11P42) | Done | Verified active |
 | GA4 ↔ Google Ads link | Done (2026-06-14) | One-way, GA4 → Ads |
 | Conversion action `juanbertos (web) order_rappi` imported from GA4 | Done | Primary, count = "Una", value = 270 MXN |
 | `send_to` env vars (`NEXT_PUBLIC_GADS_CONV_RAPPI`, etc.) deployed to Vercel | **Intentionally NOT set** | GA4-import path is the source of truth — adding native `send_to` would double-count every Rappi click. Tech-debt cleanup: delete the `send_to: SEND_TO[type]` line in `apps/web/src/lib/analytics.ts:66` to make code intent unambiguous (non-blocking). |
