@@ -3,6 +3,13 @@
     "title": "California Burritos in Mexico City — Juanberto's (Roma Sur, CDMX)",
     "description": "The original California burrito in Mexico City. Carne asada, fries inside, hand-rolled in Roma Sur. Over 50 five-star reviews. Walk in or order on Rappi."
   },
+  "notFound": {
+    "title": "Page not found",
+    "kicker": "404 · lost in the salsa",
+    "body": "This page went for a burrito and never came back. Let's get you back to the good stuff.",
+    "ctaHome": "Back to home",
+    "ctaMenu": "See the menu"
+  },
   "nav": {
     "menu": "Menu",
     "ingredients": "Ingredients",

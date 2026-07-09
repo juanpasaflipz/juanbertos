@@ -8,6 +8,12 @@ import { BurritoAnatomy } from "@/components/BurritoAnatomy";
 import { LoveWall } from "@/components/LoveWall";
 
 const SITE_URL = "https://www.juanbertos.com";
+const OG_IMAGE = {
+  url: `${SITE_URL}/menu/california-burrito.jpg`,
+  width: 1200,
+  height: 800,
+  alt: "California Burrito — Juanberto's",
+};
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -33,11 +39,13 @@ export async function generateMetadata({ params }: Props) {
       type: "website",
       siteName: "Juanberto's",
       locale: locale === "es" ? "es_MX" : "en_US",
+      images: [OG_IMAGE],
     },
     twitter: {
       card: "summary_large_image",
       title: t("title"),
       description: t("description"),
+      images: [OG_IMAGE.url],
     },
   };
 }

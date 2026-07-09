@@ -2,6 +2,12 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import { MenuContent } from "./MenuContent";
 
 const SITE_URL = "https://www.juanbertos.com";
+const OG_IMAGE = {
+  url: `${SITE_URL}/menu/california-burrito.jpg`,
+  width: 1200,
+  height: 800,
+  alt: "California Burrito — Juanberto's",
+};
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -12,21 +18,32 @@ export async function generateMetadata({ params }: Props) {
     locale === "es"
       ? "Menú completo de Juanberto's en Roma Sur, CDMX. California burrito, Porkbelly, Ensenada, Breakfast, Chimichanga y más. Precios en MXN."
       : "Full Juanberto's menu in Roma Sur, Mexico City. California burrito, Porkbelly, Ensenada, Breakfast, Chimichanga and more. Prices in MXN.";
+  const title = `${t("title")} | Juanberto's`;
+  const url = `${SITE_URL}/${locale}/menu`;
   return {
-    title: `${t("title")} | Juanberto's`,
+    title,
     description,
     alternates: {
-      canonical: `${SITE_URL}/${locale}/menu`,
+      canonical: url,
       languages: {
         es: `${SITE_URL}/es/menu`,
         en: `${SITE_URL}/en/menu`,
       },
     },
     openGraph: {
-      title: `${t("title")} | Juanberto's`,
+      title,
       description,
-      url: `${SITE_URL}/${locale}/menu`,
+      url,
       type: "website",
+      siteName: "Juanberto's",
+      locale: locale === "es" ? "es_MX" : "en_US",
+      images: [OG_IMAGE],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [OG_IMAGE.url],
     },
   };
 }

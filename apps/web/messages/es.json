@@ -3,6 +3,13 @@
     "title": "Burritos California en CDMX — Juanberto's (Roma Sur)",
     "description": "Los California burritos originales en CDMX. Carne asada, papas adentro, hechos a mano en Roma Sur. Más de 50 reseñas 5 estrellas. Pasa o pide en Rappi."
   },
+  "notFound": {
+    "title": "Página no encontrada",
+    "kicker": "404 · perdido en la salsa",
+    "body": "Esta página se fue por un burrito y no regresó. Vamos a llevarte de vuelta a lo bueno.",
+    "ctaHome": "Volver al inicio",
+    "ctaMenu": "Ver el menú"
+  },
   "nav": {
     "menu": "Menú",
     "ingredients": "Ingredientes",
