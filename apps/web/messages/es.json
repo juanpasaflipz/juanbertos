@@ -133,28 +133,28 @@
     "specials": {
       "label": "Especiales",
       "items": [
-        { "name": "De Lengua",       "desc": "Lengua de res braseada con toque picante. Estilo California, papas adentro.", "price": "249", "badge": "picante" },
+        { "name": "De Lengua",       "desc": "Lengua en vinagreta de tomate verde sobre cama de frijol negro.",              "price": "249", "badge": "" },
         { "name": "Ensenada Doble",  "desc": "El Ensenada, doble. Dos porciones de mero del Pacífico capeado.",             "price": "395", "badge": "doble" }
       ]
     },
     "extras": {
       "label": "Extras",
       "items": [
-        { "name": "Orden de Papas",     "desc": "Papas a la francesa recién hechas. Al lado.", "price": "96" },
-        { "name": "Brownie con crema",  "desc": "Brownie tibio con crema encima.",             "price": "53" }
+        { "name": "Orden de Papas",     "desc": "Papas a la francesa recién hechas. Sin ketchup.", "price": "96" },
+        { "name": "Brownie con crema",  "desc": "Brownie caliente con crema.",                     "price": "53" }
       ]
     },
     "drinks": {
       "label": "Bebidas",
       "items": [
-        { "name": "Refresco",            "desc": "Refresco embotellado.",             "price": "44" },
+        { "name": "Refresco",            "desc": "Consulta sabores.",                 "price": "44" },
         { "name": "Café",                "desc": "Café recién hecho.",                "price": "39" },
         { "name": "Cerveza",             "desc": "Cerveza mexicana.",                 "price": "57" },
         { "name": "Estrella de Galicia", "desc": "Cerveza española de importación.",  "price": "96" },
         { "name": "Michelada",           "desc": "Cerveza, limón, sal, chile.",       "price": "87" },
         { "name": "Chelada",             "desc": "Cerveza con limón y sal.",          "price": "78" },
         { "name": "Vaso de Chelada",     "desc": "Preparada al vaso.",                "price": "30" },
-        { "name": "Botella de Vino",     "desc": "Vino de la casa, por botella.",     "price": "800" }
+        { "name": "Botella de Vino",     "desc": "Selección varía.",                  "price": "800" }
       ]
     },
     "cta": "Ordena el tuyo",

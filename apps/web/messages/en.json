@@ -133,28 +133,28 @@
     "specials": {
       "label": "Specials",
       "items": [
-        { "name": "De Lengua", "desc": "Slow-braised beef tongue with a spicy kick. California-style with fries inside.", "price": "249", "badge": "spicy" },
+        { "name": "De Lengua", "desc": "Beef tongue in tomatillo vinaigrette over a bed of black beans.",                 "price": "249", "badge": "" },
         { "name": "Ensenada Doble", "desc": "The Ensenada, doubled. Two portions of beer-battered Pacific grouper.",     "price": "395", "badge": "double up" }
       ]
     },
     "extras": {
       "label": "Extras",
       "items": [
-        { "name": "Orden de Papas",     "desc": "Fresh-cut fries. On the side.",       "price": "96" },
-        { "name": "Brownie con crema",  "desc": "Warm brownie with cream on top.",     "price": "53" }
+        { "name": "Orden de Papas",     "desc": "Fresh-cut French fries. No ketchup.", "price": "96" },
+        { "name": "Brownie con crema",  "desc": "Warm brownie with cream.",            "price": "53" }
       ]
     },
     "drinks": {
       "label": "Drinks",
       "items": [
-        { "name": "Refresco",            "desc": "Bottled soft drink.",                  "price": "44" },
+        { "name": "Refresco",            "desc": "Ask what we have in.",                 "price": "44" },
         { "name": "Café",                "desc": "Freshly brewed coffee.",               "price": "39" },
         { "name": "Cerveza",             "desc": "Mexican beer.",                        "price": "57" },
         { "name": "Estrella de Galicia", "desc": "Spanish import beer.",                 "price": "96" },
         { "name": "Michelada",           "desc": "Beer, lime, salt, chile.",             "price": "87" },
         { "name": "Chelada",             "desc": "Beer with lime and salt.",             "price": "78" },
         { "name": "Vaso de Chelada",     "desc": "Chelada prep by the glass.",           "price": "30" },
-        { "name": "Botella de Vino",     "desc": "House wine, by the bottle.",           "price": "800" }
+        { "name": "Botella de Vino",     "desc": "Selection varies.",                    "price": "800" }
       ]
     },
     "cta": "Order yours",
