@@ -62,6 +62,9 @@ export default async function MenuPage({ params }: Props) {
   const masterpiece = t.raw("masterpiece") as { name: string; desc: string; price: string };
   const friesItems = t.raw("fries.items") as FriesItem[];
   const aguas = t.raw("aguas") as { name: string; desc: string; price: string; flavors: string[] };
+  const specialsItems = t.raw("specials.items") as SignatureItem[];
+  const extrasItems = t.raw("extras.items") as FriesItem[];
+  const drinksItems = t.raw("drinks.items") as FriesItem[];
 
   const toMenuItem = (item: { name: string; desc: string; price?: string }) => ({
     "@type": "MenuItem",
@@ -115,6 +118,21 @@ export default async function MenuPage({ params }: Props) {
             })),
           },
         ],
+      },
+      {
+        "@type": "MenuSection",
+        name: t("specials.label"),
+        hasMenuItem: specialsItems.map(toMenuItem),
+      },
+      {
+        "@type": "MenuSection",
+        name: t("extras.label"),
+        hasMenuItem: extrasItems.map(toMenuItem),
+      },
+      {
+        "@type": "MenuSection",
+        name: t("drinks.label"),
+        hasMenuItem: drinksItems.map(toMenuItem),
       },
     ],
   };

@@ -91,18 +91,18 @@
       "items": [
         { "name": "El Tijuana",     "desc": "Birria brisket" },
         { "name": "Bean & Cheese",  "desc": "Beans and melted cheese, the classic" },
-        { "name": "Cochinita",      "desc": "Cochinita burrito" }
+        { "name": "Yucatán",        "desc": "Cochinita pibil burrito" }
       ]
     },
     "signature": {
       "label": "Our claim to fame",
       "items": [
-        { "name": "California",  "desc": "1/4 kilo of choice picaña, cheddar, fries, guacamole, pico de gallo, crema",       "price": "250", "badge": "the original" },
-        { "name": "Portobello",  "desc": "Portobello mushroom, cheese, fries, guacamole, pico de gallo",                     "price": "210", "badge": "veggie" },
-        { "name": "Pollo Loco",  "desc": "1/4 kilo of juicy grilled chicken breast, rice, beans, guacamole",                 "price": "219", "badge": "" },
-        { "name": "Breakfast",   "desc": "Three scrambled eggs, cheddar, fries, pico de gallo",                              "price": "210", "badge": "Served all day" },
-        { "name": "Porkbelly",   "desc": "1/4 kilo of crispy pork belly, cheese, fries, pico de gallo",                      "price": "240", "badge": "" },
-        { "name": "Ensenada",    "desc": "300g of Pacific grouper, marinated, breaded and beer-battered Ensenada-style.",    "price": "270", "badge": "" },
+        { "name": "California",  "desc": "≈800 g. A quarter kilo of USDA Choice picaña, cheddar, fries, guacamole, pico de gallo, crema",       "price": "250", "badge": "the original" },
+        { "name": "Portobello",  "desc": "Portobello mushroom, cheese, fries, guacamole, pico de gallo",                     "price": "170", "badge": "veggie" },
+        { "name": "Pollos Hermanos",  "desc": "1/4 kilo of juicy grilled chicken breast, rice, beans, guacamole",                 "price": "219", "badge": "" },
+        { "name": "Breakfast",   "desc": "Three scrambled eggs, cheddar, fries, pico de gallo",                              "price": "180", "badge": "Served all day" },
+        { "name": "Porkbelly",   "desc": "1/4 kilo of crispy pork belly, cheese, fries, pico de gallo",                      "price": "230", "badge": "" },
+        { "name": "Ensenada",    "desc": "300g of Pacific grouper, marinated, breaded and beer-battered Ensenada-style.",    "price": "265", "badge": "" },
         { "name": "Shrimp",      "desc": "Garlic-butter sautéed shrimp, refried beans, Mexican rice, pico de gallo, guacamole, cheese and crema.",            "price": "240", "badge": "" },
         { "name": "Surf-N-Turf", "desc": "Sautéed shrimp and picaña carne asada, refried beans, Mexican rice, pico de gallo, guacamole, cheese and crema.",   "price": "340", "badge": "surf & turf" }
       ]
@@ -115,6 +115,7 @@
     },
     "fries": {
       "label": "The fries",
+      "subtitle": "Made to share · feeds 2",
       "items": [
         { "name": "Carne Asada Fries", "desc": "Chopped and served over fries. (No nachos here.)",                       "price": "299" },
         { "name": "Chorizo Fries",     "desc": "Mexican chorizo, melted cheese, crema and pico de gallo over fries.",    "price": "299" },
@@ -128,6 +129,33 @@
       "desc": "House-made, bottled cold. Six rotating flavors.",
       "flavors": ["Tamarindo", "Jamaica", "Fresa-Limón", "Guayaba", "Coco", "Maracuyá"],
       "price": "60"
+    },
+    "specials": {
+      "label": "Specials",
+      "items": [
+        { "name": "De Lengua", "desc": "Slow-braised beef tongue with a spicy kick. California-style with fries inside.", "price": "249", "badge": "spicy" },
+        { "name": "Ensenada Doble", "desc": "The Ensenada, doubled. Two portions of beer-battered Pacific grouper.",     "price": "395", "badge": "double up" }
+      ]
+    },
+    "extras": {
+      "label": "Extras",
+      "items": [
+        { "name": "Orden de Papas",     "desc": "Fresh-cut fries. On the side.",       "price": "96" },
+        { "name": "Brownie con crema",  "desc": "Warm brownie with cream on top.",     "price": "53" }
+      ]
+    },
+    "drinks": {
+      "label": "Drinks",
+      "items": [
+        { "name": "Refresco",            "desc": "Bottled soft drink.",                  "price": "44" },
+        { "name": "Café",                "desc": "Freshly brewed coffee.",               "price": "39" },
+        { "name": "Cerveza",             "desc": "Mexican beer.",                        "price": "57" },
+        { "name": "Estrella de Galicia", "desc": "Spanish import beer.",                 "price": "96" },
+        { "name": "Michelada",           "desc": "Beer, lime, salt, chile.",             "price": "87" },
+        { "name": "Chelada",             "desc": "Beer with lime and salt.",             "price": "78" },
+        { "name": "Vaso de Chelada",     "desc": "Chelada prep by the glass.",           "price": "30" },
+        { "name": "Botella de Vino",     "desc": "House wine, by the bottle.",           "price": "800" }
+      ]
     },
     "cta": "Order yours",
     "compareCta": {
@@ -348,12 +376,12 @@
       "title": "Six California burritos. One rule.",
       "subtitle": "Every one of them has fries inside. You pick the protein.",
       "items": [
-        { "name": "California", "desc": "The original. 1/4 kilo of picaña, cheddar, fries, guacamole, pico, crema.", "price": "250", "badge": "the original" },
-        { "name": "Porkbelly", "desc": "1/4 kilo of crispy pork belly, cheese, fries, pico.", "price": "240", "badge": "" },
-        { "name": "Ensenada", "desc": "300g of Pacific grouper, beer-battered Ensenada style.", "price": "270", "badge": "" },
-        { "name": "Pollo Loco", "desc": "1/4 kilo of grilled chicken breast, rice, beans, guacamole.", "price": "219", "badge": "" },
-        { "name": "Breakfast", "desc": "Three scrambled eggs, cheddar, fries, pico. Served all day.", "price": "210", "badge": "all day" },
-        { "name": "Portobello", "desc": "Portobello mushroom, cheese, fries, guacamole, pico. Meatless.", "price": "210", "badge": "veggie" }
+        { "name": "California", "desc": "The original. ≈800 g. A quarter kilo of USDA Choice picaña, cheddar, fries, guacamole, pico, crema.", "price": "250", "badge": "the original" },
+        { "name": "Porkbelly", "desc": "1/4 kilo of crispy pork belly, cheese, fries, pico.", "price": "230", "badge": "" },
+        { "name": "Ensenada", "desc": "300g of Pacific grouper, beer-battered Ensenada style.", "price": "265", "badge": "" },
+        { "name": "Pollos Hermanos", "desc": "1/4 kilo of grilled chicken breast, rice, beans, guacamole.", "price": "219", "badge": "" },
+        { "name": "Breakfast", "desc": "Three scrambled eggs, cheddar, fries, pico. Served all day.", "price": "180", "badge": "all day" },
+        { "name": "Portobello", "desc": "Portobello mushroom, cheese, fries, guacamole, pico. Meatless.", "price": "170", "badge": "veggie" }
       ],
       "cta": "See the full menu"
     },
@@ -407,7 +435,7 @@
         },
         {
           "q": "How much does a California burrito cost in Mexico City?",
-          "a": "The original California at Juanberto's costs $250 MXN. The full menu starts at $99 MXN (Bean & Cheese) and goes up to $320 MXN (La Gran Chimichanga). All prices include VAT."
+          "a": "The original California at Juanberto's costs $250 MXN. The full menu starts at $99 MXN (Bean & Cheese) and goes up to $340 MXN (Surf-N-Turf). All prices include VAT."
         },
         {
           "q": "Where was the California burrito invented?",
@@ -415,7 +443,7 @@
         },
         {
           "q": "Do you have a vegetarian option?",
-          "a": "Yes. The Portobello burrito swaps carne asada for grilled portobello mushroom. It carries cheese, fries, guacamole and pico. It costs $210 MXN."
+          "a": "Yes. The Portobello burrito swaps carne asada for grilled portobello mushroom. It carries cheese, fries, guacamole and pico. It costs $170 MXN."
         },
         {
           "q": "Do you deliver in Mexico City?",
@@ -986,7 +1014,7 @@
             "cta": "See on the menu"
           },
           {
-            "name": "Pollo Loco",
+            "name": "Pollos Hermanos",
             "desc": "Grilled chicken and guacamole, no cheese.",
             "href": "/menu",
             "cta": "See on the menu"
@@ -1013,7 +1041,7 @@
           },
           {
             "q": "Do you charge extra for guacamole?",
-            "a": "No. It's included in every burrito that has it in the recipe (California, Pollo Loco, Portobello, Carne Asada Fries). If you want extra guac, we charge it as an add-on."
+            "a": "No. It's included in every burrito that has it in the recipe (California, Pollos Hermanos, Portobello, Carne Asada Fries). If you want extra guac, we charge it as an add-on."
           },
           {
             "q": "Is it vegan?",
@@ -1316,7 +1344,7 @@
             "cta": "See on the menu"
           },
           {
-            "name": "Cochinita",
+            "name": "Yucatán",
             "desc": "Yucatán-style cochinita pibil, wrapped in a flour tortilla.",
             "href": "/menu",
             "cta": "See on the menu"
@@ -1592,7 +1620,7 @@
         "subtitle": "First time coming from Roma Norte? Start with these.",
         "items": [
           { "name": "California Burrito", "desc": "The original. Carne asada, fries inside, cheddar, guacamole, pico, crema. $250.", "reason": "The reason you cross Cuauhtémoc. If you've never had one, this." },
-          { "name": "Portobello", "desc": "Grilled portobello mushroom, cheese, fries, guacamole, pico. No meat. $210.", "reason": "The real vegetarian option. Substance, not filler." },
+          { "name": "Portobello", "desc": "Grilled portobello mushroom, cheese, fries, guacamole, pico. No meat. $170.", "reason": "The real vegetarian option. Substance, not filler." },
           { "name": "Carne Asada Fries", "desc": "Fries, carne asada, melted cheddar, guacamole, pico. No burrito. $299.", "reason": "To share at the table back in Roma Norte." }
         ],
         "cta": "See the full menu"
@@ -1608,7 +1636,7 @@
         "items": [
           { "q": "How long does Rappi take from Roma Norte?", "a": "Between 15 and 25 minutes depending on hour and demand. If you're short on time, walking is usually just as fast — 10-15 minutes." },
           { "q": "Is the walk worth it?", "a": "Yes — and not for the romance. Walking avoids the delivery fee, the burrito arrives hotter, and the 10-15 minute walk through Roma works as an appetizer. A lot of Roma Norte regulars turn it into a routine." },
-          { "q": "Are there vegetarian options?", "a": "Yes. The Portobello burrito swaps the meat for grilled portobello and keeps cheese, fries, guac, and pico. $210. We also have Bean & Cheese." },
+          { "q": "Are there vegetarian options?", "a": "Yes. The Portobello burrito swaps the meat for grilled portobello and keeps cheese, fries, guac, and pico. $170. We also have Bean & Cheese." },
           { "q": "Do you take reservations?", "a": "We don't take reservations — we're a taquería, not a sit-down restaurant. But you can WhatsApp the order in so it's rolled and ready when you arrive." },
           { "q": "What's the exact address?", "a": "Coahuila 192, Roma Sur, CDMX. You cross Cuauhtémoc from Roma Norte and walk three blocks south." }
         ]
@@ -1663,8 +1691,8 @@
         "subtitle": "The most-common picks from your zone.",
         "items": [
           { "name": "California Burrito", "desc": "The original. Carne asada, fries inside, cheddar, guacamole, pico, crema. $250.", "reason": "Over 60% of Condesa orders pick this." },
-          { "name": "Pollo Loco", "desc": "Grilled chicken breast, rice, beans, guacamole. No fries, lighter. $219.", "reason": "The less-heavy option for gym or post-yoga days." },
-          { "name": "Ensenada", "desc": "300g of Pacific cod, Ensenada-style beer-battered. $270.", "reason": "When you're tired of beef — fresh fish, beer-battered, in a flour tortilla." }
+          { "name": "Pollos Hermanos", "desc": "Grilled chicken breast, rice, beans, guacamole. No fries, lighter. $219.", "reason": "The less-heavy option for gym or post-yoga days." },
+          { "name": "Ensenada", "desc": "300g of Pacific cod, Ensenada-style beer-battered. $265.", "reason": "When you're tired of beef — fresh fish, beer-battered, in a flour tortilla." }
         ],
         "cta": "See the full menu"
       },
@@ -1806,7 +1834,7 @@
         "items": [
           { "name": "California Burrito", "desc": "The original. Carne asada, fries inside, cheddar, guacamole, pico, crema. $250.", "reason": "The safe pick for any family member." },
           { "name": "Bean & Cheese", "desc": "Refried beans and cheddar inside a flour tortilla. $99.", "reason": "For kids, vegetarians, and the affordable add-on that rounds out the order." },
-          { "name": "Breakfast Burrito", "desc": "Scrambled eggs, cheddar, fries, pico. Served all day. $210.", "reason": "For Sunday brunch or a lighter Friday dinner." }
+          { "name": "Breakfast Burrito", "desc": "Scrambled eggs, cheddar, fries, pico. Served all day. $180.", "reason": "For Sunday brunch or a lighter Friday dinner." }
         ],
         "cta": "See the full menu"
       },
@@ -1876,8 +1904,8 @@
         "subtitle": "First time trying us? Start with these.",
         "items": [
           { "name": "California Burrito", "desc": "The original. Carne asada, fries inside, cheddar, guacamole, pico, crema. $250.", "reason": "If you're ordering from Del Valle, this. So you get why." },
-          { "name": "Pollo Loco", "desc": "Grilled chicken breast, rice, beans, guacamole. $219.", "reason": "Lighter than the California, same quality. For lower-appetite days." },
-          { "name": "Cochinita", "desc": "Yucatán-style cochinita pibil inside a flour tortilla. From $99.", "reason": "For something different from the California. Yucatecan flavor, same care." }
+          { "name": "Pollos Hermanos", "desc": "Grilled chicken breast, rice, beans, guacamole. $219.", "reason": "Lighter than the California, same quality. For lower-appetite days." },
+          { "name": "Yucatán", "desc": "Yucatán-style cochinita pibil inside a flour tortilla. From $99.", "reason": "For something different from the California. Yucatecan flavor, same care." }
         ],
         "cta": "See the full menu"
       },
@@ -1948,7 +1976,7 @@
         "items": [
           { "name": "California Burrito", "desc": "The original. Carne asada, fries inside, cheddar, guacamole, pico, crema. $250.", "reason": "The one you have to try to understand the category." },
           { "name": "Carne Asada Fries", "desc": "Fries, carne asada, melted cheddar, guacamole, pico. $299.", "reason": "For shared table. Perfect for an apartment patio with friends." },
-          { "name": "Portobello", "desc": "Grilled portobello, cheese, fries, guacamole, pico. No meat. $210.", "reason": "For the vegetarian members of the group — real substance, not filler." }
+          { "name": "Portobello", "desc": "Grilled portobello, cheese, fries, guacamole, pico. No meat. $170.", "reason": "For the vegetarian members of the group — real substance, not filler." }
         ],
         "cta": "See the full menu"
       },
@@ -1963,7 +1991,7 @@
         "items": [
           { "q": "Do you deliver to Escandón?", "a": "Yes — Rappi delivers to all of Escandón in 15-25 minutes typical. We cover Escandón I and II." },
           { "q": "How long does it take?", "a": "Between 15 and 25 minutes on Rappi door to door. If you live along Patriotismo or nearby, toward the lower bound." },
-          { "q": "Vegetarian options?", "a": "Yes — Portobello burrito ($210) and Bean & Cheese ($99). Both available on Rappi." },
+          { "q": "Vegetarian options?", "a": "Yes — Portobello burrito ($170) and Bean & Cheese ($99). Both available on Rappi." },
           { "q": "What's the difference vs a regular taquería burrito?", "a": "The California burrito has french fries inside (not rice, not beans), a specific cut of carne asada, melted cheddar, and a large flour tortilla. It's a different recipe — from San Diego, not northern Mexico. We serve the original here." },
           { "q": "How authentic is it?", "a": "We learned the recipe in San Diego, imported the technique, and respect it without reinterpretation. Carne asada with charred edges, crispy fries inside, cheese fused on the plancha. The correct version — no fusion, no shortcuts, no invention." }
         ]

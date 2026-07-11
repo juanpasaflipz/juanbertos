@@ -26,7 +26,7 @@ const MENU_IMAGES: Record<string, string> = {
   California: "/menu/california-burrito.jpg",
   Porkbelly: "/menu/porkbelly.jpg",
   Ensenada: "/menu/ensenada.jpg",
-  "Pollo Loco": "/menu/pollo-loco.jpg",
+  "Pollos Hermanos": "/menu/pollo-loco.jpg",
   Breakfast: "/menu/breakfast.jpg",
   Portobello: "/menu/portobello.jpg",
 };

@@ -16,7 +16,7 @@ type FriesItem = { name: string; desc: string; price: string };
 const SIGNATURE_IMAGES: Record<string, string> = {
   California: "/menu/california-burrito.jpg",
   Portobello: "/menu/portobello.jpg",
-  "Pollo Loco": "/menu/pollo-loco.jpg",
+  "Pollos Hermanos": "/menu/pollo-loco.jpg",
   Breakfast: "/menu/breakfast.jpg",
   Porkbelly: "/menu/porkbelly.jpg",
   Ensenada: "/menu/ensenada.jpg",
@@ -27,7 +27,7 @@ const SIGNATURE_IMAGES: Record<string, string> = {
 const TIER1_IMAGES: Record<string, string> = {
   "El Tijuana": "/menu/el-tijuana.jpg",
   "Bean & Cheese": "/menu/bean-cheese.png",
-  Cochinita: "/menu/cochinita.jpg",
+  Yucatán: "/menu/cochinita.jpg",
 };
 
 const MASTERPIECE_IMAGE = "/menu/chimichanga.jpg";
@@ -47,7 +47,7 @@ const INGREDIENT_SLUGS_BY_ITEM: Record<string, IngredientSlug[]> = {
   California: ["carne-asada", "queso-cheddar", "papas-a-la-francesa"],
   Porkbelly: ["queso-cheddar", "papas-a-la-francesa", "pico-de-gallo"],
   Ensenada: ["tortilla-de-harina"],
-  "Pollo Loco": ["guacamole", "tortilla-de-harina"],
+  "Pollos Hermanos": ["guacamole", "tortilla-de-harina"],
   Breakfast: ["queso-cheddar", "papas-a-la-francesa", "pico-de-gallo"],
   Portobello: ["queso-cheddar", "papas-a-la-francesa", "guacamole"],
   Shrimp: ["guacamole", "pico-de-gallo", "tortilla-de-harina"],
@@ -55,7 +55,7 @@ const INGREDIENT_SLUGS_BY_ITEM: Record<string, IngredientSlug[]> = {
   // Tier 1
   "El Tijuana": ["tortilla-de-harina"],
   "Bean & Cheese": ["queso-cheddar", "tortilla-de-harina"],
-  Cochinita: ["tortilla-de-harina"],
+  Yucatán: ["tortilla-de-harina"],
   // Loaded Fries
   "Carne Asada Fries": ["carne-asada", "papas-a-la-francesa", "queso-cheddar", "guacamole"],
   "Chorizo Fries": ["papas-a-la-francesa", "queso-cheddar"],
@@ -100,6 +100,9 @@ export function MenuContent() {
   const signature = t.raw("signature.items") as SignatureItem[];
   const fries = t.raw("fries.items") as FriesItem[];
   const aguasFlavors = t.raw("aguas.flavors") as string[];
+  const specials = t.raw("specials.items") as SignatureItem[];
+  const extras = t.raw("extras.items") as FriesItem[];
+  const drinks = t.raw("drinks.items") as FriesItem[];
 
   return (
     <>
@@ -290,6 +293,9 @@ export function MenuContent() {
               </p>
               <span className="hidden sm:block h-px w-12 bg-ink-900/30" aria-hidden />
             </div>
+            <p className="mt-3 text-sm sm:text-base font-semibold uppercase tracking-[0.18em] text-ink-700">
+              {t("fries.subtitle")}
+            </p>
           </div>
 
           <ul className="grid gap-8 sm:gap-10 sm:grid-cols-2 lg:grid-cols-3">
@@ -385,6 +391,90 @@ export function MenuContent() {
               </div>
             </div>
           </motion.div>
+        </div>
+      </section>
+
+      {/* === Specials === */}
+      <section className="bg-paper-100">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 py-16 sm:py-20">
+          <div className="text-center mb-10">
+            <div className="flex items-center justify-center gap-4">
+              <span className="hidden sm:block h-px w-12 bg-ink-900/30" aria-hidden />
+              <p className="hand-note text-tangerine-600 text-3xl sm:text-4xl -rotate-1">
+                ★ {t("specials.label")} ★
+              </p>
+              <span className="hidden sm:block h-px w-12 bg-ink-900/30" aria-hidden />
+            </div>
+          </div>
+          <ul className="grid gap-8 sm:grid-cols-2">
+            {specials.map((item) => (
+              <li
+                key={item.name}
+                className="bg-paper-50 border-2 border-ink-900 shadow-[6px_6px_0_0_var(--color-ink-900)] p-6 sm:p-7 flex flex-col"
+              >
+                <div className="flex items-baseline justify-between gap-3">
+                  <h3 className="headline-display text-3xl sm:text-4xl text-ink-900">{item.name}</h3>
+                  <span className="headline-display text-3xl text-ink-900 shrink-0">${item.price}</span>
+                </div>
+                {item.badge && (
+                  <span className="mt-2 hand-note text-tangerine-600 text-xl -rotate-1 self-start">
+                    {item.badge}
+                  </span>
+                )}
+                <p className="mt-3 text-base sm:text-lg text-ink-700 leading-relaxed">{item.desc}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      {/* === Extras === */}
+      <section className="bg-paper-50">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 py-14 sm:py-16">
+          <div className="text-center mb-8">
+            <p className="hand-note text-tangerine-600 text-3xl sm:text-4xl -rotate-1">
+              ★ {t("extras.label")} ★
+            </p>
+          </div>
+          <ul className="grid gap-4 sm:gap-6 sm:grid-cols-2">
+            {extras.map((item) => (
+              <li
+                key={item.name}
+                className="bg-paper-100 border-2 border-ink-900 shadow-[4px_4px_0_0_var(--color-ink-900)] p-5 flex flex-col"
+              >
+                <div className="flex items-baseline justify-between gap-3">
+                  <h3 className="headline-display text-2xl text-ink-900">{item.name}</h3>
+                  <span className="headline-display text-2xl text-ink-900 shrink-0">${item.price}</span>
+                </div>
+                <p className="mt-2 text-sm sm:text-base text-ink-700 leading-relaxed">{item.desc}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      {/* === Drinks === */}
+      <section className="bg-paper-100">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 py-14 sm:py-16">
+          <div className="text-center mb-8">
+            <p className="hand-note text-tangerine-600 text-3xl sm:text-4xl -rotate-1">
+              ★ {t("drinks.label")} ★
+            </p>
+          </div>
+          <ul className="grid gap-x-8 gap-y-3 sm:grid-cols-2 border-2 border-ink-900 bg-paper-50 p-6 sm:p-8 shadow-[6px_6px_0_0_var(--color-ink-900)]">
+            {drinks.map((item) => (
+              <li
+                key={item.name}
+                className="flex items-baseline justify-between gap-3 border-b border-ink-900/15 pb-2 last:border-b-0"
+              >
+                <div className="min-w-0">
+                  <span className="font-semibold text-ink-900">{item.name}</span>
+                  <span className="ml-2 text-sm text-ink-700/80">{item.desc}</span>
+                </div>
+                <span className="headline-display text-xl text-ink-900 shrink-0">${item.price}</span>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 

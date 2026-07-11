@@ -91,18 +91,18 @@
       "items": [
         { "name": "El Tijuana",     "desc": "Birria brisket" },
         { "name": "Bean & Cheese",  "desc": "Frijol con queso derretido, el clásico" },
-        { "name": "Cochinita",      "desc": "Burrito de cochinita" }
+        { "name": "Yucatán",        "desc": "Burrito de cochinita pibil" }
       ]
     },
     "signature": {
       "label": "Nuestro llamado a la fama",
       "items": [
-        { "name": "California",  "desc": "1/4 de kilo de picaña choice, queso cheddar, papas a la francesa, guacamole, pico de gallo, crema", "price": "250", "badge": "el original" },
-        { "name": "Portobello",  "desc": "Hongo portobello, queso, papas a la francesa, guacamole, pico de gallo",                            "price": "210", "badge": "sin carne" },
-        { "name": "Pollo Loco",  "desc": "1/4 de kilo de jugosa pechuga asada, arroz, frijoles, guacamole",                                    "price": "219", "badge": "" },
-        { "name": "Breakfast",   "desc": "Tres huevos revueltos, queso cheddar, papas a la francesa, pico de gallo",                           "price": "210", "badge": "Servido todo el día" },
-        { "name": "Porkbelly",   "desc": "1/4 de kilo de pancetta de puerco crujiente, queso, papas a la francesa, pico de gallo",             "price": "240", "badge": "" },
-        { "name": "Ensenada",    "desc": "300 gramos de pescado mero del Pacífico marinado, rebozado y capeado servido estilo Ensenada.",      "price": "270", "badge": "" },
+        { "name": "California",  "desc": "≈800 g. 1/4 de kilo de picaña USDA Choice, queso cheddar, papas a la francesa, guacamole, pico de gallo, crema", "price": "250", "badge": "el original" },
+        { "name": "Portobello",  "desc": "Hongo portobello, queso, papas a la francesa, guacamole, pico de gallo",                            "price": "170", "badge": "sin carne" },
+        { "name": "Pollos Hermanos",  "desc": "1/4 de kilo de jugosa pechuga asada, arroz, frijoles, guacamole",                                    "price": "219", "badge": "" },
+        { "name": "Breakfast",   "desc": "Tres huevos revueltos, queso cheddar, papas a la francesa, pico de gallo",                           "price": "180", "badge": "Servido todo el día" },
+        { "name": "Porkbelly",   "desc": "1/4 de kilo de pancetta de puerco crujiente, queso, papas a la francesa, pico de gallo",             "price": "230", "badge": "" },
+        { "name": "Ensenada",    "desc": "300 gramos de pescado mero del Pacífico marinado, rebozado y capeado servido estilo Ensenada.",      "price": "265", "badge": "" },
         { "name": "Shrimp",      "desc": "Camarones salteados con ajo y mantequilla, frijoles refritos, arroz mexicano, pico de gallo, guacamole, queso y crema.", "price": "240", "badge": "" },
         { "name": "Surf-N-Turf", "desc": "Camarones salteados y carne asada de picaña, frijoles refritos, arroz mexicano, pico de gallo, guacamole, queso y crema.", "price": "340", "badge": "mar y tierra" }
       ]
@@ -115,6 +115,7 @@
     },
     "fries": {
       "label": "Las papas",
+      "subtitle": "Para compartir · rinde 2",
       "items": [
         { "name": "Carne Asada Fries", "desc": "Picada y servida sobre papas. (Aquí no hay nachos.)",                       "price": "299" },
         { "name": "Chorizo Fries",     "desc": "Chorizo mexicano, queso derretido, crema y pico de gallo sobre papas.",     "price": "299" },
@@ -128,6 +129,33 @@
       "desc": "Hechas en casa, embotelladas frías. Seis sabores que rotan.",
       "flavors": ["Tamarindo", "Jamaica", "Fresa-Limón", "Guayaba", "Coco", "Maracuyá"],
       "price": "60"
+    },
+    "specials": {
+      "label": "Especiales",
+      "items": [
+        { "name": "De Lengua",       "desc": "Lengua de res braseada con toque picante. Estilo California, papas adentro.", "price": "249", "badge": "picante" },
+        { "name": "Ensenada Doble",  "desc": "El Ensenada, doble. Dos porciones de mero del Pacífico capeado.",             "price": "395", "badge": "doble" }
+      ]
+    },
+    "extras": {
+      "label": "Extras",
+      "items": [
+        { "name": "Orden de Papas",     "desc": "Papas a la francesa recién hechas. Al lado.", "price": "96" },
+        { "name": "Brownie con crema",  "desc": "Brownie tibio con crema encima.",             "price": "53" }
+      ]
+    },
+    "drinks": {
+      "label": "Bebidas",
+      "items": [
+        { "name": "Refresco",            "desc": "Refresco embotellado.",             "price": "44" },
+        { "name": "Café",                "desc": "Café recién hecho.",                "price": "39" },
+        { "name": "Cerveza",             "desc": "Cerveza mexicana.",                 "price": "57" },
+        { "name": "Estrella de Galicia", "desc": "Cerveza española de importación.",  "price": "96" },
+        { "name": "Michelada",           "desc": "Cerveza, limón, sal, chile.",       "price": "87" },
+        { "name": "Chelada",             "desc": "Cerveza con limón y sal.",          "price": "78" },
+        { "name": "Vaso de Chelada",     "desc": "Preparada al vaso.",                "price": "30" },
+        { "name": "Botella de Vino",     "desc": "Vino de la casa, por botella.",     "price": "800" }
+      ]
     },
     "cta": "Ordena el tuyo",
     "compareCta": {
@@ -348,12 +376,12 @@
       "title": "Seis California burritos. Una regla.",
       "subtitle": "Todos llevan papas adentro. Eliges la proteína.",
       "items": [
-        { "name": "California", "desc": "El original. 1/4 de kilo de picaña, cheddar, papas, guacamole, pico, crema.", "price": "250", "badge": "el original" },
-        { "name": "Porkbelly", "desc": "1/4 de kilo de pancetta de puerco crujiente, queso, papas, pico.", "price": "240", "badge": "" },
-        { "name": "Ensenada", "desc": "300 gramos de pescado mero del Pacífico capeado estilo Ensenada.", "price": "270", "badge": "" },
-        { "name": "Pollo Loco", "desc": "1/4 de kilo de pechuga asada, arroz, frijoles, guacamole.", "price": "219", "badge": "" },
-        { "name": "Breakfast", "desc": "Tres huevos revueltos, cheddar, papas, pico. Servido todo el día.", "price": "210", "badge": "todo el día" },
-        { "name": "Portobello", "desc": "Hongo portobello, queso, papas, guacamole, pico. Sin carne.", "price": "210", "badge": "sin carne" }
+        { "name": "California", "desc": "El original. ≈800 g. 1/4 de kilo de picaña USDA Choice, cheddar, papas, guacamole, pico, crema.", "price": "250", "badge": "el original" },
+        { "name": "Porkbelly", "desc": "1/4 de kilo de pancetta de puerco crujiente, queso, papas, pico.", "price": "230", "badge": "" },
+        { "name": "Ensenada", "desc": "300 gramos de pescado mero del Pacífico capeado estilo Ensenada.", "price": "265", "badge": "" },
+        { "name": "Pollos Hermanos", "desc": "1/4 de kilo de pechuga asada, arroz, frijoles, guacamole.", "price": "219", "badge": "" },
+        { "name": "Breakfast", "desc": "Tres huevos revueltos, cheddar, papas, pico. Servido todo el día.", "price": "180", "badge": "todo el día" },
+        { "name": "Portobello", "desc": "Hongo portobello, queso, papas, guacamole, pico. Sin carne.", "price": "170", "badge": "sin carne" }
       ],
       "cta": "Ver el menú completo"
     },
@@ -407,7 +435,7 @@
         },
         {
           "q": "¿Cuánto cuesta un California burrito en CDMX?",
-          "a": "El California original en Juanberto's cuesta $250 MXN. El menú completo va desde $99 MXN (Bean & Cheese) hasta $320 MXN (La Gran Chimichanga). Todos los precios incluyen IVA."
+          "a": "El California original en Juanberto's cuesta $250 MXN. El menú completo va desde $99 MXN (Bean & Cheese) hasta $340 MXN (Surf-N-Turf). Todos los precios incluyen IVA."
         },
         {
           "q": "¿Dónde nació el California burrito?",
@@ -415,7 +443,7 @@
         },
         {
           "q": "¿Tienen opción vegetariana?",
-          "a": "Sí. El Portobello burrito sustituye la carne asada por hongo portobello a la plancha. Lleva queso, papas, guacamole y pico. Cuesta $210 MXN."
+          "a": "Sí. El Portobello burrito sustituye la carne asada por hongo portobello a la plancha. Lleva queso, papas, guacamole y pico. Cuesta $170 MXN."
         },
         {
           "q": "¿Hacen entrega a domicilio en CDMX?",
@@ -986,7 +1014,7 @@
             "cta": "Ver en el menú"
           },
           {
-            "name": "Pollo Loco",
+            "name": "Pollos Hermanos",
             "desc": "Pollo asado y guacamole, sin queso.",
             "href": "/menu",
             "cta": "Ver en el menú"
@@ -1013,7 +1041,7 @@
           },
           {
             "q": "¿Cobran extra por el guacamole?",
-            "a": "No. Va incluido en todos los burritos que lo llevan en la receta (California, Pollo Loco, Portobello, Carne Asada Fries). Si quieres extra guacamole, sí lo cobramos como add-on."
+            "a": "No. Va incluido en todos los burritos que lo llevan en la receta (California, Pollos Hermanos, Portobello, Carne Asada Fries). Si quieres extra guacamole, sí lo cobramos como add-on."
           },
           {
             "q": "¿Es vegano?",
@@ -1316,7 +1344,7 @@
             "cta": "Ver en el menú"
           },
           {
-            "name": "Cochinita",
+            "name": "Yucatán",
             "desc": "Cochinita pibil estilo Yucatán, dentro de tortilla de harina.",
             "href": "/menu",
             "cta": "Ver en el menú"
@@ -1592,7 +1620,7 @@
         "subtitle": "Si vienes por primera vez desde Roma Norte, empieza por estos.",
         "items": [
           { "name": "California Burrito", "desc": "El original. Carne asada, papas adentro, cheddar, guacamole, pico, crema. $250.", "reason": "La razón por la que cruzas Cuauhtémoc. Si nunca lo has probado, este." },
-          { "name": "Portobello", "desc": "Hongo portobello a la plancha, queso, papas, guacamole, pico. Sin carne. $210.", "reason": "La opción vegetariana real. Sustancia, no relleno." },
+          { "name": "Portobello", "desc": "Hongo portobello a la plancha, queso, papas, guacamole, pico. Sin carne. $170.", "reason": "La opción vegetariana real. Sustancia, no relleno." },
           { "name": "Carne Asada Fries", "desc": "Papas, carne asada, cheddar derretido, guacamole, pico. Sin burrito. $299.", "reason": "Para compartir en mesa con amigos al volver a Roma Norte." }
         ],
         "cta": "Ver el menú completo"
@@ -1608,7 +1636,7 @@
         "items": [
           { "q": "¿Cuánto tarda Rappi desde Roma Norte?", "a": "Entre 15 y 25 minutos según hora y demanda. Si estás corto de tiempo, caminar suele ser igual de rápido — 10-15 minutos." },
           { "q": "¿Vale la pena caminar?", "a": "Sí — y no por capricho. Caminar evita el costo de envío, el burrito llega más caliente, y los 10-15 minutos de paseo por Roma sirven de aperitivo. Mucha gente de Roma Norte lo convierte en rutina." },
-          { "q": "¿Hay opciones vegetarianas?", "a": "Sí. El Portobello burrito sustituye la carne por hongo portobello a la plancha y mantiene queso, papas, guacamole y pico. $210. También tenemos Bean & Cheese." },
+          { "q": "¿Hay opciones vegetarianas?", "a": "Sí. El Portobello burrito sustituye la carne por hongo portobello a la plancha y mantiene queso, papas, guacamole y pico. $170. También tenemos Bean & Cheese." },
           { "q": "¿Aceptan reservación?", "a": "No aceptamos reservación — somos taquería, no restaurante de mesa. Pero puedes pedir por WhatsApp para que te lo tengamos enrollado al llegar." },
           { "q": "¿Cuál es la dirección exacta?", "a": "Coahuila 192, Roma Sur, CDMX. Cruzas Cuauhtémoc viniendo de Roma Norte y caminas tres cuadras." }
         ]
@@ -1663,8 +1691,8 @@
         "subtitle": "Los pedidos más comunes desde tu zona.",
         "items": [
           { "name": "California Burrito", "desc": "El original. Carne asada, papas adentro, cheddar, guacamole, pico, crema. $250.", "reason": "El que pide más del 60% de quienes ordenan desde Condesa." },
-          { "name": "Pollo Loco", "desc": "Pechuga asada, arroz, frijoles, guacamole. Sin papas, más ligero. $219.", "reason": "La opción menos contundente para días de gym o post-yoga." },
-          { "name": "Ensenada", "desc": "300g de pescado mero del Pacífico capeado al estilo Ensenada. $270.", "reason": "Cuando ya estás cansado de la carne — pescado fresco, capeado, en tortilla de harina." }
+          { "name": "Pollos Hermanos", "desc": "Pechuga asada, arroz, frijoles, guacamole. Sin papas, más ligero. $219.", "reason": "La opción menos contundente para días de gym o post-yoga." },
+          { "name": "Ensenada", "desc": "300g de pescado mero del Pacífico capeado al estilo Ensenada. $265.", "reason": "Cuando ya estás cansado de la carne — pescado fresco, capeado, en tortilla de harina." }
         ],
         "cta": "Ver el menú completo"
       },
@@ -1806,7 +1834,7 @@
         "items": [
           { "name": "California Burrito", "desc": "El original. Carne asada, papas adentro, cheddar, guacamole, pico, crema. $250.", "reason": "El pedido seguro para cualquier miembro de la familia." },
           { "name": "Bean & Cheese", "desc": "Frijoles refritos y cheddar dentro de tortilla de harina. $99.", "reason": "Para niños, para vegetarianos, para el pedido económico que complementa el resto." },
-          { "name": "Breakfast Burrito", "desc": "Huevos revueltos, cheddar, papas, pico. Servido todo el día. $210.", "reason": "Para el brunch del domingo o la cena ligera del viernes." }
+          { "name": "Breakfast Burrito", "desc": "Huevos revueltos, cheddar, papas, pico. Servido todo el día. $180.", "reason": "Para el brunch del domingo o la cena ligera del viernes." }
         ],
         "cta": "Ver el menú completo"
       },
@@ -1876,8 +1904,8 @@
         "subtitle": "Si nunca lo has probado, empieza por estos.",
         "items": [
           { "name": "California Burrito", "desc": "El original. Carne asada, papas adentro, cheddar, guacamole, pico, crema. $250.", "reason": "Si vas a pedir desde Del Valle, este. Para entender el porqué." },
-          { "name": "Pollo Loco", "desc": "Pechuga asada, arroz, frijoles, guacamole. $219.", "reason": "Más ligero que el California pero con la misma calidad. Para días de menos hambre." },
-          { "name": "Cochinita", "desc": "Cochinita pibil estilo Yucatán dentro de tortilla de harina. Desde $99.", "reason": "Para algo distinto al California. Sabor yucateco, mismo cuidado." }
+          { "name": "Pollos Hermanos", "desc": "Pechuga asada, arroz, frijoles, guacamole. $219.", "reason": "Más ligero que el California pero con la misma calidad. Para días de menos hambre." },
+          { "name": "Yucatán", "desc": "Cochinita pibil estilo Yucatán dentro de tortilla de harina. Desde $99.", "reason": "Para algo distinto al California. Sabor yucateco, mismo cuidado." }
         ],
         "cta": "Ver el menú completo"
       },
@@ -1948,7 +1976,7 @@
         "items": [
           { "name": "California Burrito", "desc": "El original. Carne asada, papas adentro, cheddar, guacamole, pico, crema. $250.", "reason": "El que tienes que probar para entender el género." },
           { "name": "Carne Asada Fries", "desc": "Papas, carne asada, cheddar derretido, guacamole, pico. $299.", "reason": "Para mesa compartida. Ideal para llevar al patio del departamento con amigos." },
-          { "name": "Portobello", "desc": "Portobello a la plancha, queso, papas, guacamole, pico. Sin carne. $210.", "reason": "Para los miembros vegetarianos del grupo — sustancia real, no relleno." }
+          { "name": "Portobello", "desc": "Portobello a la plancha, queso, papas, guacamole, pico. Sin carne. $170.", "reason": "Para los miembros vegetarianos del grupo — sustancia real, no relleno." }
         ],
         "cta": "Ver el menú completo"
       },
@@ -1963,7 +1991,7 @@
         "items": [
           { "q": "¿Sí llegan a Escandón?", "a": "Sí — Rappi entrega a toda Escandón en 15-25 minutos típicos. Cubrimos también Escandón I y II." },
           { "q": "¿Cuánto tarda?", "a": "Entre 15 y 25 minutos en Rappi puerta a puerta. Si vives sobre Patriotismo o cerca, hacia el límite bajo." },
-          { "q": "¿Tienen opciones vegetarianas?", "a": "Sí — Portobello burrito ($210) y Bean & Cheese ($99). Ambos disponibles en Rappi." },
+          { "q": "¿Tienen opciones vegetarianas?", "a": "Sí — Portobello burrito ($170) y Bean & Cheese ($99). Ambos disponibles en Rappi." },
           { "q": "¿Cuál es la diferencia con un burrito de taquería normal?", "a": "El California burrito lleva papas a la francesa adentro (no arroz, no frijoles), carne asada con corte específico, queso cheddar derretido, y tortilla de harina grande. Es una receta distinta — viene de San Diego, no del norte de México. Aquí servimos la receta original." },
           { "q": "¿Qué tan auténtico es?", "a": "Aprendimos la receta en San Diego, importamos la técnica, y la respetamos sin reinterpretar. Carne asada con bordes tatemados, papas crujientes adentro, queso fundido a la plancha. La versión correcta — sin fusión, sin atajos, sin invención." }
         ]
