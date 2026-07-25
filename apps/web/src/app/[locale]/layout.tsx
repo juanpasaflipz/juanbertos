@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import { routing } from "@/i18n/routing";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { WhatsAppFloatingButton } from "@/components/WhatsAppFloatingButton";
 
 const SITE_URL = "https://www.juanbertos.com";
 
@@ -124,6 +125,7 @@ export default async function LocaleLayout({ children, params }: Props) {
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
+        <WhatsAppFloatingButton />
       </div>
     </NextIntlClientProvider>
   );

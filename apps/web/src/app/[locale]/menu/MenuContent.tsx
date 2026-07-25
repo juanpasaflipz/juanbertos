@@ -462,18 +462,31 @@ export function MenuContent() {
             </p>
           </div>
           <ul className="grid gap-x-8 gap-y-3 sm:grid-cols-2 border-2 border-ink-900 bg-paper-50 p-6 sm:p-8 shadow-[6px_6px_0_0_var(--color-ink-900)]">
-            {drinks.map((item) => (
-              <li
-                key={item.name}
-                className="flex items-baseline justify-between gap-3 border-b border-ink-900/15 pb-2 last:border-b-0"
-              >
-                <div className="min-w-0">
-                  <span className="font-semibold text-ink-900">{item.name}</span>
-                  <span className="ml-2 text-sm text-ink-700/80">{item.desc}</span>
-                </div>
-                <span className="headline-display text-xl text-ink-900 shrink-0">${item.price}</span>
-              </li>
-            ))}
+            {drinks.map((item) => {
+              const isNumericPrice = /^\d/.test(item.price);
+              return (
+                <li
+                  key={item.name}
+                  className="flex items-baseline justify-between gap-3 border-b border-ink-900/15 pb-2 last:border-b-0"
+                >
+                  <div className="min-w-0">
+                    <span className="font-semibold text-ink-900">{item.name}</span>
+                    {item.desc && (
+                      <span className="ml-2 text-sm text-ink-700/80">{item.desc}</span>
+                    )}
+                  </div>
+                  <span
+                    className={
+                      isNumericPrice
+                        ? "headline-display text-xl text-ink-900 shrink-0"
+                        : "text-sm italic text-ink-700 shrink-0"
+                    }
+                  >
+                    {isNumericPrice ? `$${item.price}` : item.price}
+                  </span>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </section>

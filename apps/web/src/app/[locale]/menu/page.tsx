@@ -70,7 +70,7 @@ export default async function MenuPage({ params }: Props) {
     "@type": "MenuItem",
     name: item.name,
     description: item.desc,
-    ...(item.price && {
+    ...(item.price && /^\d/.test(item.price) && {
       offers: {
         "@type": "Offer",
         price: item.price,

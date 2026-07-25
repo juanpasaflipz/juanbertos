@@ -18,7 +18,7 @@ const HERO_IMAGE = "/menu/california-burrito.jpg";
 const RAPPI_URL =
   "https://www.rappi.com.mx/restaurantes/delivery/687998-juanberto-s?utm_source=app&utm_medium=deeplink&utm_campaign=share";
 const WHATSAPP_URL =
-  "https://wa.me/525621243007?text=Hola%20Juanberto%27s%2C%20quiero%20un%20California%20burrito";
+  "https://wa.me/525613096835?text=Hola%20Juanberto%27s%2C%20quiero%20un%20California%20burrito";
 const DIRECTIONS_URL =
   "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX";
 

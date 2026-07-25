@@ -21,3 +21,4 @@ apps/landing/.next/
 apps/landing/out/
 apps/es-landing/.next/
 apps/es-landing/out/
+.gstack/

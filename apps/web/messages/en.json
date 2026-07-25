@@ -154,7 +154,7 @@
         { "name": "Michelada",           "desc": "Beer, lime, salt, chile.",             "price": "87" },
         { "name": "Chelada",             "desc": "Beer with lime and salt.",             "price": "78" },
         { "name": "Vaso de Chelada",     "desc": "Chelada prep by the glass.",           "price": "30" },
-        { "name": "Botella de Vino",     "desc": "Selection varies.",                    "price": "800" }
+        { "name": "Botella de Vino",     "desc": "",                                     "price": "Selection varies" }
       ]
     },
     "cta": "Order yours",
@@ -263,8 +263,8 @@
       "name": "Roma Sur",
       "address": "Coahuila 192, Roma Sur, CDMX",
       "directionsUrl": "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX",
-      "phone": "+52 56 2124 3007",
-      "phoneTel": "+525621243007",
+      "phone": "+52 56 1309 6835",
+      "phoneTel": "+525613096835",
       "hoursTitle": "Hours",
       "hours": [
         { "days": "Mon",          "time": "Closed" },
@@ -279,6 +279,7 @@
     "title": "Order a Juanberto's.",
     "subtitle": "Three ways to put a California burrito in your hands.",
     "comingSoon": "Coming soon",
+    "floatingLabel": "Order on WhatsApp",
     "channels": {
       "inperson": {
         "title": "Walk in",
@@ -290,7 +291,7 @@
         "title": "WhatsApp",
         "body": "Send us a message. We'll have it rolled and ready.",
         "cta": "Open WhatsApp",
-        "href": "https://wa.me/525621243007?text=Hola%20Juanberto%27s%2C%20quiero%20ordenar"
+        "href": "https://wa.me/525613096835?text=Hola%20Juanberto%27s%2C%20quiero%20ordenar"
       },
       "rappi": {
         "title": "Rappi",
@@ -405,7 +406,7 @@
       "comingSoon": "Coming soon",
       "channels": [
         { "title": "Walk in", "body": "Fastest way. Fresh off the plancha.", "cta": "Get directions", "href": "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX" },
-        { "title": "WhatsApp", "body": "Send us a message. We'll have it rolled and ready.", "cta": "Open WhatsApp", "href": "https://wa.me/525621243007?text=Hi%20Juanberto%27s%2C%20I%27d%20like%20a%20California%20burrito" },
+        { "title": "WhatsApp", "body": "Send us a message. We'll have it rolled and ready.", "cta": "Open WhatsApp", "href": "https://wa.me/525613096835?text=Hi%20Juanberto%27s%2C%20I%27d%20like%20a%20California%20burrito" },
         { "title": "Rappi", "body": "Delivery across CDMX in 30 minutes or less.", "cta": "Order on Rappi", "href": "https://www.rappi.com.mx/restaurantes/delivery/687998-juanberto-s?utm_source=app&utm_medium=deeplink&utm_campaign=share" },
         { "title": "Didi Food", "body": "Track the burro from the plancha to your door.", "cta": "Order on Didi Food", "href": "https://www.didifood.com.mx/" }
       ]
@@ -447,7 +448,7 @@
         },
         {
           "q": "Do you deliver in Mexico City?",
-          "a": "Yes. We deliver via Rappi and Didi Food across all of CDMX, usually in 30 minutes or less. You can also order by WhatsApp at +52 56 2124 3007 for pickup."
+          "a": "Yes. We deliver via Rappi and Didi Food across all of CDMX, usually in 30 minutes or less. You can also order by WhatsApp at +52 56 1309 6835 for pickup."
         },
         {
           "q": "What's the difference between a California burrito and a Mission burrito?",
@@ -1564,7 +1565,7 @@
         "title": "Burritos in Roma Sur — common questions.",
         "items": [
           { "q": "Where exactly are you?", "a": "Coahuila 192, Roma Sur, CDMX. Between Antonio M. Anza and Calle Mérida, a block from Mercado Medellín. Ecobici stations nearby." },
-          { "q": "How should I order — counter, WhatsApp, or Rappi?", "a": "The best way is to walk up to the counter — pick in person, watch the burrito get rolled in front of you, and walk home with it hot. If you're in a rush or want to skip the line, WhatsApp +52 56 2124 3007 to pre-order and just pick it up. Rappi also works, but for Roma Sur the walk is usually just as fast." },
+          { "q": "How should I order — counter, WhatsApp, or Rappi?", "a": "The best way is to walk up to the counter — pick in person, watch the burrito get rolled in front of you, and walk home with it hot. If you're in a rush or want to skip the line, WhatsApp +52 56 1309 6835 to pre-order and just pick it up. Rappi also works, but for Roma Sur the walk is usually just as fast." },
           { "q": "What are the hours?", "a": "Tuesday-Saturday 10:30-21:30, Sunday 10:30-19:30. Closed Mondays." },
           { "q": "Do you take cards?", "a": "Yes. Cash, debit, credit (Visa, Mastercard, AMEX), CoDi payments, and SPEI transfers." },
           { "q": "How long does a burrito take in-store?", "a": "Between 8 and 15 minutes depending on the line. Each burrito is hand-rolled to order — no pre-made burritos under a heat lamp." }

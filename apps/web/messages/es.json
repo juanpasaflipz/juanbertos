@@ -154,7 +154,7 @@
         { "name": "Michelada",           "desc": "Cerveza, limón, sal, chile.",       "price": "87" },
         { "name": "Chelada",             "desc": "Cerveza con limón y sal.",          "price": "78" },
         { "name": "Vaso de Chelada",     "desc": "Preparada al vaso.",                "price": "30" },
-        { "name": "Botella de Vino",     "desc": "Selección varía.",                  "price": "800" }
+        { "name": "Botella de Vino",     "desc": "",                                  "price": "Selección varía" }
       ]
     },
     "cta": "Ordena el tuyo",
@@ -263,8 +263,8 @@
       "name": "Roma Sur",
       "address": "Coahuila 192, Roma Sur, CDMX",
       "directionsUrl": "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX",
-      "phone": "+52 56 2124 3007",
-      "phoneTel": "+525621243007",
+      "phone": "+52 56 1309 6835",
+      "phoneTel": "+525613096835",
       "hoursTitle": "Horario",
       "hours": [
         { "days": "Lun",          "time": "Cerrado" },
@@ -279,6 +279,7 @@
     "title": "Ordena un Juanberto's.",
     "subtitle": "Tres formas de tener un California burrito en tus manos.",
     "comingSoon": "Próximamente",
+    "floatingLabel": "Pedir por WhatsApp",
     "channels": {
       "inperson": {
         "title": "Pasa a la sucursal",
@@ -290,7 +291,7 @@
         "title": "WhatsApp",
         "body": "Mándanos un mensaje. Te lo tenemos enrollado y listo.",
         "cta": "Abrir WhatsApp",
-        "href": "https://wa.me/525621243007?text=Hola%20Juanberto%27s%2C%20quiero%20ordenar"
+        "href": "https://wa.me/525613096835?text=Hola%20Juanberto%27s%2C%20quiero%20ordenar"
       },
       "rappi": {
         "title": "Rappi",
@@ -405,7 +406,7 @@
       "comingSoon": "Próximamente",
       "channels": [
         { "title": "Pasa a la sucursal", "body": "La forma más rápida. Recién salido de la plancha.", "cta": "Cómo llegar", "href": "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX" },
-        { "title": "WhatsApp", "body": "Mándanos un mensaje. Te lo tenemos enrollado.", "cta": "Abrir WhatsApp", "href": "https://wa.me/525621243007?text=Hola%20Juanberto%27s%2C%20quiero%20un%20California%20burrito" },
+        { "title": "WhatsApp", "body": "Mándanos un mensaje. Te lo tenemos enrollado.", "cta": "Abrir WhatsApp", "href": "https://wa.me/525613096835?text=Hola%20Juanberto%27s%2C%20quiero%20un%20California%20burrito" },
         { "title": "Rappi", "body": "Entregamos por todo CDMX en 30 minutos o menos.", "cta": "Ordenar en Rappi", "href": "https://www.rappi.com.mx/restaurantes/delivery/687998-juanberto-s?utm_source=app&utm_medium=deeplink&utm_campaign=share" },
         { "title": "Didi Food", "body": "Sigue al burro desde la plancha hasta tu puerta.", "cta": "Ordenar en Didi Food", "href": "https://www.didifood.com.mx/" }
       ]
@@ -447,7 +448,7 @@
         },
         {
           "q": "¿Hacen entrega a domicilio en CDMX?",
-          "a": "Sí. Entregamos por Rappi y Didi Food en toda CDMX, normalmente en 30 minutos o menos. También puedes ordenar por WhatsApp al +52 56 2124 3007 para pasar a recoger."
+          "a": "Sí. Entregamos por Rappi y Didi Food en toda CDMX, normalmente en 30 minutos o menos. También puedes ordenar por WhatsApp al +52 56 1309 6835 para pasar a recoger."
         },
         {
           "q": "¿Cuál es la diferencia entre un California burrito y un Mission burrito?",
@@ -1564,7 +1565,7 @@
         "title": "Burritos en Roma Sur — dudas comunes.",
         "items": [
           { "q": "¿Dónde están exactamente?", "a": "Coahuila 192, Roma Sur, CDMX. Entre Antonio M. Anza y Calle Mérida, a una cuadra del Mercado Medellín. Hay paradas de Ecobici cerca." },
-          { "q": "¿Cómo pido — al mostrador, por WhatsApp o por Rappi?", "a": "La mejor forma es pasar al mostrador — eliges en persona, te enrollan el burrito frente a ti y caminas con él calientito a casa. Si tienes prisa o quieres saltarte la fila, manda mensaje al WhatsApp +52 56 2124 3007 para pre-ordenar y pasar a recoger sin formarte. Rappi también va, pero para Roma Sur la caminata suele ser igual de rápida." },
+          { "q": "¿Cómo pido — al mostrador, por WhatsApp o por Rappi?", "a": "La mejor forma es pasar al mostrador — eliges en persona, te enrollan el burrito frente a ti y caminas con él calientito a casa. Si tienes prisa o quieres saltarte la fila, manda mensaje al WhatsApp +52 56 1309 6835 para pre-ordenar y pasar a recoger sin formarte. Rappi también va, pero para Roma Sur la caminata suele ser igual de rápida." },
           { "q": "¿Cuál es el horario?", "a": "Martes a sábado de 10:30 a 21:30, domingos de 10:30 a 19:30. Cerrado los lunes." },
           { "q": "¿Aceptan tarjeta?", "a": "Sí. Efectivo, tarjeta de débito y crédito (Visa, Mastercard, AMEX), pagos por terminal CoDi y transferencias SPEI." },
           { "q": "¿Cuánto tarda un burrito hecho en sucursal?", "a": "Entre 8 y 15 minutos dependiendo de la fila. Cada burrito se enrolla a mano al momento del pedido — no tenemos burritos pre-hechos en lámpara térmica." }
