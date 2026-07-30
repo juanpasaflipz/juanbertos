@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "California Burritos in Mexico City — Juanberto's (Roma Sur, CDMX)",
-    "description": "The original California burrito in Mexico City. Carne asada, fries inside, hand-rolled in Roma Sur. Over 50 five-star reviews. Walk in or order on Rappi."
+    "description": "The original California burrito in Mexico City. Carne asada, fries inside, hand-rolled in Roma Sur. 4.9★ on Google. Walk in or order on Rappi."
   },
   "notFound": {
     "title": "Page not found",
@@ -71,14 +71,16 @@
   "love": {
     "kicker": "Pinned to the wall",
     "title": "What the burros say.",
-    "subtitle": "Real receipts. Unedited.",
+    "subtitle": "4.9★ on Google. Word for word, nothing edited.",
+    "cta": "Read them all on Google",
+    "ctaWrite": "Ate here? Leave a review",
     "quotes": [
-      { "quote": "The California burrito of my life. I promise.",          "name": "Sofía R.",  "where": "Roma Norte" },
-      { "quote": "Fries inside. As it should be. The end.",                "name": "Eduardo M.","where": "Polanco" },
-      { "quote": "I was skeptical. Now I'm a customer for life.",          "name": "Mike T.",   "where": "visiting from SD" },
-      { "quote": "Better than San Diego. And I'm from San Diego.",          "name": "Carlos L.", "where": "born chilango" },
-      { "quote": "My kids ask to come every Friday.",                       "name": "Mariana F.","where": "Coyoacán" },
-      { "quote": "The salsa verde is illegal.",                             "name": "Jake P.",   "where": "Condesa" }
+      { "quote": "Delicious, huge burritos packed with flavour. Run by two really friendly brothers — made me feel so welcome.", "name": "Dave C.",      "source": "Google", "rating": 5 },
+      { "quote": "2 Mexicans who lived in California run it so they know the best of both worlds when it comes to burritos.",    "name": "Hunter",       "source": "Google", "rating": 5 },
+      { "quote": "I tried the chicken burrito and it was spectacular. The picanha with fries was also absolutely delicious.",    "name": "Alejandra L.", "source": "Google", "rating": 5 },
+      { "quote": "Top tier hospitality and experience, must try pollo asado burrito with all the sauces!",                       "name": "Kenneth L.",   "source": "Google", "rating": 5 },
+      { "quote": "It's almost impossible to find burritos in CDMX… Ordered the California burrito and it was delicious.",        "name": "Samir N.",     "source": "Google", "rating": 5 },
+      { "quote": "Delicious Californian style burrito. The owners are amazing folks too! Must go :)",                            "name": "Daniel S.",    "source": "Google · Local Guide", "rating": 5 }
     ]
   },
   "menuPage": {
@@ -315,7 +317,7 @@
   "cornerstone": {
     "meta": {
       "title": "California Burrito in Mexico City — The Definitive Guide | Juanberto's",
-      "description": "California burrito in Mexico City: what it is, the 6 layers, where to eat it in Roma Sur. Over 50 5-star reviews. Walk in, WhatsApp, or order on Rappi."
+      "description": "California burrito in Mexico City: what it is, the 6 layers, where to eat it in Roma Sur. 4.9★ on Google. Walk in, WhatsApp, or order on Rappi."
     },
     "kicker": "The California burrito guide for CDMX",
     "title": "The California Burrito in Mexico City.",
@@ -413,13 +415,15 @@
     },
     "social": {
       "kicker": "What people say",
-      "title": "Over 50 reviews. All 5 stars.",
-      "subtitle": "Real Google reviews. Unedited.",
+      "title": "4.9 stars across 80 Google reviews.",
+      "subtitle": "Real Google reviews. Word for word, nothing edited.",
+      "cta": "Read them all on Google",
+      "ctaWrite": "Ate here? Leave a review",
       "quotes": [
-        { "quote": "The California burrito of my life. I promise.", "name": "Sofía R.", "where": "Roma Norte" },
-        { "quote": "Fries inside. As it should be. The end.", "name": "Eduardo M.", "where": "Polanco" },
-        { "quote": "Better than San Diego. And I'm from San Diego.", "name": "Carlos L.", "where": "born chilango" },
-        { "quote": "I was skeptical. Now I'm a customer for life.", "name": "Mike T.", "where": "visiting from SD" }
+        { "quote": "Excellent spot if you are looking for California-style burritos or just burritos in general! They are very attentive to customers and even to delivery drivers.", "name": "Patrick R.", "source": "Google", "rating": 5 },
+        { "quote": "Super nice owners and delicious burritos! The sauces were fantastic too", "name": "Spencer F.", "source": "Google", "rating": 5 },
+        { "quote": "It's almost impossible to find burritos in CDMX… Ordered the California burrito and it was delicious.", "name": "Samir N.", "source": "Google", "rating": 5 },
+        { "quote": "2 Mexicans who lived in California run it so they know the best of both worlds when it comes to burritos.", "name": "Hunter", "source": "Google", "rating": 5 }
       ]
     },
     "faq": {
@@ -698,7 +702,7 @@
   "ingredientsIndex": {
     "meta": {
       "title": "California Burrito Ingredients — Juanberto's (Roma Sur, CDMX)",
-      "description": "Ingredients behind every California burrito at Juanberto's: USDA Choice picaña, grass-fed skirt steak, Mexican cheddar, organic guac. Over 50 5-star reviews."
+      "description": "Ingredients behind every California burrito at Juanberto's: USDA Choice picaña, grass-fed skirt steak, Mexican cheddar, organic guac. 4.9★ on Google."
     },
     "kicker": "Ingredients",
     "title": "The ingredients of the California burrito.",
@@ -750,7 +754,7 @@
     "carne-asada": {
       "meta": {
         "title": "Carne Asada in Mexico City — USDA Choice Picaña + Grass-fed Skirt Steak | Juanberto's",
-        "description": "Juanberto's carne asada: USDA Choice picaña + grass-fed skirt steak, seared on a hot plancha. Roma Sur, CDMX. Over 50 5-star reviews."
+        "description": "Juanberto's carne asada: USDA Choice picaña + grass-fed skirt steak, seared on a hot plancha. Roma Sur, CDMX. 4.9★ on Google."
       },
       "kicker": "Ingredient · Carne Asada",
       "title": "Carne asada. USDA Choice picaña + grass-fed skirt steak.",
@@ -848,7 +852,7 @@
     "queso-cheddar": {
       "meta": {
         "title": "Cheddar Cheese in Mexico City — From Local Mexican Dairy Producers | Juanberto's",
-        "description": "Cheddar from local Mexican dairy producers, melted on the plancha, inside every California burrito. Roma Sur, CDMX. Over 50 5-star reviews."
+        "description": "Cheddar from local Mexican dairy producers, melted on the plancha, inside every California burrito. Roma Sur, CDMX. 4.9★ on Google."
       },
       "kicker": "Ingredient · Cheddar Cheese",
       "title": "Cheddar. From local Mexican dairy producers.",
@@ -958,7 +962,7 @@
     "guacamole": {
       "meta": {
         "title": "Guacamole in Mexico City — Organic Avocados, Made Daily | Juanberto's",
-        "description": "Guacamole made daily with organic avocados, hand-mashed. Inside every California burrito. Roma Sur, CDMX. Over 50 5-star reviews."
+        "description": "Guacamole made daily with organic avocados, hand-mashed. Inside every California burrito. Roma Sur, CDMX. 4.9★ on Google."
       },
       "kicker": "Ingredient · Guacamole",
       "title": "Guacamole. Organic avocados. Made daily.",
@@ -1068,7 +1072,7 @@
     "pico-de-gallo": {
       "meta": {
         "title": "Pico de Gallo in Mexico City — Farmers Market Tomatoes, Made Daily | Juanberto's",
-        "description": "Pico de gallo made every morning with farmers market tomatoes and red onion, hand-chopped. Roma Sur, CDMX. Over 50 5-star reviews."
+        "description": "Pico de gallo made every morning with farmers market tomatoes and red onion, hand-chopped. Roma Sur, CDMX. 4.9★ on Google."
       },
       "kicker": "Ingredient · Pico de Gallo",
       "title": "Pico de gallo. Market to burrito in hours.",
@@ -1178,7 +1182,7 @@
     "crema": {
       "meta": {
         "title": "Mexican Sour Cream (Crema) in Mexico City — Grass-fed, No Industrial | Juanberto's",
-        "description": "Grass-fed crema (no gums), the final layer of the California burrito that softens the asada and cheese. Roma Sur, CDMX. Over 50 5-star reviews."
+        "description": "Grass-fed crema (no gums), the final layer of the California burrito that softens the asada and cheese. Roma Sur, CDMX. 4.9★ on Google."
       },
       "kicker": "Ingredient · Crema (Sour Cream)",
       "title": "Crema. Grass-fed. The final layer.",
@@ -1282,7 +1286,7 @@
     "tortilla-de-harina": {
       "meta": {
         "title": "Flour Tortillas in Mexico City — Made Fresh Daily | Juanberto's",
-        "description": "Flour tortillas made fresh every day, warmed on the plancha. No California burrito without them. Roma Sur, CDMX. Over 50 5-star reviews."
+        "description": "Flour tortillas made fresh every day, warmed on the plancha. No California burrito without them. Roma Sur, CDMX. 4.9★ on Google."
       },
       "kicker": "Ingredient · Flour Tortilla",
       "title": "Flour tortilla. Fresh, not from a bag.",
@@ -1392,7 +1396,7 @@
     "papas-a-la-francesa": {
       "meta": {
         "title": "French Fries Inside the California Burrito | Juanberto's, Mexico City",
-        "description": "The fries inside Juanberto's California burrito: crispy outside, soft inside, fried at assembly. Roma Sur, CDMX. Over 50 5-star reviews."
+        "description": "The fries inside Juanberto's California burrito: crispy outside, soft inside, fried at assembly. Roma Sur, CDMX. 4.9★ on Google."
       },
       "kicker": "Ingredient · French Fries",
       "title": "Fries. Inside the burrito.",
@@ -1510,7 +1514,7 @@
     "burritos-roma-sur": {
       "meta": {
         "title": "Burritos in Roma Sur — California Burritos in Your Neighborhood | Juanberto's",
-        "description": "California burrito in Roma Sur? Juanberto's at Coahuila 192, a block from Mercado Medellín. Hand-rolled. Over 50 5-star reviews."
+        "description": "California burrito in Roma Sur? Juanberto's at Coahuila 192, a block from Mercado Medellín. Hand-rolled. 4.9★ on Google."
       },
       "kicker": "California Burritos · Roma Sur",
       "title": "California Burritos in Roma Sur.",
@@ -1558,7 +1562,7 @@
       "reviews": {
         "kicker": "What customers say",
         "title": "Real Google reviews. Unedited.",
-        "subtitle": "Over 50 reviews. All five stars."
+        "subtitle": "4.9★ across 80 Google reviews."
       },
       "faq": {
         "kicker": "FAQ",
@@ -1581,7 +1585,7 @@
     "burritos-roma-norte": {
       "meta": {
         "title": "Burritos in Roma Norte — California Burritos 10 Min Walk Away | Juanberto's",
-        "description": "California burritos near Roma Norte? Juanberto's a 10-min walk at Coahuila 192 (Roma Sur). Hand-rolled. Over 50 5-star reviews."
+        "description": "California burritos near Roma Norte? Juanberto's a 10-min walk at Coahuila 192 (Roma Sur). Hand-rolled. 4.9★ on Google."
       },
       "kicker": "California Burritos · Roma Norte",
       "title": "California Burritos near Roma Norte.",
@@ -1629,7 +1633,7 @@
       "reviews": {
         "kicker": "What customers say",
         "title": "Real Google reviews. Unedited.",
-        "subtitle": "Over 50 reviews. All five stars."
+        "subtitle": "4.9★ across 80 Google reviews."
       },
       "faq": {
         "kicker": "FAQ",
@@ -1652,7 +1656,7 @@
     "burritos-condesa": {
       "meta": {
         "title": "Burritos in Condesa — California Burritos Delivered Nearby | Juanberto's",
-        "description": "California burritos near Condesa? Juanberto's minutes by Uber. Carne asada, fries, cheddar. Rappi 15-25 min. Over 50 5-star reviews."
+        "description": "California burritos near Condesa? Juanberto's minutes by Uber. Carne asada, fries, cheddar. Rappi 15-25 min. 4.9★ on Google."
       },
       "kicker": "California Burritos · Condesa",
       "title": "California Burritos in Condesa.",
@@ -1700,7 +1704,7 @@
       "reviews": {
         "kicker": "What customers say",
         "title": "Real Google reviews. Unedited.",
-        "subtitle": "Over 50 reviews. All five stars."
+        "subtitle": "4.9★ across 80 Google reviews."
       },
       "faq": {
         "kicker": "FAQ",
@@ -1723,7 +1727,7 @@
     "burritos-juarez": {
       "meta": {
         "title": "Burritos in Colonia Juárez — California Burritos for the Office | Juanberto's",
-        "description": "California burritos near Juárez and Reforma? Rappi 25-35 min to offices and hotels. Coahuila 192. Over 50 5-star reviews."
+        "description": "California burritos near Juárez and Reforma? Rappi 25-35 min to offices and hotels. Coahuila 192. 4.9★ on Google."
       },
       "kicker": "California Burritos · Colonia Juárez",
       "title": "California Burritos in Juárez.",
@@ -1771,7 +1775,7 @@
       "reviews": {
         "kicker": "What customers say",
         "title": "Real Google reviews. Unedited.",
-        "subtitle": "Over 50 reviews. All five stars."
+        "subtitle": "4.9★ across 80 Google reviews."
       },
       "faq": {
         "kicker": "FAQ",
@@ -1794,7 +1798,7 @@
     "burritos-narvarte": {
       "meta": {
         "title": "Burritos in Narvarte — California Burritos Delivered | Juanberto's",
-        "description": "California burritos in Narvarte? Juanberto's delivers via Rappi in 20-30 min. Carne asada, fries inside. Coahuila 192. Over 50 5-star reviews."
+        "description": "California burritos in Narvarte? Juanberto's delivers via Rappi in 20-30 min. Carne asada, fries inside. Coahuila 192. 4.9★ on Google."
       },
       "kicker": "California Burritos · Narvarte",
       "title": "California Burritos in Narvarte.",
@@ -1842,7 +1846,7 @@
       "reviews": {
         "kicker": "What customers say",
         "title": "Real Google reviews. Unedited.",
-        "subtitle": "Over 50 reviews. All five stars."
+        "subtitle": "4.9★ across 80 Google reviews."
       },
       "faq": {
         "kicker": "FAQ",
@@ -1865,7 +1869,7 @@
     "burritos-del-valle": {
       "meta": {
         "title": "Burritos in Del Valle — California Burritos Delivered | Juanberto's",
-        "description": "California burritos in Del Valle? Juanberto's delivers via Rappi in 25-40 min. Carne asada, fries inside. Coahuila 192. Over 50 5-star reviews."
+        "description": "California burritos in Del Valle? Juanberto's delivers via Rappi in 25-40 min. Carne asada, fries inside. Coahuila 192. 4.9★ on Google."
       },
       "kicker": "California Burritos · Del Valle",
       "title": "California Burritos in Del Valle.",
@@ -1913,7 +1917,7 @@
       "reviews": {
         "kicker": "What customers say",
         "title": "Real Google reviews. Unedited.",
-        "subtitle": "Over 50 reviews. All five stars."
+        "subtitle": "4.9★ across 80 Google reviews."
       },
       "faq": {
         "kicker": "FAQ",
@@ -1936,7 +1940,7 @@
     "burritos-escandon": {
       "meta": {
         "title": "Burritos in Escandón — California Burritos Delivered | Juanberto's",
-        "description": "California burritos near Escandón? Juanberto's delivers via Rappi in 15-25 min. Carne asada, fries, cheddar. Hand-rolled. Over 50 5-star reviews."
+        "description": "California burritos near Escandón? Juanberto's delivers via Rappi in 15-25 min. Carne asada, fries, cheddar. Hand-rolled. 4.9★ on Google."
       },
       "kicker": "California Burritos · Escandón",
       "title": "California Burritos in Escandón.",
@@ -1984,7 +1988,7 @@
       "reviews": {
         "kicker": "What customers say",
         "title": "Real Google reviews. Unedited.",
-        "subtitle": "Over 50 reviews. All five stars."
+        "subtitle": "4.9★ across 80 Google reviews."
       },
       "faq": {
         "kicker": "FAQ",

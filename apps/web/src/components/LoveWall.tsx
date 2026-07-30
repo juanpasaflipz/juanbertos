@@ -2,8 +2,12 @@
 
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
-
-type Quote = { quote: string; name: string; where: string };
+import {
+  GOOGLE_REVIEWS_URL,
+  GOOGLE_WRITE_REVIEW_URL,
+  ReviewStars,
+  type Review,
+} from "@/components/ReviewStars";
 
 // Tilt + tape-color presets per card so each polaroid feels hand-pinned.
 const CARD_LOOKS = [
@@ -27,7 +31,7 @@ const QUOTE_TINTS = [
 
 export function LoveWall() {
   const t = useTranslations("love");
-  const quotes = t.raw("quotes") as Quote[];
+  const quotes = t.raw("quotes") as Review[];
 
   return (
     <section className="relative bg-tangerine-50 overflow-hidden">
@@ -88,8 +92,11 @@ export function LoveWall() {
                   className={`absolute -top-3 left-1/2 -translate-x-1/2 w-24 h-7 ${look.tapeColor} ${look.tape} shadow-sm`}
                 />
 
+                {/* rating */}
+                <ReviewStars rating={q.rating} />
+
                 {/* quote */}
-                <div className={`${tint} -mx-2 px-2 py-4 mb-5`}>
+                <div className={`${tint} -mx-2 px-2 pt-3 pb-4 mb-5`}>
                   <p className="hand-note text-2xl sm:text-[1.65rem] text-ink-900 leading-snug">
                     &ldquo;{q.quote}&rdquo;
                   </p>
@@ -99,13 +106,33 @@ export function LoveWall() {
                 <div className="flex items-baseline gap-2 text-ink-700">
                   <span className="headline-display text-base text-ink-900">— {q.name}</span>
                   <span className="text-xs uppercase tracking-wider text-ink-500">
-                    {q.where}
+                    {q.source}
                   </span>
                 </div>
               </motion.li>
             );
           })}
         </ul>
+
+        <div className="mt-16 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8">
+          <a
+            href={GOOGLE_REVIEWS_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border-2 border-ink-900 text-ink-900 px-7 py-3 text-base font-semibold hover:bg-ink-900 hover:text-paper-100 transition-colors"
+          >
+            {t("cta")}
+            <span aria-hidden>→</span>
+          </a>
+          <a
+            href={GOOGLE_WRITE_REVIEW_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hand-note text-2xl text-tangerine-600 underline decoration-2 underline-offset-4 hover:text-ink-900 transition-colors"
+          >
+            {t("ctaWrite")}
+          </a>
+        </div>
       </div>
     </section>
   );

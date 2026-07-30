@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Burritos California en CDMX — Juanberto's (Roma Sur)",
-    "description": "Los California burritos originales en CDMX. Carne asada, papas adentro, hechos a mano en Roma Sur. Más de 50 reseñas 5 estrellas. Pasa o pide en Rappi."
+    "description": "Los California burritos originales en CDMX. Carne asada, papas adentro, hechos a mano en Roma Sur. 4.9★ en Google. Pasa o pide en Rappi."
   },
   "notFound": {
     "title": "Página no encontrada",
@@ -71,14 +71,16 @@
   "love": {
     "kicker": "Pegados al muro",
     "title": "Lo que dicen los burros.",
-    "subtitle": "Testimonios reales. Sin editar.",
+    "subtitle": "4.9★ en Google. Reseñas reales, traducidas del inglés.",
+    "cta": "Léelas todas en Google",
+    "ctaWrite": "¿Ya viniste? Deja tu reseña",
     "quotes": [
-      { "quote": "El California burrito de mi vida. Lo prometo.",         "name": "Sofía R.",   "where": "Roma Norte" },
-      { "quote": "Papas adentro. Como debe ser. Fin.",                    "name": "Eduardo M.", "where": "Polanco" },
-      { "quote": "Era escéptico. Ahora soy cliente de por vida.",         "name": "Mike T.",    "where": "de visita desde SD" },
-      { "quote": "Mejor que en San Diego. Y yo soy de San Diego.",        "name": "Carlos L.",  "where": "chilango de hueso colorado" },
-      { "quote": "Mis hijos piden que vayamos cada viernes.",             "name": "Mariana F.", "where": "Coyoacán" },
-      { "quote": "La salsa verde es ilegal.",                             "name": "Jake P.",    "where": "Condesa" }
+      { "quote": "Burritos enormes y deliciosos, llenos de sabor. Lo llevan dos hermanos muy amables: me hicieron sentir bienvenido.", "name": "Dave C.",      "source": "Google", "rating": 5 },
+      { "quote": "Lo llevan 2 mexicanos que vivieron en California, así que conocen lo mejor de los dos mundos en cuanto a burritos.", "name": "Hunter",       "source": "Google", "rating": 5 },
+      { "quote": "Probé el burrito de pollo y estuvo espectacular. La picaña con papas también estaba deliciosa.",                     "name": "Alejandra L.", "source": "Google", "rating": 5 },
+      { "quote": "Trato y experiencia de primer nivel; hay que probar el burrito de pollo asado con todas las salsas.",                "name": "Kenneth L.",   "source": "Google", "rating": 5 },
+      { "quote": "Es casi imposible encontrar burritos en CDMX… Pedí el California burrito y estaba delicioso.",                       "name": "Samir N.",     "source": "Google", "rating": 5 },
+      { "quote": "Delicioso burrito estilo California. ¡Y los dueños son increíbles! Hay que ir :)",                                   "name": "Daniel S.",    "source": "Google · Local Guide", "rating": 5 }
     ]
   },
   "menuPage": {
@@ -315,7 +317,7 @@
   "cornerstone": {
     "meta": {
       "title": "Burrito California en CDMX — La Guía Definitiva | Juanberto's",
-      "description": "California burrito en CDMX: qué es, las 6 capas, dónde comerlo en Roma Sur. Más de 50 reseñas 5⭐. Pasa o pide por WhatsApp o Rappi."
+      "description": "California burrito en CDMX: qué es, las 6 capas, dónde comerlo en Roma Sur. 4.9★ en Google. Pasa o pide por WhatsApp o Rappi."
     },
     "kicker": "La guía del burrito California en CDMX",
     "title": "El California Burrito en CDMX.",
@@ -413,13 +415,15 @@
     },
     "social": {
       "kicker": "Lo que dicen",
-      "title": "Más de 50 reseñas. Todas 5 estrellas.",
-      "subtitle": "Reseñas reales de Google. Sin editar.",
+      "title": "4.9 estrellas en 80 reseñas de Google.",
+      "subtitle": "Reseñas reales de Google, traducidas del inglés.",
+      "cta": "Léelas todas en Google",
+      "ctaWrite": "¿Ya viniste? Deja tu reseña",
       "quotes": [
-        { "quote": "El California burrito de mi vida. Lo prometo.", "name": "Sofía R.", "where": "Roma Norte" },
-        { "quote": "Papas adentro. Como debe ser. Fin.", "name": "Eduardo M.", "where": "Polanco" },
-        { "quote": "Mejor que en San Diego. Y yo soy de San Diego.", "name": "Carlos L.", "where": "chilango de hueso colorado" },
-        { "quote": "Era escéptico. Ahora soy cliente de por vida.", "name": "Mike T.", "where": "de visita desde SD" }
+        { "quote": "Excelente lugar si buscas burritos estilo California o burritos en general. Son muy atentos con los clientes e incluso con los repartidores.", "name": "Patrick R.", "source": "Google", "rating": 5 },
+        { "quote": "Dueños súper amables y burritos deliciosos. Las salsas también estaban fantásticas.", "name": "Spencer F.", "source": "Google", "rating": 5 },
+        { "quote": "Es casi imposible encontrar burritos en CDMX… Pedí el California burrito y estaba delicioso.", "name": "Samir N.", "source": "Google", "rating": 5 },
+        { "quote": "Lo llevan 2 mexicanos que vivieron en California, así que conocen lo mejor de los dos mundos en cuanto a burritos.", "name": "Hunter", "source": "Google", "rating": 5 }
       ]
     },
     "faq": {
@@ -698,7 +702,7 @@
   "ingredientsIndex": {
     "meta": {
       "title": "Ingredientes del California Burrito — Juanberto's (Roma Sur, CDMX)",
-      "description": "Ingredientes del California burrito en Juanberto's: picaña USDA Choice, arrachera grass-fed, cheddar local, aguacate orgánico. Más de 50 reseñas 5⭐."
+      "description": "Ingredientes del California burrito en Juanberto's: picaña USDA Choice, arrachera grass-fed, cheddar local, aguacate orgánico. 4.9★ en Google."
     },
     "kicker": "Ingredientes",
     "title": "Los ingredientes del California burrito.",
@@ -750,7 +754,7 @@
     "carne-asada": {
       "meta": {
         "title": "Carne asada en CDMX — Picaña USDA Choice + arrachera grass-fed | Juanberto's",
-        "description": "Carne asada Juanberto's: picaña USDA Choice + arrachera grass-fed, a la plancha bien caliente. Roma Sur, CDMX. Más de 50 reseñas 5⭐."
+        "description": "Carne asada Juanberto's: picaña USDA Choice + arrachera grass-fed, a la plancha bien caliente. Roma Sur, CDMX. 4.9★ en Google."
       },
       "kicker": "Ingrediente · Carne asada",
       "title": "Carne asada. Picaña USDA Choice + arrachera grass-fed.",
@@ -848,7 +852,7 @@
     "queso-cheddar": {
       "meta": {
         "title": "Queso cheddar en CDMX — De productores lácteos mexicanos | Juanberto's",
-        "description": "Cheddar de productor lácteo mexicano, derretido sobre la plancha. Dentro de cada California burrito. Roma Sur, CDMX. Más de 50 reseñas 5⭐."
+        "description": "Cheddar de productor lácteo mexicano, derretido sobre la plancha. Dentro de cada California burrito. Roma Sur, CDMX. 4.9★ en Google."
       },
       "kicker": "Ingrediente · Queso cheddar",
       "title": "Cheddar. De productores lácteos mexicanos.",
@@ -958,7 +962,7 @@
     "guacamole": {
       "meta": {
         "title": "Guacamole en CDMX — Aguacate orgánico, hecho diario | Juanberto's",
-        "description": "Guacamole hecho diario con aguacate orgánico, machacado a mano. En cada California burrito. Roma Sur, CDMX. Más de 50 reseñas 5⭐."
+        "description": "Guacamole hecho diario con aguacate orgánico, machacado a mano. En cada California burrito. Roma Sur, CDMX. 4.9★ en Google."
       },
       "kicker": "Ingrediente · Guacamole",
       "title": "Guacamole. Aguacate orgánico. Hecho diario.",
@@ -1068,7 +1072,7 @@
     "pico-de-gallo": {
       "meta": {
         "title": "Pico de gallo en CDMX — Jitomate del mercado, hecho diario | Juanberto's",
-        "description": "Pico de gallo hecho cada mañana con jitomate y cebolla del mercado, picado a mano. Roma Sur, CDMX. Más de 50 reseñas 5⭐."
+        "description": "Pico de gallo hecho cada mañana con jitomate y cebolla del mercado, picado a mano. Roma Sur, CDMX. 4.9★ en Google."
       },
       "kicker": "Ingrediente · Pico de gallo",
       "title": "Pico de gallo. Del mercado al burrito en horas.",
@@ -1178,7 +1182,7 @@
     "crema": {
       "meta": {
         "title": "Crema ácida en CDMX — Grass-fed, no industrial | Juanberto's",
-        "description": "Crema grass-fed (no industrial), la capa final del California burrito que suaviza la asada y el cheddar. Roma Sur, CDMX. Más de 50 reseñas 5⭐."
+        "description": "Crema grass-fed (no industrial), la capa final del California burrito que suaviza la asada y el cheddar. Roma Sur, CDMX. 4.9★ en Google."
       },
       "kicker": "Ingrediente · Crema ácida",
       "title": "Crema. Grass-fed. La capa final.",
@@ -1282,7 +1286,7 @@
     "tortilla-de-harina": {
       "meta": {
         "title": "Tortilla de harina en CDMX — Hecha fresca cada día | Juanberto's",
-        "description": "Tortillas de harina frescas cada día, calientes en la plancha. Sin ellas no hay California burrito. Roma Sur, CDMX. Más de 50 reseñas 5⭐."
+        "description": "Tortillas de harina frescas cada día, calientes en la plancha. Sin ellas no hay California burrito. Roma Sur, CDMX. 4.9★ en Google."
       },
       "kicker": "Ingrediente · Tortilla de harina",
       "title": "Tortilla de harina. Fresca, no de bolsa.",
@@ -1392,7 +1396,7 @@
     "papas-a-la-francesa": {
       "meta": {
         "title": "Papas a la francesa en CDMX — Adentro del California burrito | Juanberto's",
-        "description": "Las papas adentro del California burrito: crujientes por fuera, suaves por dentro, fritas al momento. Roma Sur, CDMX. Más de 50 reseñas 5⭐."
+        "description": "Las papas adentro del California burrito: crujientes por fuera, suaves por dentro, fritas al momento. Roma Sur, CDMX. 4.9★ en Google."
       },
       "kicker": "Ingrediente · Papas a la francesa",
       "title": "Papas a la francesa. Adentro del burrito.",
@@ -1510,7 +1514,7 @@
     "burritos-roma-sur": {
       "meta": {
         "title": "Burritos en Roma Sur — California Burritos en tu colonia | Juanberto's",
-        "description": "¿California burrito en Roma Sur? Juanberto's en Coahuila 192, a una cuadra del Mercado Medellín. Hecho a mano. Más de 50 reseñas 5⭐."
+        "description": "¿California burrito en Roma Sur? Juanberto's en Coahuila 192, a una cuadra del Mercado Medellín. Hecho a mano. 4.9★ en Google."
       },
       "kicker": "California Burritos · Roma Sur",
       "title": "California Burritos en Roma Sur.",
@@ -1557,8 +1561,8 @@
       },
       "reviews": {
         "kicker": "Lo que dicen quienes piden aquí",
-        "title": "Reseñas reales en Google. Sin editar.",
-        "subtitle": "Más de 50 reseñas. Todas 5 estrellas."
+        "title": "Reseñas reales en Google, traducidas del inglés.",
+        "subtitle": "4.9★ en 80 reseñas de Google."
       },
       "faq": {
         "kicker": "Preguntas frecuentes",
@@ -1581,7 +1585,7 @@
     "burritos-roma-norte": {
       "meta": {
         "title": "Burritos en Roma Norte — California Burritos a 10 min caminando | Juanberto's",
-        "description": "¿California burritos cerca de Roma Norte? Juanberto's a 10 min caminando en Coahuila 192 (Roma Sur). Hecho a mano. Más de 50 reseñas 5⭐."
+        "description": "¿California burritos cerca de Roma Norte? Juanberto's a 10 min caminando en Coahuila 192 (Roma Sur). Hecho a mano. 4.9★ en Google."
       },
       "kicker": "California Burritos · Roma Norte",
       "title": "California Burritos cerca de Roma Norte.",
@@ -1628,8 +1632,8 @@
       },
       "reviews": {
         "kicker": "Lo que dicen los clientes",
-        "title": "Reseñas reales en Google. Sin editar.",
-        "subtitle": "Más de 50 reseñas. Todas 5 estrellas."
+        "title": "Reseñas reales en Google, traducidas del inglés.",
+        "subtitle": "4.9★ en 80 reseñas de Google."
       },
       "faq": {
         "kicker": "Preguntas frecuentes",
@@ -1652,7 +1656,7 @@
     "burritos-condesa": {
       "meta": {
         "title": "Burritos en Condesa — California Burritos a domicilio cerca | Juanberto's",
-        "description": "¿California burritos cerca de Condesa? Juanberto's a minutos en Uber. Carne asada, papas, cheddar. Rappi 15-25 min. Más de 50 reseñas 5⭐."
+        "description": "¿California burritos cerca de Condesa? Juanberto's a minutos en Uber. Carne asada, papas, cheddar. Rappi 15-25 min. 4.9★ en Google."
       },
       "kicker": "California Burritos · Condesa",
       "title": "California Burritos en Condesa.",
@@ -1699,8 +1703,8 @@
       },
       "reviews": {
         "kicker": "Lo que dicen los clientes",
-        "title": "Reseñas reales en Google. Sin editar.",
-        "subtitle": "Más de 50 reseñas. Todas 5 estrellas."
+        "title": "Reseñas reales en Google, traducidas del inglés.",
+        "subtitle": "4.9★ en 80 reseñas de Google."
       },
       "faq": {
         "kicker": "Preguntas frecuentes",
@@ -1723,7 +1727,7 @@
     "burritos-juarez": {
       "meta": {
         "title": "Burritos en Colonia Juárez — California Burritos para oficina | Juanberto's",
-        "description": "¿California burritos cerca de la Juárez y Reforma? Rappi 25-35 min a oficinas y hoteles. Coahuila 192. Más de 50 reseñas 5⭐."
+        "description": "¿California burritos cerca de la Juárez y Reforma? Rappi 25-35 min a oficinas y hoteles. Coahuila 192. 4.9★ en Google."
       },
       "kicker": "California Burritos · Colonia Juárez",
       "title": "California Burritos en la Juárez.",
@@ -1770,8 +1774,8 @@
       },
       "reviews": {
         "kicker": "Lo que dicen los clientes",
-        "title": "Reseñas reales en Google. Sin editar.",
-        "subtitle": "Más de 50 reseñas. Todas 5 estrellas."
+        "title": "Reseñas reales en Google, traducidas del inglés.",
+        "subtitle": "4.9★ en 80 reseñas de Google."
       },
       "faq": {
         "kicker": "Preguntas frecuentes",
@@ -1794,7 +1798,7 @@
     "burritos-narvarte": {
       "meta": {
         "title": "Burritos en Narvarte — California Burritos a domicilio | Juanberto's",
-        "description": "¿California burritos en Narvarte? Juanberto's entrega Rappi 20-30 min. Carne asada, papas adentro. Coahuila 192. Más de 50 reseñas 5⭐."
+        "description": "¿California burritos en Narvarte? Juanberto's entrega Rappi 20-30 min. Carne asada, papas adentro. Coahuila 192. 4.9★ en Google."
       },
       "kicker": "California Burritos · Narvarte",
       "title": "California Burritos en Narvarte.",
@@ -1841,8 +1845,8 @@
       },
       "reviews": {
         "kicker": "Lo que dicen los clientes",
-        "title": "Reseñas reales en Google. Sin editar.",
-        "subtitle": "Más de 50 reseñas. Todas 5 estrellas."
+        "title": "Reseñas reales en Google, traducidas del inglés.",
+        "subtitle": "4.9★ en 80 reseñas de Google."
       },
       "faq": {
         "kicker": "Preguntas frecuentes",
@@ -1865,7 +1869,7 @@
     "burritos-del-valle": {
       "meta": {
         "title": "Burritos en Del Valle — California Burritos a domicilio | Juanberto's",
-        "description": "¿California burritos en Del Valle? Juanberto's entrega Rappi 25-40 min. Carne asada, papas adentro. Coahuila 192. Más de 50 reseñas 5⭐."
+        "description": "¿California burritos en Del Valle? Juanberto's entrega Rappi 25-40 min. Carne asada, papas adentro. Coahuila 192. 4.9★ en Google."
       },
       "kicker": "California Burritos · Del Valle",
       "title": "California Burritos en Del Valle.",
@@ -1912,8 +1916,8 @@
       },
       "reviews": {
         "kicker": "Lo que dicen los clientes",
-        "title": "Reseñas reales en Google. Sin editar.",
-        "subtitle": "Más de 50 reseñas. Todas 5 estrellas."
+        "title": "Reseñas reales en Google, traducidas del inglés.",
+        "subtitle": "4.9★ en 80 reseñas de Google."
       },
       "faq": {
         "kicker": "Preguntas frecuentes",
@@ -1936,7 +1940,7 @@
     "burritos-escandon": {
       "meta": {
         "title": "Burritos en Escandón — California Burritos a domicilio | Juanberto's",
-        "description": "¿California burritos cerca de Escandón? Juanberto's entrega Rappi 15-25 min. Carne asada, papas, cheddar. Hecho a mano. Más de 50 reseñas 5⭐."
+        "description": "¿California burritos cerca de Escandón? Juanberto's entrega Rappi 15-25 min. Carne asada, papas, cheddar. Hecho a mano. 4.9★ en Google."
       },
       "kicker": "California Burritos · Escandón",
       "title": "California Burritos en Escandón.",
@@ -1983,8 +1987,8 @@
       },
       "reviews": {
         "kicker": "Lo que dicen los clientes",
-        "title": "Reseñas reales en Google. Sin editar.",
-        "subtitle": "Más de 50 reseñas. Todas 5 estrellas."
+        "title": "Reseñas reales en Google, traducidas del inglés.",
+        "subtitle": "4.9★ en 80 reseñas de Google."
       },
       "faq": {
         "kicker": "Preguntas frecuentes",

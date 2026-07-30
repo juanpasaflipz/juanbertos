@@ -6,11 +6,16 @@ import Image from "next/image";
 import { Link as LocaleLink } from "@/i18n/navigation";
 import { PageHero } from "@/components/PageHero";
 import { trackConversion } from "@/lib/analytics";
+import {
+  GOOGLE_REVIEWS_URL,
+  GOOGLE_WRITE_REVIEW_URL,
+  ReviewStars,
+  type Review,
+} from "@/components/ReviewStars";
 
 type Stat = { label: string; value: string };
 type ProofItem = { label: string; body: string };
 type OrderedItem = { name: string; desc: string; reason: string };
-type Quote = { quote: string; name: string; where: string };
 type FaqItem = { q: string; a: string };
 
 const HERO_IMAGE = "/menu/california-burrito.jpg";
@@ -35,7 +40,7 @@ export function NeighborhoodContent({
   const proofItems = t.raw("proof.items") as ProofItem[];
   const orderedItems = t.raw("ordered.items") as OrderedItem[];
   const faqItems = t.raw("faq.items") as FaqItem[];
-  const quotes = tCornerstone.raw("quotes") as Quote[];
+  const quotes = tCornerstone.raw("quotes") as Review[];
 
   return (
     <>
@@ -291,16 +296,37 @@ export function NeighborhoodContent({
                 transition={{ duration: 0.5, delay: (i % 2) * 0.06 }}
                 className="bg-paper-50 border-2 border-ink-900 p-6 shadow-[6px_6px_0_0_var(--color-ink-900)]"
               >
-                <p className="text-lg text-ink-900 leading-relaxed">
+                <ReviewStars rating={q.rating} />
+                <p className="mt-3 text-lg text-ink-900 leading-relaxed">
                   &ldquo;{q.quote}&rdquo;
                 </p>
                 <p className="mt-4 text-sm text-ink-700">
                   <span className="font-semibold text-ink-900">{q.name}</span>
-                  <span className="text-ink-500"> · {q.where}</span>
+                  <span className="text-ink-500"> · {q.source}</span>
                 </p>
               </motion.li>
             ))}
           </ul>
+
+          <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8">
+            <a
+              href={GOOGLE_REVIEWS_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border-2 border-ink-900 text-ink-900 px-7 py-3 text-base font-semibold hover:bg-ink-900 hover:text-paper-100 transition-colors"
+            >
+              {tCornerstone("cta")}
+              <span aria-hidden>→</span>
+            </a>
+            <a
+              href={GOOGLE_WRITE_REVIEW_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hand-note text-2xl text-ink-900 underline decoration-2 underline-offset-4 hover:text-paper-100 transition-colors"
+            >
+              {tCornerstone("ctaWrite")}
+            </a>
+          </div>
         </div>
       </section>
 
