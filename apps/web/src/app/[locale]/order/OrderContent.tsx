@@ -6,7 +6,7 @@ import { PageHero } from "@/components/PageHero";
 import { Link as LocaleLink } from "@/i18n/navigation";
 import { trackConversion, type ConversionType } from "@/lib/analytics";
 
-type ChannelKey = "inperson" | "whatsapp" | "rappi" | "didi";
+type ChannelKey = "inperson" | "whatsapp" | "rappi" | "didi" | "ubereats";
 
 const CHANNELS: Array<{
   key: ChannelKey;
@@ -19,7 +19,8 @@ const CHANNELS: Array<{
   { key: "inperson",  external: false, accent: "bg-tangerine-500", icon: <StorefrontIcon /> },
   { key: "whatsapp",  external: true,  accent: "bg-cilantro-500",   icon: <WhatsAppIcon />, conversion: "order_whatsapp" },
   { key: "rappi",     external: true,  accent: "bg-salsa-500",      icon: <BoltIcon />,     conversion: "order_rappi" },
-  { key: "didi",      external: true,  accent: "bg-ink-900",        icon: <BagIcon />,      conversion: "order_didi",      comingSoon: true },
+  { key: "didi",      external: true,  accent: "bg-ink-900",        icon: <BagIcon />,      conversion: "order_didi" },
+  { key: "ubereats",  external: true,  accent: "bg-[#06C167]",      icon: <UberEatsIcon />, conversion: "order_ubereats" },
 ];
 
 export function OrderContent() {
@@ -35,7 +36,7 @@ export function OrderContent() {
 
       <section className="bg-paper-100 pb-24">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <ul className="grid gap-6 sm:gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="grid gap-6 sm:gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {CHANNELS.map((c, i) => {
               const href = t(`channels.${c.key}.href`);
               const title = t(`channels.${c.key}.title`);
@@ -142,6 +143,16 @@ function BagIcon() {
     <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
       <path d="M6 7h12l-1 14H7L6 7z" />
       <path d="M9 7a3 3 0 0 1 6 0" />
+    </svg>
+  );
+}
+
+function UberEatsIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+      <path d="M3 11a9 9 0 0 1 18 0" />
+      <path d="M3 11h18v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2z" />
+      <path d="M12 2v3" />
     </svg>
   );
 }

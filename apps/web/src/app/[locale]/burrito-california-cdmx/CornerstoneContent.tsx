@@ -19,12 +19,13 @@ type HourRow = { days: string; time: string };
 type Channel = { title: string; body: string; cta: string; href: string };
 type FaqItem = { q: string; a: string };
 
-// Channels appear in this order in the translations: walk-in, WhatsApp, Rappi, Didi Food.
+// Channels appear in this order in the translations: walk-in, WhatsApp, Rappi, Didi Food, Uber Eats.
 const CHANNEL_META: Array<{ conversion?: ConversionType; comingSoon?: boolean }> = [
   { conversion: "directions" },
   { conversion: "order_whatsapp" },
   { conversion: "order_rappi" },
-  { conversion: "order_didi", comingSoon: true },
+  { conversion: "order_didi" },
+  { conversion: "order_ubereats" },
 ];
 
 const MENU_IMAGES: Record<string, string> = {
@@ -340,7 +341,7 @@ export function CornerstoneContent() {
             </h2>
           </div>
 
-          <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {channels.map((ch, i) => {
               const meta = CHANNEL_META[i] ?? {};
               const isSoon = !!meta.comingSoon;

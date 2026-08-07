@@ -4,7 +4,7 @@
  * Setup checklist (done once per account):
  * 1. Google Ads UI → Tools → Conversions → New conversion action
  *    Create one per ConversionType below. Category suggestions:
- *    - order_whatsapp / order_rappi / order_didi → "Purchase"
+ *    - order_whatsapp / order_rappi / order_didi / order_ubereats → "Purchase"
  *    - directions → "Other (contact)"
  *    - phone_call → "Phone call"
  * 2. Each new conversion action gives you a snippet with
@@ -13,6 +13,7 @@
  *    NEXT_PUBLIC_GADS_CONV_WHATSAPP=AW-11120993342/...
  *    NEXT_PUBLIC_GADS_CONV_RAPPI=AW-11120993342/...
  *    NEXT_PUBLIC_GADS_CONV_DIDI=AW-11120993342/...
+ *    NEXT_PUBLIC_GADS_CONV_UBEREATS=AW-11120993342/...
  *    NEXT_PUBLIC_GADS_CONV_DIRECTIONS=AW-11120993342/...
  *    NEXT_PUBLIC_GADS_CONV_PHONE=AW-11120993342/...
  *
@@ -23,6 +24,7 @@ export type ConversionType =
   | "order_whatsapp"
   | "order_rappi"
   | "order_didi"
+  | "order_ubereats"
   | "directions"
   | "phone_call";
 
@@ -44,6 +46,7 @@ const SEND_TO: Record<ConversionType, string | undefined> = {
   order_whatsapp: process.env.NEXT_PUBLIC_GADS_CONV_WHATSAPP,
   order_rappi: process.env.NEXT_PUBLIC_GADS_CONV_RAPPI,
   order_didi: process.env.NEXT_PUBLIC_GADS_CONV_DIDI,
+  order_ubereats: process.env.NEXT_PUBLIC_GADS_CONV_UBEREATS,
   directions: process.env.NEXT_PUBLIC_GADS_CONV_DIRECTIONS,
   phone_call: process.env.NEXT_PUBLIC_GADS_CONV_PHONE,
 };
@@ -54,6 +57,7 @@ const DEFAULT_VALUE: Record<ConversionType, number> = {
   order_whatsapp: 250,
   order_rappi: 270,
   order_didi: 270,
+  order_ubereats: 270,
   directions: 200,
   phone_call: 350,
 };
@@ -62,6 +66,7 @@ const META_EVENT: Record<ConversionType, string> = {
   order_whatsapp: "Lead",
   order_rappi: "Lead",
   order_didi: "Lead",
+  order_ubereats: "Lead",
   directions: "FindLocation",
   phone_call: "Contact",
 };

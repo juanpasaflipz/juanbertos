@@ -17,8 +17,8 @@ export async function generateMetadata({ params }: Props) {
   const t = await getTranslations({ locale, namespace: "orderPage" });
   const description =
     locale === "es"
-      ? "Pide tu California burrito de Juanberto's: pasa por Roma Sur, escríbenos por WhatsApp o ordena en Rappi. Entrega en CDMX en 30 minutos."
-      : "Order a Juanberto's California burrito: walk in to Roma Sur, message us on WhatsApp, or order on Rappi. CDMX delivery in 30 minutes.";
+      ? "Pide tu California burrito de Juanberto's: pasa por Roma Sur, escríbenos por WhatsApp, o pide en Rappi, Didi Food o Uber Eats. Entrega en CDMX en 30 minutos."
+      : "Order a Juanberto's California burrito: walk in to Roma Sur, message us on WhatsApp, or order on Rappi, Didi Food, or Uber Eats. CDMX delivery in 30 minutes.";
   const url = `${SITE_URL}/${locale}/order`;
   const title = `${t("title")} | Juanberto's`;
   return {

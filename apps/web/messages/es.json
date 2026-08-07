@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Burritos California en CDMX — Juanberto's (Roma Sur)",
-    "description": "Los California burritos originales en CDMX. Carne asada, papas adentro, hechos a mano en Roma Sur. 4.9★ en Google. Pasa o pide en Rappi."
+    "description": "Los California burritos originales en CDMX. Carne asada, papas adentro, hechos a mano en Roma Sur. 4.9★ en Google. Pasa o pide a domicilio."
   },
   "notFound": {
     "title": "Página no encontrada",
@@ -279,7 +279,7 @@
   "orderPage": {
     "kicker": "¿Ya tienes hambre?",
     "title": "Ordena un Juanberto's.",
-    "subtitle": "Tres formas de tener un California burrito en tus manos.",
+    "subtitle": "Cinco formas de tener un California burrito en tus manos.",
     "comingSoon": "Próximamente",
     "floatingLabel": "Pedir por WhatsApp",
     "channels": {
@@ -306,6 +306,12 @@
         "body": "Sigue al burro desde la plancha hasta tu puerta.",
         "cta": "Ordenar en Didi Food",
         "href": "https://www.didifood.com.mx/"
+      },
+      "ubereats": {
+        "title": "Uber Eats",
+        "body": "Ya disponible. Ordena desde la app que ya tienes abierta.",
+        "cta": "Ordenar en Uber Eats",
+        "href": "https://www.ubereats.com/store/juanbertos/SpT4DJPpWPWeYAzHySKVBw"
       }
     }
   },
@@ -317,7 +323,7 @@
   "cornerstone": {
     "meta": {
       "title": "Burrito California en CDMX — La Guía Definitiva | Juanberto's",
-      "description": "California burrito en CDMX: qué es, las 6 capas, dónde comerlo en Roma Sur. 4.9★ en Google. Pasa o pide por WhatsApp o Rappi."
+      "description": "California burrito en CDMX: qué es, las 6 capas, dónde comerlo en Roma Sur. 4.9★ en Google. Pasa o pide por WhatsApp o a domicilio."
     },
     "kicker": "La guía del burrito California en CDMX",
     "title": "El California Burrito en CDMX.",
@@ -404,13 +410,14 @@
     },
     "delivery": {
       "kicker": "Cómo ordenarlo",
-      "title": "Cuatro formas de tener un California burrito en tus manos.",
+      "title": "Cinco formas de tener un California burrito en tus manos.",
       "comingSoon": "Próximamente",
       "channels": [
         { "title": "Pasa a la sucursal", "body": "La forma más rápida. Recién salido de la plancha.", "cta": "Cómo llegar", "href": "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX" },
         { "title": "WhatsApp", "body": "Mándanos un mensaje. Te lo tenemos enrollado.", "cta": "Abrir WhatsApp", "href": "https://wa.me/525613096835?text=Hola%20Juanberto%27s%2C%20quiero%20un%20California%20burrito" },
         { "title": "Rappi", "body": "Entregamos por todo CDMX en 30 minutos o menos.", "cta": "Ordenar en Rappi", "href": "https://www.rappi.com.mx/restaurantes/delivery/687998-juanberto-s?utm_source=app&utm_medium=deeplink&utm_campaign=share" },
-        { "title": "Didi Food", "body": "Sigue al burro desde la plancha hasta tu puerta.", "cta": "Ordenar en Didi Food", "href": "https://www.didifood.com.mx/" }
+        { "title": "Didi Food", "body": "Sigue al burro desde la plancha hasta tu puerta.", "cta": "Ordenar en Didi Food", "href": "https://www.didifood.com.mx/" },
+        { "title": "Uber Eats", "body": "Ya disponible. Ordena desde la app que ya tienes abierta.", "cta": "Ordenar en Uber Eats", "href": "https://www.ubereats.com/store/juanbertos/SpT4DJPpWPWeYAzHySKVBw" }
       ]
     },
     "social": {
@@ -452,7 +459,7 @@
         },
         {
           "q": "¿Hacen entrega a domicilio en CDMX?",
-          "a": "Sí. Entregamos por Rappi y Didi Food en toda CDMX, normalmente en 30 minutos o menos. También puedes ordenar por WhatsApp al +52 56 1309 6835 para pasar a recoger."
+          "a": "Sí. Entregamos por Rappi, Didi Food y Uber Eats en toda CDMX, normalmente en 30 minutos o menos. También puedes ordenar por WhatsApp al +52 56 1309 6835 para pasar a recoger."
         },
         {
           "q": "¿Cuál es la diferencia entre un California burrito y un Mission burrito?",
@@ -601,7 +608,7 @@
     },
     "cta": {
       "title": "Prueba el ganador.",
-      "subtitle": "Carne asada, picaña, pollo, pescado, portobello, o el clásico California con papas adentro. Coahuila 192, Roma Sur — o por WhatsApp, Rappi y Didi Food.",
+      "subtitle": "Carne asada, picaña, pollo, pescado, portobello, o el clásico California con papas adentro. Coahuila 192, Roma Sur — o por WhatsApp, Rappi, Didi Food y Uber Eats.",
       "primary": "Ver el menú",
       "secondary": "Ordenar ahora"
     }
@@ -694,7 +701,7 @@
     },
     "cta": {
       "title": "Ven con hambre.",
-      "subtitle": "Carne asada, picaña, pollo, pescado, portobello — o el clásico California con papas adentro. Coahuila 192, Roma Sur — o por WhatsApp, Rappi y Didi Food.",
+      "subtitle": "Carne asada, picaña, pollo, pescado, portobello — o el clásico California con papas adentro. Coahuila 192, Roma Sur — o por WhatsApp, Rappi, Didi Food y Uber Eats.",
       "primary": "Ver el menú",
       "secondary": "Ordenar ahora"
     }
@@ -944,7 +951,7 @@
           },
           {
             "q": "¿Puedo pedir un burrito sin queso?",
-            "a": "Sí. Pídelo \"sin queso\" al ordenar — por sucursal, WhatsApp, Rappi o Didi Food. No cobramos extra y no cambia el precio."
+            "a": "Sí. Pídelo \"sin queso\" al ordenar — por sucursal, WhatsApp, Rappi, Didi Food o Uber Eats. No cobramos extra y no cambia el precio."
           },
           {
             "q": "¿Tienen burrito con doble queso?",
@@ -1507,7 +1514,7 @@
   "ingredientNeighborhoodCta": {
     "kicker": "O pídelo en tu colonia",
     "title": "Pídelo en {neighborhood}.",
-    "body": "Mismo ingrediente, misma receta, mismo burrito enrollado a mano — llega a {neighborhood} por Rappi o se recoge en mostrador en Roma Sur.",
+    "body": "Mismo ingrediente, misma receta, mismo burrito enrollado a mano — llega a {neighborhood} por Rappi, Didi Food o Uber Eats, o se recoge en mostrador en Roma Sur.",
     "cta": "Ver burritos en {neighborhood}"
   },
   "neighborhoods": {
@@ -1710,7 +1717,7 @@
         "kicker": "Preguntas frecuentes",
         "title": "Desde Condesa — dudas comunes.",
         "items": [
-          { "q": "¿Sí entregan a domicilio en Condesa?", "a": "Sí. Por Rappi en 15-25 minutos típicos. Cubrimos toda la colonia Condesa e Hipódromo Condesa. Próximamente también Didi Food." },
+          { "q": "¿Sí entregan a domicilio en Condesa?", "a": "Sí. Por Rappi en 15-25 minutos típicos. Cubrimos toda la colonia Condesa e Hipódromo Condesa. También entregamos por Didi Food y Uber Eats." },
           { "q": "¿Cuánto cuesta el envío?", "a": "El costo de envío lo fija Rappi según hora, distancia y demanda. Suele estar entre $25 y $45 desde Condesa. No es propina — es el envío directo de la app." },
           { "q": "¿Tienen opciones vegetarianas?", "a": "Sí: el Portobello burrito (hongo portobello, queso, papas, guacamole, pico) y Bean & Cheese. Ambos en el menú de Rappi." },
           { "q": "¿Llega caliente?", "a": "Sí — empacamos para mantener temperatura. La proteína se mantiene caliente, la papa adentro mantiene crujido, la tortilla flexible. Si llegara frío, escríbenos por WhatsApp." },
@@ -1923,7 +1930,7 @@
         "kicker": "Preguntas frecuentes",
         "title": "Desde Del Valle — dudas comunes.",
         "items": [
-          { "q": "¿Sí entregan a Del Valle?", "a": "Sí — Rappi cubre toda Del Valle (Centro, Norte, Sur). Tiempo típico de entrega: 25-40 minutos. Próximamente también Didi Food." },
+          { "q": "¿Sí entregan a Del Valle?", "a": "Sí — Rappi cubre toda Del Valle (Centro, Norte, Sur). Tiempo típico de entrega: 25-40 minutos. También entregamos por Didi Food y Uber Eats." },
           { "q": "¿Cuánto cuesta el envío?", "a": "Lo fija Rappi según la app. Suele estar entre $35 y $55 desde Roma Sur a Del Valle. La distancia justifica el envío, pero el costo siempre está en la app antes de confirmar." },
           { "q": "¿Vale la pena el envío?", "a": "Depende de qué buscas. Si quieres taquería de la esquina, no. Si quieres el único California burrito auténtico de CDMX y comer una receta de San Diego sin tener que cruzar la frontera — sí." },
           { "q": "¿Llega caliente después de 30-40 minutos?", "a": "Sí — empacamos pensando en el viaje. La carne, las papas y el queso aguantan el trayecto sin perder textura ni temperatura." },
