@@ -305,7 +305,7 @@
         "title": "Didi Food",
         "body": "Sigue al burro desde la plancha hasta tu puerta.",
         "cta": "Ordenar en Didi Food",
-        "href": "https://www.didifood.com.mx/"
+        "href": "https://www.didi-food.com/es-MX/food/store/5764614120993983259/"
       },
       "ubereats": {
         "title": "Uber Eats",
@@ -416,7 +416,7 @@
         { "title": "Pasa a la sucursal", "body": "La forma más rápida. Recién salido de la plancha.", "cta": "Cómo llegar", "href": "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX" },
         { "title": "WhatsApp", "body": "Mándanos un mensaje. Te lo tenemos enrollado.", "cta": "Abrir WhatsApp", "href": "https://wa.me/525613096835?text=Hola%20Juanberto%27s%2C%20quiero%20un%20California%20burrito" },
         { "title": "Rappi", "body": "Entregamos por todo CDMX en 30 minutos o menos.", "cta": "Ordenar en Rappi", "href": "https://www.rappi.com.mx/restaurantes/delivery/687998-juanberto-s?utm_source=app&utm_medium=deeplink&utm_campaign=share" },
-        { "title": "Didi Food", "body": "Sigue al burro desde la plancha hasta tu puerta.", "cta": "Ordenar en Didi Food", "href": "https://www.didifood.com.mx/" },
+        { "title": "Didi Food", "body": "Sigue al burro desde la plancha hasta tu puerta.", "cta": "Ordenar en Didi Food", "href": "https://www.didi-food.com/es-MX/food/store/5764614120993983259/" },
         { "title": "Uber Eats", "body": "Ya disponible. Ordena desde la app que ya tienes abierta.", "cta": "Ordenar en Uber Eats", "href": "https://www.ubereats.com/store/juanbertos/SpT4DJPpWPWeYAzHySKVBw" }
       ]
     },

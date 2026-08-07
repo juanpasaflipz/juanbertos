@@ -305,7 +305,7 @@
         "title": "Didi Food",
         "body": "Track the burro from the plancha to your door.",
         "cta": "Order on Didi Food",
-        "href": "https://www.didifood.com.mx/"
+        "href": "https://www.didi-food.com/es-MX/food/store/5764614120993983259/"
       },
       "ubereats": {
         "title": "Uber Eats",
@@ -416,7 +416,7 @@
         { "title": "Walk in", "body": "Fastest way. Fresh off the plancha.", "cta": "Get directions", "href": "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX" },
         { "title": "WhatsApp", "body": "Send us a message. We'll have it rolled and ready.", "cta": "Open WhatsApp", "href": "https://wa.me/525613096835?text=Hi%20Juanberto%27s%2C%20I%27d%20like%20a%20California%20burrito" },
         { "title": "Rappi", "body": "Delivery across CDMX in 30 minutes or less.", "cta": "Order on Rappi", "href": "https://www.rappi.com.mx/restaurantes/delivery/687998-juanberto-s?utm_source=app&utm_medium=deeplink&utm_campaign=share" },
-        { "title": "Didi Food", "body": "Track the burro from the plancha to your door.", "cta": "Order on Didi Food", "href": "https://www.didifood.com.mx/" },
+        { "title": "Didi Food", "body": "Track the burro from the plancha to your door.", "cta": "Order on Didi Food", "href": "https://www.didi-food.com/es-MX/food/store/5764614120993983259/" },
         { "title": "Uber Eats", "body": "Now live. Order from the app you already have open.", "cta": "Order on Uber Eats", "href": "https://www.ubereats.com/store/juanbertos/SpT4DJPpWPWeYAzHySKVBw" }
       ]
     },
