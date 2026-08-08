@@ -135,8 +135,8 @@
     "specials": {
       "label": "Specials",
       "items": [
-        { "name": "De Lengua", "desc": "Beef tongue in tomatillo vinaigrette over a bed of black beans.",                 "price": "249", "badge": "" },
-        { "name": "Ensenada Doble", "desc": "The Ensenada, doubled. Two portions of beer-battered Pacific grouper.",     "price": "395", "badge": "double up" }
+        { "name": "Rollbertos (4 pc)", "desc": "Rolled taquitos stuffed with cheese, covered in bean sauce and topped with your choice of birria or cochinita.", "price": "139", "badge": "new" },
+        { "name": "Rollbertos (6 pc)", "desc": "Six rolled taquitos stuffed with cheese, covered in bean sauce and topped with your choice of birria or cochinita.", "price": "179", "badge": "new" }
       ]
     },
     "extras": {

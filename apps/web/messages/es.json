@@ -135,8 +135,8 @@
     "specials": {
       "label": "Especiales",
       "items": [
-        { "name": "De Lengua",       "desc": "Lengua en vinagreta de tomate verde sobre cama de frijol negro.",              "price": "249", "badge": "" },
-        { "name": "Ensenada Doble",  "desc": "El Ensenada, doble. Dos porciones de mero del Pacífico capeado.",             "price": "395", "badge": "doble" }
+        { "name": "Rollbertos (4 pzas)", "desc": "Taquitos dorados rellenos de queso, bañados en salsa de frijol y coronados con birria o cochinita, a elegir.", "price": "139", "badge": "nuevo" },
+        { "name": "Rollbertos (6 pzas)", "desc": "Seis taquitos dorados rellenos de queso, bañados en salsa de frijol y coronados con birria o cochinita, a elegir.", "price": "179", "badge": "nuevo" }
       ]
     },
     "extras": {
