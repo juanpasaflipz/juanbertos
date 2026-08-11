@@ -31,6 +31,7 @@ const TIER1_IMAGES: Record<string, string> = {
 };
 
 const MASTERPIECE_IMAGE = "/menu/chimichanga.jpg";
+const FLAGSHIP_IMAGE = "/menu/california-supreme.jpg";
 const AGUAS_IMAGE = "/menu/aguas_frescas.png";
 
 const FRIES_IMAGES: Record<string, string> = {
@@ -64,6 +65,13 @@ const INGREDIENT_SLUGS_BY_ITEM: Record<string, IngredientSlug[]> = {
 };
 
 const MASTERPIECE_SLUGS: IngredientSlug[] = ["carne-asada", "queso-cheddar", "tortilla-de-harina"];
+
+const FLAGSHIP_SLUGS: IngredientSlug[] = [
+  "carne-asada",
+  "queso-cheddar",
+  "tortilla-de-harina",
+  "papas-a-la-francesa",
+];
 
 function IngredientChips({
   slugs,
@@ -111,6 +119,81 @@ export function MenuContent() {
         title={t("title")}
         subtitle={t("subtitle")}
       />
+
+      {/* === Flagship — California Supreme (newest, loudest item on the page) === */}
+      <section className="relative bg-ink-900 text-paper-100 overflow-hidden border-b-4 border-tangerine-500">
+        <div
+          className="absolute inset-0 opacity-[0.07] pointer-events-none"
+          aria-hidden
+          style={{
+            backgroundImage:
+              "radial-gradient(circle at 1px 1px, var(--color-tangerine-500) 1px, transparent 0)",
+            backgroundSize: "20px 20px",
+          }}
+        />
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 py-16 sm:py-20 lg:py-24 relative">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95, rotate: -2 }}
+              animate={{ opacity: 1, scale: 1, rotate: -1.5 }}
+              transition={{ duration: 0.7, ease: [0.34, 1.4, 0.64, 1] }}
+              className="relative"
+            >
+              <div className="relative aspect-[3/2] overflow-hidden border-4 border-paper-100 shadow-[14px_14px_0_0_var(--color-tangerine-500)]">
+                <Image
+                  src={FLAGSHIP_IMAGE}
+                  alt={`${t("flagship.name")} — ${t("flagship.tagline")}`}
+                  fill
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  className="object-cover"
+                  priority
+                />
+              </div>
+              <span className="stamp absolute -top-5 -left-3 sm:-left-5 rotate-[-8deg] px-5 py-3 text-lg sm:text-xl uppercase tracking-[0.14em] font-bold">
+                {t("flagship.badge")}
+              </span>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.15 }}
+            >
+              <p className="hand-note text-tangerine-500 text-3xl sm:text-4xl -rotate-2">
+                {t("flagship.label")}
+              </p>
+              <h2 className="headline-display text-5xl sm:text-6xl lg:text-7xl mt-2 leading-[0.92]">
+                {t("flagship.name")}
+              </h2>
+              <p className="mt-4 text-xl sm:text-2xl text-tangerine-500 font-semibold">
+                {t("flagship.tagline")}
+              </p>
+              <p className="mt-4 text-base sm:text-lg text-paper-100/80 leading-relaxed max-w-2xl">
+                {t("flagship.desc")}
+              </p>
+              <p className="mt-5 border-l-4 border-tangerine-500 pl-4 text-lg sm:text-xl text-paper-100 leading-snug">
+                {t("flagship.callout")}
+              </p>
+              <div className="mt-7 flex flex-wrap items-baseline gap-x-4 gap-y-2">
+                <span className="headline-display text-5xl sm:text-6xl text-tangerine-500">
+                  ${t("flagship.price")}
+                </span>
+                <span className="text-sm uppercase tracking-[0.18em] text-paper-100/70 font-semibold">
+                  {t("currency")}
+                </span>
+              </div>
+              <IngredientChips slugs={FLAGSHIP_SLUGS} variant="dark" />
+              <LocaleLink
+                href="/order"
+                className="mt-8 inline-flex items-center gap-2 rounded-full bg-tangerine-500 text-ink-900 px-8 py-4 text-base font-semibold hover:bg-paper-100 transition-colors"
+              >
+                {t("flagship.cta")}
+                <span aria-hidden>→</span>
+              </LocaleLink>
+            </motion.div>
+          </div>
+        </div>
+      </section>
 
       {/* === Tier 1 — "DESDE $99" dark band === */}
       <section className="relative bg-ink-900 text-paper-100 overflow-hidden">

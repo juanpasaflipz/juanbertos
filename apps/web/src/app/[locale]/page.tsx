@@ -1,6 +1,7 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Hero } from "@/components/Hero";
+import { FlagshipBanner } from "@/components/FlagshipBanner";
 import { StorySection } from "@/components/StorySection";
 import { StickerCollage } from "@/components/StickerCollage";
 import { NeighborhoodsGrid } from "@/components/NeighborhoodsGrid";
@@ -9,10 +10,10 @@ import { LoveWall } from "@/components/LoveWall";
 
 const SITE_URL = "https://www.juanbertos.com";
 const OG_IMAGE = {
-  url: `${SITE_URL}/menu/california-burrito.jpg`,
-  width: 1200,
-  height: 800,
-  alt: "California Burrito — Juanberto's",
+  url: `${SITE_URL}/menu/california-supreme.jpg`,
+  width: 1264,
+  height: 848,
+  alt: "California Supreme — Juanberto's",
 };
 
 type Props = {
@@ -57,6 +58,7 @@ export default async function HomePage({ params }: Props) {
   return (
     <>
       <Hero />
+      <FlagshipBanner />
       <StorySection />
       <StickerCollage />
       <NeighborhoodsGrid namespace="homeNeighborhoods" />

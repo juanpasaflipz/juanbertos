@@ -3,10 +3,10 @@ import { MenuContent } from "./MenuContent";
 
 const SITE_URL = "https://www.juanbertos.com";
 const OG_IMAGE = {
-  url: `${SITE_URL}/menu/california-burrito.jpg`,
-  width: 1200,
-  height: 800,
-  alt: "California Burrito — Juanberto's",
+  url: `${SITE_URL}/menu/california-supreme.jpg`,
+  width: 1264,
+  height: 848,
+  alt: "California Supreme — Juanberto's",
 };
 
 type Props = { params: Promise<{ locale: string }> };
@@ -60,6 +60,7 @@ export default async function MenuPage({ params }: Props) {
   const signatureItems = t.raw("signature.items") as SignatureItem[];
   const tier1Items = t.raw("tier1.items") as Tier1Item[];
   const masterpiece = t.raw("masterpiece") as { name: string; desc: string; price: string };
+  const flagship = t.raw("flagship") as { name: string; desc: string; price: string };
   const friesItems = t.raw("fries.items") as FriesItem[];
   const aguas = t.raw("aguas") as { name: string; desc: string; price: string; flavors: string[] };
   const specialsItems = t.raw("specials.items") as SignatureItem[];
@@ -86,6 +87,11 @@ export default async function MenuPage({ params }: Props) {
     name: "Juanberto's Menu",
     inLanguage: locale === "es" ? "es-MX" : "en-US",
     hasMenuSection: [
+      {
+        "@type": "MenuSection",
+        name: t("flagship.label"),
+        hasMenuItem: [toMenuItem(flagship)],
+      },
       {
         "@type": "MenuSection",
         name: t("signature.label"),

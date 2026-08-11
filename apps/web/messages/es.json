@@ -24,6 +24,16 @@
     "cta_primary": "Ordenar ahora",
     "cta_secondary": "Ver el menú"
   },
+  "homeFlagship": {
+    "badge": "Nuevo",
+    "label": "Recién llegado",
+    "name": "California Supreme",
+    "tagline": "El California, envuelto dos veces.",
+    "desc": "Picaña, cheddar, papas, guacamole y pico — envuelto otra vez en una segunda tortilla, cubierta de queso y dorada en la plancha hasta quedar crujiente por fuera.",
+    "price": "310",
+    "ctaOrder": "Pide el Supreme",
+    "ctaMenu": "Ver el menú completo"
+  },
   "story": {
     "kicker": "¿Qué es un California burrito?",
     "body": "Es el burrito del que no te hablan en clase de español. Nació en San Diego. Carne asada, papas a la francesa adentro, guacamole, queso, pico. Esa es la regla. Y no la rompemos."
@@ -88,6 +98,16 @@
     "title": "El menú.",
     "subtitle": "Escoge tu favorito. La regla no se rompe: papas adentro.",
     "currency": "MXN",
+    "flagship": {
+      "label": "Nuestro nuevo estandarte",
+      "badge": "Nuevo",
+      "name": "California Supreme",
+      "tagline": "El California, envuelto dos veces.",
+      "desc": "Todo lo que hizo famoso al California — 1/4 de kilo de picaña USDA Choice, queso cheddar, papas a la francesa, guacamole, pico de gallo y crema — envuelto otra vez en una segunda tortilla, cubierta de queso y dorada en la plancha hasta que queda crujiente por fuera.",
+      "callout": "Dos tortillas. Una costra de queso dorado. El mejor burrito que hemos hecho.",
+      "price": "310",
+      "cta": "Pide el Supreme"
+    },
     "tier1": {
       "label": "Desde $99",
       "items": [

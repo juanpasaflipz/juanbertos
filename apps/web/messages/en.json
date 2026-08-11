@@ -24,6 +24,16 @@
     "cta_primary": "Order now",
     "cta_secondary": "See the menu"
   },
+  "homeFlagship": {
+    "badge": "New",
+    "label": "Just landed",
+    "name": "California Supreme",
+    "tagline": "The California, wrapped twice.",
+    "desc": "Picaña, cheddar, fries, guacamole and pico — then rolled again inside a second tortilla, blanketed in cheese and crisped on the plancha until the outside turns golden.",
+    "price": "310",
+    "ctaOrder": "Order the Supreme",
+    "ctaMenu": "See the full menu"
+  },
   "story": {
     "kicker": "What's a California burrito?",
     "body": "It's the burrito they don't tell you about in your Spanish class. Born in San Diego. Carne asada, french fries inside, guacamole, cheese, pico. That's the rule. We don't break the rule."
@@ -88,6 +98,16 @@
     "title": "The menu.",
     "subtitle": "Pick your favorite. The rule still applies: papas adentro.",
     "currency": "MXN",
+    "flagship": {
+      "label": "Our new flagship",
+      "badge": "New",
+      "name": "California Supreme",
+      "tagline": "The California, wrapped twice.",
+      "desc": "Everything that made the California famous — a quarter kilo of USDA Choice picaña, cheddar, fries, guacamole, pico de gallo and crema — then rolled again inside a second tortilla, blanketed in cheese and crisped on the plancha until the outside turns golden and lacy.",
+      "callout": "Two tortillas. A crust of griddled cheese. The best burrito we've ever made.",
+      "price": "310",
+      "cta": "Order the Supreme"
+    },
     "tier1": {
       "label": "From $99",
       "items": [
