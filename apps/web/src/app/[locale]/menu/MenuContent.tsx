@@ -478,7 +478,7 @@ export function MenuContent() {
       </section>
 
       {/* === Specials === */}
-      <section className="bg-paper-100">
+      <section id="rollbertos" className="bg-paper-100 scroll-mt-24">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 py-16 sm:py-20">
           <div className="text-center mb-10">
             <div className="flex items-center justify-center gap-4">

@@ -71,12 +71,12 @@ export default async function LocaleLayout({ children, params }: Props) {
     url: `${SITE_URL}/${locale}`,
     telephone: shop.phoneTel,
     priceRange: "$$",
-    servesCuisine: ["Mexican", "California-style burritos", "San Diego"],
+    servesCuisine: ["Mexican", "California-style burritos", "Rolled tacos"],
     image: [`${SITE_URL}/california-burrito.png`],
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Coahuila 192",
-      addressLocality: "Roma Sur",
+      streetAddress: "Coahuila 192, Roma Sur",
+      addressLocality: "Ciudad de México",
       addressRegion: "CDMX",
       postalCode: "06760",
       addressCountry: "MX",
@@ -88,6 +88,12 @@ export default async function LocaleLayout({ children, params }: Props) {
     },
     hasMap: shop.directionsUrl,
     openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: "Monday",
+        opens: "10:30",
+        closes: "20:00",
+      },
       {
         "@type": "OpeningHoursSpecification",
         dayOfWeek: ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
