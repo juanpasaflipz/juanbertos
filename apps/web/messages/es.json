@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Burritos California en CDMX — Juanberto's (Roma Sur)",
-    "description": "Los California burritos originales en CDMX. Carne asada, papas adentro, hechos a mano en Roma Sur. 4.9★ en Google. Pasa o pide a domicilio."
+    "title": "Burritos y tacos dorados en Roma Sur, CDMX | Juanberto's",
+    "description": "Restaurante de burritos California y tacos dorados en Roma Sur, Ciudad de México. Visítanos en Coahuila 192. Consulta el menú y las opciones de entrega."
   },
   "notFound": {
     "title": "Página no encontrada",
@@ -19,8 +19,8 @@
   },
   "hero": {
     "stamp": "World Famoso Desde 2026",
-    "headline": "Burritos con sabor a road trip por San Diego.",
-    "sub": "Carne asada, papas adentro, cada capa cuenta. Hechos a mano en CDMX.",
+    "headline": "Burritos California y tacos dorados en Roma Sur.",
+    "sub": "Comida mexicana al estilo de los taco shops de California: carne asada, papas adentro y Rollbertos con birria o cochinita. Visítanos en Coahuila 192, Roma Sur, Ciudad de México.",
     "cta_primary": "Ordenar ahora",
     "cta_secondary": "Ver el menú"
   },
@@ -95,8 +95,8 @@
   },
   "menuPage": {
     "kicker": "Menú · 2026",
-    "title": "El menú.",
-    "subtitle": "Escoge tu favorito. La regla no se rompe: papas adentro.",
+    "title": "Burritos y tacos dorados.",
+    "subtitle": "Nuestro menú en Roma Sur, Ciudad de México. Escoge tu burrito, unos Rollbertos o papas para compartir.",
     "currency": "MXN",
     "flagship": {
       "label": "Nuestro nuevo estandarte",
@@ -153,7 +153,7 @@
       "price": "60"
     },
     "specials": {
-      "label": "Especiales",
+      "label": "Tacos dorados · Rollbertos",
       "items": [
         { "name": "Rollbertos (4 pzas)", "desc": "Taquitos dorados rellenos de queso, bañados en salsa de frijol y coronados con birria o cochinita, a elegir.", "price": "139", "badge": "nuevo" },
         { "name": "Rollbertos (6 pzas)", "desc": "Seis taquitos dorados rellenos de queso, bañados en salsa de frijol y coronados con birria o cochinita, a elegir.", "price": "179", "badge": "nuevo" }
@@ -212,27 +212,27 @@
       },
       "burritos-roma-norte": {
         "name": "Roma Norte",
-        "tagline": "10 minutos caminando. Cruzas Cuauhtémoc y ya estás."
+        "tagline": "Visita nuestra sucursal en Roma Sur o consulta cobertura en tu app de entrega."
       },
       "burritos-condesa": {
         "name": "Condesa",
-        "tagline": "15 minutos en bici. El burrito post-Parque México."
+        "tagline": "Visita nuestra sucursal en Roma Sur o consulta cobertura en tu app de entrega."
       },
       "burritos-juarez": {
         "name": "Juárez",
-        "tagline": "8 minutos en Uber. El burrito de la comida desde Reforma."
+        "tagline": "Visita nuestra sucursal en Roma Sur o consulta cobertura en tu app de entrega."
       },
       "burritos-narvarte": {
         "name": "Narvarte",
-        "tagline": "10 minutos al sur. El burrito del domingo en la tarde."
+        "tagline": "Visita nuestra sucursal en Roma Sur o consulta cobertura en tu app de entrega."
       },
       "burritos-del-valle": {
         "name": "Del Valle",
-        "tagline": "15 minutos al sur. Rappi llega en 20."
+        "tagline": "Visita nuestra sucursal en Roma Sur o consulta cobertura en tu app de entrega."
       },
       "burritos-escandon": {
         "name": "Escandón",
-        "tagline": "12 minutos al poniente. El secreto del vecino."
+        "tagline": "Visita nuestra sucursal en Roma Sur o consulta cobertura en tu app de entrega."
       }
     }
   },
@@ -248,33 +248,33 @@
       },
       "burritos-roma-norte": {
         "name": "Roma Norte",
-        "tagline": "10 minutos caminando por Cuauhtémoc o Mérida."
+        "tagline": "Visita nuestra sucursal en Roma Sur o consulta cobertura en tu app de entrega."
       },
       "burritos-condesa": {
         "name": "Condesa",
-        "tagline": "15 minutos en bici desde Parque México."
+        "tagline": "Visita nuestra sucursal en Roma Sur o consulta cobertura en tu app de entrega."
       },
       "burritos-juarez": {
         "name": "Juárez",
-        "tagline": "8 minutos en Uber desde Reforma."
+        "tagline": "Visita nuestra sucursal en Roma Sur o consulta cobertura en tu app de entrega."
       },
       "burritos-narvarte": {
         "name": "Narvarte",
-        "tagline": "10 minutos al sur. La comida en la oficina, la cena en casa."
+        "tagline": "Visita nuestra sucursal en Roma Sur o consulta cobertura en tu app de entrega."
       },
       "burritos-del-valle": {
         "name": "Del Valle",
-        "tagline": "15 minutos al sur. Rappi llega en 20."
+        "tagline": "Visita nuestra sucursal en Roma Sur o consulta cobertura en tu app de entrega."
       },
       "burritos-escandon": {
         "name": "Escandón",
-        "tagline": "12 minutos al poniente. El barrio tranquilo."
+        "tagline": "Visita nuestra sucursal en Roma Sur o consulta cobertura en tu app de entrega."
       }
     }
   },
   "locationsPage": {
     "kicker": "Encuentra un Juanberto's",
-    "title": "Dónde encontrarnos.",
+    "title": "Juanberto’s en Roma Sur, CDMX.",
     "subtitle": "Una sucursal por ahora. Vienen más.",
     "moreSoon": {
       "kicker": "Próximamente",
@@ -283,13 +283,13 @@
     },
     "shop": {
       "name": "Roma Sur",
-      "address": "Coahuila 192, Roma Sur, CDMX",
+      "address": "Coahuila 192, Roma Sur, Ciudad de México",
       "directionsUrl": "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX",
       "phone": "+52 56 1309 6835",
       "phoneTel": "+525613096835",
       "hoursTitle": "Horario",
       "hours": [
-        { "days": "Lun",          "time": "Cerrado" },
+        { "days": "Lun",          "time": "10:30 – 20:00" },
         { "days": "Mar – Sáb",    "time": "10:30 – 21:30" },
         { "days": "Dom",          "time": "10:30 – 19:30" }
       ],
@@ -305,8 +305,8 @@
     "channels": {
       "inperson": {
         "title": "Pasa a la sucursal",
-        "body": "La forma más rápida. Recién salido de la plancha. Encuentra tu Juanberto's más cercano.",
-        "cta": "Ver sucursales",
+        "body": "Visítanos en nuestra sucursal de Coahuila 192, Roma Sur.",
+        "cta": "Cómo llegar",
         "href": "/locations"
       },
       "whatsapp": {
@@ -317,7 +317,7 @@
       },
       "rappi": {
         "title": "Rappi",
-        "body": "Entregamos por todo CDMX en 30 minutos o menos.",
+        "body": "Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar.",
         "cta": "Ordenar en Rappi",
         "href": "https://www.rappi.com.mx/restaurantes/delivery/687998-juanberto-s?utm_source=app&utm_medium=deeplink&utm_campaign=share"
       },
@@ -421,7 +421,7 @@
       "address": "Coahuila 192, Roma Sur, CDMX, 06760",
       "hoursTitle": "Horario",
       "hours": [
-        { "days": "Lunes", "time": "Cerrado" },
+        { "days": "Lunes", "time": "10:30 – 20:00" },
         { "days": "Martes a Sábado", "time": "10:30 – 21:30" },
         { "days": "Domingo", "time": "10:30 – 19:30" }
       ],
@@ -435,7 +435,7 @@
       "channels": [
         { "title": "Pasa a la sucursal", "body": "La forma más rápida. Recién salido de la plancha.", "cta": "Cómo llegar", "href": "https://maps.google.com/?q=Coahuila+192+Roma+Sur+CDMX" },
         { "title": "WhatsApp", "body": "Mándanos un mensaje. Te lo tenemos enrollado.", "cta": "Abrir WhatsApp", "href": "https://wa.me/525613096835?text=Hola%20Juanberto%27s%2C%20quiero%20un%20California%20burrito" },
-        { "title": "Rappi", "body": "Entregamos por todo CDMX en 30 minutos o menos.", "cta": "Ordenar en Rappi", "href": "https://www.rappi.com.mx/restaurantes/delivery/687998-juanberto-s?utm_source=app&utm_medium=deeplink&utm_campaign=share" },
+        { "title": "Rappi", "body": "Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar.", "cta": "Ordenar en Rappi", "href": "https://www.rappi.com.mx/restaurantes/delivery/687998-juanberto-s?utm_source=app&utm_medium=deeplink&utm_campaign=share" },
         { "title": "Didi Food", "body": "Sigue al burro desde la plancha hasta tu puerta.", "cta": "Ordenar en Didi Food", "href": "https://www.didi-food.com/es-MX/food/store/5764614120993983259/" },
         { "title": "Uber Eats", "body": "Ya disponible. Ordena desde la app que ya tienes abierta.", "cta": "Ordenar en Uber Eats", "href": "https://www.ubereats.com/store/juanbertos/SpT4DJPpWPWeYAzHySKVBw" }
       ]
@@ -479,7 +479,7 @@
         },
         {
           "q": "¿Hacen entrega a domicilio en CDMX?",
-          "a": "Sí. Entregamos por Rappi, Didi Food y Uber Eats en toda CDMX, normalmente en 30 minutos o menos. También puedes ordenar por WhatsApp al +52 56 1309 6835 para pasar a recoger."
+          "a": "Puedes consultar disponibilidad en Rappi, DiDi Food y Uber Eats. Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar. También puedes pedir por WhatsApp al +52 56 1309 6835 para pasar a recoger."
         },
         {
           "q": "¿Cuál es la diferencia entre un California burrito y un Mission burrito?",
@@ -1555,11 +1555,11 @@
       "delivery": {
         "kicker": "A pasos de tu puerta",
         "title": "Llegar a Juanberto's desde Roma Sur.",
-        "body": "Roma Sur es nuestra colonia. Desde cualquier punto de la colonia caminas en menos de 15 minutos. Si prefieres pedir a domicilio, Rappi entrega en 10-20 minutos porque ya estás aquí adentro.",
+        "body": "Nuestra sucursal está en Coahuila 192, Roma Sur. Para llegar desde Roma Sur, consulta la ruta y el tiempo estimado en el mapa. Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar.",
         "stats": [
-          { "label": "Caminando", "value": "5-15 min" },
-          { "label": "En Uber", "value": "3-7 min" },
-          { "label": "Por Rappi", "value": "10-20 min" },
+          { "label": "Caminando", "value": "Consultar mapa" },
+          { "label": "En Uber", "value": "Consultar mapa" },
+          { "label": "Por Rappi", "value": "Consultar app" },
           { "label": "Dirección", "value": "Coahuila 192" }
         ],
         "ctaRappi": "Ordenar en Rappi",
@@ -1597,7 +1597,7 @@
         "items": [
           { "q": "¿Dónde están exactamente?", "a": "Coahuila 192, Roma Sur, CDMX. Entre Antonio M. Anza y Calle Mérida, a una cuadra del Mercado Medellín. Hay paradas de Ecobici cerca." },
           { "q": "¿Cómo pido — al mostrador, por WhatsApp o por Rappi?", "a": "La mejor forma es pasar al mostrador — eliges en persona, te enrollan el burrito frente a ti y caminas con él calientito a casa. Si tienes prisa o quieres saltarte la fila, manda mensaje al WhatsApp +52 56 1309 6835 para pre-ordenar y pasar a recoger sin formarte. Rappi también va, pero para Roma Sur la caminata suele ser igual de rápida." },
-          { "q": "¿Cuál es el horario?", "a": "Martes a sábado de 10:30 a 21:30, domingos de 10:30 a 19:30. Cerrado los lunes." },
+          { "q": "¿Cuál es el horario?", "a": "Lunes de 10:30 a 20:00, martes a sábado de 10:30 a 21:30 y domingos de 10:30 a 19:30." },
           { "q": "¿Aceptan tarjeta?", "a": "Sí. Efectivo, tarjeta de débito y crédito (Visa, Mastercard, AMEX), pagos por terminal CoDi y transferencias SPEI." },
           { "q": "¿Cuánto tarda un burrito hecho en sucursal?", "a": "Entre 8 y 15 minutos dependiendo de la fila. Cada burrito se enrolla a mano al momento del pedido — no tenemos burritos pre-hechos en lámpara térmica." }
         ]
@@ -1611,26 +1611,26 @@
     },
     "burritos-roma-norte": {
       "meta": {
-        "title": "Burritos en Roma Norte — California Burritos a 10 min caminando | Juanberto's",
-        "description": "¿California burritos cerca de Roma Norte? Juanberto's a 10 min caminando en Coahuila 192 (Roma Sur). Hecho a mano. 4.9★ en Google."
+        "title": "Burritos cerca de Roma Norte, CDMX | Juanberto's",
+        "description": "¿Burritos cerca de Roma Norte? Visita Juanberto's en Coahuila 192, Roma Sur, CDMX. Consulta el menú y la cobertura de entrega para tu dirección."
       },
       "kicker": "California Burritos · Roma Norte",
       "title": "California Burritos cerca de Roma Norte.",
-      "subtitle": "Cruzas Avenida Cuauhtémoc y estás aquí. 10 minutos caminando desde Plaza Río de Janeiro.",
+      "subtitle": "Visítanos en Coahuila 192, Roma Sur. Consulta en el mapa la ruta desde tu punto de partida.",
       "intro": {
         "title": "¿Buscas California burritos cerca de Roma Norte?",
-        "lede": "Juanberto's está a 10 minutos caminando de Roma Norte, en Coahuila 192 (Roma Sur). Servimos California burritos auténticos al estilo San Diego: carne asada, papas a la francesa adentro, queso cheddar derretido, guacamole, pico y crema, todo enrollado a mano en tortilla de harina fresca.",
+        "lede": "Juanberto's está cerca de Roma Norte, en Coahuila 192 (Roma Sur). Servimos California burritos auténticos al estilo San Diego: carne asada, papas a la francesa adentro, queso cheddar derretido, guacamole, pico y crema, todo enrollado a mano en tortilla de harina fresca.",
         "body": "Roma Norte tiene de todo — taquerías, ramen, italiano, vegano, fine dining, brunch que jamás termina. Lo que no tiene es un California burrito de verdad. Por eso cruzamos los vecinos: 10 minutos de caminata por Cuauhtémoc o Mérida, y estás frente a una taquería que solo hace una cosa, y la hace bien.",
         "callout": "10 minutos. Cruzas Cuauhtémoc. Lo entiendes."
       },
       "delivery": {
         "kicker": "Caminas, vas en Uber, o pides",
         "title": "Llegar a Juanberto's desde Roma Norte.",
-        "body": "Desde Plaza Río de Janeiro caminas 10-12 minutos directo por Mérida. Desde Álvaro Obregón salen 8-10 minutos en Uber. Si prefieres delivery, Rappi entrega en 15-25 minutos.",
+        "body": "Nuestra sucursal está en Coahuila 192, Roma Sur. Para llegar desde Roma Norte, consulta la ruta y el tiempo estimado en el mapa. Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar.",
         "stats": [
-          { "label": "Caminando", "value": "10-15 min" },
-          { "label": "En Uber", "value": "5-10 min" },
-          { "label": "Por Rappi", "value": "15-25 min" },
+          { "label": "Caminando", "value": "Consultar mapa" },
+          { "label": "En Uber", "value": "Consultar mapa" },
+          { "label": "Por Rappi", "value": "Consultar app" },
           { "label": "Distancia", "value": "≈1.2 km" }
         ],
         "ctaRappi": "Ordenar en Rappi",
@@ -1666,7 +1666,7 @@
         "kicker": "Preguntas frecuentes",
         "title": "Desde Roma Norte — dudas comunes.",
         "items": [
-          { "q": "¿Cuánto tarda Rappi desde Roma Norte?", "a": "Entre 15 y 25 minutos según hora y demanda. Si estás corto de tiempo, caminar suele ser igual de rápido — 10-15 minutos." },
+          { "q": "¿Cuánto tarda Rappi desde Roma Norte?", "a": "Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar." },
           { "q": "¿Vale la pena caminar?", "a": "Sí — y no por capricho. Caminar evita el costo de envío, el burrito llega más caliente, y los 10-15 minutos de paseo por Roma sirven de aperitivo. Mucha gente de Roma Norte lo convierte en rutina." },
           { "q": "¿Hay opciones vegetarianas?", "a": "Sí. El Portobello burrito sustituye la carne por hongo portobello a la plancha y mantiene queso, papas, guacamole y pico. $170. También tenemos Bean & Cheese." },
           { "q": "¿Aceptan reservación?", "a": "No aceptamos reservación — somos taquería, no restaurante de mesa. Pero puedes pedir por WhatsApp para que te lo tengamos enrollado al llegar." },
@@ -1675,7 +1675,7 @@
       },
       "cta": {
         "title": "Cruza Cuauhtémoc hoy.",
-        "subtitle": "10 minutos caminando. Una tortilla recién enrollada. La razón por la que existe el California burrito.",
+        "subtitle": "Una tortilla recién enrollada te espera en Coahuila 192, Roma Sur.",
         "primary": "Ordenar ahora",
         "secondary": "Cómo llegar"
       }
@@ -1683,25 +1683,25 @@
     "burritos-condesa": {
       "meta": {
         "title": "Burritos en Condesa — California Burritos a domicilio cerca | Juanberto's",
-        "description": "¿California burritos cerca de Condesa? Juanberto's a minutos en Uber. Carne asada, papas, cheddar. Rappi 15-25 min. 4.9★ en Google."
+        "description": "¿Burritos cerca de Condesa? Visita Juanberto's en Coahuila 192, Roma Sur, CDMX. Consulta el menú y la cobertura de entrega para tu dirección."
       },
       "kicker": "California Burritos · Condesa",
       "title": "California Burritos en Condesa.",
-      "subtitle": "Después de Parque México, una orden en Rappi y 20 minutos después tienes el burrito calientito en la puerta.",
+      "subtitle": "Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar.",
       "intro": {
         "title": "¿Buscas California burritos cerca de Condesa?",
-        "lede": "Juanberto's está a minutos de Condesa, en Coahuila 192 (Roma Sur). Servimos California burritos auténticos al estilo San Diego: carne asada, papas a la francesa adentro, queso cheddar derretido, guacamole, pico y crema, todo enrollado a mano en tortilla de harina fresca. Entregamos por Rappi en 15-25 minutos a toda Condesa.",
+        "lede": "Juanberto's está a minutos de Condesa, en Coahuila 192 (Roma Sur). Servimos California burritos auténticos al estilo San Diego: carne asada, papas a la francesa adentro, queso cheddar derretido, guacamole, pico y crema, todo enrollado a mano en tortilla de harina fresca. Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar.",
         "body": "Condesa vive de los parques y de la mesa. Después de correr Parque México, después del brunch de la décima vez, después del paseo con el perro — llega el momento de comer algo con sustancia. Un California burrito no es ensalada gourmet, no es bowl saludable. Es carne asada de verdad y papas crujientes adentro de una tortilla que tiene que ser de harina porque no aguanta de otra forma. Hambre real, comida real.",
         "callout": "Post-Parque México. Sin pretextos."
       },
       "delivery": {
         "kicker": "A unos minutos de tu sillón",
         "title": "Llegar a tu puerta desde Coahuila 192.",
-        "body": "Desde Parque México estamos a 10-15 minutos en Uber. Por Rappi, el envío típico a Condesa es 15-25 minutos — el burrito sale caliente y llega caliente. Si te toca uno de esos días buenos, caminas 15 minutos y llegas. Vale el aire fresco.",
+        "body": "Nuestra sucursal está en Coahuila 192, Roma Sur. Para llegar desde Condesa, consulta la ruta y el tiempo estimado en el mapa. Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar.",
         "stats": [
-          { "label": "Caminando", "value": "15-20 min" },
-          { "label": "En Uber", "value": "10-15 min" },
-          { "label": "Por Rappi", "value": "15-25 min" },
+          { "label": "Caminando", "value": "Consultar mapa" },
+          { "label": "En Uber", "value": "Consultar mapa" },
+          { "label": "Por Rappi", "value": "Consultar app" },
           { "label": "Distancia", "value": "≈2 km" }
         ],
         "ctaRappi": "Ordenar en Rappi",
@@ -1737,7 +1737,7 @@
         "kicker": "Preguntas frecuentes",
         "title": "Desde Condesa — dudas comunes.",
         "items": [
-          { "q": "¿Sí entregan a domicilio en Condesa?", "a": "Sí. Por Rappi en 15-25 minutos típicos. Cubrimos toda la colonia Condesa e Hipódromo Condesa. También entregamos por Didi Food y Uber Eats." },
+          { "q": "¿Sí entregan a domicilio en Condesa?", "a": "Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar." },
           { "q": "¿Cuánto cuesta el envío?", "a": "El costo de envío lo fija Rappi según hora, distancia y demanda. Suele estar entre $25 y $45 desde Condesa. No es propina — es el envío directo de la app." },
           { "q": "¿Tienen opciones vegetarianas?", "a": "Sí: el Portobello burrito (hongo portobello, queso, papas, guacamole, pico) y Bean & Cheese. Ambos en el menú de Rappi." },
           { "q": "¿Llega caliente?", "a": "Sí — empacamos para mantener temperatura. La proteína se mantiene caliente, la papa adentro mantiene crujido, la tortilla flexible. Si llegara frío, escríbenos por WhatsApp." },
@@ -1746,7 +1746,7 @@
       },
       "cta": {
         "title": "Pídelo desde Condesa.",
-        "subtitle": "Rappi en 20 minutos. O caminas 15. Las dos opciones llegan al mismo California burrito.",
+        "subtitle": "Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar.",
         "primary": "Ordenar ahora",
         "secondary": "Cómo llegar"
       }
@@ -1754,25 +1754,25 @@
     "burritos-juarez": {
       "meta": {
         "title": "Burritos en Colonia Juárez — California Burritos para oficina | Juanberto's",
-        "description": "¿California burritos cerca de la Juárez y Reforma? Rappi 25-35 min a oficinas y hoteles. Coahuila 192. 4.9★ en Google."
+        "description": "¿Burritos cerca de Juárez? Visita Juanberto's en Coahuila 192, Roma Sur, CDMX. Consulta el menú y la cobertura de entrega para tu dirección."
       },
       "kicker": "California Burritos · Colonia Juárez",
       "title": "California Burritos en la Juárez.",
       "subtitle": "Para la mesa de junta. Para el lunch que no es ensalada. Para el viernes en la oficina.",
       "intro": {
         "title": "¿Buscas California burritos cerca de la Colonia Juárez?",
-        "lede": "Juanberto's está a minutos de la Colonia Juárez y Reforma, en Coahuila 192 (Roma Sur). Servimos California burritos auténticos al estilo San Diego: carne asada, papas a la francesa adentro, queso cheddar derretido, guacamole, pico y crema, todo enrollado a mano en tortilla de harina fresca. Entregamos por Rappi en 25-35 minutos a oficinas y residencias de la Juárez.",
+        "lede": "Juanberto's está a minutos de la Colonia Juárez y Reforma, en Coahuila 192 (Roma Sur). Servimos California burritos auténticos al estilo San Diego: carne asada, papas a la francesa adentro, queso cheddar derretido, guacamole, pico y crema, todo enrollado a mano en tortilla de harina fresca. Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar.",
         "body": "La Juárez vive de Reforma — corporativos, hoteles, embajadas, restaurantes de manteles largos. El lunch tiene mil opciones — pero muy pocas que llenan de verdad sin pretensión. Un California burrito es la respuesta directa al hambre de oficina: sustancia, sabor, una sola pieza, listo en 20 minutos en tu escritorio. Sin platos sucios. Sin sobrar la mitad.",
         "callout": "Lunch real. Sin distracciones."
       },
       "delivery": {
         "kicker": "Llega antes de tu siguiente junta",
         "title": "Entrega a oficinas y hoteles de la Juárez.",
-        "body": "Desde Coahuila 192 estamos a 15-20 minutos en Uber al corazón de la Juárez. Por Rappi, el envío típico a la Juárez/Reforma es 25-35 minutos. Para pedidos de oficina (5+ burritos), avísanos con anticipación por WhatsApp y los preparamos en bloque para que lleguen juntos.",
+        "body": "Nuestra sucursal está en Coahuila 192, Roma Sur. Para llegar desde Juárez, consulta la ruta y el tiempo estimado en el mapa. Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar.",
         "stats": [
-          { "label": "Caminando", "value": "35-50 min" },
-          { "label": "En Uber", "value": "15-20 min" },
-          { "label": "Por Rappi", "value": "25-35 min" },
+          { "label": "Caminando", "value": "Consultar mapa" },
+          { "label": "En Uber", "value": "Consultar mapa" },
+          { "label": "Por Rappi", "value": "Consultar app" },
           { "label": "Distancia", "value": "≈3.5 km" }
         ],
         "ctaRappi": "Ordenar en Rappi",
@@ -1825,25 +1825,25 @@
     "burritos-narvarte": {
       "meta": {
         "title": "Burritos en Narvarte — California Burritos a domicilio | Juanberto's",
-        "description": "¿California burritos en Narvarte? Juanberto's entrega Rappi 20-30 min. Carne asada, papas adentro. Coahuila 192. 4.9★ en Google."
+        "description": "¿Burritos cerca de Narvarte? Visita Juanberto's en Coahuila 192, Roma Sur, CDMX. Consulta el menú y la cobertura de entrega para tu dirección."
       },
       "kicker": "California Burritos · Narvarte",
       "title": "California Burritos en Narvarte.",
       "subtitle": "Para el sábado. Para la cena del viernes con la familia. Para el pedido fijo que se vuelve costumbre.",
       "intro": {
         "title": "¿Buscas California burritos cerca de Narvarte?",
-        "lede": "Juanberto's está a minutos de Narvarte, en Coahuila 192 (Roma Sur). Servimos California burritos auténticos al estilo San Diego: carne asada, papas a la francesa adentro, queso cheddar derretido, guacamole, pico y crema, todo enrollado a mano en tortilla de harina fresca. Entregamos por Rappi en 20-30 minutos a toda Narvarte.",
+        "lede": "Juanberto's está a minutos de Narvarte, en Coahuila 192 (Roma Sur). Servimos California burritos auténticos al estilo San Diego: carne asada, papas a la francesa adentro, queso cheddar derretido, guacamole, pico y crema, todo enrollado a mano en tortilla de harina fresca. Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar.",
         "body": "Narvarte es de las colonias donde el sábado significa quedarse en casa, ver una peli y pedir algo que valga la pena. Un California burrito funciona para esa noche: alcanza para cualquiera de la familia, llena de verdad, y no requiere platos ni mesa formal. Pides por Rappi, llega calientito, ahorras el viaje, cenan tranquilos.",
         "callout": "Pedido fijo del sábado."
       },
       "delivery": {
         "kicker": "Cerca, pero no se nota",
         "title": "Entrega rápida a toda Narvarte.",
-        "body": "Desde Coahuila 192 a Narvarte el viaje es directo por Cuauhtémoc o Eje 5 Sur. Rappi entrega en 20-30 minutos típicos. Si vives en la zona alta de Narvarte, el tiempo se acerca al límite bajo.",
+        "body": "Nuestra sucursal está en Coahuila 192, Roma Sur. Para llegar desde Narvarte, consulta la ruta y el tiempo estimado en el mapa. Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar.",
         "stats": [
-          { "label": "Caminando", "value": "25-40 min" },
-          { "label": "En Uber", "value": "10-15 min" },
-          { "label": "Por Rappi", "value": "20-30 min" },
+          { "label": "Caminando", "value": "Consultar mapa" },
+          { "label": "En Uber", "value": "Consultar mapa" },
+          { "label": "Por Rappi", "value": "Consultar app" },
           { "label": "Distancia", "value": "≈2.5 km" }
         ],
         "ctaRappi": "Ordenar en Rappi",
@@ -1883,12 +1883,12 @@
           { "q": "¿Pueden hacer pedidos grandes para reunión familiar?", "a": "Sí. Para 6+ burritos avísanos por WhatsApp con 24-48 horas de anticipación y los preparamos en bloque para que lleguen calientes y juntos." },
           { "q": "¿Tienen tamaño para niños?", "a": "Los burritos son grandes — un California es 1/4 de kilo de carne más relleno, así que para niños pequeños el Bean & Cheese ($99) o medio California compartido suele funcionar mejor." },
           { "q": "¿Llega caliente a 30 minutos?", "a": "Sí — empacamos para mantener temperatura. La papa adentro conserva crujido, la tortilla flexible, el queso derretido. Si llegara frío, escríbenos por WhatsApp." },
-          { "q": "¿A qué hora cierran?", "a": "Martes a sábado hasta las 21:30, domingos hasta las 19:30. Cerrado los lunes. Pide con tiempo si lo quieres para cenar." }
+          { "q": "¿A qué hora cierran?", "a": "Lunes hasta las 20:00, martes a sábado hasta las 21:30 y domingos hasta las 19:30. Abrimos todos los días a las 10:30. Pide con tiempo si lo quieres para cenar." }
         ]
       },
       "cta": {
         "title": "Pídelo este sábado.",
-        "subtitle": "Rappi en 25 minutos. La cena lista. Sin platos sucios.",
+        "subtitle": "Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar.",
         "primary": "Ordenar ahora",
         "secondary": "Cómo llegar"
       }
@@ -1896,25 +1896,25 @@
     "burritos-del-valle": {
       "meta": {
         "title": "Burritos en Del Valle — California Burritos a domicilio | Juanberto's",
-        "description": "¿California burritos en Del Valle? Juanberto's entrega Rappi 25-40 min. Carne asada, papas adentro. Coahuila 192. 4.9★ en Google."
+        "description": "¿Burritos cerca de Del Valle? Visita Juanberto's en Coahuila 192, Roma Sur, CDMX. Consulta el menú y la cobertura de entrega para tu dirección."
       },
       "kicker": "California Burritos · Del Valle",
       "title": "California Burritos en Del Valle.",
       "subtitle": "Sí, vale la pena pedir desde Del Valle. Sí, llega caliente. Sí, es el único California auténtico de CDMX.",
       "intro": {
         "title": "¿Buscas California burritos cerca de Del Valle?",
-        "lede": "Juanberto's entrega a Del Valle desde Coahuila 192 (Roma Sur). Servimos California burritos auténticos al estilo San Diego: carne asada, papas a la francesa adentro, queso cheddar derretido, guacamole, pico y crema, todo enrollado a mano en tortilla de harina fresca. Por Rappi llegamos en 25-40 minutos a toda Del Valle.",
-        "body": "Del Valle es residencial — familias, profesionales, gente que ya conoce su zona y sabe lo que vale el viaje. Pedir un California burrito desde Del Valle no es lo más cercano que tienes — pero sí es lo más auténtico. La diferencia entre un burrito-cualquiera y un California real está en la receta, la carne, la tortilla y el rolado a mano. Esa diferencia llega contigo, en Rappi, en menos de 40 minutos.",
+        "lede": "Juanberto's entrega a Del Valle desde Coahuila 192 (Roma Sur). Servimos California burritos auténticos al estilo San Diego: carne asada, papas a la francesa adentro, queso cheddar derretido, guacamole, pico y crema, todo enrollado a mano en tortilla de harina fresca. Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar.",
+        "body": "Del Valle es residencial — familias, profesionales, gente que ya conoce su zona y sabe lo que vale el viaje. Pedir un California burrito desde Del Valle no es lo más cercano que tienes — pero sí es lo más auténtico. La diferencia entre un burrito-cualquiera y un California real está en la receta, la carne, la tortilla y el rolado a mano. Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar.",
         "callout": "Vale el viaje. Vale el envío."
       },
       "delivery": {
         "kicker": "Lejos no es lejos",
         "title": "Entrega a Del Valle Centro y Norte.",
-        "body": "Desde Coahuila 192 a Del Valle el trayecto va por Cuauhtémoc o Insurgentes Sur. Rappi entrega en 25-40 minutos típicos. Empacamos pensando en el viaje: el burrito llega caliente, la papa crujiente, el queso derretido.",
+        "body": "Nuestra sucursal está en Coahuila 192, Roma Sur. Para llegar desde Del Valle, consulta la ruta y el tiempo estimado en el mapa. Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar.",
         "stats": [
-          { "label": "Caminando", "value": "40-55 min" },
-          { "label": "En Uber", "value": "12-20 min" },
-          { "label": "Por Rappi", "value": "25-40 min" },
+          { "label": "Caminando", "value": "Consultar mapa" },
+          { "label": "En Uber", "value": "Consultar mapa" },
+          { "label": "Por Rappi", "value": "Consultar app" },
           { "label": "Distancia", "value": "≈3 km" }
         ],
         "ctaRappi": "Ordenar en Rappi",
@@ -1950,7 +1950,7 @@
         "kicker": "Preguntas frecuentes",
         "title": "Desde Del Valle — dudas comunes.",
         "items": [
-          { "q": "¿Sí entregan a Del Valle?", "a": "Sí — Rappi cubre toda Del Valle (Centro, Norte, Sur). Tiempo típico de entrega: 25-40 minutos. También entregamos por Didi Food y Uber Eats." },
+          { "q": "¿Sí entregan a Del Valle?", "a": "Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar." },
           { "q": "¿Cuánto cuesta el envío?", "a": "Lo fija Rappi según la app. Suele estar entre $35 y $55 desde Roma Sur a Del Valle. La distancia justifica el envío, pero el costo siempre está en la app antes de confirmar." },
           { "q": "¿Vale la pena el envío?", "a": "Depende de qué buscas. Si quieres taquería de la esquina, no. Si quieres el único California burrito auténtico de CDMX y comer una receta de San Diego sin tener que cruzar la frontera — sí." },
           { "q": "¿Llega caliente después de 30-40 minutos?", "a": "Sí — empacamos pensando en el viaje. La carne, las papas y el queso aguantan el trayecto sin perder textura ni temperatura." },
@@ -1959,7 +1959,7 @@
       },
       "cta": {
         "title": "Pídelo desde Del Valle.",
-        "subtitle": "30 minutos en Rappi. El único California burrito real de CDMX, a tu puerta.",
+        "subtitle": "Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar.",
         "primary": "Ordenar ahora",
         "secondary": "Cómo llegar"
       }
@@ -1967,25 +1967,25 @@
     "burritos-escandon": {
       "meta": {
         "title": "Burritos en Escandón — California Burritos a domicilio | Juanberto's",
-        "description": "¿California burritos cerca de Escandón? Juanberto's entrega Rappi 15-25 min. Carne asada, papas, cheddar. Hecho a mano. 4.9★ en Google."
+        "description": "¿Burritos cerca de Escandón? Visita Juanberto's en Coahuila 192, Roma Sur, CDMX. Consulta el menú y la cobertura de entrega para tu dirección."
       },
       "kicker": "California Burritos · Escandón",
       "title": "California Burritos en Escandón.",
       "subtitle": "La colonia foodie que crece más rápido de CDMX merece un California burrito de verdad. Y queda cerca.",
       "intro": {
         "title": "¿Buscas California burritos cerca de Escandón?",
-        "lede": "Juanberto's está a minutos de Escandón, en Coahuila 192 (Roma Sur). Servimos California burritos auténticos al estilo San Diego: carne asada, papas a la francesa adentro, queso cheddar derretido, guacamole, pico y crema, todo enrollado a mano en tortilla de harina fresca. Entregamos por Rappi en 15-25 minutos a toda Escandón.",
+        "lede": "Juanberto's está a minutos de Escandón, en Coahuila 192 (Roma Sur). Servimos California burritos auténticos al estilo San Diego: carne asada, papas a la francesa adentro, queso cheddar derretido, guacamole, pico y crema, todo enrollado a mano en tortilla de harina fresca. Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar.",
         "body": "Escandón está en su mejor momento. Nuevos restaurantes cada mes, residentes que conocen la diferencia, gente que sabe leer una etiqueta. El California burrito encaja perfecto aquí — no es cocina fusión, no es trending, no es minimalismo. Es la receta original de San Diego, hecha bien, con ingredientes que respetas. Ese es el tipo de comida que Escandón está pidiendo.",
         "callout": "Receta auténtica. Cero compromiso."
       },
       "delivery": {
         "kicker": "A tiro de piedra",
         "title": "Entrega rápida desde Roma Sur a Escandón.",
-        "body": "Escandón está justo cruzando Insurgentes desde Roma. Rappi entrega típicamente en 15-25 minutos. En bicicleta o caminata son 15-20. En Uber son menos de 10.",
+        "body": "Nuestra sucursal está en Coahuila 192, Roma Sur. Para llegar desde Escandón, consulta la ruta y el tiempo estimado en el mapa. Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar.",
         "stats": [
-          { "label": "Caminando", "value": "15-20 min" },
-          { "label": "En Uber", "value": "8-12 min" },
-          { "label": "Por Rappi", "value": "15-25 min" },
+          { "label": "Caminando", "value": "Consultar mapa" },
+          { "label": "En Uber", "value": "Consultar mapa" },
+          { "label": "Por Rappi", "value": "Consultar app" },
           { "label": "Distancia", "value": "≈1.8 km" }
         ],
         "ctaRappi": "Ordenar en Rappi",
@@ -2021,8 +2021,8 @@
         "kicker": "Preguntas frecuentes",
         "title": "Desde Escandón — dudas comunes.",
         "items": [
-          { "q": "¿Sí llegan a Escandón?", "a": "Sí — Rappi entrega a toda Escandón en 15-25 minutos típicos. Cubrimos también Escandón I y II." },
-          { "q": "¿Cuánto tarda?", "a": "Entre 15 y 25 minutos en Rappi puerta a puerta. Si vives sobre Patriotismo o cerca, hacia el límite bajo." },
+          { "q": "¿Sí llegan a Escandón?", "a": "Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar." },
+          { "q": "¿Cuánto tarda?", "a": "Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar." },
           { "q": "¿Tienen opciones vegetarianas?", "a": "Sí — Portobello burrito ($170) y Bean & Cheese ($99). Ambos disponibles en Rappi." },
           { "q": "¿Cuál es la diferencia con un burrito de taquería normal?", "a": "El California burrito lleva papas a la francesa adentro (no arroz, no frijoles), carne asada con corte específico, queso cheddar derretido, y tortilla de harina grande. Es una receta distinta — viene de San Diego, no del norte de México. Aquí servimos la receta original." },
           { "q": "¿Qué tan auténtico es?", "a": "Aprendimos la receta en San Diego, importamos la técnica, y la respetamos sin reinterpretar. Carne asada con bordes tatemados, papas crujientes adentro, queso fundido a la plancha. La versión correcta — sin fusión, sin atajos, sin invención." }
@@ -2030,7 +2030,7 @@
       },
       "cta": {
         "title": "Pídelo desde Escandón.",
-        "subtitle": "Rappi en 20 minutos. La receta de San Diego. Hecha a mano. Cero compromiso.",
+        "subtitle": "Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar.",
         "primary": "Ordenar ahora",
         "secondary": "Cómo llegar"
       }

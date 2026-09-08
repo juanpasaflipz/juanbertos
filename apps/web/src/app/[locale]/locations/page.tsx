@@ -1,4 +1,4 @@
-import { setRequestLocale, getTranslations } from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { LocationsContent } from "./LocationsContent";
 
@@ -14,13 +14,12 @@ type Props = { params: Promise<{ locale: string }> };
 
 export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "locationsPage" });
   const description =
     locale === "es"
       ? "Juanberto's en Coahuila 192, Roma Sur, CDMX. Horarios, teléfono, cómo llegar y los barrios de la Ciudad de México a los que servimos."
       : "Juanberto's at Coahuila 192, Roma Sur, Mexico City. Hours, phone, directions and the CDMX neighborhoods we serve.";
   const url = `${SITE_URL}/${locale}/locations`;
-  const title = `${t("title")} | Juanberto's`;
+  const title = locale === "es" ? "Juanberto's Roma Sur: dirección y horarios en CDMX" : "Juanberto's Roma Sur: Location & Hours, Mexico City";
   return {
     title,
     description,
