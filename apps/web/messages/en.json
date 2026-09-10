@@ -290,13 +290,14 @@
       "hoursTitle": "Hours",
       "hours": [
         { "days": "Mon",          "time": "10:30 – 20:00" },
-        { "days": "Tue – Sat",    "time": "10:30 – 21:30" },
+        { "days": "Tue – Sat",    "time": "10:30 – 21:00" },
         { "days": "Sun",          "time": "10:30 – 19:30" }
       ],
       "cta": "Get directions"
     }
   },
   "orderPage": {
+    "orderReference": "Your order reference: {reference}. Share it when ordering on WhatsApp or at the counter.",
     "kicker": "Hungry already?",
     "title": "Order a Juanberto's.",
     "subtitle": "Five ways to put a California burrito in your hands.",
@@ -422,7 +423,7 @@
       "hoursTitle": "Hours",
       "hours": [
         { "days": "Monday", "time": "10:30 – 20:00" },
-        { "days": "Tuesday – Saturday", "time": "10:30 – 21:30" },
+        { "days": "Tuesday – Saturday", "time": "10:30 – 21:00" },
         { "days": "Sunday", "time": "10:30 – 19:30" }
       ],
       "directionsCta": "Get directions",
@@ -1597,7 +1598,7 @@
         "items": [
           { "q": "Where exactly are you?", "a": "Coahuila 192, Roma Sur, CDMX. Between Antonio M. Anza and Calle Mérida, a block from Mercado Medellín. Ecobici stations nearby." },
           { "q": "How should I order — counter, WhatsApp, or Rappi?", "a": "The best way is to walk up to the counter — pick in person, watch the burrito get rolled in front of you, and walk home with it hot. If you're in a rush or want to skip the line, WhatsApp +52 56 1309 6835 to pre-order and just pick it up. Rappi also works, but for Roma Sur the walk is usually just as fast." },
-          { "q": "What are the hours?", "a": "Monday 10:30-20:00, Tuesday-Saturday 10:30-21:30, Sunday 10:30-19:30." },
+          { "q": "What are the hours?", "a": "Monday 10:30-20:00, Tuesday-Saturday 10:30-21:00, Sunday 10:30-19:30." },
           { "q": "Do you take cards?", "a": "Yes. Cash, debit, credit (Visa, Mastercard, AMEX), CoDi payments, and SPEI transfers." },
           { "q": "How long does a burrito take in-store?", "a": "Between 8 and 15 minutes depending on the line. Each burrito is hand-rolled to order — no pre-made burritos under a heat lamp." }
         ]
@@ -1883,7 +1884,7 @@
           { "q": "Can you do large orders for family gatherings?", "a": "Yes. For 6+ burritos, message us on WhatsApp 24-48 hours ahead and we batch-prep so everything arrives hot and together." },
           { "q": "Do you have a kid-size option?", "a": "Burritos are big — a California is 1/4 kilo of carne plus filling, so for small kids the Bean & Cheese ($99) or half a shared California usually works better." },
           { "q": "Does it arrive hot at 30 minutes?", "a": "Yes — we pack to hold temperature. Fries inside hold crunch, tortilla stays flexible, cheese melted. If it ever arrives cold, message us on WhatsApp." },
-          { "q": "What time do you close?", "a": "Monday until 20:00, Tuesday-Saturday until 21:30, Sunday until 19:30. We open daily at 10:30. Order with margin if it's for dinner." }
+          { "q": "What time do you close?", "a": "Monday until 20:00, Tuesday-Saturday until 21:00, Sunday until 19:30. We open daily at 10:30. Order with margin if it's for dinner." }
         ]
       },
       "cta": {

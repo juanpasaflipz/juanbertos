@@ -1,5 +1,7 @@
 # Google Ads — Juanberto's Rappi Acquisition Campaign
 
+> Historical June 2026 plan, superseded for recovery on 9 September 2026. Rappi-30 is paused. Its old phone, hours, promotions, budgets and click-as-purchase instructions are not current launch instructions. Current WhatsApp is +52 56 1309 6835; Tuesday–Saturday closes at 21:00. See [recovery tracking](../recovery-tracking.md). Link clicks are engagement, never verified sales.
+
 **Campaign codename:** `JB-SEARCH-RAPPI-2026-06`
 **Owner:** juan@injupe.com
 **Account:** AW-11120993342 (Google Ads CID `747-447-7580`, campaign_id `23936395368`)
