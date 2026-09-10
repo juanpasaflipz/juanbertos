@@ -5,6 +5,8 @@ import { useTranslations } from "next-intl";
 import { PageHero } from "@/components/PageHero";
 import { Link as LocaleLink } from "@/i18n/navigation";
 import { trackConversion, type ConversionType } from "@/lib/analytics";
+import { referencedWhatsAppUrl } from "@/lib/recovery-attribution";
+import { useRecoveryReference } from "@/components/useRecoveryReference";
 
 type ChannelKey = "inperson" | "whatsapp" | "rappi" | "didi" | "ubereats";
 
@@ -25,6 +27,7 @@ const CHANNELS: Array<{
 
 export function OrderContent() {
   const t = useTranslations("orderPage");
+  const reference = useRecoveryReference();
 
   return (
     <>
@@ -36,9 +39,15 @@ export function OrderContent() {
 
       <section className="bg-paper-100 pb-24">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
+          {reference && (
+            <p className="mb-6 text-center text-ink-900">
+              {t("orderReference", { reference: reference.reference })}
+            </p>
+          )}
           <ul className="grid gap-6 sm:gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {CHANNELS.map((c, i) => {
-              const href = t(`channels.${c.key}.href`);
+              const originalHref = t(`channels.${c.key}.href`);
+              const href = c.key === 'whatsapp' ? referencedWhatsAppUrl(originalHref, reference?.reference) : originalHref;
               const title = t(`channels.${c.key}.title`);
               const body = t(`channels.${c.key}.body`);
               const cta = t(`channels.${c.key}.cta`);
@@ -156,4 +165,3 @@ function UberEatsIcon() {
     </svg>
   );
 }
-

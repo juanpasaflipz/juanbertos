@@ -2,6 +2,7 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { RecoveryReferenceProvider } from "@/components/useRecoveryReference";
 import { routing } from "@/i18n/routing";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -98,7 +99,7 @@ export default async function LocaleLayout({ children, params }: Props) {
         "@type": "OpeningHoursSpecification",
         dayOfWeek: ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
         opens: "10:30",
-        closes: "21:30",
+        closes: "21:00",
       },
       {
         "@type": "OpeningHoursSpecification",
@@ -129,12 +130,14 @@ export default async function LocaleLayout({ children, params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(restaurantSchema) }}
       />
+      <RecoveryReferenceProvider>
       <div lang={locale} className="min-h-dvh flex flex-col">
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
         <WhatsAppFloatingButton />
       </div>
+      </RecoveryReferenceProvider>
     </NextIntlClientProvider>
   );
 }
