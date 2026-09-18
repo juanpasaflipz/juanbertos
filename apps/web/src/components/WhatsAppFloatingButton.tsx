@@ -2,10 +2,13 @@
 
 import { useTranslations } from "next-intl";
 import { trackConversion } from "@/lib/analytics";
+import { referencedWhatsAppUrl } from "@/lib/recovery-attribution";
+import { useRecoveryReference } from "@/components/useRecoveryReference";
 
 export function WhatsAppFloatingButton() {
   const t = useTranslations("orderPage");
-  const href = t("channels.whatsapp.href");
+  const reference = useRecoveryReference();
+  const href = referencedWhatsAppUrl(t("channels.whatsapp.href"), reference?.reference);
   const label = t("floatingLabel");
 
   return (

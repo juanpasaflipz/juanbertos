@@ -4,6 +4,8 @@ import { Logo } from "./Logo";
 
 export function SiteFooter() {
   const t = useTranslations("footer");
+  const shop = useTranslations("locationsPage.shop");
+  const hours = shop.raw("hours") as { days: string; time: string }[];
   const tCorner = useTranslations("cornerstone");
   const tCompare = useTranslations("burritoVsBurger");
   const year = new Date().getFullYear();
@@ -41,6 +43,18 @@ export function SiteFooter() {
         </div>
 
         <div className="flex flex-col md:items-end gap-1 text-sm text-ink-500">
+          <address className="not-italic md:text-right">
+            <Link href="/locations" className="text-ink-700 hover:text-tangerine-600">
+              {shop("address")}
+            </Link>
+            <br />
+            <a href={`tel:${shop("phoneTel")}`} className="text-ink-700 hover:text-tangerine-600">
+              {shop("phone")}
+            </a>
+          </address>
+          <ul aria-label={shop("hoursTitle")} className="md:text-right">
+            {hours.map(({ days, time }) => <li key={days}>{days}: {time}</li>)}
+          </ul>
           <a
             href="mailto:hello@juanbertos.com"
             className="text-ink-700 hover:text-tangerine-600 transition-colors"

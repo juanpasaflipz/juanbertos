@@ -13,12 +13,11 @@ type Props = { params: Promise<{ locale: string }> };
 
 export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "menuPage" });
   const description =
     locale === "es"
-      ? "Menú completo de Juanberto's en Roma Sur, CDMX. California burrito, Porkbelly, Ensenada, Breakfast, Chimichanga y más. Precios en MXN."
-      : "Full Juanberto's menu in Roma Sur, Mexico City. California burrito, Porkbelly, Ensenada, Breakfast, Chimichanga and more. Prices in MXN.";
-  const title = `${t("title")} | Juanberto's`;
+      ? "Burritos California, tacos dorados Rollbertos con birria o cochinita, papas y aguas frescas. Consulta el menú y los precios de Juanberto's en Roma Sur."
+      : "California burritos, Rollbertos topped with birria or cochinita, loaded fries and aguas frescas. See menu prices at Juanberto's in Roma Sur, Mexico City.";
+  const title = locale === "es" ? "Menú de burritos y tacos dorados en CDMX | Juanberto's" : "Burrito & Rolled Taco Menu, Mexico City | Juanberto's";
   const url = `${SITE_URL}/${locale}/menu`;
   return {
     title,

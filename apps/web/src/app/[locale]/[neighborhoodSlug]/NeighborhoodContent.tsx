@@ -6,6 +6,8 @@ import Image from "next/image";
 import { Link as LocaleLink } from "@/i18n/navigation";
 import { PageHero } from "@/components/PageHero";
 import { trackConversion } from "@/lib/analytics";
+import { referencedWhatsAppUrl } from "@/lib/recovery-attribution";
+import { useRecoveryReference } from "@/components/useRecoveryReference";
 import {
   GOOGLE_REVIEWS_URL,
   GOOGLE_WRITE_REVIEW_URL,
@@ -35,6 +37,7 @@ export function NeighborhoodContent({
   mapQuery: string;
 }) {
   const t = useTranslations(`neighborhoods.${slug}`);
+  const reference = useRecoveryReference();
   const tCornerstone = useTranslations("cornerstone.social");
   const stats = t.raw("delivery.stats") as Stat[];
   const proofItems = t.raw("proof.items") as ProofItem[];
@@ -147,7 +150,7 @@ export function NeighborhoodContent({
                   <span aria-hidden>→</span>
                 </a>
                 <a
-                  href={WHATSAPP_URL}
+                  href={referencedWhatsAppUrl(WHATSAPP_URL, reference?.reference)}
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => trackConversion("order_whatsapp")}

@@ -6,6 +6,8 @@ import Image from "next/image";
 import { Link as LocaleLink } from "@/i18n/navigation";
 import { PageHero } from "@/components/PageHero";
 import { trackConversion, type ConversionType } from "@/lib/analytics";
+import { referencedWhatsAppUrl } from "@/lib/recovery-attribution";
+import { useRecoveryReference } from "@/components/useRecoveryReference";
 import {
   GOOGLE_REVIEWS_URL,
   GOOGLE_WRITE_REVIEW_URL,
@@ -38,6 +40,7 @@ const MENU_IMAGES: Record<string, string> = {
 };
 
 export function CornerstoneContent() {
+  const reference = useRecoveryReference();
   const t = useTranslations("cornerstone");
   const layers = t.raw("anatomy.layers") as Layer[];
   const originParagraphs = t.raw("origin.paragraphs") as string[];
@@ -376,7 +379,7 @@ export function CornerstoneContent() {
                     </span>
                   ) : (
                     <a
-                      href={ch.href}
+                      href={meta.conversion === 'order_whatsapp' ? referencedWhatsAppUrl(ch.href, reference?.reference) : ch.href}
                       target={ch.href.startsWith("http") ? "_blank" : undefined}
                       rel={ch.href.startsWith("http") ? "noopener noreferrer" : undefined}
                       onClick={meta.conversion ? () => trackConversion(meta.conversion!) : undefined}

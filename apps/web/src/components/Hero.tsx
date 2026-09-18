@@ -7,6 +7,7 @@ import { Logo } from "./Logo";
 
 export function Hero() {
   const t = useTranslations("hero");
+  const menu = useTranslations("menuPage");
 
   return (
     <section className="relative overflow-hidden">
@@ -72,6 +73,10 @@ export function Hero() {
                 {t("cta_secondary")}
               </Link>
             </motion.div>
+
+            <Link href="/menu#rollbertos" className="inline-block mt-6 text-sm underline underline-offset-4 hover:text-tangerine-600">
+              {menu("specials.label")} →
+            </Link>
 
             <span className="hand-note absolute -bottom-6 left-2 hidden lg:block text-2xl text-ink-700 -rotate-6 select-none">
               ↑ con papas adentro
