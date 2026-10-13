@@ -7,6 +7,7 @@ import { StickerCollage } from "@/components/StickerCollage";
 import { NeighborhoodsGrid } from "@/components/NeighborhoodsGrid";
 import { BurritoAnatomy } from "@/components/BurritoAnatomy";
 import { LoveWall } from "@/components/LoveWall";
+import { LatestPosts } from "@/components/LatestPosts";
 
 const SITE_URL = "https://www.juanbertos.com";
 const OG_IMAGE = {
@@ -64,6 +65,7 @@ export default async function HomePage({ params }: Props) {
       <NeighborhoodsGrid namespace="homeNeighborhoods" />
       <BurritoAnatomy />
       <LoveWall />
+      <LatestPosts />
     </>
   );
 }

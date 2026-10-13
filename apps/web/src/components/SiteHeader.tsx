@@ -20,6 +20,7 @@ export function SiteHeader() {
           <Link href="/menu" className="hover:text-tangerine-600 transition-colors">{t("menu")}</Link>
           <Link href="/ingredients" className="hover:text-tangerine-600 transition-colors">{t("ingredients")}</Link>
           <Link href="/story" className="hover:text-tangerine-600 transition-colors">{t("story")}</Link>
+          <Link href="/blog" className="hover:text-tangerine-600 transition-colors">{t("blog")}</Link>
           <Link href="/locations" className="hover:text-tangerine-600 transition-colors">{t("locations")}</Link>
         </nav>
 

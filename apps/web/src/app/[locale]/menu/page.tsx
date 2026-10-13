@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: Props) {
     locale === "es"
       ? "Burritos California, tacos dorados Rollbertos con birria o cochinita, papas y aguas frescas. Consulta el menú y los precios de Juanberto's en Roma Sur."
       : "California burritos, Rollbertos topped with birria or cochinita, loaded fries and aguas frescas. See menu prices at Juanberto's in Roma Sur, Mexico City.";
-  const title = locale === "es" ? "Menú de burritos y tacos dorados en CDMX | Juanberto's" : "Burrito & Rolled Taco Menu, Mexico City | Juanberto's";
+  const title = locale === "es" ? "Menú de California burritos en CDMX | Juanberto's" : "California Burrito Menu, Mexico City | Juanberto's";
   const url = `${SITE_URL}/${locale}/menu`;
   return {
     title,

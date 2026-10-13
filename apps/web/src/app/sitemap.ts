@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
 import { INGREDIENT_SLUGS } from "@/lib/ingredients";
 import { NEIGHBORHOOD_SLUGS } from "@/lib/neighborhoods";
+import { POST_SLUGS } from "@/lib/blog";
 
 const SITE_URL = "https://www.juanbertos.com";
 
@@ -15,6 +16,8 @@ const ROUTES = [
   "/burrito-vs-burger",
   "/why-a-california-burrito-isnt-a-snack",
   "/ingredients",
+  "/blog",
+  ...POST_SLUGS.map((slug) => `/blog/${slug}` as const),
   ...INGREDIENT_SLUGS.map((slug) => `/ingredients/${slug}` as const),
   ...NEIGHBORHOOD_SLUGS.map((slug) => `/${slug}` as const),
 ] as const;
@@ -36,7 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
               ? 0.9
               : route === "/why-a-california-burrito-isnt-a-snack"
                 ? 0.9
-                : route.startsWith("/burritos-")
+                : route.startsWith("/burritos-") || route.startsWith("/blog")
                   ? 0.9
                   : route.startsWith("/ingredients/")
                     ? 0.85

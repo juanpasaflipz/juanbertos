@@ -39,6 +39,14 @@ export function SiteFooter() {
                 {tCompare("kicker")}
               </Link>
             </li>
+            <li>
+              <Link
+                href="/blog"
+                className="text-ink-700 hover:text-tangerine-600 transition-colors"
+              >
+                Blog
+              </Link>
+            </li>
           </ul>
         </div>
 
