@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
 import { INGREDIENT_SLUGS } from "@/lib/ingredients";
 import { NEIGHBORHOOD_SLUGS } from "@/lib/neighborhoods";
+import { LEGAL_NAME } from "@/lib/privacy-notice";
 
 const SITE_URL = "https://www.juanbertos.com";
 
@@ -15,6 +16,8 @@ const ROUTES = [
   "/burrito-vs-burger",
   "/why-a-california-burrito-isnt-a-snack",
   "/ingredients",
+  // Listed once the responsable is named (the page is noindex until then).
+  ...(LEGAL_NAME ? (["/aviso-de-privacidad"] as const) : []),
   ...INGREDIENT_SLUGS.map((slug) => `/ingredients/${slug}` as const),
   ...NEIGHBORHOOD_SLUGS.map((slug) => `/${slug}` as const),
 ] as const;
