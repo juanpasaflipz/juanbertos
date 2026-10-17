@@ -30,7 +30,7 @@ const TIER1_IMAGES: Record<string, string> = {
   Yucatán: "/menu/cochinita.jpg",
 };
 
-const MASTERPIECE_IMAGE = "/menu/chimichanga.jpg";
+const MASTERPIECE_IMAGE = "/menu/quesadilla-birria.png";
 const FLAGSHIP_IMAGE = "/menu/california-supreme.jpg";
 const AGUAS_IMAGE = "/menu/aguas_frescas.png";
 
@@ -64,7 +64,7 @@ const INGREDIENT_SLUGS_BY_ITEM: Record<string, IngredientSlug[]> = {
   "Birria Fries": ["papas-a-la-francesa", "queso-cheddar", "guacamole"],
 };
 
-const MASTERPIECE_SLUGS: IngredientSlug[] = ["carne-asada", "queso-cheddar", "tortilla-de-harina"];
+const MASTERPIECE_SLUGS: IngredientSlug[] = ["queso-cheddar", "tortilla-de-harina"];
 
 const FLAGSHIP_SLUGS: IngredientSlug[] = [
   "carne-asada",
@@ -313,7 +313,7 @@ export function MenuContent() {
         </div>
       </section>
 
-      {/* === Masterpiece — La Gran Chimichanga === */}
+      {/* === Masterpiece — Keka-Birria === */}
       <section className="relative bg-tangerine-500 text-ink-900 overflow-hidden">
         <div
           className="absolute inset-0 opacity-[0.08] pointer-events-none"

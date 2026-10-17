@@ -131,9 +131,9 @@
     },
     "masterpiece": {
       "label": "Nuestra gran obra maestra",
-      "name": "La Gran Chimichanga",
-      "desc": "Burrito frito de porkbelly crujiente, bañado en queso y papas a la francesa.",
-      "price": "320"
+      "name": "Keka-Birria",
+      "desc": "Tortilla grande de harina con birria de res estilo Tijuana y mezcla de cheddar amarillo y blanco fundidos.",
+      "price": "149"
     },
     "fries": {
       "label": "Las papas",
@@ -1410,7 +1410,7 @@
           },
           {
             "q": "¿Hacen quesadillas con esta tortilla?",
-            "a": "El menú actual se enfoca en burritos y chimichangas. Si quieres quesadilla, pregúntanos en la sucursal — depende de disponibilidad."
+            "a": "Sí. Prueba nuestra Keka-Birria: quesadilla en tortilla de harina con birria de res estilo Tijuana y cheddar amarillo y blanco fundidos, por $149."
           }
         ]
       },
@@ -1796,7 +1796,7 @@
         "items": [
           { "name": "California Burrito", "desc": "El original. Carne asada, papas adentro, cheddar, guacamole, pico, crema. $250.", "reason": "El pedido seguro. Si nadie en la oficina lo ha probado, este." },
           { "name": "Carne Asada Fries", "desc": "Papas, carne, queso derretido, guacamole, pico. Sin burrito. $299.", "reason": "Excelente para mesa compartida — todos pican." },
-          { "name": "La Gran Chimichanga", "desc": "El California burrito, pero frito. La versión grande. $320.", "reason": "Para días de viernes en la oficina. El pedido fuerte." }
+          { "name": "Keka-Birria", "desc": "Quesadilla de birria de res estilo Tijuana con cheddar amarillo y blanco fundidos. $149.", "reason": "Para el antojo de birria con queso fundido." }
         ],
         "cta": "Ver el menú completo"
       },

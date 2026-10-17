@@ -131,9 +131,9 @@
     },
     "masterpiece": {
       "label": "Our masterpiece",
-      "name": "La Gran Chimichanga",
-      "desc": "Deep-fried burrito with crispy pork belly, smothered in cheese and fries.",
-      "price": "320"
+      "name": "Keka-Birria",
+      "desc": "A large flour tortilla with Tijuana-style beef birria and melted yellow and white cheddar.",
+      "price": "149"
     },
     "fries": {
       "label": "The fries",
@@ -1410,7 +1410,7 @@
           },
           {
             "q": "Do you make quesadillas with this tortilla?",
-            "a": "The current menu focuses on burritos and chimichangas. If you want a quesadilla, ask at the shop — depending on availability."
+            "a": "Yes. Try our Keka-Birria: a flour-tortilla quesadilla with Tijuana-style beef birria and melted yellow and white cheddar, for $149."
           }
         ]
       },
@@ -1796,7 +1796,7 @@
         "items": [
           { "name": "California Burrito", "desc": "The original. Carne asada, fries inside, cheddar, guacamole, pico, crema. $250.", "reason": "The safe pick. If nobody in the office has had it, this one." },
           { "name": "Carne Asada Fries", "desc": "Fries, beef, melted cheese, guacamole, pico. No burrito. $299.", "reason": "Great for shared table — everyone picks." },
-          { "name": "La Gran Chimichanga", "desc": "The California burrito, but fried. The big version. $320.", "reason": "For Friday office days. The serious pick." }
+          { "name": "Keka-Birria", "desc": "Tijuana-style beef birria quesadilla with melted yellow and white cheddar. $149.", "reason": "For a beef birria and melted cheese craving." }
         ],
         "cta": "See the full menu"
       },
