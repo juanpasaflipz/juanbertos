@@ -109,7 +109,7 @@
       "cta": "Order the Supreme"
     },
     "tier1": {
-      "label": "From $99",
+      "label": "From $129",
       "items": [
         { "name": "El Tijuana",     "desc": "Birria brisket" },
         { "name": "Bean & Cheese",  "desc": "Beans and melted cheese, the classic" },
@@ -468,7 +468,7 @@
         },
         {
           "q": "How much does a California burrito cost in Mexico City?",
-          "a": "The original California at Juanberto's costs $250 MXN. The full menu starts at $99 MXN (Bean & Cheese) and goes up to $340 MXN (Surf-N-Turf). All prices include VAT."
+          "a": "The original California at Juanberto's costs $250 MXN. The full menu starts at $129 MXN (Bean & Cheese) and goes up to $340 MXN (Surf-N-Turf). All prices include VAT."
         },
         {
           "q": "Where was the California burrito invented?",
@@ -1583,7 +1583,7 @@
         "items": [
           { "name": "California Burrito", "desc": "The original. Carne asada, fries inside, cheddar, guacamole, pico, crema. $250.", "reason": "The go-to. If you've never been, this one." },
           { "name": "Carne Asada Fries", "desc": "Fries, carne asada, melted cheddar, guacamole, pico. No burrito. $299.", "reason": "To share, or to take home something different." },
-          { "name": "Bean & Cheese", "desc": "Refried beans and cheddar inside a flour tortilla. $99.", "reason": "The quick Monday pick. The simple version. Affordable." }
+          { "name": "Bean & Cheese", "desc": "Refried beans and cheddar inside a flour tortilla. $129.", "reason": "The quick Monday pick. The simple version. Affordable." }
         ],
         "cta": "See the full menu"
       },
@@ -1866,7 +1866,7 @@
         "subtitle": "The typical Saturday-night menu in Narvarte.",
         "items": [
           { "name": "California Burrito", "desc": "The original. Carne asada, fries inside, cheddar, guacamole, pico, crema. $250.", "reason": "The safe pick for any family member." },
-          { "name": "Bean & Cheese", "desc": "Refried beans and cheddar inside a flour tortilla. $99.", "reason": "For kids, vegetarians, and the affordable add-on that rounds out the order." },
+          { "name": "Bean & Cheese", "desc": "Refried beans and cheddar inside a flour tortilla. $129.", "reason": "For kids, vegetarians, and the affordable add-on that rounds out the order." },
           { "name": "Breakfast Burrito", "desc": "Scrambled eggs, cheddar, fries, pico. Served all day. $180.", "reason": "For Sunday brunch or a lighter Friday dinner." }
         ],
         "cta": "See the full menu"
@@ -1882,7 +1882,7 @@
         "items": [
           { "q": "How much does delivery to Narvarte cost?", "a": "Rappi sets the fee by app, hour, and demand. Typically between $25 and $45. For pickup at the shop via WhatsApp, no extra cost." },
           { "q": "Can you do large orders for family gatherings?", "a": "Yes. For 6+ burritos, message us on WhatsApp 24-48 hours ahead and we batch-prep so everything arrives hot and together." },
-          { "q": "Do you have a kid-size option?", "a": "Burritos are big — a California is 1/4 kilo of carne plus filling, so for small kids the Bean & Cheese ($99) or half a shared California usually works better." },
+          { "q": "Do you have a kid-size option?", "a": "Burritos are big — a California is 1/4 kilo of carne plus filling, so for small kids the Bean & Cheese ($129) or half a shared California usually works better." },
           { "q": "Does it arrive hot at 30 minutes?", "a": "Yes — we pack to hold temperature. Fries inside hold crunch, tortilla stays flexible, cheese melted. If it ever arrives cold, message us on WhatsApp." },
           { "q": "What time do you close?", "a": "Monday until 20:00, Tuesday-Saturday until 21:00, Sunday until 19:30. We open daily at 10:30. Order with margin if it's for dinner." }
         ]
@@ -1938,7 +1938,7 @@
         "items": [
           { "name": "California Burrito", "desc": "The original. Carne asada, fries inside, cheddar, guacamole, pico, crema. $250.", "reason": "If you're ordering from Del Valle, this. So you get why." },
           { "name": "Pollos Hermanos", "desc": "Grilled chicken breast, rice, beans, guacamole. $219.", "reason": "Lighter than the California, same quality. For lower-appetite days." },
-          { "name": "Yucatán", "desc": "Yucatán-style cochinita pibil inside a flour tortilla. From $99.", "reason": "For something different from the California. Yucatecan flavor, same care." }
+          { "name": "Yucatán", "desc": "Yucatán-style cochinita pibil inside a flour tortilla. From $129.", "reason": "For something different from the California. Yucatecan flavor, same care." }
         ],
         "cta": "See the full menu"
       },
@@ -2024,7 +2024,7 @@
         "items": [
           { "q": "Do you deliver to Escandón?", "a": "Check the app for availability at your address, delivery fees and estimated arrival time before ordering." },
           { "q": "How long does it take?", "a": "Check the app for availability at your address, delivery fees and estimated arrival time before ordering." },
-          { "q": "Vegetarian options?", "a": "Yes — Portobello burrito ($170) and Bean & Cheese ($99). Both available on Rappi." },
+          { "q": "Vegetarian options?", "a": "Yes — Portobello burrito ($170) and Bean & Cheese ($129). Both available on Rappi." },
           { "q": "What's the difference vs a regular taquería burrito?", "a": "The California burrito has french fries inside (not rice, not beans), a specific cut of carne asada, melted cheddar, and a large flour tortilla. It's a different recipe — from San Diego, not northern Mexico. We serve the original here." },
           { "q": "How authentic is it?", "a": "We learned the recipe in San Diego, imported the technique, and respect it without reinterpretation. Carne asada with charred edges, crispy fries inside, cheese fused on the plancha. The correct version — no fusion, no shortcuts, no invention." }
         ]

@@ -195,7 +195,7 @@ export function MenuContent() {
         </div>
       </section>
 
-      {/* === Tier 1 — "DESDE $99" dark band === */}
+      {/* === Tier 1 — "DESDE $129" dark band === */}
       <section className="relative bg-ink-900 text-paper-100 overflow-hidden">
         <div
           className="absolute inset-0 opacity-[0.06] pointer-events-none"

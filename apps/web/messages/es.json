@@ -109,7 +109,7 @@
       "cta": "Pide el Supreme"
     },
     "tier1": {
-      "label": "Desde $99",
+      "label": "Desde $129",
       "items": [
         { "name": "El Tijuana",     "desc": "Birria brisket" },
         { "name": "Bean & Cheese",  "desc": "Frijol con queso derretido, el clásico" },
@@ -468,7 +468,7 @@
         },
         {
           "q": "¿Cuánto cuesta un California burrito en CDMX?",
-          "a": "El California original en Juanberto's cuesta $250 MXN. El menú completo va desde $99 MXN (Bean & Cheese) hasta $340 MXN (Surf-N-Turf). Todos los precios incluyen IVA."
+          "a": "El California original en Juanberto's cuesta $250 MXN. El menú completo va desde $129 MXN (Bean & Cheese) hasta $340 MXN (Surf-N-Turf). Todos los precios incluyen IVA."
         },
         {
           "q": "¿Dónde nació el California burrito?",
@@ -1583,7 +1583,7 @@
         "items": [
           { "name": "California Burrito", "desc": "El original. Carne asada, papas adentro, cheddar, guacamole, pico, crema. $250.", "reason": "El de cabecera. Si nunca has venido, este." },
           { "name": "Carne Asada Fries", "desc": "Papas, carne asada, cheddar derretido, guacamole, pico. Sin burrito. $299.", "reason": "Para compartir o llevarte algo distinto." },
-          { "name": "Bean & Cheese", "desc": "Frijoles refritos y cheddar dentro de tortilla de harina. $99.", "reason": "El pedido rápido del lunes. La versión simple. Económica." }
+          { "name": "Bean & Cheese", "desc": "Frijoles refritos y cheddar dentro de tortilla de harina. $129.", "reason": "El pedido rápido del lunes. La versión simple. Económica." }
         ],
         "cta": "Ver el menú completo"
       },
@@ -1866,7 +1866,7 @@
         "subtitle": "El menú típico de Narvarte un sábado.",
         "items": [
           { "name": "California Burrito", "desc": "El original. Carne asada, papas adentro, cheddar, guacamole, pico, crema. $250.", "reason": "El pedido seguro para cualquier miembro de la familia." },
-          { "name": "Bean & Cheese", "desc": "Frijoles refritos y cheddar dentro de tortilla de harina. $99.", "reason": "Para niños, para vegetarianos, para el pedido económico que complementa el resto." },
+          { "name": "Bean & Cheese", "desc": "Frijoles refritos y cheddar dentro de tortilla de harina. $129.", "reason": "Para niños, para vegetarianos, para el pedido económico que complementa el resto." },
           { "name": "Breakfast Burrito", "desc": "Huevos revueltos, cheddar, papas, pico. Servido todo el día. $180.", "reason": "Para el brunch del domingo o la cena ligera del viernes." }
         ],
         "cta": "Ver el menú completo"
@@ -1882,7 +1882,7 @@
         "items": [
           { "q": "¿Cuánto cuesta el envío a Narvarte?", "a": "Lo fija Rappi según la app, hora y demanda. Típicamente entre $25 y $45. Para pedidos a sucursal por WhatsApp y recoger, no hay costo extra." },
           { "q": "¿Pueden hacer pedidos grandes para reunión familiar?", "a": "Sí. Para 6+ burritos avísanos por WhatsApp con 24-48 horas de anticipación y los preparamos en bloque para que lleguen calientes y juntos." },
-          { "q": "¿Tienen tamaño para niños?", "a": "Los burritos son grandes — un California es 1/4 de kilo de carne más relleno, así que para niños pequeños el Bean & Cheese ($99) o medio California compartido suele funcionar mejor." },
+          { "q": "¿Tienen tamaño para niños?", "a": "Los burritos son grandes — un California es 1/4 de kilo de carne más relleno, así que para niños pequeños el Bean & Cheese ($129) o medio California compartido suele funcionar mejor." },
           { "q": "¿Llega caliente a 30 minutos?", "a": "Sí — empacamos para mantener temperatura. La papa adentro conserva crujido, la tortilla flexible, el queso derretido. Si llegara frío, escríbenos por WhatsApp." },
           { "q": "¿A qué hora cierran?", "a": "Lunes hasta las 20:00, martes a sábado hasta las 21:00 y domingos hasta las 19:30. Abrimos todos los días a las 10:30. Pide con tiempo si lo quieres para cenar." }
         ]
@@ -1938,7 +1938,7 @@
         "items": [
           { "name": "California Burrito", "desc": "El original. Carne asada, papas adentro, cheddar, guacamole, pico, crema. $250.", "reason": "Si vas a pedir desde Del Valle, este. Para entender el porqué." },
           { "name": "Pollos Hermanos", "desc": "Pechuga asada, arroz, frijoles, guacamole. $219.", "reason": "Más ligero que el California pero con la misma calidad. Para días de menos hambre." },
-          { "name": "Yucatán", "desc": "Cochinita pibil estilo Yucatán dentro de tortilla de harina. Desde $99.", "reason": "Para algo distinto al California. Sabor yucateco, mismo cuidado." }
+          { "name": "Yucatán", "desc": "Cochinita pibil estilo Yucatán dentro de tortilla de harina. Desde $129.", "reason": "Para algo distinto al California. Sabor yucateco, mismo cuidado." }
         ],
         "cta": "Ver el menú completo"
       },
@@ -2024,7 +2024,7 @@
         "items": [
           { "q": "¿Sí llegan a Escandón?", "a": "Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar." },
           { "q": "¿Cuánto tarda?", "a": "Consulta en la app la cobertura para tu dirección, el costo de envío y el tiempo estimado antes de ordenar." },
-          { "q": "¿Tienen opciones vegetarianas?", "a": "Sí — Portobello burrito ($170) y Bean & Cheese ($99). Ambos disponibles en Rappi." },
+          { "q": "¿Tienen opciones vegetarianas?", "a": "Sí — Portobello burrito ($170) y Bean & Cheese ($129). Ambos disponibles en Rappi." },
           { "q": "¿Cuál es la diferencia con un burrito de taquería normal?", "a": "El California burrito lleva papas a la francesa adentro (no arroz, no frijoles), carne asada con corte específico, queso cheddar derretido, y tortilla de harina grande. Es una receta distinta — viene de San Diego, no del norte de México. Aquí servimos la receta original." },
           { "q": "¿Qué tan auténtico es?", "a": "Aprendimos la receta en San Diego, importamos la técnica, y la respetamos sin reinterpretar. Carne asada con bordes tatemados, papas crujientes adentro, queso fundido a la plancha. La versión correcta — sin fusión, sin atajos, sin invención." }
         ]
