@@ -61,6 +61,12 @@ export function SiteFooter() {
           >
             hello@juanbertos.com
           </a>
+          <Link
+            href="/aviso-de-privacidad"
+            className="text-ink-700 hover:text-tangerine-600 transition-colors"
+          >
+            {t("privacy")}
+          </Link>
           <p>
             &copy; {year} Juanberto&rsquo;s California Burritos. {t("rights")}
           </p>
