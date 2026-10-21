@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Burritos & Rolled Tacos in Mexico City | Juanberto's",
-    "description": "California burritos and crispy rolled tacos in Roma Sur, Mexico City. Visit Juanberto's at Coahuila 192. Explore the menu and delivery options."
+    "title": "California Burritos in Mexico City | Juanberto's",
+    "description": "Authentic San Diego-style California burritos in Roma Sur, Mexico City. %%RATING%%★ from %%REVIEWS%% Google reviews. Visit Juanberto's at Coahuila 192. Explore the menu and delivery options."
   },
   "notFound": {
     "title": "Page not found",
@@ -15,7 +15,8 @@
     "ingredients": "Ingredients",
     "story": "Our Story",
     "locations": "Coahuila 192 · Roma Sur",
-    "order": "Order"
+    "order": "Order",
+    "blog": "Blog"
   },
   "hero": {
     "stamp": "World Famoso Since 2026",
@@ -81,7 +82,7 @@
   "love": {
     "kicker": "Pinned to the wall",
     "title": "What the burros say.",
-    "subtitle": "4.9★ on Google. Word for word, nothing edited.",
+    "subtitle": "%%RATING%%★ from %%REVIEWS%% Google reviews. Word for word, nothing edited.",
     "cta": "Read them all on Google",
     "ctaWrite": "Ate here? Leave a review",
     "quotes": [
@@ -95,8 +96,8 @@
   },
   "menuPage": {
     "kicker": "Menú · 2026",
-    "title": "Burritos and rolled tacos.",
-    "subtitle": "Our menu in Roma Sur, Mexico City. Pick your burrito, some Rollbertos or loaded fries to share.",
+    "title": "California burritos.",
+    "subtitle": "Our menu in Roma Sur, Mexico City. Pick your California burrito, then add loaded fries or Rollbertos to share.",
     "currency": "MXN",
     "flagship": {
       "label": "Our new flagship",
@@ -344,7 +345,7 @@
   "cornerstone": {
     "meta": {
       "title": "California Burrito in Mexico City — The Definitive Guide | Juanberto's",
-      "description": "California burrito in Mexico City: what it is, the 6 layers, where to eat it in Roma Sur. 4.9★ on Google. Walk in, WhatsApp, or order delivery."
+      "description": "California burrito in Mexico City: what it is, the 6 layers, where to eat it in Roma Sur. %%RATING%%★ on Google. Walk in, WhatsApp, or order delivery."
     },
     "kicker": "The California burrito guide for CDMX",
     "title": "The California Burrito in Mexico City.",
@@ -443,7 +444,7 @@
     },
     "social": {
       "kicker": "What people say",
-      "title": "4.9 stars across 80 Google reviews.",
+      "title": "%%RATING%% stars across %%REVIEWS%% Google reviews.",
       "subtitle": "Real Google reviews. Word for word, nothing edited.",
       "cta": "Read them all on Google",
       "ctaWrite": "Ate here? Leave a review",
@@ -730,7 +731,7 @@
   "ingredientsIndex": {
     "meta": {
       "title": "California Burrito Ingredients — Juanberto's (Roma Sur, CDMX)",
-      "description": "Ingredients behind every California burrito at Juanberto's: USDA Choice picaña, grass-fed skirt steak, Mexican cheddar, organic guac. 4.9★ on Google."
+      "description": "Ingredients behind every California burrito at Juanberto's: USDA Choice picaña, grass-fed skirt steak, Mexican cheddar, organic guac. %%RATING%%★ on Google."
     },
     "kicker": "Ingredients",
     "title": "The ingredients of the California burrito.",
@@ -782,7 +783,7 @@
     "carne-asada": {
       "meta": {
         "title": "Carne Asada in Mexico City — USDA Choice Picaña + Grass-fed Skirt Steak | Juanberto's",
-        "description": "Juanberto's carne asada: USDA Choice picaña + grass-fed skirt steak, seared on a hot plancha. Roma Sur, CDMX. 4.9★ on Google."
+        "description": "Juanberto's carne asada: USDA Choice picaña + grass-fed skirt steak, seared on a hot plancha. Roma Sur, CDMX. %%RATING%%★ on Google."
       },
       "kicker": "Ingredient · Carne Asada",
       "title": "Carne asada. USDA Choice picaña + grass-fed skirt steak.",
@@ -880,7 +881,7 @@
     "queso-cheddar": {
       "meta": {
         "title": "Cheddar Cheese in Mexico City — From Local Mexican Dairy Producers | Juanberto's",
-        "description": "Cheddar from local Mexican dairy producers, melted on the plancha, inside every California burrito. Roma Sur, CDMX. 4.9★ on Google."
+        "description": "Cheddar from local Mexican dairy producers, melted on the plancha, inside every California burrito. Roma Sur, CDMX. %%RATING%%★ on Google."
       },
       "kicker": "Ingredient · Cheddar Cheese",
       "title": "Cheddar. From local Mexican dairy producers.",
@@ -990,7 +991,7 @@
     "guacamole": {
       "meta": {
         "title": "Guacamole in Mexico City — Organic Avocados, Made Daily | Juanberto's",
-        "description": "Guacamole made daily with organic avocados, hand-mashed. Inside every California burrito. Roma Sur, CDMX. 4.9★ on Google."
+        "description": "Guacamole made daily with organic avocados, hand-mashed. Inside every California burrito. Roma Sur, CDMX. %%RATING%%★ on Google."
       },
       "kicker": "Ingredient · Guacamole",
       "title": "Guacamole. Organic avocados. Made daily.",
@@ -1100,7 +1101,7 @@
     "pico-de-gallo": {
       "meta": {
         "title": "Pico de Gallo in Mexico City — Farmers Market Tomatoes, Made Daily | Juanberto's",
-        "description": "Pico de gallo made every morning with farmers market tomatoes and red onion, hand-chopped. Roma Sur, CDMX. 4.9★ on Google."
+        "description": "Pico de gallo made every morning with farmers market tomatoes and red onion, hand-chopped. Roma Sur, CDMX. %%RATING%%★ on Google."
       },
       "kicker": "Ingredient · Pico de Gallo",
       "title": "Pico de gallo. Market to burrito in hours.",
@@ -1210,7 +1211,7 @@
     "crema": {
       "meta": {
         "title": "Mexican Sour Cream (Crema) in Mexico City — Grass-fed, No Industrial | Juanberto's",
-        "description": "Grass-fed crema (no gums), the final layer of the California burrito that softens the asada and cheese. Roma Sur, CDMX. 4.9★ on Google."
+        "description": "Grass-fed crema (no gums), the final layer of the California burrito that softens the asada and cheese. Roma Sur, CDMX. %%RATING%%★ on Google."
       },
       "kicker": "Ingredient · Crema (Sour Cream)",
       "title": "Crema. Grass-fed. The final layer.",
@@ -1314,7 +1315,7 @@
     "tortilla-de-harina": {
       "meta": {
         "title": "Flour Tortillas in Mexico City — Made Fresh Daily | Juanberto's",
-        "description": "Flour tortillas made fresh every day, warmed on the plancha. No California burrito without them. Roma Sur, CDMX. 4.9★ on Google."
+        "description": "Flour tortillas made fresh every day, warmed on the plancha. No California burrito without them. Roma Sur, CDMX. %%RATING%%★ on Google."
       },
       "kicker": "Ingredient · Flour Tortilla",
       "title": "Flour tortilla. Fresh, not from a bag.",
@@ -1424,7 +1425,7 @@
     "papas-a-la-francesa": {
       "meta": {
         "title": "French Fries Inside the California Burrito | Juanberto's, Mexico City",
-        "description": "The fries inside Juanberto's California burrito: crispy outside, soft inside, fried at assembly. Roma Sur, CDMX. 4.9★ on Google."
+        "description": "The fries inside Juanberto's California burrito: crispy outside, soft inside, fried at assembly. Roma Sur, CDMX. %%RATING%%★ on Google."
       },
       "kicker": "Ingredient · French Fries",
       "title": "Fries. Inside the burrito.",
@@ -1542,7 +1543,7 @@
     "burritos-roma-sur": {
       "meta": {
         "title": "Burritos in Roma Sur — California Burritos in Your Neighborhood | Juanberto's",
-        "description": "California burrito in Roma Sur? Juanberto's at Coahuila 192, a block from Mercado Medellín. Hand-rolled. 4.9★ on Google."
+        "description": "California burrito in Roma Sur? Juanberto's at Coahuila 192, a block from Mercado Medellín. Hand-rolled. %%RATING%%★ on Google."
       },
       "kicker": "California Burritos · Roma Sur",
       "title": "California Burritos in Roma Sur.",
@@ -1590,7 +1591,7 @@
       "reviews": {
         "kicker": "What customers say",
         "title": "Real Google reviews. Unedited.",
-        "subtitle": "4.9★ across 80 Google reviews."
+        "subtitle": "%%RATING%%★ across %%REVIEWS%% Google reviews."
       },
       "faq": {
         "kicker": "FAQ",
@@ -1661,7 +1662,7 @@
       "reviews": {
         "kicker": "What customers say",
         "title": "Real Google reviews. Unedited.",
-        "subtitle": "4.9★ across 80 Google reviews."
+        "subtitle": "%%RATING%%★ across %%REVIEWS%% Google reviews."
       },
       "faq": {
         "kicker": "FAQ",
@@ -1732,7 +1733,7 @@
       "reviews": {
         "kicker": "What customers say",
         "title": "Real Google reviews. Unedited.",
-        "subtitle": "4.9★ across 80 Google reviews."
+        "subtitle": "%%RATING%%★ across %%REVIEWS%% Google reviews."
       },
       "faq": {
         "kicker": "FAQ",
@@ -1803,7 +1804,7 @@
       "reviews": {
         "kicker": "What customers say",
         "title": "Real Google reviews. Unedited.",
-        "subtitle": "4.9★ across 80 Google reviews."
+        "subtitle": "%%RATING%%★ across %%REVIEWS%% Google reviews."
       },
       "faq": {
         "kicker": "FAQ",
@@ -1874,7 +1875,7 @@
       "reviews": {
         "kicker": "What customers say",
         "title": "Real Google reviews. Unedited.",
-        "subtitle": "4.9★ across 80 Google reviews."
+        "subtitle": "%%RATING%%★ across %%REVIEWS%% Google reviews."
       },
       "faq": {
         "kicker": "FAQ",
@@ -1945,7 +1946,7 @@
       "reviews": {
         "kicker": "What customers say",
         "title": "Real Google reviews. Unedited.",
-        "subtitle": "4.9★ across 80 Google reviews."
+        "subtitle": "%%RATING%%★ across %%REVIEWS%% Google reviews."
       },
       "faq": {
         "kicker": "FAQ",
@@ -2016,7 +2017,7 @@
       "reviews": {
         "kicker": "What customers say",
         "title": "Real Google reviews. Unedited.",
-        "subtitle": "4.9★ across 80 Google reviews."
+        "subtitle": "%%RATING%%★ across %%REVIEWS%% Google reviews."
       },
       "faq": {
         "kicker": "FAQ",
@@ -2036,5 +2037,24 @@
         "secondary": "Get directions"
       }
     }
+  },
+  "blog": {
+    "kicker": "From the plancha",
+    "title": "The Juanberto's Blog",
+    "subtitle": "New dishes, burrito guides and news from Coahuila 192, Roma Sur.",
+    "metaTitle": "Blog — California Burritos in Mexico City | Juanberto's",
+    "metaDescription": "News, new dishes and California burrito guides from Juanberto's in Roma Sur, Mexico City.",
+    "latest": "Latest posts",
+    "guides": "Long-form guides",
+    "readMore": "Read more",
+    "minRead": "{minutes} min read",
+    "back": "← All posts",
+    "homeKicker": "Fresh off the plancha",
+    "homeTitle": "From the blog",
+    "homeCta": "See all posts",
+    "ctaTitle": "Hungry yet?",
+    "ctaBody": "Coahuila 192, Roma Sur. Walk in, WhatsApp, or order delivery.",
+    "ctaOrder": "Order now",
+    "ctaMenu": "See the menu"
   }
 }

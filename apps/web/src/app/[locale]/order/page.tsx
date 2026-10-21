@@ -16,10 +16,10 @@ export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
   const description =
     locale === "es"
-      ? "Pide burritos y tacos dorados de Juanberto's en Roma Sur: visita Coahuila 192, usa WhatsApp o consulta cobertura en Rappi, DiDi Food y Uber Eats."
-      : "Order burritos and rolled tacos from Juanberto's in Roma Sur. Visit Coahuila 192, use WhatsApp or check coverage on Rappi, DiDi Food and Uber Eats.";
+      ? "Pide California burritos de Juanberto's en Roma Sur: visita Coahuila 192, usa WhatsApp o consulta cobertura en Rappi, DiDi Food y Uber Eats."
+      : "Order California burritos from Juanberto's in Roma Sur. Visit Coahuila 192, use WhatsApp or check coverage on Rappi, DiDi Food and Uber Eats.";
   const url = `${SITE_URL}/${locale}/order`;
-  const title = locale === "es" ? "Pide burritos y tacos dorados en CDMX | Juanberto's" : "Order Burritos & Rolled Tacos in CDMX | Juanberto's";
+  const title = locale === "es" ? "Pide California burritos en CDMX | Juanberto's" : "Order California Burritos in CDMX | Juanberto's";
   return {
     title,
     description,
